@@ -1,82 +1,96 @@
-// SHIFT AI 쓰레드 자동 업로드 (GitHub Actions 에서 실행, PC 불필요)
-//   MODE=check  : 키가 정상인지만 확인 (계정 이름 출력, 글은 올리지 않음)
-//   MODE=post   : queue/*.json 에서 올릴 시간이 된 글을 올림 (기본)
-//   DRY_RUN=1   : 올릴 글만 보여 주고 실제로 올리지 않음
-// 큐 파일 형식 (queue/2026-10-25.json):
-//   [{"id":"2026-10-25-am","at":"2026-10-25T10:10:00+09:00","topic":"AI","parts":["첫 글 (500자 이내)","이어지는 글(선택)"]}]
-//   parts 가 여러 개면 첫 글 아래 답글로 이어 붙여 타래로 올립니다.
+// SHIFT AI 쓰레드 자동 업로드 (GitHub Actions, PC 불필요)
+//   MODE=check : 키 확인만 / MODE=post : 올릴 시간이 된 글을 올림 (기본) / DRY_RUN=1 : 미리보기만
+// 글 형식은 CONTENT_GUIDE.md 참고. type: text | thread | image | carousel
 import fs from 'node:fs';
 import path from 'node:path';
 
 const API = 'https://graph.threads.net/v1.0';
 const TOKEN = process.env.THREADS_TOKEN;
 const MODE = process.env.MODE || 'post';
-const DRY = process.env.DRY_RUN === '1' || process.env.DRY_RUN === 'true';
-const MAX_PER_RUN = 4;              // 한 번 실행에 최대 4개 글(타래는 1개로 셈)
-const STALE_HOURS = 12;             // 예정 시각보다 12시간 넘게 지난 글은 올리지 않고 건너뜀
+const DRY = /^(1|true)$/.test(process.env.DRY_RUN || '');
+const REPO = process.env.GITHUB_REPOSITORY || 'shiftaimagazine/shift-threads';
+const MAX_PER_RUN = 2;          // 한 번 실행(1시간)에 최대 2개 — 몰아서 올리지 않기
+const STALE_HOURS = 6;          // 예정 시각보다 6시간 넘게 밀린 글은 건너뜀
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const postedFile = path.join(ROOT, 'posted.json');
-
-if (!TOKEN) { console.error('THREADS_TOKEN 비밀값이 없습니다. 저장소 Settings → Secrets and variables → Actions 에 넣어 주세요.'); process.exit(1); }
+if (!TOKEN) { console.error('THREADS_TOKEN 비밀값이 없습니다.'); process.exit(1); }
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function call(method, url, params = {}) {
-  const u = new URL(API + url);
   const body = new URLSearchParams({ ...params, access_token: TOKEN });
-  const res = method === 'GET'
-    ? await fetch(u + '?' + body)
-    : await fetch(u, { method: 'POST', body });
+  const res = method === 'GET' ? await fetch(API + url + '?' + body) : await fetch(API + url, { method: 'POST', body });
   const j = await res.json().catch(() => ({}));
-  if (!res.ok || j.error) throw new Error(`${method} ${url} 실패: ${j.error?.message || res.status}`);
+  if (!res.ok || j.error) throw new Error(`${method} ${url} 실패: ${j.error?.error_user_msg || j.error?.message || res.status}`);
   return j;
 }
-
 const me = await call('GET', '/me', { fields: 'id,username' });
 console.log(`계정 확인: @${me.username}`);
 if (MODE === 'check') process.exit(0);
 
+async function waitReady(id) {      // 미디어 처리 완료까지 대기 (최대 2분)
+  for (let i = 0; i < 12; i++) {
+    const s = await call('GET', `/${id}`, { fields: 'status,error_message' }).catch(() => ({}));
+    if (s.status === 'FINISHED') return;
+    if (s.status === 'ERROR') throw new Error('미디어 처리 실패: ' + (s.error_message || ''));
+    await sleep(10000);
+  }
+}
+async function publish(params) {
+  const c = await call('POST', `/${me.id}/threads`, params);
+  if (params.media_type === 'TEXT') await sleep(4000); else await waitReady(c.id);
+  return (await call('POST', `/${me.id}/threads_publish`, { creation_id: c.id })).id;
+}
+const imgUrl = (id, n) => `https://raw.githubusercontent.com/${REPO}/main/media/${id}/${String(n).padStart(2, '0')}.png`;
+const mediaCount = id => { const d = path.join(ROOT, 'media', id); return fs.existsSync(d) ? fs.readdirSync(d).filter(f => f.endsWith('.png')).length : 0; };
+
 const posted = fs.existsSync(postedFile) ? JSON.parse(fs.readFileSync(postedFile, 'utf8')) : {};
 const items = [];
 for (const f of fs.readdirSync(path.join(ROOT, 'queue')).filter(f => f.endsWith('.json')).sort()) {
-  try { for (const it of JSON.parse(fs.readFileSync(path.join(ROOT, 'queue', f), 'utf8'))) items.push({ ...it, file: f }); }
-  catch (e) { console.error(`${f} 를 읽지 못함: ${e.message}`); }
+  try { for (const it of JSON.parse(fs.readFileSync(path.join(ROOT, 'queue', f), 'utf8'))) items.push(it); } catch (e) { console.error(`${f} 읽기 실패: ${e.message}`); }
 }
 const now = Date.now();
 const due = items.filter(it => it.id && !posted[it.id] && Date.parse(it.at) <= now).sort((a, b) => Date.parse(a.at) - Date.parse(b.at));
-console.log(`대기 중 ${items.filter(it => !posted[it.id]).length}개 · 지금 올릴 글 ${due.length}개`);
+console.log(`남은 예약 ${items.filter(it => it.id && !posted[it.id]).length}개 · 지금 올릴 글 ${due.length}개`);
 
 let count = 0, failed = 0;
 for (const it of due) {
-  if (now - Date.parse(it.at) > STALE_HOURS * 3600e3) { posted[it.id] = { status: 'expired', at: new Date().toISOString() }; console.log(`건너뜀(시간 지남): ${it.id}`); continue; }
+  const mark = (status, extra = {}) => { posted[it.id] = { status, at: new Date().toISOString(), ...extra }; };
+  if (now - Date.parse(it.at) > STALE_HOURS * 3600e3) { mark('expired'); console.log(`건너뜀(시간 지남): ${it.id}`); continue; }
   if (count >= MAX_PER_RUN) break;
+  const type = it.type || (it.parts?.length > 1 ? 'thread' : 'text');
   const parts = (it.parts || []).map(s => String(s).trim()).filter(Boolean);
-  const bad = parts.find(p => [...p].length > 500);
-  if (!parts.length || bad) { posted[it.id] = { status: 'invalid', reason: bad ? '500자 초과' : '내용 없음', at: new Date().toISOString() }; console.log(`건너뜀(형식 오류): ${it.id}`); continue; }
-  console.log(`\n── ${it.id} (${it.at}) ${parts.length > 1 ? `타래 ${parts.length}개` : ''}\n${parts.join('\n  ↳ ')}`);
+  const bad = parts.find(p => Buffer.byteLength(p.replace(/[\x00-\x7F]|[가-힣]/g, ''), 'utf8') + [...p].length > 500 && [...p].length > 500);
+  if (!parts.length || [...parts[0]].length > 500 || bad) { mark('invalid', { reason: '내용 없음 또는 500자 초과' }); console.log(`건너뜀(형식 오류): ${it.id}`); continue; }
+  const n = mediaCount(it.id);
+  if ((type === 'carousel' && n < 2) || (type === 'image' && n < 1)) { console.log(`이미지 준비 전이라 다음에 올림: ${it.id}`); continue; }
+  console.log(`\n── ${it.id} [${type}${n ? ` 이미지 ${n}장` : ''}] ${it.at}\n${parts.join('\n  ↳ ')}`);
   if (DRY) { count++; continue; }
   const ids = [];
   try {
-    for (let i = 0; i < parts.length; i++) {
-      const params = { media_type: 'TEXT', text: parts[i] };
-      if (i === 0 && it.topic) params.topic_tag = it.topic;
-      if (i > 0) params.reply_to_id = ids[i - 1];
-      const c = await call('POST', `/${me.id}/threads`, params);
-      await sleep(5000);
-      const p = await call('POST', `/${me.id}/threads_publish`, { creation_id: c.id });
-      ids.push(p.id);
-      await sleep(3000);
+    const first = { text: parts[0], ...(it.topic ? { topic_tag: it.topic } : {}) };
+    if (type === 'carousel') {
+      const kids = [];
+      for (let k = 1; k <= Math.min(n, 20); k++) kids.push((await call('POST', `/${me.id}/threads`, { media_type: 'IMAGE', image_url: imgUrl(it.id, k), is_carousel_item: 'true' })).id);
+      for (const k of kids) await waitReady(k);
+      ids.push(await publish({ media_type: 'CAROUSEL', children: kids.join(','), ...first }));
+    } else if (type === 'image') {
+      ids.push(await publish({ media_type: 'IMAGE', image_url: imgUrl(it.id, 1), ...first }));
+    } else {
+      ids.push(await publish({ media_type: 'TEXT', ...first }));
     }
+    // 이어지는 글(타래) — 첫 글 아래 답글로
+    for (const p of parts.slice(1)) { await sleep(3000); ids.push(await publish({ media_type: 'TEXT', text: p, reply_to_id: ids.at(-1) })); }
     const link = await call('GET', `/${ids[0]}`, { fields: 'permalink' }).then(j => j.permalink).catch(() => '');
-    posted[it.id] = { status: 'ok', at: new Date().toISOString(), ids, link };
+    mark('ok', { ids, link, type });
     console.log(`올림: ${link || ids[0]}`);
     count++;
   } catch (e) {
     failed++;
     console.error(`실패: ${it.id} — ${e.message}`);
-    if (ids.length) posted[it.id] = { status: 'partial', at: new Date().toISOString(), ids };
-    // 첫 글이 이미 올라간 뒤 실패하면 중복을 막기 위해 기록하고, 아무것도 안 올라갔으면 다음 실행에서 다시 시도
+    if (ids.length) mark('partial', { ids, error: e.message });     // 첫 글이 올라갔으면 중복 방지
+    else if ((it.tries = (posted[`_tries_${it.id}`] || 0) + 1) >= 3) mark('failed', { error: e.message });
+    else posted[`_tries_${it.id}`] = it.tries;
   }
 }
 if (!DRY) fs.writeFileSync(postedFile, JSON.stringify(posted, null, 1) + '\n');
-console.log(`\n완료: ${count}개${DRY ? ' (미리보기, 실제로 올리지 않음)' : ''}${failed ? ` · 실패 ${failed}개` : ''}`);
-if (failed) process.exit(1);
+console.log(`\n완료: ${count}개${DRY ? ' (미리보기)' : ''}${failed ? ` · 실패 ${failed}개` : ''}`);

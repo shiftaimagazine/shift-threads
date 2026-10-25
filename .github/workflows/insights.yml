@@ -1,0 +1,19 @@
+name: 쓰레드 성과 수집
+on:
+  schedule:
+    - cron: '35 20 * * *'    # 매일 05:35 (한국) — 06시 글쓰기 작업 전에
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: { group: threads-repo, cancel-in-progress: false }
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 24 }
+      - run: node scripts/insights.mjs
+        env: { THREADS_TOKEN: '${{ secrets.THREADS_TOKEN }}' }
+      - run: |
+          git config user.name "shift-threads-bot"; git config user.email "actions@users.noreply.github.com"
+          git add stats; git diff --cached --quiet || (git commit -m "성과 수집" && git pull --rebase && git push)

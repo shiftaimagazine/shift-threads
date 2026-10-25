@@ -1,0 +1,2 @@
+{ "name": "shift-threads", "private": true, "type": "module",
+  "dependencies": { "playwright": "1.48.2", "pretendard": "1.3.9" } }
