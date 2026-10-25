@@ -184,7 +184,7 @@ for (const f of fs.readdirSync(path.join(ROOT, 'queue')).filter(f => f.endsWith(
 const only = process.env.ONLY;   // 특정 글만 다시 만들 때
 const todo = items.filter(it => (it.type === 'carousel' || it.type === 'image') && it.slides?.length && (only ? it.id === only : Date.parse(it.at) > Date.now() - 864e5 && !fs.existsSync(path.join(ROOT, 'media', it.id, '01.png'))));
 console.log(`이미지 만들 글 ${todo.length}개`);
-if (!todo.length) process.exit(0);
+if (!todo.length) { fs.writeFileSync(path.join(ROOT, 'media', '_last-rendered.json'), '[]'); process.exit(0); }
 const b = await chromium.launch();
 const p = await b.newPage({ viewport: { width: 1080, height: 1350 } });
 for (const it of todo) {
@@ -215,4 +215,5 @@ for (const it of todo) {
   console.log(`  ${it.id}: ${slides.length}장 · 사진 ${photos.length}장 (${[...new Set(photos.map(x => x.credit))].join(', ') || '없음'})`);
 }
 await b.close();
+fs.writeFileSync(path.join(ROOT, 'media', '_last-rendered.json'), JSON.stringify(todo.map(it => it.id)));
 fs.writeFileSync(path.join(ROOT, 'media', '_render-log.txt'), `${new Date().toISOString()}\n` + (LOG.length ? LOG.join('\n') : '사진 실패 없음') + '\n');
