@@ -1,17 +1,17 @@
 {
- "updated": "2026-10-25T20:12:57.087Z",
+ "updated": "2026-10-25T20:14:19.623Z",
  "sources": [
   {
    "name": "AI타임스",
    "url": "https://www.aitimes.com/rss/allArticle.xml",
    "ok": true,
    "items": 50,
-   "fresh": 37,
+   "fresh": 38,
    "note": ""
   },
   {
    "name": "Anthropic",
-   "url": "https://www.anthropic.com/rss.xml",
+   "url": "https://www.anthropic.com/news/rss.xml",
    "ok": false,
    "items": 0,
    "fresh": 0,
@@ -34,6 +34,14 @@
    "note": ""
   },
   {
+   "name": "Google Research",
+   "url": "https://research.google/blog/rss/",
+   "ok": true,
+   "items": 100,
+   "fresh": 0,
+   "note": ""
+  },
+  {
    "name": "Hugging Face",
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
@@ -42,20 +50,20 @@
    "note": ""
   },
   {
-   "name": "Meta AI",
-   "url": "https://ai.meta.com/blog/rss/",
-   "ok": false,
-   "items": 0,
+   "name": "Meta 뉴스룸",
+   "url": "https://about.fb.com/news/feed/",
+   "ok": true,
+   "items": 10,
    "fresh": 0,
-   "note": "HTTP 404"
+   "note": ""
   },
   {
-   "name": "Microsoft AI",
-   "url": "https://blogs.microsoft.com/ai/feed/",
-   "ok": false,
-   "items": 0,
+   "name": "Microsoft 블로그",
+   "url": "https://blogs.microsoft.com/feed/",
+   "ok": true,
+   "items": 10,
    "fresh": 0,
-   "note": "HTTP 410"
+   "note": ""
   },
   {
    "name": "MIT 테크놀로지 리뷰",
@@ -83,7 +91,7 @@
   },
   {
    "name": "ZDNet Korea",
-   "url": "https://zdnet.co.kr/news/rss",
+   "url": "https://zdnet.co.kr/rss/all.xml",
    "ok": false,
    "items": 0,
    "fresh": 0,
@@ -102,7 +110,7 @@
    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
    "ok": true,
    "items": 10,
-   "fresh": 4,
+   "fresh": 5,
    "note": ""
   },
   {
@@ -122,20 +130,20 @@
    "note": "HTTP 429"
   },
   {
-   "name": "블로터",
-   "url": "https://www.bloter.net/rss",
-   "ok": false,
-   "items": 0,
-   "fresh": 0,
-   "note": "HTTP 403"
-  },
-  {
    "name": "아스테크니카 AI",
    "url": "https://arstechnica.com/ai/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 0,
+   "fresh": 1,
    "note": ""
+  },
+  {
+   "name": "연합뉴스 IT",
+   "url": "https://www.yna.co.kr/rss/it.xml",
+   "ok": false,
+   "items": 0,
+   "fresh": 0,
+   "note": "HTTP 404"
   },
   {
    "name": "와이어드 AI",
@@ -146,11 +154,19 @@
    "note": ""
   },
   {
+   "name": "전자신문 SW·AI",
+   "url": "https://rss.etnews.com/Section902.xml",
+   "ok": true,
+   "items": 30,
+   "fresh": 9,
+   "note": ""
+  },
+  {
    "name": "테크크런치 AI",
    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 6,
+   "fresh": 8,
    "note": ""
   },
   {
