@@ -9,6 +9,7 @@ SHIFT AI(@shift_ai_magazine) 쓰레드 완전 자동화. PC 없이 동작합니�
 | 글이 들어오면 | 카드 이미지 생성 → `media/<id>/` | `render.yml` |
 | 매시간 7분 | 예약 시각이 지난 글 업로드 → `posted.json` | `post.yml` |
 | 월요일 09:20 | 쓰레드 키 기간 연장 | `refresh.yml` |
+| 22:35 · 07:35 | 드라이브 날짜 폴더의 쇼츠를 유튜브에 예약 업로드 → `youtube/` | `youtube.yml` (설정: `YOUTUBE_SETUP.md`) |
 
 - 운영 규칙·편성표·글 형식: `CONTENT_GUIDE.md`
 - 비밀값: `THREADS_TOKEN`(필수), `GH_PAT`(키 갱신 시 새 키 저장용)
