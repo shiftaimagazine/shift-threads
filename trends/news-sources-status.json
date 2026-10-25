@@ -1,0 +1,165 @@
+{
+ "updated": "2026-10-25T20:12:57.087Z",
+ "sources": [
+  {
+   "name": "AI타임스",
+   "url": "https://www.aitimes.com/rss/allArticle.xml",
+   "ok": true,
+   "items": 50,
+   "fresh": 37,
+   "note": ""
+  },
+  {
+   "name": "Anthropic",
+   "url": "https://www.anthropic.com/rss.xml",
+   "ok": false,
+   "items": 0,
+   "fresh": 0,
+   "note": "HTTP 404"
+  },
+  {
+   "name": "Google AI 블로그",
+   "url": "https://blog.google/technology/ai/rss/",
+   "ok": true,
+   "items": 20,
+   "fresh": 0,
+   "note": ""
+  },
+  {
+   "name": "Google DeepMind",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "ok": true,
+   "items": 100,
+   "fresh": 0,
+   "note": ""
+  },
+  {
+   "name": "Hugging Face",
+   "url": "https://huggingface.co/blog/feed.xml",
+   "ok": true,
+   "items": 890,
+   "fresh": 0,
+   "note": ""
+  },
+  {
+   "name": "Meta AI",
+   "url": "https://ai.meta.com/blog/rss/",
+   "ok": false,
+   "items": 0,
+   "fresh": 0,
+   "note": "HTTP 404"
+  },
+  {
+   "name": "Microsoft AI",
+   "url": "https://blogs.microsoft.com/ai/feed/",
+   "ok": false,
+   "items": 0,
+   "fresh": 0,
+   "note": "HTTP 410"
+  },
+  {
+   "name": "MIT 테크놀로지 리뷰",
+   "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "ok": true,
+   "items": 10,
+   "fresh": 0,
+   "note": ""
+  },
+  {
+   "name": "NVIDIA 블로그",
+   "url": "https://blogs.nvidia.com/feed/",
+   "ok": true,
+   "items": 18,
+   "fresh": 0,
+   "note": ""
+  },
+  {
+   "name": "OpenAI",
+   "url": "https://openai.com/news/rss.xml",
+   "ok": true,
+   "items": 1318,
+   "fresh": 0,
+   "note": ""
+  },
+  {
+   "name": "ZDNet Korea",
+   "url": "https://zdnet.co.kr/news/rss",
+   "ok": false,
+   "items": 0,
+   "fresh": 0,
+   "note": "HTTP 404"
+  },
+  {
+   "name": "긱뉴스",
+   "url": "https://news.hada.io/rss/news",
+   "ok": true,
+   "items": 50,
+   "fresh": 19,
+   "note": ""
+  },
+  {
+   "name": "더버지 AI",
+   "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "ok": true,
+   "items": 10,
+   "fresh": 4,
+   "note": ""
+  },
+  {
+   "name": "바이라인네트워크",
+   "url": "https://byline.network/feed/",
+   "ok": true,
+   "items": 20,
+   "fresh": 0,
+   "note": ""
+  },
+  {
+   "name": "벤처비트 AI",
+   "url": "https://venturebeat.com/category/ai/feed/",
+   "ok": false,
+   "items": 0,
+   "fresh": 0,
+   "note": "HTTP 429"
+  },
+  {
+   "name": "블로터",
+   "url": "https://www.bloter.net/rss",
+   "ok": false,
+   "items": 0,
+   "fresh": 0,
+   "note": "HTTP 403"
+  },
+  {
+   "name": "아스테크니카 AI",
+   "url": "https://arstechnica.com/ai/feed/",
+   "ok": true,
+   "items": 20,
+   "fresh": 0,
+   "note": ""
+  },
+  {
+   "name": "와이어드 AI",
+   "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "ok": true,
+   "items": 10,
+   "fresh": 2,
+   "note": ""
+  },
+  {
+   "name": "테크크런치 AI",
+   "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "ok": true,
+   "items": 20,
+   "fresh": 6,
+   "note": ""
+  },
+  {
+   "name": "해커뉴스 (AI, 100점↑)",
+   "url": "https://hnrss.org/newest?q=AI&points=100",
+   "ok": true,
+   "items": 20,
+   "fresh": 6,
+   "note": ""
+  }
+ ]
+}
