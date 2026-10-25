@@ -83,14 +83,60 @@ async function geminiImage(prompt, id) {
   }
   return null;
 }
+// 실제 화면 캡처 (공식 페이지·제품 화면). shot: "URL" 또는 {url, y}. 쿠키 배너·팝업은 숨기고 위쪽 1280×800을 찍음
+let BROWSER = null;
+async function pageShot(spec, id) {
+  const url = typeof spec === 'string' ? spec : spec?.url; if (!url || !BROWSER) return null;
+  const ctx = await BROWSER.newContext({ viewport: { width: 1280, height: 800 }, deviceScaleFactor: 1.5, userAgent: UA, locale: 'ko-KR' });
+  const pg = await ctx.newPage();
+  try {
+    await pg.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await pg.waitForTimeout(3000);
+    await pg.addStyleTag({ content: `[id*=cookie i],[class*=cookie i],[id*=consent i],[class*=consent i],[class*=gdpr i],[id*=onetrust i],[class*=newsletter i][class*=modal i],[class*=popup i],[aria-modal=true],iframe[src*=consent]{display:none!important}` }).catch(() => {});
+    const y = typeof spec === 'object' && spec.y ? +spec.y : 0;
+    if (y) await pg.evaluate(v => window.scrollTo(0, v), y);
+    await pg.waitForTimeout(800);
+    const buf = await pg.screenshot({ type: 'jpeg', quality: 88 });
+    return { src: 'data:image/jpeg;base64,' + buf.toString('base64'), credit: (typeof spec === 'object' && spec.credit) || new URL(url).hostname.replace(/^www\./, ''), label: '화면' };
+  } catch (e) { return why(id, `화면 캡처 실패 ${e.message.split('\n')[0]} ${url}`), null; }
+  finally { await ctx.close().catch(() => {}); }
+}
+const hostOf = u => { try { return new URL(u).hostname.replace(/^(www|media|cdn|images?|static|upload)\./, ''); } catch { return ''; } };
+
+// 위키미디어 공용(퍼블릭 도메인·CC0·CC BY·CC BY-SA) 사진 검색. commons: "검색어" 또는 "File:파일이름.jpg"
+async function commonsImages(q, id, n = 4) {
+  try {
+    const base = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600';
+    const url = /^File:/i.test(q) ? `${base}&titles=${encodeURIComponent(q)}` : `${base}&generator=search&gsrnamespace=6&gsrlimit=25&gsrsearch=${encodeURIComponent(q + ' filetype:bitmap')}`;
+    const r = await fetch(url, { headers: H, signal: AbortSignal.timeout(20000) });
+    const j = await r.json();
+    const strip = s => String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+    const out = [];
+    for (const pg of Object.values(j.query?.pages || {}).sort((a, b) => (a.index || 0) - (b.index || 0))) {
+      const ii = pg.imageinfo?.[0]; if (!ii) continue;
+      const lic = strip(ii.extmetadata?.LicenseShortName?.value);
+      if (!/^(public domain|pd|cc0|cc by(-sa)? [\d.]+|cc by(-sa)?$)/i.test(lic) || /nc|nd/i.test(lic)) continue;
+      if (!/jpeg|png|webp/.test(ii.mime || '') || (ii.width || 0) < 1000) continue;
+      const artist = strip(ii.extmetadata?.Artist?.value).slice(0, 28);
+      out.push({ url: ii.thumburl || ii.url, page: ii.descriptionurl, credit: `Wikimedia Commons${artist ? ' · ' + artist : ''} (${lic})` });
+      if (out.length >= n) break;
+    }
+    if (!out.length) why(id, `위키미디어 공용에서 쓸 수 있는 사진 없음: ${q}`);
+    return out;
+  } catch (e) { return why(id, `위키미디어 검색 실패 ${e.message} ${q}`), []; }
+}
+
 async function getPhotos(it) {
-  const gen = it.photo ? null : await geminiImage(it.imagePrompt, it.id);   // 이미 만든 이미지 주소(photo)가 있으면 생성 건너뜀
+  // AI 생성 이미지는 2026-10-25부터 쓰지 않음 (실제 이미지 우선). allowAI:true 인 글만 예전처럼 생성
+  const gen = it.allowAI && !it.photo ? await geminiImage(it.imagePrompt, it.id) : null;
   if (gen) return [gen];
+  if (it.shot) { const s = await pageShot(it.shot, it.id); if (s) return [s]; }
   if (it.photoFile && fs.existsSync(it.photoFile)) return [{ src: b64(it.photoFile, 'image/png'), credit: it.photoCredit || 'SHIFT AI' }];   // 로컬 시험용
   const cands = [];
   // photos: 글쓰기 작업이 기사에서 직접 고른 사진 주소 [{url, credit}] 또는 ["url"] — 가장 먼저 씀
   for (const x of [].concat(it.photos || [])) { const url = typeof x === 'string' ? x : x.url; if (url) cands.push({ url, page: (typeof x === 'object' && x.page) || [].concat(it.photoFrom || [])[0] || '', credit: (typeof x === 'object' && x.credit) || new URL(url).hostname.replace(/^(www|media|cdn|images?|static)\./, '') }); }
-  if (it.photo) cands.push({ url: it.photo, page: [].concat(it.photoFrom || [])[0] || '', credit: it.photoCredit || new URL(it.photo).hostname.replace(/^www\./, '') });
+  if (it.photo && !it.photoAI) cands.push({ url: it.photo, page: [].concat(it.photoFrom || [])[0] || '', credit: it.photoCredit || new URL(it.photo).hostname.replace(/^www\./, '') });
+  for (const q of [].concat(it.commons || [])) cands.push(...await commonsImages(q, it.id, 3));
   const pages = [].concat(it.photoFrom || []);
   const lists = await Promise.all(pages.map(pg => articleImages(pg, it.id)));
   // 기사별 대표 이미지를 먼저, 그다음 본문 사진을 번갈아 (한 기사 사진만 몰리지 않게)
@@ -193,7 +239,7 @@ function slide(s, ph) {
   else inner = String(s.body || '').split('\n').map(l => `<p>${rich(l)}</p>`).join('');
   if (!ph) return `<div class=tc id=w><img class=lg src="${logo}"><div class=lab>${esc(s.label ? `SHIFT AI · ${s.label}` : 'SHIFT AI Issue')}</div><div class=h>${rich(s.title)}</div><div class=bd>${inner}</div>
 <div class=ft><span>@shift_ai_magazine</span><span>Don't search. Just Shift.</span></div></div>`;
-  return `<div class=card><div class="ph ${ph ? '' : 'brand'}" ${bg}>${ph ? `<div class=cr>사진: ${esc(ph.credit)}</div>` : `<img class=lg src="${logo}">`}</div><div class=gap></div>
+  return `<div class=card><div class="ph ${ph ? '' : 'brand'}" ${bg}>${ph ? `<div class=cr>${esc(ph.label || '사진')}: ${esc(ph.credit)}</div>` : `<img class=lg src="${logo}">`}</div><div class=gap></div>
 <div class=tx id=w><div class=lab>${esc(s.label ? `SHIFT AI · ${s.label}` : 'SHIFT AI Issue')}</div><div class=h>${rich(s.title)}</div><div class=bd style="${k === 'big' ? 'margin-top:0' : ''}">${inner}</div></div></div>`;
 }
 
@@ -206,6 +252,7 @@ const todo = items.filter(it => (it.type === 'carousel' || it.type === 'image') 
 console.log(`이미지 만들 글 ${todo.length}개`);
 if (!todo.length) { fs.writeFileSync(path.join(ROOT, 'media', '_last-rendered.json'), '[]'); process.exit(0); }
 const b = await chromium.launch();
+BROWSER = b;
 const p = await b.newPage({ viewport: { width: 1080, height: 1350 } });
 for (const it of todo) {
   const photos = await getPhotos(it), ph = photos[0] || null;
@@ -214,8 +261,18 @@ for (const it of todo) {
   for (const [j, s] of slides.entries()) {
     // 생성 이미지는 표지(또는 카드 1장짜리 글의 그 카드)에만 쓰고, 요약 카드는 글자만 크게
     // 카드마다 slide.photo(이미지 주소)가 있으면 그 사진을 씀 (4장 카드뉴스: 표지·핵심·세부·시사점 각각 다른 이미지)
-    const own = s.photo ? await download(s.photo, '', it.id) : null;
-    const sp = own ? { src: own, credit: s.photoCredit || it.photoCredit || 'AI 생성 이미지 (Gemini)' } : (it.imagePrompt || it.photoAI) ? (j === 0 ? ph : null) : (j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph);
+    let own = s.shot ? await pageShot(s.shot, it.id) : s.photo ? await download(s.photo, s.photoPage || '', it.id) : null;
+    if (!own && s.photoFrom) {   // 카드별 공식 페이지의 대표 이미지(og:image)
+      const c = (await articleImages(s.photoFrom, it.id))[0];
+      const src = c ? await download(c.url, c.page, it.id) : null;
+      if (src) own = { src, credit: s.photoCredit || c.credit };
+    }
+    if (!own && s.commons) {   // 카드별 위키미디어 공용 사진 (commonsPick: 검색 결과 몇 번째를 쓸지, 기본 0)
+      const list = await commonsImages(s.commons, it.id, 4), c = list[Math.min(+s.commonsPick || 0, list.length - 1)];
+      const src = c ? await download(c.url, c.page, it.id) : null;
+      if (src) own = { src, credit: c.credit };
+    }
+    const sp = own ? (typeof own === 'object' ? own : { src: own, credit: s.photoCredit || hostOf(s.photo) }) : it.photoAI ? (j === 0 ? ph : null) : (j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph);
     await p.setContent(`<!doctype html><html><head><meta charset=utf-8><style>${css}</style></head><body>${slide(s, sp)}</body></html>`);
     await p.evaluate(() => document.fonts.ready);
     // 사진이 칸보다 훨씬 넓으면(가로 배너·로고형) 잘라내지 않고 전체를 보여 주고, 빈 곳은 같은 사진을 흐리게 채움

@@ -16,7 +16,7 @@
 - 주제를 일관되게(AI 툴·프롬프트·AI 뉴스·AI 요금/비교·AI로 일하기) 유지해야 알고리즘이 계정 주제를 학습한다.
 
 ## 2. 하루 5개 편성 (Asia/Seoul)
-형식은 하나로 통일: **쓰레드 글(본문) + 요약 카드 1~2장**. 사진은 쓰지 않는다(디자인 카드만).
+형식은 하나로 통일: **쓰레드 글(본문) + 요약 카드 1~2장**. 표지에는 실제 이미지 1장(4절 이미지 규칙).
 - 카드 1장(type image): 요약 카드 하나 (list·table·big·text 중 하나)
 - 카드 2장(type carousel): 표지(cover) + 요약 카드 1장. 마지막 장은 자동으로 붙지 않는다
 - 4장 카드뉴스(type carousel, briefing·deep): 표지 + 내용 3장, 각 카드에 다른 이미지(slide.photo). 피그마 템플릿처럼 위에 이미지, 아래 크림색 본문 칸. 내용 장 본문은 3~4줄(한 줄 22자 안팎). 마지막 팔로우 장은 자동
@@ -50,9 +50,16 @@
 ## 4. 카드 디자인 (사진 없는 SHIFT 요약 카드, 1080×1350)
 - 표지(cover): 검정 바탕, 위 가운데 SHIFT 로고, 괄호 테두리 카테고리, 큰 흰 제목(==강조== 는 주황) + 부제. 질문 글은 질문 자체를 제목으로.
 - 요약 카드(list·table·big·text): 크림 바탕, "SHIFT AI · 라벨" 줄, 64px 제목, 38px 본문. 한 장에 요점 3~4개만.
-- 기사 사진(photoFrom·photos)은 넣지 않는다. 대신 모든 글에 "imagePrompt" 를 넣으면 제미나이가 주제 이미지를 만들어 표지(카드 1장짜리 글은 그 카드)의 배경 사진으로 쓴다. 요약 카드는 글자만 크게.
-  - imagePrompt: 영어 한두 문장으로 장면 묘사. 주제를 상징하는 사물·공간·분위기 (예: "A glowing laptop on a dark desk showing lines of code, a red warning light reflecting on the screen"). 글자·로고·실존 인물·브랜드 제품 모양은 넣지 않는다(자동으로도 금지됨).
-  - 이미지가 들어간 카드 1장짜리 글은 아래쪽에 크림색 본문 칸이 있는 피그마 카드 모양으로 나온다.
+- **이미지는 실제 이미지만 쓴다 (2026-10-25부터).** AI 생성 이미지·imagePrompt·피그마 이미지 생성은 쓰지 않는다. 모든 글의 표지(카드 1장짜리 글은 그 카드)와 4장 카드뉴스의 내용 장마다 실제 이미지를 하나씩 붙이고, 카드마다 서로 다른 이미지를 쓴다. 카드 아래에 "사진: 출처" 또는 "화면: 도메인"이 자동으로 붙는다.
+  - 고르는 순서 (위에서부터, 소식과 직접 관련된 것):
+    1. 공식 출처 이미지 — 그 소식을 낸 회사·기관의 블로그·뉴스룸·제품 페이지 대표 이미지. 글 전체: `"photoFrom":["공식 페이지 URL"]`(대표 이미지 og:image를 자동으로 가져옴) + `"photoCredit":"회사명"`. 카드 하나: 슬라이드에 `"photoFrom":"URL"`, `"photoCredit":"회사명"`. 이미지 주소를 직접 알면 `"photo":"이미지 URL"`, `"photoCredit":"회사명"`.
+    2. 실제 화면 캡처 — 공식 페이지·제품 화면·공식 발표 글. 글 전체 `"shot":{"url":"URL","credit":"도메인"}`, 카드 하나는 슬라이드에 같은 `"shot"`. 페이지 위쪽 1280×800을 찍는다(`"y":600` 처럼 내려서 찍기 가능).
+    3. 위키미디어 공용 사진(퍼블릭 도메인·CC0·CC BY·CC BY-SA만, 자동 확인) — 인물·장소·사물. 정확한 파일 이름으로: `"commons":"File:파일 이름.jpg"`(글 전체 또는 슬라이드). 파일 이름은 WebSearch·commons.wikimedia.org 에서 찾은 것만, 추측해서 만들지 않는다.
+    4. 공식 유튜브 영상 썸네일 — `"photo":"https://i.ytimg.com/vi/<영상ID>/maxresdefault.jpg"`, `"photoCredit":"YouTube · 채널명"`.
+    5. 다 없으면 이미지 없이 글자 카드로 둔다. AI 이미지로 채우지 않는다.
+  - 쓰지 않는 것: 통신사·사진 에이전시 사진(Getty Images, Reuters, AP, AFP, EPA, Shutterstock, 연합뉴스, 뉴스1, 뉴시스 등), 언론사 기사 속 보도사진·대표 이미지(언론 기사 URL은 photoFrom 에 넣지 않는다 — 그 기사 이미지 출처가 회사 공식 이미지로 표기된 경우만 예외, photoCredit 에 그 회사), 일반인 얼굴이 크게 나온 사진, 출처를 알 수 없는 이미지.
+  - 이미지가 들어간 카드는 위에 이미지, 아래 크림색 본문 칸이 있는 피그마 카드 모양으로 나온다.
+  - push 후 렌더가 끝나면(4분쯤) media/<글id>/*.png 를 직접 열어 본다. 이미지가 주제와 안 맞거나 깨졌거나 쿠키 창·로그인 창이 찍혔으면 다른 이미지로 바꿔 한 번 더 push 한다(그 글의 media/<글id> 폴더를 지우고 push 하면 다시 만든다). media/_render-log.txt 에 "사진 실패"가 있으면 같은 방법으로 바꾼다.
 - 표지 제목: 첫 줄 15자 이내, 부제(sub)는 제품·사건 이름 한 줄.
 - 요약 카드 제목은 한 줄(18자 이내). list 항목은 3~4개, 항목당 h(굵게) + d(한 줄). table 은 3~5행.
 
@@ -67,9 +74,12 @@
 ## 5. queue 파일 형식 — queue/YYYY-MM-DD.json (그날 올릴 글 배열)
 ```json
 [{"id":"2026-10-26-0740-briefing","at":"2026-10-26T07:38:00+09:00","format":"briefing","type":"carousel","topic":"AI",
-  "imagePrompt":"A morning desk with a coffee cup and a tablet showing abstract glowing news headlines, soft sunrise light",
+  "photoFrom":["https://openai.com/index/…"],"photoCredit":"OpenAI",
   "parts":["본문(100~250자)","출처: 더버지 https://…"],
-  "slides":[{"kind":"cover","tag":"Morning Brief","title":"어제 AI 소식\n3가지"},{"kind":"list","label":"3줄 요약","title":"…","items":[{"h":"…","d":"…"}]}],
+  "slides":[{"kind":"cover","tag":"Morning Brief","title":"어제 AI 소식\n3가지"},
+    {"kind":"text","label":"소식 1","title":"…","body":"…","shot":{"url":"https://공식 발표 페이지","credit":"openai.com"}},
+    {"kind":"text","label":"소식 2","title":"…","body":"…","commons":"File:정확한 파일 이름.jpg"},
+    {"kind":"text","label":"소식 3","title":"…","body":"…","photoFrom":"https://회사 블로그 글","photoCredit":"회사명"}],
   "sources":["https://원문"]}]
 ```
 - id 는 날짜-시각-format 으로 유일하게. at 은 +09:00 포함 ISO.
