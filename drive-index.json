@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:56:30.586Z",
+ "updated": "2026-10-25T12:32:14.334Z",
  "items": [
   {
    "id": "2026-10-25-1840-deep",
@@ -25,6 +25,66 @@
    ],
    "text": "게시 예정: 2026-10-25 21:39 (쓰레드)\n주제 태그: AI툴\n\n클로드급 코딩 실력,\n가격은 입력 100만 토큰당 2달러.\n\n문샷AI가 10월 23일 Kimi K3.1 Pro를 냈어요.\n터미널 코딩 시험 점수는\nClaude Opus 5.5와 1점 차이,\n장기 코딩 시험은 오히려 앞섰다고 해요.\n(문샷 자체 발표 기준)\n\n코딩 AI 고를 때 성능과 가격,\n뭘 더 따지세요?\n\n── 이어지는 답글 1 ──\n출처: 마크텍포스트 https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/\n",
    "sig": "e50f6af18309b26e"
+  },
+  {
+   "id": "2026-10-26-0740-briefing",
+   "date": "2026-10-26",
+   "folder": "0738-briefing",
+   "files": [
+    "01.png",
+    "02.png",
+    "03.png",
+    "04.png",
+    "05.png"
+   ],
+   "text": "게시 예정: 2026-10-26 07:38 (쓰레드)\n주제 태그: AI\n\n엘비스 노래 274곡, 소송 한 건에 약 4,100만 달러.\n\n주말 사이 나온 AI 소식 3가지예요.\n① 엘비스 음악 권리사, 앤트로픽 고소\n② 399달러 오리 로봇, 하루 만에 예약 2만 대\n③ 데이터센터 일자리 연봉 125% 급등\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 놀라운 건 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 바이스 https://www.vice.com/en/article/elvis-presley-estate-sues-anthropic-for-stealing-his-music-at-a-scale-never-seen-before-to-train-ai/ · 마틴시드 https://www.martincid.com/technology-sv/hugging-face-microduck-robot-20000-preorders-jensen-huang/ · 브리프스 https://www.briefs.co/news/ai-s-data-center-buildout-is-minting-jobs-for-electricians-w/\n",
+   "sig": "66b481cdae4f1012"
+  },
+  {
+   "id": "2026-10-26-1140-howto",
+   "date": "2026-10-26",
+   "folder": "1142-howto",
+   "files": [
+    "01.png",
+    "02.png"
+   ],
+   "text": "게시 예정: 2026-10-26 11:42 (쓰레드)\n주제 태그: 프롬프트\n\n회사 엑셀, AI에 그대로 올리면 안 돼요.\n\n이름·연락처가 들어간 파일은\n먼저 가려 달라고 하고 쓰면 돼요.\n바로 복사해 쓸 문장이에요.\n\n\"아래 표에서 이름·전화·이메일·주소를\n[이름1] 처럼 바꾸고, 바꾼 목록은 따로 줘.\"\n\n분석은 가린 표로, 결과에 이름만 다시 넣기.\n저장해 두고 써 보세요.\n",
+   "sig": "e86d08d6a6206877"
+  },
+  {
+   "id": "2026-10-26-1440-question",
+   "date": "2026-10-26",
+   "folder": "1436-question",
+   "files": [
+    "01.png"
+   ],
+   "text": "게시 예정: 2026-10-26 14:36 (쓰레드)\n주제 태그: 생성형AI\n\nAI가 같이 쓴 글,\n\"AI 사용\"이라고 밝혀야 할까요?\n\n초안만 AI가 쓰고 내가 고쳤다면?\n맞춤법만 AI가 봤다면?\n어디부터 표시해야 할지\n사람마다 기준이 다르더라고요.\n\n여러분 기준은 어디까지예요?\n",
+   "sig": "bb8c229fd98b783b"
+  },
+  {
+   "id": "2026-10-26-1840-deep",
+   "date": "2026-10-26",
+   "folder": "1839-deep",
+   "files": [
+    "01.png",
+    "02.png",
+    "03.png",
+    "04.png",
+    "05.png"
+   ],
+   "text": "게시 예정: 2026-10-26 18:39 (쓰레드)\n주제 태그: AI\n\n웹사이트 70%가 쓰는 PHP,\nAI가 치명적 구멍을 찾아냈어요.\n\n보안업체 위즈가 제미나이·GPT로 찾은\n'PHP2Shell' 취약점이 10월 21일 공개됐고,\n일부 사이트는 아예 문을 닫았어요.\n클라우드플레어 CEO는 \"몇 년간 매주\n하늘이 무너지는 느낌일 것\"이라고 했고요.\n\n카드로 정리했어요.\n내 사이트 업데이트, 언제 마지막으로 하셨어요?\n\n── 이어지는 답글 1 ──\n출처: 위즈 https://wiz.io/blog/php2shell-php-rce · 로이터(스타애드버타이저) https://www.staradvertiser.com/2026/10/24/breaking-news/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-experts-say/\n영상으로 30초 만에 보기 → 인스타 @shift_ai_magazine\n",
+   "sig": "6d00fa8c5042284c"
+  },
+  {
+   "id": "2026-10-26-2140-compare",
+   "date": "2026-10-26",
+   "folder": "2141-compare",
+   "files": [
+    "01.png",
+    "02.png"
+   ],
+   "text": "게시 예정: 2026-10-26 21:41 (쓰레드)\n주제 태그: AI툴\n\n앱 안 깔고 문자로 부리는 AI 비서,\n한 달 얼마일까요?\n\n테크크런치가 10월 24일 아이메시지·\n왓츠앱·텔레그램에 사는 AI 비서를\n20개 넘게 정리했어요.\n무료부터 월 20달러대까지 다양해요.\n\nAI 비서, 앱이랑 문자 중\n어느 쪽이 더 편할 것 같아요?\n\n── 이어지는 답글 1 ──\n출처: 테크크런치 https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/\n",
+   "sig": "9cc39cef80932541"
   }
  ]
 }
