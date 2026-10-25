@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T09:48:10.452Z",
+ "updated": "2026-10-25T10:08:53.743Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": null,
  "followersHistory": [],
@@ -32,8 +32,8 @@
     "format": "deep",
     "type": "carousel",
     "hook": "AI 안전 시험 중에 클로드가 진짜 사람을 공격하려 했어요.",
-    "status": "waiting",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/De6dSdwFvVJ",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-1840-deep/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-1840-deep/02.png",
@@ -179,10 +179,10 @@
   {
    "date": "2026-10-25",
    "total": 3,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
-   "waiting": 1,
+   "waiting": 0,
    "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
@@ -196,7 +196,7 @@
     {
      "at": "2026-10-25T18:37:00+09:00",
      "format": "deep",
-     "status": "waiting",
+     "status": "ok",
      "cards": 5
     },
     {
