@@ -19,10 +19,10 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 //  photoFrom: 같은 소식을 다룬 기사 URL 2~3개(배열). 각 기사의 대표 이미지(og:image)와 본문 속 큰 사진을 모아
 //  표지에는 첫 사진, 내용 장에는 다른 사진을 차례로 씀. 카드 아래 "사진: 매체" 표기. 다 실패하면 표지 사진 재사용
 const why = (id, m) => console.log(`  사진 실패(${id}): ${m}`);
-const H = { 'User-Agent': UA, 'Accept-Language': 'ko-KR,ko;q=0.9,en;q=0.8', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Upgrade-Insecure-Requests': '1' };
+const H = { 'User-Agent': 'Mozilla/5.0 (compatible; SHIFT-AI-cards/1.0; +https://github.com/shiftaimagazine/shift-threads)', 'Accept-Language': 'ko-KR,ko;q=0.9,en;q=0.8' };
 async function download(url, referer, id) {
   try {
-    const r = await fetch(url, { headers: { 'User-Agent': UA, Referer: referer || '', Accept: 'image/avif,image/webp,image/png,image/jpeg,*/*', 'Sec-Fetch-Dest': 'image' }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
+    const r = await fetch(url, { headers: { 'User-Agent': H['User-Agent'], Referer: referer || '', Accept: 'image/avif,image/webp,image/png,image/jpeg,*/*' }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
     const type = (r.headers.get('content-type') || '').split(';')[0];
     if (!r.ok) return why(id, `${r.status} ${url}`), null;
     if (!type.startsWith('image/') || type.includes('svg') || type.includes('gif')) return why(id, `이미지 아님(${type}) ${url}`), null;
@@ -45,8 +45,11 @@ async function articleImages(page, id) {
       const t = metas.find(m => (attr(m, 'property') || attr(m, 'name') || '').toLowerCase() === key);
       if (t && attr(t, 'content')) { out.push(abs(attr(t, 'content'))); break; }
     }
-    // 본문 속 사진: srcset 의 가장 큰 것 > data-src > src
-    const body = html.split(/<\/header>/i).slice(1).join('') || html;
+    // 본문 속 사진만 (사이드바·관련 기사 목록 사진 제외): <article> 또는 본문 영역 안의 <img>
+    const pick = re => { const m = html.match(re); return m ? m[1] : null; };
+    let body = pick(/<article\b[^>]*>([\s\S]*?)<\/article>/i)
+      || pick(/<div[^>]+(?:itemprop=["']articleBody["']|class=["'][^"']*(?:entry-content|article-body|article__body|articleBody|post-content|story-body|news_body|article_body|article-content|content-body)[^"']*["'])[^>]*>([\s\S]*?)<\/(?:div|section)>\s*<(?:footer|aside|section|div[^>]+(?:related|comment|share))/i) || '';
+    body = body.split(/<(?:aside|footer)\b|class=["'][^"']*(?:related|recommend|popular|more-stories|trending)[^"']*["']/i)[0];
     for (const m of body.matchAll(/<img\b[^>]*>/gi)) {
       const tag = m[0], w = +(attr(tag, 'width') || 0);
       if (w && w < 500) continue;
@@ -75,7 +78,7 @@ async function getPhotos(it) {
     const src = await download(c.url, c.page, it.id);
     if (src) photos.push({ src, credit: it.photoCredit || c.credit });
   }
-  if (!photos.length) why(it.id, '기사 사진을 하나도 못 받음 → 브랜드 그래픽');
+  if (!photos.length) why(it.id, '기사 사진을 하나도 못 받음(사이트가 막았거나 사진 없음) → 브랜드 그래픽. photoFrom 에 다른 언론 기사를 넣어 주세요');
   return photos;
 }
 
