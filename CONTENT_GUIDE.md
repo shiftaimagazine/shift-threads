@@ -47,7 +47,9 @@
 ## 4. 카드 디자인 (사진 없는 SHIFT 요약 카드, 1080×1350)
 - 표지(cover): 검정 바탕, 위 가운데 SHIFT 로고, 괄호 테두리 카테고리, 큰 흰 제목(==강조== 는 주황) + 부제. 질문 글은 질문 자체를 제목으로.
 - 요약 카드(list·table·big·text): 크림 바탕, "SHIFT AI · 라벨" 줄, 64px 제목, 38px 본문. 한 장에 요점 3~4개만.
-- 사진(photoFrom·photos)은 넣지 않는다. 본문 글이 주인공이고 카드는 저장해 두고 볼 요약본이다.
+- 기사 사진(photoFrom·photos)은 넣지 않는다. 대신 모든 글에 "imagePrompt" 를 넣으면 제미나이가 주제 이미지를 만들어 표지(카드 1장짜리 글은 그 카드)의 배경 사진으로 쓴다. 요약 카드는 글자만 크게.
+  - imagePrompt: 영어 한두 문장으로 장면 묘사. 주제를 상징하는 사물·공간·분위기 (예: "A glowing laptop on a dark desk showing lines of code, a red warning light reflecting on the screen"). 글자·로고·실존 인물·브랜드 제품 모양은 넣지 않는다(자동으로도 금지됨).
+  - 이미지가 들어간 카드 1장짜리 글은 아래쪽에 크림색 본문 칸이 있는 피그마 카드 모양으로 나온다.
 - 표지 제목: 첫 줄 15자 이내, 부제(sub)는 제품·사건 이름 한 줄.
 - 요약 카드 제목은 한 줄(18자 이내). list 항목은 3~4개, 항목당 h(굵게) + d(한 줄). table 은 3~5행.
 
@@ -62,6 +64,7 @@
 ## 5. queue 파일 형식 — queue/YYYY-MM-DD.json (그날 올릴 글 배열)
 ```json
 [{"id":"2026-10-26-0740-briefing","at":"2026-10-26T07:38:00+09:00","format":"briefing","type":"carousel","topic":"AI",
+  "imagePrompt":"A morning desk with a coffee cup and a tablet showing abstract glowing news headlines, soft sunrise light",
   "parts":["본문(100~250자)","출처: 더버지 https://…"],
   "slides":[{"kind":"cover","tag":"Morning Brief","title":"어제 AI 소식\n3가지"},{"kind":"list","label":"3줄 요약","title":"…","items":[{"h":"…","d":"…"}]}],
   "sources":["https://원문"]}]

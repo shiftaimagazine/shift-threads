@@ -65,7 +65,27 @@ async function articleImages(page, id) {
     return [...new Set(out.filter(Boolean))].slice(0, 8).map(url => ({ url, page, credit }));
   } catch (e) { return why(id, `${e.message} ${page}`), []; }
 }
+// 제미나이로 주제 이미지 만들기 (GitHub 비밀값 GEMINI_API_KEY). 글의 imagePrompt(영어 장면 묘사)로 1장 생성
+const GEMINI_KEY = process.env.GEMINI_API_KEY;
+const IMG_MODELS = (process.env.GEMINI_IMAGE_MODELS || 'gemini-3.1-flash-image,gemini-2.5-flash-image').split(',');
+async function geminiImage(prompt, id) {
+  if (!GEMINI_KEY || !prompt) return null;
+  const full = `${prompt}. Editorial magazine photo style, cinematic lighting, vertical 4:5 composition, generous empty space in the lower third for a headline. No text, no letters, no logos, no watermarks, no real identifiable people.`;
+  for (const m of IMG_MODELS) {
+    try {
+      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': GEMINI_KEY },
+        body: JSON.stringify({ contents: [{ parts: [{ text: full }] }], generationConfig: { responseModalities: ['IMAGE'], imageConfig: { aspectRatio: '4:5' } } }), signal: AbortSignal.timeout(90000) });
+      const j = await r.json().catch(() => ({}));
+      const part = j.candidates?.[0]?.content?.parts?.find(x => x.inlineData?.data);
+      if (part) return { src: `data:${part.inlineData.mimeType || 'image/png'};base64,${part.inlineData.data}`, credit: 'AI 생성 이미지 (Gemini)' };
+      why(id, `제미나이 ${m}: ${j.error?.status || r.status} ${String(j.error?.message || '이미지 없음').slice(0, 160)}`);
+    } catch (e) { why(id, `제미나이 ${m}: ${e.message}`); }
+  }
+  return null;
+}
 async function getPhotos(it) {
+  const gen = await geminiImage(it.imagePrompt, it.id);
+  if (gen) return [gen];
   if (it.photoFile && fs.existsSync(it.photoFile)) return [{ src: b64(it.photoFile, 'image/png'), credit: it.photoCredit || 'SHIFT AI' }];   // 로컬 시험용
   const cands = [];
   // photos: 글쓰기 작업이 기사에서 직접 고른 사진 주소 [{url, credit}] 또는 ["url"] — 가장 먼저 씀
@@ -192,7 +212,8 @@ for (const it of todo) {
   const slides = it.type === 'carousel' && it.slides.length >= 3 && it.slides.at(-1)?.kind !== 'cta' ? [...it.slides, { kind: 'cta' }] : it.slides.slice(0, it.type === 'image' ? 1 : 20);
   const dir = path.join(ROOT, 'media', it.id); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   for (const [j, s] of slides.entries()) {
-    const sp = j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph;   // 내용 장은 표지와 다른 사진부터
+    // 생성 이미지는 표지(또는 카드 1장짜리 글의 그 카드)에만 쓰고, 요약 카드는 글자만 크게
+    const sp = it.imagePrompt ? (j === 0 ? ph : null) : (j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph);
     await p.setContent(`<!doctype html><html><head><meta charset=utf-8><style>${css}</style></head><body>${slide(s, sp)}</body></html>`);
     await p.evaluate(() => document.fonts.ready);
     // 사진이 칸보다 훨씬 넓으면(가로 배너·로고형) 잘라내지 않고 전체를 보여 주고, 빈 곳은 같은 사진을 흐리게 채움
