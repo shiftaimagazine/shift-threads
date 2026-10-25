@@ -1,0 +1,18 @@
+name: 뉴스 후보 모으기
+on:
+  schedule:
+    - cron: '50 11 * * *'    # 20:50 (한국): 21:24 글쓰기 작업 직전에 RSS 에서 최근 36시간 소식을 모음
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: { group: threads-repo, cancel-in-progress: false }
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 24 }
+      - run: node scripts/news.mjs
+      - run: |
+          git config user.name "shift-threads-bot"; git config user.email "actions@users.noreply.github.com"
+          git add trends; git diff --cached --quiet || (git commit -m "뉴스 후보" && git pull --rebase && git push)

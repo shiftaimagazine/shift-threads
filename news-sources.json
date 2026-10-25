@@ -1,0 +1,22 @@
+[
+  { "name": "OpenAI", "url": "https://openai.com/news/rss.xml", "kind": "official", "official": true },
+  { "name": "Anthropic", "url": "https://www.anthropic.com/rss.xml", "kind": "official", "official": true },
+  { "name": "Google AI 블로그", "url": "https://blog.google/technology/ai/rss/", "kind": "official", "official": true },
+  { "name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "kind": "official", "official": true },
+  { "name": "Meta AI", "url": "https://ai.meta.com/blog/rss/", "kind": "official", "official": true },
+  { "name": "Microsoft AI", "url": "https://blogs.microsoft.com/ai/feed/", "kind": "official", "official": true },
+  { "name": "NVIDIA 블로그", "url": "https://blogs.nvidia.com/feed/", "kind": "official", "official": true, "filter": true },
+  { "name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml", "kind": "official", "official": true },
+  { "name": "테크크런치 AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "kind": "media" },
+  { "name": "더버지 AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "kind": "media" },
+  { "name": "아스테크니카 AI", "url": "https://arstechnica.com/ai/feed/", "kind": "media" },
+  { "name": "와이어드 AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "kind": "media" },
+  { "name": "MIT 테크놀로지 리뷰", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "kind": "media" },
+  { "name": "벤처비트 AI", "url": "https://venturebeat.com/category/ai/feed/", "kind": "media" },
+  { "name": "해커뉴스 (AI, 100점↑)", "url": "https://hnrss.org/newest?q=AI&points=100", "kind": "community", "filter": true },
+  { "name": "AI타임스", "url": "https://www.aitimes.com/rss/allArticle.xml", "kind": "media", "lang": "ko" },
+  { "name": "긱뉴스", "url": "https://news.hada.io/rss/news", "kind": "community", "lang": "ko", "filter": true },
+  { "name": "ZDNet Korea", "url": "https://zdnet.co.kr/news/rss", "kind": "media", "lang": "ko", "filter": true },
+  { "name": "바이라인네트워크", "url": "https://byline.network/feed/", "kind": "media", "lang": "ko", "filter": true },
+  { "name": "블로터", "url": "https://www.bloter.net/rss", "kind": "media", "lang": "ko", "filter": true }
+]
