@@ -84,7 +84,7 @@ async function geminiImage(prompt, id) {
   return null;
 }
 async function getPhotos(it) {
-  const gen = await geminiImage(it.imagePrompt, it.id);
+  const gen = it.photo ? null : await geminiImage(it.imagePrompt, it.id);   // 이미 만든 이미지 주소(photo)가 있으면 생성 건너뜀
   if (gen) return [gen];
   if (it.photoFile && fs.existsSync(it.photoFile)) return [{ src: b64(it.photoFile, 'image/png'), credit: it.photoCredit || 'SHIFT AI' }];   // 로컬 시험용
   const cands = [];
@@ -213,7 +213,7 @@ for (const it of todo) {
   const dir = path.join(ROOT, 'media', it.id); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   for (const [j, s] of slides.entries()) {
     // 생성 이미지는 표지(또는 카드 1장짜리 글의 그 카드)에만 쓰고, 요약 카드는 글자만 크게
-    const sp = it.imagePrompt ? (j === 0 ? ph : null) : (j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph);
+    const sp = (it.imagePrompt || it.photoAI) ? (j === 0 ? ph : null) : (j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph);
     await p.setContent(`<!doctype html><html><head><meta charset=utf-8><style>${css}</style></head><body>${slide(s, sp)}</body></html>`);
     await p.evaluate(() => document.fonts.ready);
     // 사진이 칸보다 훨씬 넓으면(가로 배너·로고형) 잘라내지 않고 전체를 보여 주고, 빈 곳은 같은 사진을 흐리게 채움

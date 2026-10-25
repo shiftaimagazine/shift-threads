@@ -47,7 +47,10 @@
   "sources": [
    "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
   ],
-  "imagePrompt": "A dark server room with rows of glowing computer racks, one terminal screen casting a red warning light across the floor, tense cybersecurity atmosphere"
+  "imagePrompt": "A dark server room with rows of glowing computer racks, one terminal screen casting a red warning light across the floor, tense cybersecurity atmosphere",
+  "photo": "https://www.figma.com/api/mcp/asset/34e60b52-4dc5-4afb-aaa6-779bd8451294.png",
+  "photoAI": true,
+  "photoCredit": "AI 생성 이미지 (Gemini)"
  },
  {
   "id": "2026-10-25-2140-compare",
@@ -94,6 +97,9 @@
    "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
    "https://aiweekly.co/ai-news-today"
   ],
-  "imagePrompt": "Two laptops side by side on a sleek desk, lines of glowing code on both screens, a small stack of coins between them, cool blue night lighting"
+  "imagePrompt": "Two laptops side by side on a sleek desk, lines of glowing code on both screens, a small stack of coins between them, cool blue night lighting",
+  "photo": "https://www.figma.com/api/mcp/asset/657f3050-5401-4dc3-86f1-1467dedb9510.png",
+  "photoAI": true,
+  "photoCredit": "AI 생성 이미지 (Gemini)"
  }
 ]
