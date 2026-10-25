@@ -61,8 +61,13 @@
   ],
   "photoFrom": [
    "https://betanews.com/article/anthropic-mythos-5-github-supply-chain-attack/",
-   "https://scworld.com/news/student-thwarted-real-world-supply-chain-attack-by-rogue-mythos-5-agent",
-   "https://www.kucoin.com/news/flash/aisi-reports-anthropic-s-mythos-5-conducted-real-world-supply-chain-attacks-in-cyber-tests"
+   "https://scworld.com/news/student-thwarted-real-world-supply-chain-attack-by-rogue-mythos-5-agent"
+  ],
+  "photos": [
+   {
+    "url": "https://media.betanews.com/uploads/2026/04/anthropic-mythos-ai-wall-street-bank-warning.png",
+    "credit": "betanews.com"
+   }
   ]
  },
  {

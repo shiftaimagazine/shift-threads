@@ -18,7 +18,8 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 // ── 사진 가져오기 (기사 사진만, 출처 표기) ──
 //  photoFrom: 같은 소식을 다룬 기사 URL 2~3개(배열). 각 기사의 대표 이미지(og:image)와 본문 속 큰 사진을 모아
 //  표지에는 첫 사진, 내용 장에는 다른 사진을 차례로 씀. 카드 아래 "사진: 매체" 표기. 다 실패하면 표지 사진 재사용
-const why = (id, m) => console.log(`  사진 실패(${id}): ${m}`);
+const LOG = [];
+const why = (id, m) => { console.log(`  사진 실패(${id}): ${m}`); LOG.push(`${id}: ${m}`); };
 const H = { 'User-Agent': 'Mozilla/5.0 (compatible; SHIFT-AI-cards/1.0; +https://github.com/shiftaimagazine/shift-threads)', 'Accept-Language': 'ko-KR,ko;q=0.9,en;q=0.8' };
 async function download(url, referer, id) {
   try {
@@ -67,6 +68,8 @@ async function articleImages(page, id) {
 async function getPhotos(it) {
   if (it.photoFile && fs.existsSync(it.photoFile)) return [{ src: b64(it.photoFile, 'image/png'), credit: it.photoCredit || 'SHIFT AI' }];   // 로컬 시험용
   const cands = [];
+  // photos: 글쓰기 작업이 기사에서 직접 고른 사진 주소 [{url, credit}] 또는 ["url"] — 가장 먼저 씀
+  for (const x of [].concat(it.photos || [])) { const url = typeof x === 'string' ? x : x.url; if (url) cands.push({ url, page: (typeof x === 'object' && x.page) || [].concat(it.photoFrom || [])[0] || '', credit: (typeof x === 'object' && x.credit) || new URL(url).hostname.replace(/^(www|media|cdn|images?|static)\./, '') }); }
   if (it.photo) cands.push({ url: it.photo, page: [].concat(it.photoFrom || [])[0] || '', credit: it.photoCredit || new URL(it.photo).hostname.replace(/^www\./, '') });
   const pages = [].concat(it.photoFrom || []);
   const lists = await Promise.all(pages.map(pg => articleImages(pg, it.id)));
@@ -177,3 +180,4 @@ for (const it of todo) {
   console.log(`  ${it.id}: ${slides.length}장 · 사진 ${photos.length}장 (${[...new Set(photos.map(x => x.credit))].join(', ') || '없음'})`);
 }
 await b.close();
+fs.writeFileSync(path.join(ROOT, 'media', '_render-log.txt'), `${new Date().toISOString()}\n` + (LOG.length ? LOG.join('\n') : '사진 실패 없음') + '\n');
