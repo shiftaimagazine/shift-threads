@@ -11,9 +11,10 @@ try { followers = sum(await get(`/${me.id}/threads_insights`, { metric: 'followe
 const posted = fs.existsSync(path.join(ROOT, 'posted.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'posted.json'), 'utf8')) : {};
 const byPostId = {}; for (const [k, v] of Object.entries(posted)) if (v.ids?.[0]) byPostId[v.ids[0]] = k;
 const meta = {}; for (const f of fs.readdirSync(path.join(ROOT, 'queue')).filter(f => f.endsWith('.json'))) try { for (const it of JSON.parse(fs.readFileSync(path.join(ROOT, 'queue', f), 'utf8'))) meta[it.id] = it; } catch {}
-const list = await get(`/${me.id}/threads`, { fields: 'id,timestamp,text,permalink,media_type,is_reply', limit: 60 });
+const list = await get(`/${me.id}/threads`, { fields: 'id,timestamp,text,permalink,media_type,is_reply', limit: 40 });
 const posts = [];
-for (const p of (list.data || []).filter(p => !p.is_reply)) {
+const since = Date.now() - 14 * 86400e3;   // 최근 14일 글만 (글마다 API 1회)
+for (const p of (list.data || []).filter(p => !p.is_reply && Date.parse(p.timestamp) > since)) {
   let m = {}; try { m = sum(await get(`/${p.id}/insights`, { metric: 'views,likes,replies,reposts,quotes,shares' })); } catch {}
   const qid = byPostId[p.id], q = meta[qid] || {};
   posts.push({ at: p.timestamp, id: qid || null, format: q.format || null, type: q.type || p.media_type, hook: (p.text || '').split('\n')[0].slice(0, 80), link: p.permalink, ...m,

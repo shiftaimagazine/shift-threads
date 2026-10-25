@@ -30,6 +30,19 @@ async function api(base, token, method, url, params = {}) {
 const thApi = (m, u, p) => api('https://graph.threads.net/v1.0', TH, m, u, p);
 const igApi = (m, u, p) => api('https://graph.instagram.com/v23.0', IG, m, u, p);
 
+// ── 올릴 항목을 먼저 읽어, 할 일이 없으면 API 를 부르지 않음 (계정 확인은 하루 1번만) ──
+const posted = fs.existsSync(postedFile) ? JSON.parse(fs.readFileSync(postedFile, 'utf8')) : {};
+const items = [];
+for (const f of fs.readdirSync(path.join(ROOT, 'reels')).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort()) {
+  try { for (const it of JSON.parse(fs.readFileSync(path.join(ROOT, 'reels', f), 'utf8'))) items.push(it); } catch (e) { console.error(`${f} 읽기 실패: ${e.message}`); }
+}
+const now = Date.now();
+const due = items.filter(it => it.id && it.video && Date.parse(it.at) <= now).sort((a, b) => Date.parse(a.at) - Date.parse(b.at));
+const pendingWork = due.filter(it => (it.threads && TH && !posted[it.id]?.threads) || (it.instagram && IG && !posted[it.id]?.instagram));
+const prevStatus = fs.existsSync(statusFile) ? JSON.parse(fs.readFileSync(statusFile, 'utf8')) : {};
+const checkStale = !prevStatus.checkedAt || now - Date.parse(prevStatus.checkedAt) > 20 * 3600e3;
+if (MODE === 'post' && !pendingWork.length && !checkStale) { console.log('올릴 영상 없음 · API 호출 생략'); process.exit(0); }
+
 // ── 계정 확인 + 상태 기록 (08:40 작업이 status.json 의 igReady 를 보고 인스타를 Metricool 로 보낼지 정함) ──
 const status = { checkedAt: new Date().toISOString(), threads: null, instagram: null, igReady: false };
 let thMe = null, igMe = null;
@@ -51,14 +64,7 @@ if (MODE === 'igtest') {   // 인스타 게시 준비만 시험 (컨테이너만
   process.exit(st.status_code === 'FINISHED' ? 0 : 1);
 }
 
-// ── 올릴 항목 ──
-const posted = fs.existsSync(postedFile) ? JSON.parse(fs.readFileSync(postedFile, 'utf8')) : {};
-const items = [];
-for (const f of fs.readdirSync(path.join(ROOT, 'reels')).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort()) {
-  try { for (const it of JSON.parse(fs.readFileSync(path.join(ROOT, 'reels', f), 'utf8'))) items.push(it); } catch (e) { console.error(`${f} 읽기 실패: ${e.message}`); }
-}
-const now = Date.now();
-const due = items.filter(it => it.id && it.video && Date.parse(it.at) <= now).sort((a, b) => Date.parse(a.at) - Date.parse(b.at));
+// ── 올릴 항목 (위에서 읽음) ──
 
 async function threadsVideo(it) {
   const t = it.threads; const text = String(t.text || '').trim().slice(0, 500);

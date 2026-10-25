@@ -23,9 +23,6 @@ async function call(method, url, params = {}) {
   if (!res.ok || j.error) throw new Error(`${method} ${url} 실패: ${j.error?.error_user_msg || j.error?.message || res.status}`);
   return j;
 }
-const me = await call('GET', '/me', { fields: 'id,username' });
-console.log(`계정 확인: @${me.username}`);
-if (MODE === 'check') process.exit(0);
 
 async function waitReady(id) {      // 미디어 처리 완료까지 대기 (최대 2분)
   for (let i = 0; i < 12; i++) {
@@ -51,11 +48,21 @@ for (const f of fs.readdirSync(path.join(ROOT, 'queue')).filter(f => f.endsWith(
 const now = Date.now();
 const due = items.filter(it => it.id && !posted[it.id] && Date.parse(it.at) <= now).sort((a, b) => Date.parse(a.at) - Date.parse(b.at));
 console.log(`남은 예약 ${items.filter(it => it.id && !posted[it.id]).length}개 · 지금 올릴 글 ${due.length}개`);
+// 시간이 너무 지난 글은 API 없이 바로 정리
+for (const it of due) if (now - Date.parse(it.at) > STALE_HOURS * 3600e3) { posted[it.id] = { status: 'expired', at: new Date().toISOString() }; console.log(`건너뜀(시간 지남): ${it.id}`); }
+const todo = due.filter(it => !posted[it.id]);
+// 올릴 글이 없으면 API를 한 번도 부르지 않음 (쓸데없는 호출이 계정 차단 사유가 될 수 있음)
+if (MODE !== 'check' && !todo.length) {
+  if (!DRY) fs.writeFileSync(postedFile, JSON.stringify(posted, null, 1) + '\n');
+  console.log('올릴 글 없음 · API 호출 생략'); process.exit(0);
+}
+const me = await call('GET', '/me', { fields: 'id,username' });
+console.log(`계정 확인: @${me.username}`);
+if (MODE === 'check') process.exit(0);
 
 let count = 0, failed = 0;
-for (const it of due) {
+for (const it of todo) {
   const mark = (status, extra = {}) => { posted[it.id] = { status, at: new Date().toISOString(), ...extra }; };
-  if (now - Date.parse(it.at) > STALE_HOURS * 3600e3) { mark('expired'); console.log(`건너뜀(시간 지남): ${it.id}`); continue; }
   if (count >= MAX_PER_RUN) break;
   const type = it.type || (it.parts?.length > 1 ? 'thread' : 'text');
   const parts = (it.parts || []).map(s => String(s).trim()).filter(Boolean);

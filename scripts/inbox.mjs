@@ -3,7 +3,11 @@
 //   replies/YYYY-MM-DD.json: [{"reply_to":"댓글 id","text":"답글 (500자 이내)"}]
 import fs from 'node:fs';
 import path from 'node:path';
+//   MODE=reply   : 써 둔 답글만 올림 (답글 파일 push 때) — 올릴 게 없으면 API를 부르지 않음
+//   MODE=collect : 새 댓글만 모음 (하루 2번, 클라우드 답글 작업 직전)
+//   MODE=all     : 둘 다 (수동 실행 기본)
 const API = 'https://graph.threads.net/v1.0', T = process.env.THREADS_TOKEN;
+const MODE = process.env.MODE || 'all';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const MAX_REPLIES_PER_RUN = 15;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -14,19 +18,32 @@ async function call(method, u, p = {}) {
   if (!r.ok || j.error) throw new Error(`${method} ${u}: ${j.error?.error_user_msg || j.error?.message || r.status}`);
   return j;
 }
-const me = await call('GET', '/me', { fields: 'id,username' });
 fs.mkdirSync(path.join(ROOT, 'replies'), { recursive: true });
 fs.mkdirSync(path.join(ROOT, 'inbox'), { recursive: true });
 const doneFile = path.join(ROOT, 'replies/done.json');
 const done = fs.existsSync(doneFile) ? JSON.parse(fs.readFileSync(doneFile, 'utf8')) : {};
 
-// 1) 써 둔 답글 올리기
-let sent = 0;
-for (const f of fs.readdirSync(path.join(ROOT, 'replies')).filter(f => /^\d{4}-\d\d-\d\d\.json$/.test(f)).sort()) {
+// 올릴 답글을 먼저 API 없이 추림
+const queued = [];
+if (MODE !== 'collect') for (const f of fs.readdirSync(path.join(ROOT, 'replies')).filter(f => /^\d{4}-\d\d-\d\d\.json$/.test(f)).sort()) {
   let list = []; try { list = JSON.parse(fs.readFileSync(path.join(ROOT, 'replies', f), 'utf8')); } catch (e) { console.error(f, e.message); continue; }
   for (const r of list) {
-    if (!r.reply_to || !r.text || done[r.reply_to] || sent >= MAX_REPLIES_PER_RUN) continue;
+    if (!r.reply_to || !r.text || done[r.reply_to]) continue;
     if ([...r.text].length > 500) { done[r.reply_to] = { status: 'invalid' }; continue; }
+    queued.push(r);
+  }
+}
+if (MODE === 'reply' && !queued.length) {
+  fs.writeFileSync(doneFile, JSON.stringify(done, null, 1) + '\n');
+  console.log('올릴 답글 없음 · API 호출 생략'); process.exit(0);
+}
+const me = await call('GET', '/me', { fields: 'id,username' });
+
+// 1) 써 둔 답글 올리기
+let sent = 0;
+{
+  for (const r of queued) {
+    if (sent >= MAX_REPLIES_PER_RUN) break;
     try {
       const c = await call('POST', `/${me.id}/threads`, { media_type: 'TEXT', text: r.text, reply_to_id: r.reply_to });
       await sleep(4000);
@@ -38,9 +55,10 @@ for (const f of fs.readdirSync(path.join(ROOT, 'replies')).filter(f => /^\d{4}-\
   }
 }
 
-// 2) 새 댓글 모으기 (최근 48시간 내 글)
+// 2) 새 댓글 모으기 (최근 48시간 내 글) — collect·all 모드에서만 (글마다 API 1회라 하루 2번만 돈다)
+if (MODE === 'reply') { fs.writeFileSync(doneFile, JSON.stringify(done, null, 1) + '\n'); console.log(`답글 ${sent}개 올림`); process.exit(0); }
 const since = Date.now() - 48 * 3600e3;
-const posts = (await call('GET', `/${me.id}/threads`, { fields: 'id,timestamp,text,permalink,is_reply', limit: 40 })).data || [];
+const posts = (await call('GET', `/${me.id}/threads`, { fields: 'id,timestamp,text,permalink,is_reply', limit: 25 })).data || [];
 const pending = [];
 for (const p of posts.filter(p => !p.is_reply && Date.parse(p.timestamp) > since)) {
   let rs = [];
