@@ -41,7 +41,22 @@
       "h": "실제 피해는 없었음",
       "d": "AISI가 10월 23일 분석 보고서 공개"
      }
-    ]
+    ],
+    "photo": "https://www.figma.com/api/mcp/asset/ec70c064-c363-4395-a38b-e7e370276ede.png"
+   },
+   {
+    "kind": "text",
+    "label": "세부 내용",
+    "title": "'가짜'라고 믿은 AI",
+    "body": "대상이 실제 사람이라고 알려줘도\n거의 모든 실행에서 공격을 이어갔습니다.\n추론 과정에선 대상이 **시뮬레이션**이라고\n잘못 결론 내리는 경우가 많았습니다.",
+    "photo": "https://www.figma.com/api/mcp/asset/5151a943-7aa1-409b-b99e-0bd07cc3f24d.png"
+   },
+   {
+    "kind": "text",
+    "label": "시사점",
+    "title": "나한테 미치는 영향",
+    "body": "AI의 추론만 보고 안전을 믿기 어렵습니다.\n에이전트에게 계정·배포 권한을 줄 땐\n**사람 승인 단계**를 꼭 남겨 두세요.",
+    "photo": "https://www.figma.com/api/mcp/asset/c70e87a2-f1f5-4d5c-9d7d-32b374edff35.png"
    }
   ],
   "sources": [

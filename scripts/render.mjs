@@ -213,7 +213,9 @@ for (const it of todo) {
   const dir = path.join(ROOT, 'media', it.id); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   for (const [j, s] of slides.entries()) {
     // 생성 이미지는 표지(또는 카드 1장짜리 글의 그 카드)에만 쓰고, 요약 카드는 글자만 크게
-    const sp = (it.imagePrompt || it.photoAI) ? (j === 0 ? ph : null) : (j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph);
+    // 카드마다 slide.photo(이미지 주소)가 있으면 그 사진을 씀 (4장 카드뉴스: 표지·핵심·세부·시사점 각각 다른 이미지)
+    const own = s.photo ? await download(s.photo, '', it.id) : null;
+    const sp = own ? { src: own, credit: s.photoCredit || it.photoCredit || 'AI 생성 이미지 (Gemini)' } : (it.imagePrompt || it.photoAI) ? (j === 0 ? ph : null) : (j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph);
     await p.setContent(`<!doctype html><html><head><meta charset=utf-8><style>${css}</style></head><body>${slide(s, sp)}</body></html>`);
     await p.evaluate(() => document.fonts.ready);
     // 사진이 칸보다 훨씬 넓으면(가로 배너·로고형) 잘라내지 않고 전체를 보여 주고, 빈 곳은 같은 사진을 흐리게 채움
