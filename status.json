@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T08:07:47.431Z",
+ "updated": "2026-10-25T08:13:55.568Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": null,
  "followersHistory": [],
@@ -175,5 +175,50 @@
   "sent": [],
   "total": 0
  },
+ "days": [
+  {
+   "date": "2026-10-25",
+   "total": 3,
+   "ok": 1,
+   "failed": 0,
+   "expired": 0,
+   "waiting": 0,
+   "scheduled": 2,
+   "needCards": 2,
+   "cardsReady": 2,
+   "times": [
+    {
+     "at": "2026-10-25T14:45:00+09:00",
+     "format": null,
+     "status": "ok",
+     "cards": 0
+    },
+    {
+     "at": "2026-10-25T18:37:00+09:00",
+     "format": "deep",
+     "status": "scheduled",
+     "cards": 5
+    },
+    {
+     "at": "2026-10-25T21:39:00+09:00",
+     "format": "compare",
+     "status": "scheduled",
+     "cards": 2
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "total": 0,
+   "ok": 0,
+   "failed": 0,
+   "expired": 0,
+   "waiting": 0,
+   "scheduled": 0,
+   "needCards": 0,
+   "cardsReady": 0,
+   "times": []
+  }
+ ],
  "top": []
 }

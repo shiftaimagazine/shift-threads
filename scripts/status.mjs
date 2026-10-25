@@ -29,10 +29,20 @@ for (const f of fs.existsSync(path.join(ROOT, 'replies')) ? fs.readdirSync(path.
 const hist = fs.existsSync(path.join(ROOT, 'stats/followers.csv')) ? fs.readFileSync(path.join(ROOT, 'stats/followers.csv'), 'utf8').trim().split('\n').slice(1).map(l => { const [date, f] = l.split(','); return { date, followers: +f }; }).slice(-45) : [];
 const top = (stats.posts || []).filter(p => p.views != null && Date.parse(p.at) > Date.now() - 7 * 864e5).sort((a, b) => b.views - a.views).slice(0, 5)
   .map(p => ({ hook: p.hook, views: p.views, likes: p.likes, replies: p.replies, reposts: p.reposts, link: p.link, at: p.at }));
+// 날짜별 진행 현황 (지난 6일 + 앞으로 준비된 모든 날): 관제실 '예약 달력'용
+const qdates = fs.existsSync(path.join(ROOT, 'queue')) ? fs.readdirSync(path.join(ROOT, 'queue')).filter(f => /^\d{4}-\d\d-\d\d\.json$/.test(f)).map(f => f.slice(0, 10)) : [];
+const since = kst(new Date(Date.now() - 6 * 864e5));
+const days = [...new Set([...qdates, today, tomorrow])].filter(d => d >= since).sort().map(d => {
+  const ps = day(d), c = s => ps.filter(p => p.status === s).length;
+  const needCards = ps.filter(p => p.slides.length), cardsReady = needCards.filter(p => p.cards.length).length;
+  return { date: d, total: ps.length, ok: c('ok'), failed: ps.filter(p => ['failed', 'partial', 'invalid'].includes(p.status)).length,
+    expired: c('expired'), waiting: c('waiting'), scheduled: c('scheduled'), needCards: needCards.length, cardsReady,
+    times: ps.map(p => ({ at: p.at, format: p.format, status: p.status, cards: p.cards.length })) };
+});
 const out = { updated: new Date().toISOString(), repo: REPO, followers: stats.followers ?? null, followersHistory: hist,
   today: { date: today, posts: day(today) }, tomorrow: { date: tomorrow, posts: day(tomorrow) },
   comments: { pending: inbox.items?.length || 0, items: (inbox.items || []).slice(0, 10).map(c => ({ user: c.user, text: c.text, at: c.at, post: c.post?.link })), updated: inbox.updated || null },
   replies: { sent: sent.slice(-10).reverse(), total: Object.values(done).filter(d => d.status === 'ok').length },
-  top };
+  days, top };
 fs.writeFileSync(path.join(ROOT, 'status.json'), JSON.stringify(out, null, 1) + '\n');
 console.log(`status.json: 오늘 ${out.today.posts.length}개 · 내일 ${out.tomorrow.posts.length}개 · 대기 댓글 ${out.comments.pending}`);
