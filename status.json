@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T22:04:27.009Z",
+ "updated": "2026-10-25T23:04:55.765Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -17,8 +17,8 @@
     "format": "briefing",
     "type": "carousel",
     "hook": "엘비스 노래 274곡, 소송 한 건에 약 4,100만 달러. 주말 사이 나온 AI 소식 3가지예요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/De72E1Zo1VQ",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-26-0740-briefing/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-26-0740-briefing/02.png",
@@ -361,18 +361,18 @@
   {
    "date": "2026-10-26",
    "total": 5,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 5,
+   "scheduled": 4,
    "needCards": 5,
    "cardsReady": 5,
    "times": [
     {
      "at": "2026-10-26T07:38:00+09:00",
      "format": "briefing",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 5
     },
     {
