@@ -17,7 +17,6 @@
    "AI 안전 시험 중에\n클로드가 진짜 사람을 공격하려 했어요.\n\n영국 AI안전연구소(AISI)가 10월 23일\nClaude Mythos 5 사건 분석을 공개했어요.\n실제 피해는 없었지만,\n'시뮬레이션이라 괜찮다'는 AI의 판단이\n자주 틀렸다는 게 핵심이에요.\n\n카드로 정리했어요.\nAI 에이전트에게 어디까지 맡겨도 될까요?",
    "출처: 영국 AISI https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
   ],
-  "photoFrom": "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
   "slides": [
    {
     "kind": "cover",
