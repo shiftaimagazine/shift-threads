@@ -1,0 +1,243 @@
+[
+ {
+  "id": "2026-10-26-0740-briefing",
+  "at": "2026-10-26T07:38:00+09:00",
+  "format": "briefing",
+  "type": "carousel",
+  "topic": "AI",
+  "imagePrompt": "A calm morning desk by a window with a steaming coffee cup, a folded newspaper and a tablet glowing with abstract colorful shapes, soft golden sunrise light",
+  "parts": [
+   "엘비스 노래 274곡, 소송 한 건에 약 4,100만 달러.\n\n주말 사이 나온 AI 소식 3가지예요.\n① 엘비스 음악 권리사, 앤트로픽 고소\n② 399달러 오리 로봇, 하루 만에 예약 2만 대\n③ 데이터센터 일자리 연봉 125% 급등\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 놀라운 건 뭐예요?",
+   "출처: 바이스 https://www.vice.com/en/article/elvis-presley-estate-sues-anthropic-for-stealing-his-music-at-a-scale-never-seen-before-to-train-ai/ · 마틴시드 https://www.martincid.com/technology-sv/hugging-face-microduck-robot-20000-preorders-jensen-huang/ · 브리프스 https://www.briefs.co/news/ai-s-data-center-buildout-is-minting-jobs-for-electricians-w/"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "Morning Brief",
+    "title": "주말 AI 소식\n==3가지==",
+    "sub": "엘비스 소송 · 오리 로봇 · 데이터센터 연봉"
+   },
+   {
+    "kind": "text",
+    "label": "소식 1",
+    "title": "엘비스, 클로드 고소",
+    "body": "엘비스 음악 권리사가 앤트로픽을 고소.\n노래 **274곡**을 허락 없이 학습했다는 주장.\n청구액은 약 **4,100만 달러**.",
+    "imagePrompt": "A vintage microphone and a stack of old vinyl records on a dark wooden desk next to a closed legal folder and a judge's gavel, moody spotlight",
+    "photo": "https://www.figma.com/api/mcp/asset/28029ac8-417f-4487-ad8a-5ed4493979a5.png"
+   },
+   {
+    "kind": "text",
+    "label": "소식 2",
+    "title": "399달러 오리 로봇",
+    "body": "허깅페이스 계열 걷는 로봇 Microduck.\n젠슨 황 시연 다음 날 **예약 2만 대**.\n키 25cm, 소프트웨어는 오픈소스.",
+    "imagePrompt": "A small cute walking robot shaped like a duck standing on a bright workshop table, tiny motors and wires visible, playful soft studio light",
+    "photo": "https://www.figma.com/api/mcp/asset/e02a1236-b4c1-4a4d-a429-83535ae3acea.png"
+   },
+   {
+    "kind": "text",
+    "label": "소식 3",
+    "title": "데이터센터 연봉 급등",
+    "body": "미국 데이터센터 일자리 최소 연봉 평균\n1년 새 **125.1%** 올라 약 20.8만 달러.\n용접·배관공 구인도 164% 늘었어요.",
+    "imagePrompt": "A worker's hard hat and gloves resting on a cable tray inside a huge glowing data center hall with long rows of server racks, blue light",
+    "photo": "https://www.figma.com/api/mcp/asset/3c770511-193f-4496-8e38-6a0220e02738.png"
+   }
+  ],
+  "sources": [
+   "https://www.vice.com/en/article/elvis-presley-estate-sues-anthropic-for-stealing-his-music-at-a-scale-never-seen-before-to-train-ai/",
+   "https://faroutmagazine.co.uk/owners-elvis-presley-music-sue-anthropic-for-41-million-over-274-songs/",
+   "https://www.martincid.com/technology-sv/hugging-face-microduck-robot-20000-preorders-jensen-huang/",
+   "https://www.briefs.co/news/ai-s-data-center-buildout-is-minting-jobs-for-electricians-w/"
+  ],
+  "photo": "https://www.figma.com/api/mcp/asset/93be7e0d-ba98-4de8-b6b1-e99577dd95d0.png",
+  "photoAI": true,
+  "photoCredit": "AI 생성 이미지 (Gemini)"
+ },
+ {
+  "id": "2026-10-26-1140-howto",
+  "at": "2026-10-26T11:42:00+09:00",
+  "format": "howto",
+  "type": "carousel",
+  "topic": "프롬프트",
+  "imagePrompt": "Office documents on a desk with several lines blacked out by a marker, a laptop glowing beside them, clean bright workspace, privacy concept",
+  "parts": [
+   "회사 엑셀, AI에 그대로 올리면 안 돼요.\n\n이름·연락처가 들어간 파일은\n먼저 가려 달라고 하고 쓰면 돼요.\n바로 복사해 쓸 문장이에요.\n\n\"아래 표에서 이름·전화·이메일·주소를\n[이름1] 처럼 바꾸고, 바꾼 목록은 따로 줘.\"\n\n분석은 가린 표로, 결과에 이름만 다시 넣기.\n저장해 두고 써 보세요."
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "AI Tip",
+    "title": "AI에 올리기 전\n==이것만== 가리세요",
+    "sub": "개인정보 가리기 프롬프트"
+   },
+   {
+    "kind": "list",
+    "label": "복사해 쓰기",
+    "title": "올리기 전 3단계",
+    "items": [
+     {
+      "h": "1. 가리기 요청",
+      "d": "\"이름·전화·주소를 [이름1]로 바꿔 줘\""
+     },
+     {
+      "h": "2. 가린 표로 분석",
+      "d": "\"이 표로 요약·차트 만들어 줘\""
+     },
+     {
+      "h": "3. 내 PC에서 되돌리기",
+      "d": "바꾼 목록으로 이름만 다시 채우기"
+     }
+    ]
+   }
+  ],
+  "sources": [],
+  "photo": "https://www.figma.com/api/mcp/asset/37f2b2c0-f423-41f7-9a07-f296ccbe0cf3.png",
+  "photoAI": true,
+  "photoCredit": "AI 생성 이미지 (Gemini)"
+ },
+ {
+  "id": "2026-10-26-1440-question",
+  "at": "2026-10-26T14:36:00+09:00",
+  "format": "question",
+  "type": "image",
+  "topic": "생성형AI",
+  "imagePrompt": "A fountain pen and a glowing robotic hand both resting on the same blank sheet of paper, warm desk lamp light, thoughtful mood",
+  "parts": [
+   "AI가 같이 쓴 글,\n\"AI 사용\"이라고 밝혀야 할까요?\n\n초안만 AI가 쓰고 내가 고쳤다면?\n맞춤법만 AI가 봤다면?\n어디부터 표시해야 할지\n사람마다 기준이 다르더라고요.\n\n여러분 기준은 어디까지예요?"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "Question",
+    "title": "AI랑 쓴 글,\n==밝혀야== 할까요?",
+    "sub": "어디까지가 내 글일까"
+   }
+  ],
+  "sources": [],
+  "photo": "https://www.figma.com/api/mcp/asset/642885f9-4fce-40a4-8848-518544906458.png",
+  "photoAI": true,
+  "photoCredit": "AI 생성 이미지 (Gemini)"
+ },
+ {
+  "id": "2026-10-26-1840-deep",
+  "at": "2026-10-26T18:39:00+09:00",
+  "format": "deep",
+  "type": "carousel",
+  "topic": "AI",
+  "imagePrompt": "A dark room filled with monitors showing abstract red and orange warning patterns, a single glowing web server rack in the center, tense cybersecurity atmosphere",
+  "parts": [
+   "웹사이트 70%가 쓰는 PHP,\nAI가 치명적 구멍을 찾아냈어요.\n\n보안업체 위즈가 제미나이·GPT로 찾은\n'PHP2Shell' 취약점이 10월 21일 공개됐고,\n일부 사이트는 아예 문을 닫았어요.\n클라우드플레어 CEO는 \"몇 년간 매주\n하늘이 무너지는 느낌일 것\"이라고 했고요.\n\n카드로 정리했어요.\n내 사이트 업데이트, 언제 마지막으로 하셨어요?",
+   "출처: 위즈 https://wiz.io/blog/php2shell-php-rce · 로이터(스타애드버타이저) https://www.staradvertiser.com/2026/10/24/breaking-news/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-experts-say/\n영상으로 30초 만에 보기 → 인스타 @shift_ai_magazine"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "AI Issue",
+    "title": "AI가 찾은 구멍,\n==웹의 70%==가 위험",
+    "sub": "PHP2Shell 취약점 · AI 보안 경고"
+   },
+   {
+    "kind": "list",
+    "label": "핵심 요약",
+    "title": "무슨 일이 있었나",
+    "items": [
+     {
+      "h": "PHP 엔진 자체의 결함",
+      "d": "로그인 없이 원격 코드 실행 가능"
+     },
+     {
+      "h": "AI로 찾고 공격까지 검증",
+      "d": "위즈가 제미나이·GPT 활용"
+     },
+     {
+      "h": "10월 21일 패치 공개",
+      "d": "일부 정부 사이트는 잠시 닫기도"
+     }
+    ],
+    "imagePrompt": "A cracked glowing digital padlock floating above a laptop keyboard in a dark office, orange light leaking through the cracks",
+    "photo": "https://www.figma.com/api/mcp/asset/fccd3871-bf50-452a-a005-e4c9c364f5e9.png"
+   },
+   {
+    "kind": "text",
+    "label": "세부 내용",
+    "title": "이번 주만 대여섯 건",
+    "body": "같은 주 Node.js·Plex 구멍도 나왔어요.\nAI는 버그를 쉬지 않고 찾고\n공격 코드도 **몇 시간** 만에 만듭니다.\n예전엔 몇 주~몇 달 걸리던 일이에요.",
+    "imagePrompt": "An hourglass with glowing blue sand standing in front of rows of blurred computer screens full of abstract code patterns, dramatic side light",
+    "photo": "https://www.figma.com/api/mcp/asset/29b5a897-1f2a-454c-a4ea-af5c4748efa9.png"
+   },
+   {
+    "kind": "text",
+    "label": "시사점",
+    "title": "나한테 미치는 영향",
+    "body": "워드프레스 같은 사이트를 운영한다면\n호스팅사 공지와 **PHP 업데이트**부터.\n자동 업데이트는 켜 두는 게 안전해요.",
+    "imagePrompt": "A laptop on a tidy desk showing an abstract progress bar made of light, a green check glow reflecting on the desk, calm reassuring evening light",
+    "photo": "https://www.figma.com/api/mcp/asset/8950733e-4b9d-4947-85ee-15c6473dee47.png"
+   }
+  ],
+  "sources": [
+   "https://wiz.io/blog/php2shell-php-rce",
+   "https://www.staradvertiser.com/2026/10/24/breaking-news/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-experts-say/"
+  ],
+  "photo": "https://www.figma.com/api/mcp/asset/7653b082-1f6f-4891-a917-339b80d8099a.png",
+  "photoAI": true,
+  "photoCredit": "AI 생성 이미지 (Gemini)"
+ },
+ {
+  "id": "2026-10-26-2140-compare",
+  "at": "2026-10-26T21:41:00+09:00",
+  "format": "compare",
+  "type": "carousel",
+  "topic": "AI툴",
+  "imagePrompt": "A smartphone lying on a cafe table with glowing chat bubbles floating above the screen, small coins stacked beside it, cozy night light",
+  "parts": [
+   "앱 안 깔고 문자로 부리는 AI 비서,\n한 달 얼마일까요?\n\n테크크런치가 10월 24일 아이메시지·\n왓츠앱·텔레그램에 사는 AI 비서를\n20개 넘게 정리했어요.\n무료부터 월 20달러대까지 다양해요.\n\nAI 비서, 앱이랑 문자 중\n어느 쪽이 더 편할 것 같아요?",
+   "출처: 테크크런치 https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "AI Compare",
+    "title": "문자로 쓰는\n==AI 비서== 요금",
+    "sub": "테크크런치 정리 · 2026.10"
+   },
+   {
+    "kind": "table",
+    "label": "비교",
+    "title": "문자 AI 비서 요금",
+    "rows": [
+     [
+      "Folk",
+      "무료 / $8.33",
+      "월 · 프로"
+     ],
+     [
+      "Ohai",
+      "$9.99~",
+      "월 · 가족 일정"
+     ],
+     [
+      "Tomo",
+      "$19.99",
+      "월 · 단톡방"
+     ],
+     [
+      "Martin",
+      "$21~",
+      "월 · 전화·메일"
+     ],
+     [
+      "Ask Proxy",
+      "$1",
+      "하루 · 문자"
+     ]
+    ],
+    "note": "2026.10 기준"
+   }
+  ],
+  "sources": [
+   "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/"
+  ],
+  "photo": "https://www.figma.com/api/mcp/asset/c323a06b-59a8-4a8d-9239-ec069449a81f.png",
+  "photoAI": true,
+  "photoCredit": "AI 생성 이미지 (Gemini)"
+ }
+]
