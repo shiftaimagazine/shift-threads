@@ -56,7 +56,7 @@ async function openverse(q, id) {
   if (ovCache.has(q)) return ovCache.get(q);
   let list = [];
   try {
-    const u = 'https://api.openverse.org/v1/images/?' + new URLSearchParams({ q, license_type: 'commercial', size: 'large', page_size: '12', mature: 'false' });
+    const u = 'https://api.openverse.org/v1/images/?' + new URLSearchParams({ q, license_type: 'commercial', category: 'photograph', size: 'large', page_size: '15', mature: 'false' });
     const r = await fetch(u, { headers: { 'User-Agent': 'shift-threads/1.0 (github.com/shiftaimagazine/shift-threads)' }, signal: AbortSignal.timeout(20000) });
     const j = await r.json();
     list = (j.results || []).filter(x => (x.width || 0) >= 900 && !/\.svg/i.test(x.url)).map(x => ({ url: x.url, credit: `${x.creator ? x.creator + ' · ' : ''}${(x.license || '').toUpperCase()} ${x.license_version || ''}`.trim() + ' (Openverse)' }));

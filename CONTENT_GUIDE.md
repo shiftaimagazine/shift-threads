@@ -49,6 +49,7 @@
   - "photoFrom": 원문 기사 URL(여러 개면 배열). 그 기사의 대표 이미지를 표지에 쓰고 "사진: 매체" 를 표기한다.
   - "photoQuery": 영어 키워드 2~4개 (예: "robot hand keyboard", "data center servers", "smartphone chatbot"). 기사 이미지를 못 받으면 Openverse(상업 이용 가능 무료 사진)에서 찾아 쓰고, 내용 장들에는 이 키워드의 다른 사진들이 들어간다. 사람 얼굴 클로즈업·로고만 있는 사진이 나올 키워드는 피한다.
   - 카드별로 다른 장면을 원하면 슬라이드에 "photoQuery" 를 따로 넣는다 (예: 비교표 장 "price tag calculator").
+  - 키워드는 눈에 보이는 구체적인 사물·장면으로 (좋음: "laptop code screen", "server rack lights", "person using smartphone" / 나쁨: "AI safety", "innovation", "future"). 추상적인 단어는 엉뚱한 사진이 나온다.
   - 이미지 주소를 정확히 알면 "photo" 로 직접 지정해도 된다.
   - 사진은 원문(공식 발표·언론) 기사에서만. 성인·폭력 이미지 기사는 피한다.
   - 연구소·기업 블로그는 대표 이미지가 '글자 배너'(제목이 적힌 그림)인 경우가 많아 잘리면 보기 싫다. 그럴 땐 같은 소식을 다룬 언론 기사(사진이 있는 곳)를 photoFrom 에 넣고, 마땅치 않으면 photoFrom 을 빼서 브랜드 그래픽을 쓴다.
