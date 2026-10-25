@@ -87,12 +87,6 @@
   "filter": true
  },
  {
-  "name": "Anthropic",
-  "url": "https://www.anthropic.com/news/rss.xml",
-  "kind": "official",
-  "official": true
- },
- {
   "name": "Microsoft 블로그",
   "url": "https://blogs.microsoft.com/feed/",
   "kind": "official",
@@ -111,20 +105,6 @@
   "url": "https://research.google/blog/rss/",
   "kind": "official",
   "official": true
- },
- {
-  "name": "ZDNet Korea",
-  "url": "https://zdnet.co.kr/rss/all.xml",
-  "kind": "media",
-  "lang": "ko",
-  "filter": true
- },
- {
-  "name": "연합뉴스 IT",
-  "url": "https://www.yna.co.kr/rss/it.xml",
-  "kind": "media",
-  "lang": "ko",
-  "filter": true
  },
  {
   "name": "전자신문 SW·AI",
