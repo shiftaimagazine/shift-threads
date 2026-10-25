@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:45:57.355Z",
+ "updated": "2026-10-25T14:07:08.997Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": null,
  "followersHistory": [],
@@ -152,6 +152,17 @@
      }
     ],
     "photoFrom": "https://www.figma.com/api/mcp/asset/657f3050-5401-4dc3-86f1-1467dedb9510.png"
+   }
+  ],
+  "reels": [
+   {
+    "id": "2026-10-25-1930-canva-craft",
+    "at": "2026-10-25T19:30:00+09:00",
+    "format": "reel",
+    "type": "video",
+    "hook": "AI로 만든 포스터, 글자 깨져서 못 썼죠?",
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/De6hO8gAYZZ"
    }
   ]
  },
@@ -445,7 +456,8 @@
     ],
     "photoFrom": null
    }
-  ]
+  ],
+  "reels": []
  },
  "comments": {
   "pending": 0,
@@ -491,6 +503,12 @@
      "status": "ok",
      "cards": 2
     }
+   ],
+   "reels": [
+    {
+     "at": "2026-10-25T19:30:00+09:00",
+     "status": "ok"
+    }
    ]
   },
   {
@@ -534,7 +552,8 @@
      "status": "scheduled",
      "cards": 2
     }
-   ]
+   ],
+   "reels": []
   }
  ],
  "top": []
