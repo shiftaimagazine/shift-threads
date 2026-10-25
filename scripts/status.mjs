@@ -21,6 +21,16 @@ function day(d) {
       topic: it.topic || null, parts: it.parts || [], slides: it.slides || [], photoFrom: it.photoFrom || it.photo || null };
   }).sort((a, b) => Date.parse(a.at) - Date.parse(b.at));
 }
+// 릴스 영상 글 (reels/<날짜>.json → GitHub Actions 가 10:20·18:20 에 올림, 결과는 reels/posted.json)
+const reelPosted = read('reels/posted.json', {});
+function reelDay(d) {
+  const arr = read(`reels/${d}.json`, []);
+  return (Array.isArray(arr) ? arr : []).map(it => {
+    const p = reelPosted[it.id]?.threads || {};
+    return { id: it.id, at: it.at, format: 'reel', type: 'video', hook: String(it.threads?.text || '').split('\n')[0],
+      status: p.status || (Date.parse(it.at) <= Date.now() ? 'waiting' : 'scheduled'), link: p.link || null };
+  }).sort((a, b) => Date.parse(a.at) - Date.parse(b.at));
+}
 const inbox = read('inbox/pending.json', { items: [] });
 const done = read('replies/done.json', {});
 const sent = [];
@@ -31,16 +41,18 @@ const top = (stats.posts || []).filter(p => p.views != null && Date.parse(p.at) 
   .map(p => ({ hook: p.hook, views: p.views, likes: p.likes, replies: p.replies, reposts: p.reposts, link: p.link, at: p.at }));
 // 날짜별 진행 현황 (지난 6일 + 앞으로 준비된 모든 날): 관제실 '예약 달력'용
 const qdates = fs.existsSync(path.join(ROOT, 'queue')) ? fs.readdirSync(path.join(ROOT, 'queue')).filter(f => /^\d{4}-\d\d-\d\d\.json$/.test(f)).map(f => f.slice(0, 10)) : [];
+const rdates = fs.existsSync(path.join(ROOT, 'reels')) ? fs.readdirSync(path.join(ROOT, 'reels')).filter(f => /^\d{4}-\d\d-\d\d\.json$/.test(f)).map(f => f.slice(0, 10)) : [];
 const since = kst(new Date(Date.now() - 6 * 864e5));
-const days = [...new Set([...qdates, today, tomorrow])].filter(d => d >= since).sort().map(d => {
+const days = [...new Set([...qdates, ...rdates, today, tomorrow])].filter(d => d >= since).sort().map(d => {
   const ps = day(d), c = s => ps.filter(p => p.status === s).length;
   const needCards = ps.filter(p => p.slides.length), cardsReady = needCards.filter(p => p.cards.length).length;
   return { date: d, total: ps.length, ok: c('ok'), failed: ps.filter(p => ['failed', 'partial', 'invalid'].includes(p.status)).length,
     expired: c('expired'), waiting: c('waiting'), scheduled: c('scheduled'), needCards: needCards.length, cardsReady,
-    times: ps.map(p => ({ at: p.at, format: p.format, status: p.status, cards: p.cards.length })) };
+    times: ps.map(p => ({ at: p.at, format: p.format, status: p.status, cards: p.cards.length })),
+    reels: reelDay(d).map(r => ({ at: r.at, status: r.status })) };
 });
 const out = { updated: new Date().toISOString(), repo: REPO, followers: stats.followers ?? null, followersHistory: hist,
-  today: { date: today, posts: day(today) }, tomorrow: { date: tomorrow, posts: day(tomorrow) },
+  today: { date: today, posts: day(today), reels: reelDay(today) }, tomorrow: { date: tomorrow, posts: day(tomorrow), reels: reelDay(tomorrow) },
   comments: { pending: inbox.items?.length || 0, items: (inbox.items || []).slice(0, 10).map(c => ({ user: c.user, text: c.text, at: c.at, post: c.post?.link })), updated: inbox.updated || null },
   replies: { sent: sent.slice(-10).reverse(), total: Object.values(done).filter(d => d.status === 'ok').length },
   days, top };
