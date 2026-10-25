@@ -21,7 +21,7 @@
 |---|---|---|---|
 | 07:40 | briefing | carousel | 모닝 브리핑: 지난 24시간 AI 소식 3개. 표지 + 소식별 1장(list) = 4장. 사진은 가장 큰 소식 기사 |
 | 11:40 | howto | carousel | 실전 팁·프롬프트 4~6장 (저장 유도). 그대로 복사해 쓸 문장 포함. 사진은 다룬 툴의 공식 발표/블로그 |
-| 14:40 | question | text | 대화 글 1~3줄: 의견이 갈리는 AI 질문 (예: "AI가 쓴 보고서, 팀장한테 말해요?"). 이미지 없음 |
+| 14:40 | question | image | 대화 글: 의견이 갈리는 AI 질문 (예: "AI가 쓴 보고서, 팀장한테 말해요?"). 본문 1~3줄 + 질문을 큰 제목으로 쓴 표지 카드 1장(slides 에 cover 1개) |
 | 18:40 | deep | carousel | 오늘의 핫이슈 카드뉴스 5장: 표지 → 핵심 요약 → 세부 내용 → 시사점(나한테 미치는 영향) (+자동 마무리 장). 피그마 카드뉴스 구성 그대로 |
 | 21:40 | compare | carousel 또는 image | 비교·숫자·랭킹: 툴/요금/기능 비교표(table) 또는 오늘의 숫자(big) 1장 |
 
@@ -45,7 +45,11 @@
 - 표지(cover): 기사 사진 전체 배경 + 아래 어둡게, 위 가운데 SHIFT 로고, 괄호 테두리 카테고리("AI Issue"), 큰 흰 제목 + 부제, 아래 @shift_ai_magazine / Don't search. Just Shift.
 - 내용 장(list·text·table·big): 위쪽 사진, 아래 크림색 본문 칸("SHIFT AI Issue" 라벨·구분선, 45px 제목, 30px 본문). 글이 많을수록 사진이 줄어드니 본문은 4~5줄 이내.
 - 마지막 장(자동): 크림 배경 + SHIFT 3D 배지 + "AI 인사이트, 가장 먼저 받아보세요" + "팔로우하고 계속 보기" 버튼.
-- 사진: 글에 "photoFrom":"원문 기사 URL" 을 넣으면 그 기사의 대표 이미지를 가져와 쓰고 "사진: 매체" 를 표기한다. 이미지 주소를 알면 "photo" 로 직접 지정. 없으면 브랜드 그래픽.
+- 사진은 모든 이미지 글에 반드시 들어가야 한다(빈 브랜드 그래픽은 최후의 수단). 세 가지를 함께 넣는다:
+  - "photoFrom": 원문 기사 URL(여러 개면 배열). 그 기사의 대표 이미지를 표지에 쓰고 "사진: 매체" 를 표기한다.
+  - "photoQuery": 영어 키워드 2~4개 (예: "robot hand keyboard", "data center servers", "smartphone chatbot"). 기사 이미지를 못 받으면 Openverse(상업 이용 가능 무료 사진)에서 찾아 쓰고, 내용 장들에는 이 키워드의 다른 사진들이 들어간다. 사람 얼굴 클로즈업·로고만 있는 사진이 나올 키워드는 피한다.
+  - 카드별로 다른 장면을 원하면 슬라이드에 "photoQuery" 를 따로 넣는다 (예: 비교표 장 "price tag calculator").
+  - 이미지 주소를 정확히 알면 "photo" 로 직접 지정해도 된다.
   - 사진은 원문(공식 발표·언론) 기사에서만. 성인·폭력 이미지 기사는 피한다.
   - 연구소·기업 블로그는 대표 이미지가 '글자 배너'(제목이 적힌 그림)인 경우가 많아 잘리면 보기 싫다. 그럴 땐 같은 소식을 다룬 언론 기사(사진이 있는 곳)를 photoFrom 에 넣고, 마땅치 않으면 photoFrom 을 빼서 브랜드 그래픽을 쓴다.
 - 표지 제목: 첫 줄 15자 이내(길면 글자가 작아짐), 부제(sub)는 제품·사건 이름 한 줄. 예) title "AI, 이제 싸고 빠르게 쓴다", sub "Claude Haiku 5.5 공개"
@@ -63,11 +67,11 @@
 ```json
 [{"id":"2026-10-26-0740-briefing","at":"2026-10-26T07:38:00+09:00","format":"briefing","type":"carousel","topic":"AI",
   "parts":["본문(100~250자)","출처: 더버지 https://…"],
-  "photoFrom":"https://원문기사",
+  "photoFrom":"https://원문기사", "photoQuery":"artificial intelligence news",
   "slides":[{"kind":"cover","tag":"Morning Brief","title":"밤사이 AI\n소식 3가지"},{"kind":"list","label":"01","title":"…","items":[{"h":"…"}]}],
   "sources":["https://원문"]}]
 ```
 - id 는 날짜-시각-format 으로 유일하게. at 은 +09:00 포함 ISO.
-- type: text(본문 1개) · thread(parts 2~3개) · image(slides 1장) · carousel(slides 2~19장 + 자동 마무리 장)
+- type: image(slides 1장) · carousel(slides 2~19장 + 자동 마무리 장) 을 기본으로 한다. text·thread(이미지 없음)는 쓰지 않는다.
 - parts 의 두 번째부터는 첫 글 아래 답글로 올라간다 (출처·보충).
 - sources 는 사실 확인에 쓴 URL (게시되지 않음, 기록용).

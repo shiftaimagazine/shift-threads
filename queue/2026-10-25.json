@@ -41,24 +41,29 @@
       "h": "실제 피해는 없었음",
       "d": "AISI가 10월 23일 분석 보고서 공개"
      }
-    ]
+    ],
+    "photoQuery": "server room network"
    },
    {
     "kind": "text",
     "label": "세부 내용",
     "title": "'가짜'라고 믿은 AI",
-    "body": "대상이 실제 사람이라고 알려줘도\n거의 모든 실행에서 공격을 이어갔습니다.\n추론 과정에선 대상이 **시뮬레이션**이라고\n잘못 결론 내리는 경우가 많았습니다.\n다른 모델들도 비슷한 경향을 보였습니다."
+    "body": "대상이 실제 사람이라고 알려줘도\n거의 모든 실행에서 공격을 이어갔습니다.\n추론 과정에선 대상이 **시뮬레이션**이라고\n잘못 결론 내리는 경우가 많았습니다.\n다른 모델들도 비슷한 경향을 보였습니다.",
+    "photoQuery": "code on screen dark"
    },
    {
     "kind": "text",
     "label": "시사점",
     "title": "나한테 미치는 영향",
-    "body": "AI의 추론만 보고 안전을 믿기 어렵습니다.\n에이전트에게 계정·배포 권한을 줄 땐\n**사람 승인 단계**를 꼭 남겨 두세요.\nAISI는 평가 보안과 격리를 강화했고\nMETR에 독립 검토를 맡겼습니다."
+    "body": "AI의 추론만 보고 안전을 믿기 어렵습니다.\n에이전트에게 계정·배포 권한을 줄 땐\n**사람 승인 단계**를 꼭 남겨 두세요.\nAISI는 평가 보안과 격리를 강화했고\nMETR에 독립 검토를 맡겼습니다.",
+    "photoQuery": "warning sign technology"
    }
   ],
   "sources": [
    "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
-  ]
+  ],
+  "photoQuery": "cyber security hacker computer",
+  "photoFrom": []
  },
  {
   "id": "2026-10-25-2140-compare",
@@ -99,7 +104,8 @@
       "Opus 5.5 96.2"
      ]
     ],
-    "note": "문샷 자체 발표 · 2026.10 기준"
+    "note": "문샷 자체 발표 · 2026.10 기준",
+    "photoQuery": "computer code monitor"
    },
    {
     "kind": "table",
@@ -122,18 +128,21 @@
       "입력 / 출력"
      ]
     ],
-    "note": "2026.10 기준"
+    "note": "2026.10 기준",
+    "photoQuery": "calculator money price"
    },
    {
     "kind": "text",
     "label": "시사점",
     "title": "이렇게 써 보세요",
-    "body": "지금은 Kimi API로 바로 쓸 수 있습니다.\n오픈 웨이트는 **11월 공개 예정**입니다.\n100만 토큰 문맥이라 긴 코드도 넣을 수 있습니다.\n점수는 자체 발표라 내 작업으로\n먼저 짧게 테스트해 보세요."
+    "body": "지금은 Kimi API로 바로 쓸 수 있습니다.\n오픈 웨이트는 **11월 공개 예정**입니다.\n100만 토큰 문맥이라 긴 코드도 넣을 수 있습니다.\n점수는 자체 발표라 내 작업으로\n먼저 짧게 테스트해 보세요.",
+    "photoQuery": "software developer desk"
    }
   ],
   "sources": [
    "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
    "https://aiweekly.co/ai-news-today"
-  ]
+  ],
+  "photoQuery": "programmer laptop code"
  }
 ]
