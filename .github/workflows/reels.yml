@@ -1,0 +1,28 @@
+name: 릴스 영상 올리기 (쓰레드·인스타)
+on:
+  schedule:
+    - cron: '5,35 * * * *'   # 30분마다: 예약 시각이 지난 릴스 영상을 올림
+  workflow_dispatch:
+    inputs:
+      mode: { description: 'post = 올리기, check = 키 확인만', default: 'post' }
+      dry_run: { description: '1 이면 미리보기만', default: '0' }
+permissions: { contents: write }
+concurrency: { group: threads-repo, cancel-in-progress: false }
+jobs:
+  reels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 24 }
+      - run: node scripts/reels.mjs
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          MODE: ${{ inputs.mode || 'post' }}
+          DRY_RUN: ${{ inputs.dry_run || '0' }}
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "shift-threads-bot"; git config user.email "actions@users.noreply.github.com"
+          git add reels/posted.json reels/status.json 2>/dev/null; git diff --cached --quiet || (git commit -m "릴스 업로드 기록" && git pull --rebase && git push)

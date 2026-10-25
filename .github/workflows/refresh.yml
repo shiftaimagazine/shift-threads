@@ -1,4 +1,4 @@
-name: 쓰레드 키 갱신
+name: 쓰레드·인스타 키 갱신
 on:
   schedule:
     - cron: '20 0 * * 1'   # 매주 월요일 09:20 (한국)
@@ -13,4 +13,10 @@ jobs:
       - run: node scripts/refresh.mjs
         env:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+      - name: 인스타 키 갱신 (IG_TOKEN 이 있을 때만)
+        if: always()
+        run: node scripts/refresh-ig.mjs
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_PAT }}
