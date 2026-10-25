@@ -39,6 +39,17 @@ else status.instagram = 'IG_TOKEN 없음 (인스타는 Metricool·직접 업로�
 console.log(`쓰레드: ${status.threads || '키 없음'} · 인스타: ${status.instagram}`);
 fs.writeFileSync(statusFile, JSON.stringify(status, null, 1) + '\n');
 if (MODE === 'check') process.exit(0);
+if (MODE === 'igtest') {   // 인스타 게시 준비만 시험 (컨테이너만 만들고 게시하지 않음)
+  if (!igMe) { console.log('인스타 키 없음'); process.exit(1); }
+  const vid = process.env.TEST_VIDEO;
+  const c = await igApi('POST', `/${igMe.user_id}/media`, { media_type: 'REELS', video_url: driveUrl(vid), caption: 'test', share_to_feed: 'true' });
+  let st = {};
+  for (let i = 0; i < 30; i++) { await sleep(10000); st = await igApi('GET', `/${c.id}`, { fields: 'status_code,status' }).catch(e => ({ status: e.message })); if (st.status_code === 'FINISHED' || st.status_code === 'ERROR') break; }
+  console.log(`인스타 게시 준비 시험: ${st.status_code || '?'} ${st.status || ''} (게시하지 않음)`);
+  status.igPublishTest = { at: new Date().toISOString(), result: st.status_code || st.status || '?' };
+  fs.writeFileSync(statusFile, JSON.stringify(status, null, 1) + '\n');
+  process.exit(st.status_code === 'FINISHED' ? 0 : 1);
+}
 
 // ── 올릴 항목 ──
 const posted = fs.existsSync(postedFile) ? JSON.parse(fs.readFileSync(postedFile, 'utf8')) : {};

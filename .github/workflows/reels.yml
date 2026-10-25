@@ -4,7 +4,8 @@ on:
     - cron: '5,35 * * * *'   # 30분마다: 예약 시각이 지난 릴스 영상을 올림
   workflow_dispatch:
     inputs:
-      mode: { description: 'post = 올리기, check = 키 확인만', default: 'post' }
+      mode: { description: 'post = 올리기, check = 키 확인만, igtest = 인스타 게시 준비 시험(게시 안 함)', default: 'post' }
+      test_video: { description: 'igtest 용 드라이브 영상 파일 ID', default: '' }
       dry_run: { description: '1 이면 미리보기만', default: '0' }
 permissions: { contents: write }
 concurrency: { group: threads-repo, cancel-in-progress: false }
@@ -21,6 +22,7 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           MODE: ${{ inputs.mode || 'post' }}
           DRY_RUN: ${{ inputs.dry_run || '0' }}
+          TEST_VIDEO: ${{ inputs.test_video || '' }}
       - name: 기록 저장
         if: always()
         run: |
