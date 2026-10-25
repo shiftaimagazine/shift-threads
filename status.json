@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:44:09.289Z",
+ "updated": "2026-10-25T07:46:26.869Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": null,
  "followersHistory": [],
@@ -76,7 +76,7 @@
       ]
      }
     ],
-    "photoFrom": null
+    "photoFrom": "https://www.figma.com/api/mcp/asset/34e60b52-4dc5-4afb-aaa6-779bd8451294.png"
    },
    {
     "id": "2026-10-25-2140-compare",
@@ -133,7 +133,7 @@
       "note": "2026.10 기준"
      }
     ],
-    "photoFrom": null
+    "photoFrom": "https://www.figma.com/api/mcp/asset/657f3050-5401-4dc3-86f1-1467dedb9510.png"
    }
   ]
  },
