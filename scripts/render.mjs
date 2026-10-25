@@ -15,69 +15,68 @@ const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').re
 const rich = s => esc(s).replace(/\n/g, '<br>').replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/==(.+?)==/g, '<mark>$1</mark>');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
 
-// ── 사진 가져오기 ──
-//  1) photoFrom: 원문 기사(여러 개면 배열)의 대표 이미지(og:image·twitter:image·JSON-LD image)
-//  2) photoQuery: 영어 키워드로 Openverse(무료·상업 이용 가능 라이선스 사진) 검색 — 키 필요 없음
-//  카드마다 slide.photoQuery 로 다른 사진을 지정할 수 있음. 아무것도 없으면 브랜드 그래픽
+// ── 사진 가져오기 (기사 사진만, 출처 표기) ──
+//  photoFrom: 같은 소식을 다룬 기사 URL 2~3개(배열). 각 기사의 대표 이미지(og:image)와 본문 속 큰 사진을 모아
+//  표지에는 첫 사진, 내용 장에는 다른 사진을 차례로 씀. 카드 아래 "사진: 매체" 표기. 다 실패하면 표지 사진 재사용
 const why = (id, m) => console.log(`  사진 실패(${id}): ${m}`);
+const H = { 'User-Agent': UA, 'Accept-Language': 'ko-KR,ko;q=0.9,en;q=0.8', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Upgrade-Insecure-Requests': '1' };
 async function download(url, referer, id) {
   try {
-    const r = await fetch(url, { headers: { 'User-Agent': UA, Referer: referer || '', Accept: 'image/avif,image/webp,image/png,image/jpeg,*/*' }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
+    const r = await fetch(url, { headers: { 'User-Agent': UA, Referer: referer || '', Accept: 'image/avif,image/webp,image/png,image/jpeg,*/*', 'Sec-Fetch-Dest': 'image' }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
     const type = (r.headers.get('content-type') || '').split(';')[0];
     if (!r.ok) return why(id, `${r.status} ${url}`), null;
-    if (!type.startsWith('image/') || type.includes('svg')) return why(id, `이미지 아님(${type}) ${url}`), null;
+    if (!type.startsWith('image/') || type.includes('svg') || type.includes('gif')) return why(id, `이미지 아님(${type}) ${url}`), null;
     const buf = Buffer.from(await r.arrayBuffer());
-    if (buf.length < 20000) return why(id, `너무 작음(${buf.length}B) ${url}`), null;
+    if (buf.length < 30000) return null;                              // 아이콘·로고·썸네일 제외
     return `data:${type};base64,` + buf.toString('base64');
   } catch (e) { return why(id, `${e.message} ${url}`), null; }
 }
-async function fromArticle(page, id) {
+const BAD = /(logo|icon|avatar|sprite|favicon|badge|emoji|placeholder|blank|pixel|tracking|ads?[\/_-]|banner-ad|author|profile|gravatar|1x1|spacer)/i;
+async function articleImages(page, id) {
   try {
-    const r = await fetch(page, { headers: { 'User-Agent': UA, 'Accept-Language': 'ko,en;q=0.8', Accept: 'text/html' }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
-    if (!r.ok) return why(id, `기사 ${r.status} ${page}`), null;
+    const r = await fetch(page, { headers: { ...H, Accept: 'text/html,application/xhtml+xml' }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
+    if (!r.ok) return why(id, `기사 ${r.status} ${page}`), [];
     const html = await r.text();
+    const abs = u => { try { return new URL(u.replace(/&amp;/g, '&').replace(/\\\//g, '/'), r.url || page).href; } catch { return null; } };
     const metas = [...html.matchAll(/<meta\b[^>]*>/gi)].map(m => m[0]);
-    const attr = (tag, n) => (tag.match(new RegExp(`${n}\\s*=\\s*["']([^"']+)["']`, 'i')) || [])[1];
-    let url = null;
+    const attr = (tag, n) => (tag.match(new RegExp(`\\b${n}\\s*=\\s*["']([^"']+)["']`, 'i')) || [])[1];
+    const out = [];
     for (const key of ['og:image:secure_url', 'og:image', 'twitter:image', 'twitter:image:src']) {
       const t = metas.find(m => (attr(m, 'property') || attr(m, 'name') || '').toLowerCase() === key);
-      if (t && attr(t, 'content')) { url = attr(t, 'content'); break; }
+      if (t && attr(t, 'content')) { out.push(abs(attr(t, 'content'))); break; }
     }
-    if (!url) { const ld = html.match(/"image"\s*:\s*(?:\{[^}]*?"url"\s*:\s*)?"(https?:[^"]+)"/i) || html.match(/"image"\s*:\s*\[\s*"(https?:[^"]+)"/i); if (ld) url = ld[1]; }
-    if (!url) return why(id, `대표 이미지 없음 ${page}`), null;
-    url = new URL(url.replace(/&amp;/g, '&').replace(/\\\//g, '/'), page).href;
-    const src = await download(url, page, id);
-    return src ? { src, credit: new URL(page).hostname.replace(/^www\./, '') } : null;
-  } catch (e) { return why(id, `${e.message} ${page}`), null; }
+    // 본문 속 사진: srcset 의 가장 큰 것 > data-src > src
+    const body = html.split(/<\/header>/i).slice(1).join('') || html;
+    for (const m of body.matchAll(/<img\b[^>]*>/gi)) {
+      const tag = m[0], w = +(attr(tag, 'width') || 0);
+      if (w && w < 500) continue;
+      let u = null;
+      const ss = attr(tag, 'srcset') || attr(tag, 'data-srcset');
+      if (ss) u = ss.split(',').map(x => x.trim().split(/\s+/)).sort((a, b) => parseInt(b[1] || 0) - parseInt(a[1] || 0))[0]?.[0];
+      u = u || attr(tag, 'data-src') || attr(tag, 'data-lazy-src') || attr(tag, 'src');
+      if (!u || u.startsWith('data:') || BAD.test(u) || BAD.test(attr(tag, 'alt') || '') || /\.(svg|gif)(\?|$)/i.test(u)) continue;
+      out.push(abs(u));
+    }
+    const credit = new URL(page).hostname.replace(/^www\./, '');
+    return [...new Set(out.filter(Boolean))].slice(0, 8).map(url => ({ url, page, credit }));
+  } catch (e) { return why(id, `${e.message} ${page}`), []; }
 }
-const ovCache = new Map();
-async function openverse(q, id) {
-  if (!q) return [];
-  if (ovCache.has(q)) return ovCache.get(q);
-  let list = [];
-  try {
-    const u = 'https://api.openverse.org/v1/images/?' + new URLSearchParams({ q, license_type: 'commercial', category: 'photograph', size: 'large', page_size: '15', mature: 'false' });
-    const r = await fetch(u, { headers: { 'User-Agent': 'shift-threads/1.0 (github.com/shiftaimagazine/shift-threads)' }, signal: AbortSignal.timeout(20000) });
-    const j = await r.json();
-    list = (j.results || []).filter(x => (x.width || 0) >= 900 && !/\.svg/i.test(x.url)).map(x => ({ url: x.url, credit: `${x.creator ? x.creator + ' · ' : ''}${(x.license || '').toUpperCase()} ${x.license_version || ''}`.trim() + ' (Openverse)' }));
-    if (!list.length) why(id, `Openverse 결과 없음 "${q}"`);
-  } catch (e) { why(id, `Openverse ${e.message}`); }
-  ovCache.set(q, list); return list;
-}
-const used = new Set();
-async function fromQuery(q, id) {
-  for (const x of await openverse(q, id)) {
-    if (used.has(x.url)) continue;
-    const src = await download(x.url, '', id);
-    if (src) { used.add(x.url); return { src, credit: x.credit }; }
+async function getPhotos(it) {
+  if (it.photoFile && fs.existsSync(it.photoFile)) return [{ src: b64(it.photoFile, 'image/png'), credit: it.photoCredit || 'SHIFT AI' }];   // 로컬 시험용
+  const cands = [];
+  if (it.photo) cands.push({ url: it.photo, page: [].concat(it.photoFrom || [])[0] || '', credit: it.photoCredit || new URL(it.photo).hostname.replace(/^www\./, '') });
+  const pages = [].concat(it.photoFrom || []);
+  const lists = await Promise.all(pages.map(pg => articleImages(pg, it.id)));
+  // 기사별 대표 이미지를 먼저, 그다음 본문 사진을 번갈아 (한 기사 사진만 몰리지 않게)
+  for (let k = 0; k < 8; k++) for (const l of lists) if (l[k]) cands.push(l[k]);
+  const photos = [], seen = new Set();
+  for (const c of cands) {
+    if (photos.length >= 6 || seen.has(c.url)) continue; seen.add(c.url);
+    const src = await download(c.url, c.page, it.id);
+    if (src) photos.push({ src, credit: it.photoCredit || c.credit });
   }
-  return null;
-}
-async function getPhoto(it) {
-  if (it.photoFile && fs.existsSync(it.photoFile)) return { src: b64(it.photoFile, 'image/png'), credit: it.photoCredit || 'SHIFT AI' };   // 로컬 시험용
-  if (it.photo) { const src = await download(it.photo, it.photoFrom, it.id); if (src) return { src, credit: it.photoCredit || new URL(it.photoFrom || it.photo).hostname.replace(/^www\./, '') }; }
-  for (const page of [].concat(it.photoFrom || [])) { const p = await fromArticle(page, it.id); if (p) return { ...p, credit: it.photoCredit || p.credit }; }
-  return fromQuery(it.photoQuery, it.id);
+  if (!photos.length) why(it.id, '기사 사진을 하나도 못 받음 → 브랜드 그래픽');
+  return photos;
 }
 
 // 템플릿 값 (피그마에서 읽은 그대로)
@@ -161,19 +160,17 @@ if (!todo.length) process.exit(0);
 const b = await chromium.launch();
 const p = await b.newPage({ viewport: { width: 1080, height: 1350 } });
 for (const it of todo) {
-  const ph = await getPhoto(it);
-  const extra = [];   // 내용 장마다 다른 사진 (slide.photoQuery 또는 글의 photoQuery 다음 결과)
+  const photos = await getPhotos(it), ph = photos[0] || null;
   const slides = it.type === 'carousel' && it.slides.at(-1)?.kind !== 'cta' ? [...it.slides, { kind: 'cta' }] : it.slides.slice(0, it.type === 'image' ? 1 : 20);
   const dir = path.join(ROOT, 'media', it.id); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   for (const [j, s] of slides.entries()) {
-    let sp = ph;
-    if (j > 0 && s.kind !== 'cta') sp = (s.photoQuery ? await fromQuery(s.photoQuery, it.id) : null) || (it.photoQuery && j > 1 ? await fromQuery(it.photoQuery, it.id) : null) || ph;
+    const sp = j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph;   // 내용 장은 표지와 다른 사진부터
     await p.setContent(`<!doctype html><html><head><meta charset=utf-8><style>${css}</style></head><body>${slide(s, sp)}</body></html>`);
     await p.evaluate(() => document.fonts.ready);
     const bad = await p.evaluate(() => { const ph = document.querySelector('.ph'); const w = document.getElementById('w'); return (ph && ph.getBoundingClientRect().height < 471) || (w && w.getBoundingClientRect().top < 100); });
     if (bad) console.log(`  ! ${it.id} ${j + 1}장 글이 많아 사진이 너무 작음 — 글을 줄이세요`);
     await p.screenshot({ path: path.join(dir, String(j + 1).padStart(2, '0') + '.png') });
   }
-  console.log(`  ${it.id}: ${slides.length}장 · 사진 ${ph ? ph.credit : '없음(브랜드 그래픽)'}`);
+  console.log(`  ${it.id}: ${slides.length}장 · 사진 ${photos.length}장 (${[...new Set(photos.map(x => x.credit))].join(', ') || '없음'})`);
 }
 await b.close();
