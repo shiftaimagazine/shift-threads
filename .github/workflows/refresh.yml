@@ -1,0 +1,16 @@
+name: 쓰레드 키 갱신
+on:
+  schedule:
+    - cron: '20 0 * * 1'   # 매주 월요일 09:20 (한국)
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - uses: actions/checkout@v4
+      - run: node scripts/refresh.mjs
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}

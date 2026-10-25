@@ -1,0 +1,34 @@
+name: 쓰레드 올리기
+on:
+  schedule:
+    - cron: '10 1,6,11 * * *'   # 한국 시간 10:10 · 15:10 · 20:10 (GitHub 사정으로 몇 분~수십 분 늦을 수 있음)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'post = 올리기, check = 키 확인만'
+        default: 'post'
+      dry_run:
+        description: '1 이면 미리보기만 (실제로 안 올림)'
+        default: '0'
+permissions:
+  contents: write
+concurrency: { group: threads-post, cancel-in-progress: false }
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node scripts/post.mjs
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          MODE: ${{ inputs.mode || 'post' }}
+          DRY_RUN: ${{ inputs.dry_run || '0' }}
+      - name: 올린 기록 저장
+        if: always()
+        run: |
+          git config user.name "shift-threads-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add posted.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "쓰레드 업로드 기록" && git pull --rebase && git push)
