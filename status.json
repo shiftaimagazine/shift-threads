@@ -1,8 +1,13 @@
 {
- "updated": "2026-10-25T20:04:49.322Z",
+ "updated": "2026-10-25T21:00:34.630Z",
  "repo": "shiftaimagazine/shift-threads",
- "followers": null,
- "followersHistory": [],
+ "followers": 74,
+ "followersHistory": [
+  {
+   "date": "2026-10-26",
+   "followers": 74
+  }
+ ],
  "today": {
   "date": "2026-10-26",
   "posts": [
@@ -411,5 +416,51 @@
    "reels": []
   }
  ],
- "top": []
+ "top": [
+  {
+   "hook": "GTA6 보다 하늘을 나는 자동차가 먼저 나왔습니다.",
+   "views": 277,
+   "likes": 3,
+   "replies": 2,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DeqNm-hCTBl",
+   "at": "2026-10-19T02:43:35+0000"
+  },
+  {
+   "hook": "이 단편영화, 촬영한 장면이 하나도 없어요.",
+   "views": 200,
+   "likes": 2,
+   "replies": 0,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/De0m7ixjfEM",
+   "at": "2026-10-23T03:37:14+0000"
+  },
+  {
+   "hook": "클로드에게 \"네가 꿈꾸는 미래를 그려봐\"라고 했을 때 일어난 일 🎨✨",
+   "views": 152,
+   "likes": 2,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DeqLxe-idWR",
+   "at": "2026-10-19T02:27:30+0000"
+  },
+  {
+   "hook": "AI 안전 시험 중에",
+   "views": 146,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/De6dSdwFvVJ",
+   "at": "2026-10-25T10:08:36+0000"
+  },
+  {
+   "hook": "💡 AI 에이전트 만들고 $50 벌 수 있는 대외활동?!",
+   "views": 101,
+   "likes": 1,
+   "replies": 0,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DeqXWi2kwOx",
+   "at": "2026-10-19T04:08:43+0000"
+  }
+ ]
 }
