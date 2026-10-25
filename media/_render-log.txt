@@ -1,2 +1,2 @@
-2026-10-25T13:10:04.203Z
-2026-10-26-1140-howto: 화면 캡처 실패 page.goto: Timeout 30000ms exceeded. https://www.microsoft.com/ko-kr/microsoft-365/excel
+2026-10-25T13:12:02.352Z
+사진 실패 없음

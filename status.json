@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:10:04.269Z",
+ "updated": "2026-10-25T13:12:02.408Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": null,
  "followersHistory": [],
@@ -199,10 +199,7 @@
       "label": "소식 1",
       "title": "엘비스, 클로드 고소",
       "body": "엘비스 음악 권리사가 앤트로픽을 고소.\n노래 **274곡**을 허락 없이 학습했다는 주장.\n청구액은 약 **4,100만 달러**.",
-      "shot": {
-       "url": "https://www.anthropic.com/",
-       "credit": "anthropic.com"
-      }
+      "commons": "File:Graceland front.jpg"
      },
      {
       "kind": "text",
@@ -441,8 +438,8 @@
       ],
       "note": "2026.10 기준",
       "shot": {
-       "url": "https://askproxy.com/",
-       "credit": "askproxy.com"
+       "url": "https://www.trymartin.com",
+       "credit": "trymartin.com"
       }
      }
     ],
