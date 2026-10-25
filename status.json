@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:56:56.600Z",
+ "updated": "2026-10-25T13:10:04.269Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": null,
  "followersHistory": [],
@@ -199,27 +199,28 @@
       "label": "소식 1",
       "title": "엘비스, 클로드 고소",
       "body": "엘비스 음악 권리사가 앤트로픽을 고소.\n노래 **274곡**을 허락 없이 학습했다는 주장.\n청구액은 약 **4,100만 달러**.",
-      "imagePrompt": "A vintage microphone and a stack of old vinyl records on a dark wooden desk next to a closed legal folder and a judge's gavel, moody spotlight",
-      "photo": "https://www.figma.com/api/mcp/asset/28029ac8-417f-4487-ad8a-5ed4493979a5.png"
+      "shot": {
+       "url": "https://www.anthropic.com/",
+       "credit": "anthropic.com"
+      }
      },
      {
       "kind": "text",
       "label": "소식 2",
       "title": "399달러 오리 로봇",
       "body": "허깅페이스 계열 걷는 로봇 Microduck.\n젠슨 황 시연 다음 날 **예약 2만 대**.\n키 25cm, 소프트웨어는 오픈소스.",
-      "imagePrompt": "A small cute walking robot shaped like a duck standing on a bright workshop table, tiny motors and wires visible, playful soft studio light",
-      "photo": "https://www.figma.com/api/mcp/asset/e02a1236-b4c1-4a4d-a429-83535ae3acea.png"
+      "photoFrom": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "photoCredit": "Hugging Face/Pollen Robotics"
      },
      {
       "kind": "text",
       "label": "소식 3",
       "title": "데이터센터 연봉 급등",
       "body": "미국 데이터센터 일자리 최소 연봉 평균\n1년 새 **125.1%** 올라 약 20.8만 달러.\n용접·배관공 구인도 164% 늘었어요.",
-      "imagePrompt": "A worker's hard hat and gloves resting on a cable tray inside a huge glowing data center hall with long rows of server racks, blue light",
-      "photo": "https://www.figma.com/api/mcp/asset/3c770511-193f-4496-8e38-6a0220e02738.png"
+      "commons": "File:BalticServers data center.jpg"
      }
     ],
-    "photoFrom": "https://www.figma.com/api/mcp/asset/93be7e0d-ba98-4de8-b6b1-e99577dd95d0.png"
+    "photoFrom": null
    },
    {
     "id": "2026-10-26-1140-howto",
@@ -268,7 +269,7 @@
       ]
      }
     ],
-    "photoFrom": "https://www.figma.com/api/mcp/asset/37f2b2c0-f423-41f7-9a07-f296ccbe0cf3.png"
+    "photoFrom": null
    },
    {
     "id": "2026-10-26-1440-question",
@@ -297,7 +298,9 @@
       "sub": "어디까지가 내 글일까"
      }
     ],
-    "photoFrom": "https://www.figma.com/api/mcp/asset/642885f9-4fce-40a4-8848-518544906458.png"
+    "photoFrom": [
+     "https://about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/"
+    ]
    },
    {
     "id": "2026-10-26-1840-deep",
@@ -351,27 +354,29 @@
         "d": "일부 정부 사이트는 잠시 닫기도"
        }
       ],
-      "imagePrompt": "A cracked glowing digital padlock floating above a laptop keyboard in a dark office, orange light leaking through the cracks",
-      "photo": "https://www.figma.com/api/mcp/asset/fccd3871-bf50-452a-a005-e4c9c364f5e9.png"
+      "shot": {
+       "url": "https://wiz.io/blog/php2shell-php-rce",
+       "credit": "wiz.io"
+      }
      },
      {
       "kind": "text",
       "label": "세부 내용",
       "title": "이번 주만 대여섯 건",
       "body": "같은 주 Node.js·Plex 구멍도 나왔어요.\nAI는 버그를 쉬지 않고 찾고\n공격 코드도 **몇 시간** 만에 만듭니다.\n예전엔 몇 주~몇 달 걸리던 일이에요.",
-      "imagePrompt": "An hourglass with glowing blue sand standing in front of rows of blurred computer screens full of abstract code patterns, dramatic side light",
-      "photo": "https://www.figma.com/api/mcp/asset/29b5a897-1f2a-454c-a4ea-af5c4748efa9.png"
+      "commons": "File:Co-founder and CEO of Cloudflare Matthew Prince.jpg"
      },
      {
       "kind": "text",
       "label": "시사점",
       "title": "나한테 미치는 영향",
       "body": "워드프레스 같은 사이트를 운영한다면\n호스팅사 공지와 **PHP 업데이트**부터.\n자동 업데이트는 켜 두는 게 안전해요.",
-      "imagePrompt": "A laptop on a tidy desk showing an abstract progress bar made of light, a green check glow reflecting on the desk, calm reassuring evening light",
-      "photo": "https://www.figma.com/api/mcp/asset/8950733e-4b9d-4947-85ee-15c6473dee47.png"
+      "commons": "File:Blue Open Goodies ElePHPant (23626304652).jpg"
      }
     ],
-    "photoFrom": "https://www.figma.com/api/mcp/asset/7653b082-1f6f-4891-a917-339b80d8099a.png"
+    "photoFrom": [
+     "https://wiz.io/blog/php2shell-php-rce"
+    ]
    },
    {
     "id": "2026-10-26-2140-compare",
@@ -434,10 +439,14 @@
         "하루 · 문자"
        ]
       ],
-      "note": "2026.10 기준"
+      "note": "2026.10 기준",
+      "shot": {
+       "url": "https://askproxy.com/",
+       "credit": "askproxy.com"
+      }
      }
     ],
-    "photoFrom": "https://www.figma.com/api/mcp/asset/c323a06b-59a8-4a8d-9239-ec069449a81f.png"
+    "photoFrom": null
    }
   ]
  },
