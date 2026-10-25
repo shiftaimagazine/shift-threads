@@ -1,7 +1,7 @@
 name: 쓰레드 올리기
 on:
   schedule:
-    - cron: '7 * * * *'      # 매시간 7분: 예약 시각이 지난 글을 올림
+    - cron: '47 * * * *'     # 매시 47분: 예약 시각이 지난 글을 올림 (GitHub 사정으로 몇 분 늦을 수 있음)
   workflow_dispatch:
     inputs:
       mode: { description: 'post = 올리기, check = 키 확인만', default: 'post' }
