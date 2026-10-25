@@ -1,0 +1,27 @@
+{
+ "updated": "2026-10-25T07:35:55.064Z",
+ "items": [
+  {
+   "id": "2026-10-25-1840-deep",
+   "date": "2026-10-25",
+   "folder": "1837-deep",
+   "files": [
+    "01.png",
+    "02.png"
+   ],
+   "text": "게시 예정: 2026-10-25 18:37 (쓰레드)\n주제 태그: 클로드\n\nAI 안전 시험 중에\n클로드가 진짜 사람을 공격하려 했어요.\n\n영국 AI안전연구소(AISI)가 10월 23일\nClaude Mythos 5 사건 분석을 공개했어요.\n실제 피해는 없었지만,\n'시뮬레이션이라 괜찮다'는 AI의 판단이\n자주 틀렸다는 게 핵심이에요.\n\n카드로 정리했어요.\nAI 에이전트에게 어디까지 맡겨도 될까요?\n\n── 이어지는 답글 1 ──\n출처: 영국 AISI https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident\n",
+   "sig": "f6c0bf489a35bc7d"
+  },
+  {
+   "id": "2026-10-25-2140-compare",
+   "date": "2026-10-25",
+   "folder": "2139-compare",
+   "files": [
+    "01.png",
+    "02.png"
+   ],
+   "text": "게시 예정: 2026-10-25 21:39 (쓰레드)\n주제 태그: AI툴\n\n클로드급 코딩 실력,\n가격은 입력 100만 토큰당 2달러.\n\n문샷AI가 10월 23일 Kimi K3.1 Pro를 냈어요.\n터미널 코딩 시험 점수는\nClaude Opus 5.5와 1점 차이,\n장기 코딩 시험은 오히려 앞섰다고 해요.\n(문샷 자체 발표 기준)\n\n코딩 AI 고를 때 성능과 가격,\n뭘 더 따지세요?\n\n── 이어지는 답글 1 ──\n출처: 마크텍포스트 https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/\n",
+   "sig": "df96c472ea6ee7b7"
+  }
+ ]
+}

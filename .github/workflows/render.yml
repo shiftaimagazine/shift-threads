@@ -14,10 +14,7 @@ jobs:
         with: { node-version: 24 }
       - run: npm install --no-audit --no-fund && npx playwright install --with-deps chromium
       - run: node scripts/render.mjs
-      - name: 드라이브에 복사
-        run: node scripts/drive-upload.mjs
-        env: { DRIVE_HOOK_URL: '${{ secrets.DRIVE_HOOK_URL }}' }
       - name: 이미지 저장
         run: |
           git config user.name "shift-threads-bot"; git config user.email "actions@users.noreply.github.com"
-          node scripts/status.mjs || true; git add media status.json; git diff --cached --quiet || (git commit -m "카드 이미지" && git pull --rebase && git push)
+          node scripts/status.mjs || true; node scripts/drive-index.mjs || true; git add media status.json drive-index.json; git diff --cached --quiet || (git commit -m "카드 이미지" && git pull --rebase && git push)
