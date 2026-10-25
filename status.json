@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:32:14.279Z",
+ "updated": "2026-10-25T12:56:56.600Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": null,
  "followersHistory": [],
@@ -102,7 +102,7 @@
     "format": "compare",
     "type": "carousel",
     "hook": "클로드급 코딩 실력, 가격은 입력 100만 토큰당 2달러.",
-    "status": "scheduled",
+    "status": "waiting",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-2140-compare/01.png",
@@ -444,7 +444,7 @@
  "comments": {
   "pending": 0,
   "items": [],
-  "updated": "2026-10-25T11:45:35.698Z"
+  "updated": "2026-10-25T12:56:56.451Z"
  },
  "replies": {
   "sent": [
@@ -462,8 +462,8 @@
    "ok": 2,
    "failed": 0,
    "expired": 0,
-   "waiting": 0,
-   "scheduled": 1,
+   "waiting": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -482,7 +482,7 @@
     {
      "at": "2026-10-25T21:39:00+09:00",
      "format": "compare",
-     "status": "scheduled",
+     "status": "waiting",
      "cards": 2
     }
    ]
