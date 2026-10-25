@@ -1,0 +1,22 @@
+name: 댓글 모으기·답글 올리기
+on:
+  schedule:
+    - cron: '17 * * * *'     # 매시 17분: 새 댓글 모으기 + 써 둔 답글 올리기
+  push:
+    paths: ['replies/2*.json']   # 클라우드 답글 작업이 답글을 넣으면 바로 올림
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: { group: threads-repo, cancel-in-progress: false }
+jobs:
+  inbox:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 24 }
+      - run: node scripts/inbox.mjs
+        env: { THREADS_TOKEN: '${{ secrets.THREADS_TOKEN }}' }
+      - if: always()
+        run: |
+          git config user.name "shift-threads-bot"; git config user.email "actions@users.noreply.github.com"
+          git add inbox replies/done.json; git diff --cached --quiet || (git commit -m "댓글함" && git pull --rebase && git push)

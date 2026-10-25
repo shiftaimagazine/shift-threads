@@ -1,8 +1,8 @@
-// queue/*.json 의 carousel·image 글 카드 이미지를 만듦 (1080×1350, 피그마 '카드뉴스_레이어분리' 디자인)
-//  - photoFrom(원문 기사 URL)의 대표 이미지(og:image) 또는 photo(이미지 URL)를 위쪽 사진으로 씀. 없으면 브랜드 그래픽
+// queue/*.json 의 carousel·image 글 카드 이미지를 만듦 (1080×1350)
+// 디자인: 피그마 '클로드 카드뉴스 자동화' 템플릿 (#카드1_표지 · #카드2~4 사진+본문 · 엔드카드)
+//  - photoFrom(원문 기사 URL)의 대표 이미지(og:image) 또는 photo(이미지 URL)를 사진으로 씀. 없으면 브랜드 그래픽
 //  - 이미 만든 이미지는 건너뜀. 결과: media/<글id>/01.png ... (원본 사진 파일은 저장소에 올리지 않음)
 import fs from 'node:fs';
-import os from 'node:os';
 import path from 'node:path';
 import { chromium } from 'playwright';
 
@@ -10,14 +10,15 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const b64 = (f, t) => `data:${t};base64,` + fs.readFileSync(f).toString('base64');
 const fontUrl = b64(path.join(ROOT, 'node_modules/pretendard/dist/web/variable/woff2/PretendardVariable.woff2'), 'font/woff2');
 const logo = b64(path.join(ROOT, 'assets/logo-pill.png'), 'image/png');
+const badge = b64(path.join(ROOT, 'assets/logo-badge.png'), 'image/png');
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const rich = s => esc(s).replace(/\n/g, '<br>').replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/==(.+?)==/g, '<mark>$1</mark>');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
 
 // 원문 기사에서 대표 이미지 받기
 async function getPhoto(it) {
-  let url = it.photo;
   if (it.photoFile && fs.existsSync(it.photoFile)) return { src: b64(it.photoFile, 'image/png'), credit: it.photoCredit || 'SHIFT AI' };   // 로컬 시험용
+  let url = it.photo;
   try {
     if (!url && it.photoFrom) {
       const html = await (await fetch(it.photoFrom, { headers: { 'User-Agent': UA, 'Accept-Language': 'ko,en;q=0.8' }, redirect: 'follow', signal: AbortSignal.timeout(20000) })).text();
@@ -27,74 +28,82 @@ async function getPhoto(it) {
     }
     if (!url) return null;
     const r = await fetch(url, { headers: { 'User-Agent': UA, Referer: it.photoFrom || '' }, signal: AbortSignal.timeout(20000) });
-    const type = r.headers.get('content-type') || '';
+    const type = (r.headers.get('content-type') || '').split(';')[0];
     if (!r.ok || !type.startsWith('image/')) return null;
     const buf = Buffer.from(await r.arrayBuffer());
     if (buf.length < 15000) return null;                       // 아이콘·로고 같은 작은 이미지는 제외
-    const f = path.join(os.tmpdir(), 'photo-' + it.id); fs.writeFileSync(f, buf);
-    return { src: `data:${type.split(';')[0]};base64,` + buf.toString('base64'), credit: it.photoCredit || new URL(it.photoFrom || url).hostname.replace(/^www\./, '') };
+    return { src: `data:${type};base64,` + buf.toString('base64'), credit: it.photoCredit || new URL(it.photoFrom || url).hostname.replace(/^www\./, '') };
   } catch (e) { console.log(`  사진 못 받음(${it.id}): ${e.message}`); return null; }
 }
 
+// 템플릿 값 (피그마에서 읽은 그대로)
+const C = { cream: '#eff0e8', creamEnd: '#efefe5', ink: '#10110f', line: '#caccc1', circle: '#e4e4d8' };
 const css = `@font-face{font-family:P;src:url(${fontUrl}) format('woff2');font-weight:100 900}
 *{margin:0;padding:0;box-sizing:border-box}
-body{width:1080px;height:1350px;font-family:P;background:#0d0d0d;color:#fff;letter-spacing:-0.025em;word-break:keep-all;overflow:hidden;position:relative}
-mark{background:none;color:#F7C948}
-.bg{position:absolute;inset:0;background-size:cover;background-position:center}
-.brand{background:radial-gradient(70% 55% at 20% 20%,#F7C94840,transparent 65%),radial-gradient(70% 60% at 85% 75%,#E0663A45,transparent 65%),linear-gradient(160deg,#2a2722,#0d0d0d)}
-.top{position:absolute;top:44px;left:56px;right:56px;display:flex;justify-content:space-between;font-size:24px;font-weight:600;color:rgba(255,255,255,.82)}
-.tag{display:inline-block;font-size:26px;font-weight:700;color:#fff;border-left:5px solid #fff;background:rgba(255,255,255,.14);padding:6px 16px 6px 14px;margin-bottom:24px}
-.logo{position:absolute;top:44px;left:56px;height:56px}
-.pg{position:absolute;bottom:40px;right:56px;font-size:22px;color:#8a8a8a;font-weight:600}
-.cr{position:absolute;bottom:40px;left:56px;font-size:20px;color:#7a7a7a;font-weight:500}
-.photo{position:absolute;left:0;right:0;top:0;background-size:cover;background-position:center}
-.photo:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,13,13,.15) 0%,rgba(13,13,13,0) 35%,rgba(13,13,13,.75) 82%,#0d0d0d 100%)}
-.body{position:absolute;left:64px;right:64px}
-h2{font-size:76px;font-weight:800;line-height:1.2;margin-bottom:30px}
-.hr{height:1px;background:#3a3a3a;margin:0 0 30px}
-.li{display:flex;gap:18px;margin-bottom:24px}.li i{flex:none;width:10px;height:10px;border-radius:50%;background:#bdbdbd;margin-top:19px}
-.li h3{font-size:36px;font-weight:700;line-height:1.38;color:#fff}.li p{font-size:29px;line-height:1.45;color:#a9a9a9;margin-top:4px;font-weight:500}
-.li.plain h3{font-weight:500;color:#dcdcdc;font-size:34px}
-.tr{display:grid;grid-template-columns:230px 210px 1fr;gap:0 22px;padding:20px 0;border-bottom:1px solid #2e2e2e}
-.tr .a{font-size:33px;font-weight:800}.tr .b{font-size:31px;font-weight:800;color:#F7C948}.tr .c{font-size:27px;line-height:1.42;color:#cfcfcf}
-.big{font-size:170px;font-weight:900;line-height:1;margin:6px 0 26px}.big mark{color:#F7C948}
-.txt{font-size:35px;line-height:1.6;color:#dcdcdc;font-weight:500}.txt b{color:#fff}
-.btn{display:inline-flex;align-items:center;gap:10px;font-size:28px;font-weight:700;background:#fff;color:#111;border-radius:12px;padding:16px 30px;margin-right:16px}`;
+body{width:1080px;height:1350px;font-family:P;letter-spacing:-0.02em;word-break:keep-all;overflow:hidden;position:relative;background:${C.cream};color:${C.ink}}
+mark{background:none;color:#E0663A}
+.brand{background:radial-gradient(60% 50% at 25% 30%,#F7C94866,transparent 70%),radial-gradient(60% 55% at 80% 70%,#E0663A66,transparent 70%),linear-gradient(160deg,#2b2620,#121212)}
+/* 표지 */
+.cv-photo{position:absolute;inset:0;background-size:cover;background-position:center}
+.cv-grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.1) 55%,rgba(0,0,0,.92) 100%)}
+.cv-logo{position:absolute;top:28px;left:50%;transform:translateX(-50%);height:62px}
+.cv-text{position:absolute;left:42px;right:48px;bottom:172px;color:#fff}
+.cat{position:relative;display:inline-block;margin:0 0 6px 19px;padding:3px 34px 3px 15px;font-size:60px;font-weight:700;line-height:72px;letter-spacing:.01em}
+.cat:before{content:'';position:absolute;left:0;top:0;width:230px;max-width:calc(100% - 38px);height:31px;border-top:1px solid #fff;border-left:1px solid #fff}
+.cat:after{content:'';position:absolute;right:0;bottom:0;width:230px;max-width:calc(100% - 38px);height:31px;border-bottom:1px solid #fff;border-right:1px solid #fff}
+.cat i{position:absolute;width:38px;height:1px;background:#fff}
+.cv-t1{font-size:85px;font-weight:800;line-height:90px;letter-spacing:-0.03em}
+.cv-t2{font-size:48px;font-weight:700;line-height:90px}
+.foot{position:absolute;bottom:23px;left:32px;right:30px;display:flex;justify-content:space-between;font-size:24px;line-height:42px;color:#fff;letter-spacing:-0.75px}
+/* 본문 카드 */
+.card{display:flex;flex-direction:column;height:1350px}
+.ph{flex:1 1 auto;min-height:470px;position:relative;background:#f2eeee center/cover no-repeat}
+.ph .cr{position:absolute;right:20px;bottom:14px;font-size:18px;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.6);opacity:.9}
+.ph .lg{position:absolute;top:28px;left:32px;height:50px}
+.gap{flex:none;height:24px}
+.tx{flex:none;background:${C.cream};border-radius:64px 64px 0 0;padding:28px 72px 40px;display:flex;flex-direction:column;gap:16px}
+.lab{display:flex;align-items:center;gap:16px;font-size:20px;font-weight:700;white-space:nowrap}.lab:after{content:'';flex:1;height:2px;background:${C.line}}
+.h{font-size:45px;font-weight:700;line-height:1.3}
+.bd{font-size:30px;font-weight:300;line-height:1.3;margin-top:39px}
+.bd b{font-weight:600}
+.bd p{margin:0}
+.it{display:flex;gap:14px}.it:before{content:'·';font-weight:700}
+.row{display:grid;grid-template-columns:200px 190px 1fr;gap:0 20px;padding:8px 0;border-bottom:1px solid ${C.line}}
+.row div:first-child{font-weight:700}.row div:nth-child(2){font-weight:600}
+.num{font-size:120px;font-weight:800;line-height:1;margin-top:20px}.num mark{color:#E0663A}
+/* 엔드카드 */
+.end{background:${C.creamEnd}}
+.circ{position:absolute;border-radius:50%;background:${C.circle}}
+.end-badge{position:absolute;top:340px;left:50%;transform:translateX(-50%);width:360px;filter:drop-shadow(0 18px 24px rgba(0,0,0,.18))}
+.end-msg{position:absolute;top:771px;left:72px;right:72px;text-align:center;font-size:44px;font-weight:800;line-height:1.2;color:#111}
+.end-cta{position:absolute;top:950px;left:50%;transform:translateX(-50%);background:#111;color:${C.creamEnd};border-radius:999px;padding:24px 56px;font-size:24px;font-weight:700;white-space:nowrap;box-shadow:0 8px 12px rgba(0,0,0,.1)}`;
 
-function slide(s, i, n, ph) {
+function slide(s, ph) {
   const k = s.kind || 'text';
-  const pg = n > 1 ? `<div class=pg>${i} / ${n}</div>` : '';
-  const cr = ph ? `<div class=cr>사진: ${esc(ph.credit)}</div>` : '';
+  const bg = ph ? `style="background-image:url(${ph.src})"` : `style="background:radial-gradient(60% 50% at 25% 30%,#F7C94866,transparent 70%),radial-gradient(60% 55% at 80% 70%,#E0663A66,transparent 70%),linear-gradient(160deg,#2b2620,#121212)"`;
   if (k === 'cover') {
-    const fs_ = (s.title || '').length > 22 ? 88 : 104;
-    return `<div class="bg ${ph ? '' : 'brand'}" ${ph ? `style="background-image:url(${ph.src})"` : ''}></div>
-<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 42%,rgba(0,0,0,.82) 70%,rgba(0,0,0,.95) 100%)"></div>
-<div class=top><span>shift ai magazine</span><span>Don't search. Just Shift.</span></div>
-<div class=body style="bottom:200px"><div class=tag>${esc(s.tag || 'AI Issue')}</div>
-<div style="font-size:${fs_}px;font-weight:900;line-height:1.14">${rich(s.title)}</div>
-${s.sub ? `<div style="font-size:34px;font-weight:500;color:#d6d6d6;margin-top:26px;line-height:1.45">${rich(s.sub)}</div>` : ''}</div>
-<img src="${logo}" style="position:absolute;bottom:72px;left:50%;transform:translateX(-50%);height:64px">${cr}`;
+    const lines = String(s.title || '').split('\n');
+    const t1 = s.sub ? lines.join('\n') : lines[0], sub = s.sub || lines.slice(1).join(' ');
+    const longest = Math.max(...t1.split('\n').map(l => [...l.replace(/==/g, '')].length));
+    const fs1 = longest > 15 ? Math.max(64, Math.floor(85 * 15 / longest)) : 85;
+    return `<div class="cv-photo ${ph ? '' : 'brand'}" ${bg}></div><div class=cv-grad></div>
+<img class=cv-logo src="${logo}">
+<div class=cv-text id=w><div class=cat>${esc(s.tag || 'AI Issue')}</div>
+<div class=cv-t1 style="font-size:${fs1}px">${rich(t1)}</div>${sub ? `<div class=cv-t2>${rich(sub)}</div>` : ''}</div>
+<div class=foot><span>@shift_ai_magazine</span><span>Don't search. Just Shift.</span></div>`;
   }
   if (k === 'cta') {
-    return `<div class="bg ${ph ? '' : 'brand'}" ${ph ? `style="background-image:url(${ph.src});filter:blur(18px) brightness(.45);transform:scale(1.1)"` : ''}></div>
-<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,13,13,.3),rgba(13,13,13,.92) 70%)"></div>
-<img class=logo src="${logo}">
-<div class=body style="bottom:150px"><div class=tag>SHIFT AI</div>
-<h2 style="font-size:92px;line-height:1.15">${rich(s.title || '오늘의 AI,\n여기까지 SHIFT')}</h2>
-<div class=txt style="margin-bottom:44px">${rich(s.body || '매일 꼭 알아야 할 AI 소식과 바로 써먹는 팁을\n카드로 정리해 드려요.')}</div>
-<span class=btn>＋ 팔로우</span><span class=btn>↻ 리포스트</span><span class=btn>🔖 저장</span></div>${pg}`;
+    return `<div class="end" style="position:absolute;inset:0"><div class=circ style="left:-120px;top:-120px;width:480px;height:480px"></div><div class=circ style="left:780px;top:964px;width:320px;height:320px"></div>
+<img class=end-badge src="${badge}"><div class=end-msg>${rich(s.title || 'AI 인사이트,\n가장 먼저 받아보세요')}</div>
+<div class=end-cta>${esc(s.button || '팔로우하고 계속 보기')}</div></div>`;
   }
-  const dense = k === 'list' && (s.items || []).some(x => x.d) || k === 'table';
-  const ph_h = dense ? 430 : 560;
   let inner = '';
-  if (k === 'list') inner = (s.items || []).slice(0, 5).map(x => `<div class="li ${x.d ? '' : 'plain'}"><i></i><div><h3>${rich(x.h)}</h3>${x.d ? `<p>${rich(x.d)}</p>` : ''}</div></div>`).join('');
-  else if (k === 'table') inner = (s.rows || []).slice(0, 6).map(r => `<div class=tr><div class=a>${rich(r[0])}</div><div class=b>${rich(r[1])}</div><div class=c>${rich(r[2])}</div></div>`).join('');
-  else if (k === 'big') inner = `<div class=big>${rich(s.num)}</div><div class=txt>${rich(s.d)}</div>`;
-  else inner = `<div class=txt>${rich(s.body)}</div>`;
-  return `<div class="photo ${ph ? '' : 'brand'}" style="height:${ph_h}px;${ph ? `background-image:url(${ph.src})` : ''}"></div>
-<img class=logo src="${logo}">
-<div class=body id=w style="top:${ph_h - 40}px"><div class=tag>${esc(s.label || 'AI Issue')}</div><h2>${rich(s.title)}</h2><div class=hr></div>${inner}
-${s.note ? `<div style="font-size:22px;color:#8a8a8a;margin-top:18px">※ ${esc(s.note)}</div>` : ''}</div>${pg}${cr}`;
+  if (k === 'list') inner = (s.items || []).slice(0, 5).map(x => `<p class=it><span>${x.d ? `<b>${rich(x.h)}</b> ${rich(x.d)}` : rich(x.h)}</span></p>`).join('');
+  else if (k === 'table') inner = (s.rows || []).slice(0, 5).map(r => `<div class=row><div>${rich(r[0])}</div><div>${rich(r[1])}</div><div>${rich(r[2])}</div></div>`).join('') + (s.note ? `<p style="font-size:20px;margin-top:10px;color:#6b6c64">※ ${esc(s.note)}</p>` : '');
+  else if (k === 'big') inner = `<div class=num>${rich(s.num)}</div><p style="margin-top:16px">${rich(s.d)}</p>`;
+  else inner = String(s.body || '').split('\n').map(l => `<p>${rich(l)}</p>`).join('');
+  return `<div class=card><div class="ph ${ph ? '' : 'brand'}" ${bg}>${ph ? `<div class=cr>사진: ${esc(ph.credit)}</div>` : `<img class=lg src="${logo}">`}</div><div class=gap></div>
+<div class=tx id=w><div class=lab>${esc(s.label ? `SHIFT AI · ${s.label}` : 'SHIFT AI Issue')}</div><div class=h>${rich(s.title)}</div><div class=bd style="${k === 'big' ? 'margin-top:0' : ''}">${inner}</div></div></div>`;
 }
 
 const items = [];
@@ -112,10 +121,10 @@ for (const it of todo) {
   const slides = it.type === 'carousel' && it.slides.at(-1)?.kind !== 'cta' ? [...it.slides, { kind: 'cta' }] : it.slides.slice(0, it.type === 'image' ? 1 : 20);
   const dir = path.join(ROOT, 'media', it.id); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   for (const [j, s] of slides.entries()) {
-    await p.setContent(`<!doctype html><html><head><meta charset=utf-8><style>${css}</style></head><body>${slide(s, j + 1, slides.length, ph)}</body></html>`);
+    await p.setContent(`<!doctype html><html><head><meta charset=utf-8><style>${css}</style></head><body>${slide(s, ph)}</body></html>`);
     await p.evaluate(() => document.fonts.ready);
-    const over = await p.evaluate(() => { const w = document.getElementById('w'); return w ? w.getBoundingClientRect().bottom : 0; });
-    if (over > 1290) console.log(`  ! ${it.id} ${j + 1}장 내용이 넘침 (${Math.round(over)}px) — 글을 줄이세요`);
+    const bad = await p.evaluate(() => { const ph = document.querySelector('.ph'); const w = document.getElementById('w'); return (ph && ph.getBoundingClientRect().height < 471) || (w && w.getBoundingClientRect().top < 100); });
+    if (bad) console.log(`  ! ${it.id} ${j + 1}장 글이 많아 사진이 너무 작음 — 글을 줄이세요`);
     await p.screenshot({ path: path.join(dir, String(j + 1).padStart(2, '0') + '.png') });
   }
   console.log(`  ${it.id}: ${slides.length}장 · 사진 ${ph ? ph.credit : '없음(브랜드 그래픽)'}`);
