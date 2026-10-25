@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T10:08:53.743Z",
+ "updated": "2026-10-25T10:27:07.994Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": null,
  "followersHistory": [],
@@ -160,20 +160,18 @@
   "posts": []
  },
  "comments": {
-  "pending": 1,
-  "items": [
-   {
-    "user": "aitr.endradar",
-    "text": "월요금만 보면 비슷해서 헷갈리네ㅋㅋ, 한도 초기화 주기도 같이 보면 고르기 편하겠다",
-    "at": "2026-10-24T06:47:43+0000",
-    "post": "https://www.threads.com/@shift_ai_magazine/post/De3bQmyEXEQ"
-   }
-  ],
-  "updated": "2026-10-25T09:48:10.385Z"
+  "pending": 0,
+  "items": [],
+  "updated": "2026-10-25T10:27:07.936Z"
  },
  "replies": {
-  "sent": [],
-  "total": 0
+  "sent": [
+   {
+    "text": "맞아요, 월요금은 비슷해도 한도가 언제 다시 차는지에 따라 체감이 꽤 달라지죠. 초기화 주기까지 나란히 놓고 비교한 버전도 따로 정리해 볼게요!",
+    "at": "2026-10-25T10:26:58.211Z"
+   }
+  ],
+  "total": 1
  },
  "days": [
   {
