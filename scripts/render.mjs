@@ -81,7 +81,7 @@ async function getPhotos(it) {
     const src = await download(c.url, c.page, it.id);
     if (src) photos.push({ src, credit: it.photoCredit || c.credit });
   }
-  if (!photos.length) why(it.id, '기사 사진을 하나도 못 받음(사이트가 막았거나 사진 없음) → 브랜드 그래픽. photoFrom 에 다른 언론 기사를 넣어 주세요');
+  if (!photos.length && (it.photos || it.photo || it.photoFrom)) why(it.id, '기사 사진을 하나도 못 받음(사이트가 막았거나 사진 없음) → 브랜드 그래픽. photoFrom 에 다른 언론 기사를 넣어 주세요');
   return photos;
 }
 
@@ -120,6 +120,21 @@ mark{background:none;color:#E0663A}
 .row{display:grid;grid-template-columns:200px 190px 1fr;gap:0 20px;padding:8px 0;border-bottom:1px solid ${C.line}}
 .row div:first-child{font-weight:700}.row div:nth-child(2){font-weight:600}
 .num{font-size:120px;font-weight:800;line-height:1;margin-top:20px}.num mark{color:#E0663A}
+/* 사진 없는 요약 카드 (글 + 요약 1~2장 형식) */
+.tcv{position:absolute;inset:0;background:${C.ink}}
+.tcv .ring{position:absolute;border-radius:50%;border:2px solid #2a2b26}
+.tcv .cv-text{bottom:200px}
+.tcv mark{color:#F7C948}
+.tc{position:absolute;inset:0;background:${C.cream};padding:150px 72px 130px;display:flex;flex-direction:column;justify-content:center;gap:22px}
+.tc .lg{position:absolute;top:44px;left:64px;height:58px}
+.tc .lab{font-size:24px}
+.tc .h{font-size:64px;font-weight:800;line-height:1.22;letter-spacing:-0.03em}
+.tc .bd{font-size:38px;line-height:1.5;font-weight:400;margin-top:18px;display:flex;flex-direction:column;gap:18px}
+.tc .bd b{font-weight:700}
+.tc .it{gap:18px}.tc .it:before{content:'';flex:none;width:12px;height:12px;border-radius:50%;background:#E0663A;margin-top:22px}
+.tc .row{grid-template-columns:260px 230px 1fr;padding:18px 0;font-size:34px}
+.tc .num{font-size:180px}
+.tc .ft{position:absolute;left:72px;right:72px;bottom:44px;display:flex;justify-content:space-between;font-size:24px;color:#6b6c64}
 /* 엔드카드 */
 .end{background:${C.creamEnd}}
 .circ{position:absolute;border-radius:50%;background:${C.circle}}
@@ -135,6 +150,11 @@ function slide(s, ph) {
     const t1 = s.sub ? lines.join('\n') : lines[0], sub = s.sub || lines.slice(1).join(' ');
     const longest = Math.max(...t1.split('\n').map(l => [...l.replace(/==/g, '')].length));
     const fs1 = longest > 15 ? Math.max(64, Math.floor(85 * 15 / longest)) : 85;
+    if (!ph) return `<div class=tcv><div class=ring style="width:900px;height:900px;right:-380px;top:-320px"></div><div class=ring style="width:520px;height:520px;left:-200px;bottom:-160px"></div></div>
+<img class=cv-logo src="${logo}" style="top:44px">
+<div class=cv-text id=w><div class=cat>${esc(s.tag || 'AI Issue')}</div>
+<div class=cv-t1 style="font-size:${fs1}px">${rich(t1)}</div>${sub ? `<div class=cv-t2 style="color:#cfd0c6">${rich(sub)}</div>` : ''}</div>
+<div class=foot style="color:#9a9b92"><span>@shift_ai_magazine</span><span>Don't search. Just Shift.</span></div>`;
     return `<div class="cv-photo ${ph ? '' : 'brand'}" ${bg}></div><div class=cv-grad></div>
 <img class=cv-logo src="${logo}">
 <div class=cv-text id=w><div class=cat>${esc(s.tag || 'AI Issue')}</div>
@@ -151,6 +171,8 @@ function slide(s, ph) {
   else if (k === 'table') inner = (s.rows || []).slice(0, 5).map(r => `<div class=row><div>${rich(r[0])}</div><div>${rich(r[1])}</div><div>${rich(r[2])}</div></div>`).join('') + (s.note ? `<p style="font-size:20px;margin-top:10px;color:#6b6c64">※ ${esc(s.note)}</p>` : '');
   else if (k === 'big') inner = `<div class=num>${rich(s.num)}</div><p style="margin-top:16px">${rich(s.d)}</p>`;
   else inner = String(s.body || '').split('\n').map(l => `<p>${rich(l)}</p>`).join('');
+  if (!ph) return `<div class=tc id=w><img class=lg src="${logo}"><div class=lab>${esc(s.label ? `SHIFT AI · ${s.label}` : 'SHIFT AI Issue')}</div><div class=h>${rich(s.title)}</div><div class=bd>${inner}</div>
+<div class=ft><span>@shift_ai_magazine</span><span>Don't search. Just Shift.</span></div></div>`;
   return `<div class=card><div class="ph ${ph ? '' : 'brand'}" ${bg}>${ph ? `<div class=cr>사진: ${esc(ph.credit)}</div>` : `<img class=lg src="${logo}">`}</div><div class=gap></div>
 <div class=tx id=w><div class=lab>${esc(s.label ? `SHIFT AI · ${s.label}` : 'SHIFT AI Issue')}</div><div class=h>${rich(s.title)}</div><div class=bd style="${k === 'big' ? 'margin-top:0' : ''}">${inner}</div></div></div>`;
 }
@@ -167,7 +189,7 @@ const b = await chromium.launch();
 const p = await b.newPage({ viewport: { width: 1080, height: 1350 } });
 for (const it of todo) {
   const photos = await getPhotos(it), ph = photos[0] || null;
-  const slides = it.type === 'carousel' && it.slides.at(-1)?.kind !== 'cta' ? [...it.slides, { kind: 'cta' }] : it.slides.slice(0, it.type === 'image' ? 1 : 20);
+  const slides = it.type === 'carousel' && it.slides.length >= 3 && it.slides.at(-1)?.kind !== 'cta' ? [...it.slides, { kind: 'cta' }] : it.slides.slice(0, it.type === 'image' ? 1 : 20);
   const dir = path.join(ROOT, 'media', it.id); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   for (const [j, s] of slides.entries()) {
     const sp = j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph;   // 내용 장은 표지와 다른 사진부터
@@ -186,7 +208,7 @@ for (const it of todo) {
         el.prepend(fit); el.prepend(blur);
       }
     });
-    const bad = await p.evaluate(() => { const ph = document.querySelector('.ph'); const w = document.getElementById('w'); return (ph && ph.getBoundingClientRect().height < 471) || (w && w.getBoundingClientRect().top < 100); });
+    const bad = await p.evaluate(() => { const ph = document.querySelector('.ph'); const w = document.getElementById('w'); const tc = document.querySelector('.tc'); return (ph && ph.getBoundingClientRect().height < 471) || (w && !tc && w.getBoundingClientRect().top < 100) || (tc && tc.scrollHeight > 1350); });
     if (bad) console.log(`  ! ${it.id} ${j + 1}장 글이 많아 사진이 너무 작음 — 글을 줄이세요`);
     await p.screenshot({ path: path.join(dir, String(j + 1).padStart(2, '0') + '.png') });
   }
