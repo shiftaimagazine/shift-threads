@@ -19,4 +19,4 @@ jobs:
       - if: always()
         run: |
           git config user.name "shift-threads-bot"; git config user.email "actions@users.noreply.github.com"
-          git add inbox replies/done.json; git diff --cached --quiet || (git commit -m "댓글함" && git pull --rebase && git push)
+          node scripts/status.mjs || true; git add inbox replies/done.json status.json; git diff --cached --quiet || (git commit -m "댓글함" && git pull --rebase && git push)

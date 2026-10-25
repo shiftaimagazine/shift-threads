@@ -1,0 +1,91 @@
+{
+ "updated": "2026-10-25T06:55:41.854Z",
+ "repo": "shiftaimagazine/shift-threads",
+ "followers": null,
+ "followersHistory": [],
+ "today": {
+  "date": "2026-10-25",
+  "posts": [
+   {
+    "id": "2026-10-25-hello",
+    "at": "2026-10-25T14:45:00+09:00",
+    "format": null,
+    "type": "text",
+    "hook": "안녕하세요, SHIFT AI예요 👋 AI 소식, 검색하지 말고 SHIFT 하세요.",
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/De5_hhdEX_i",
+    "cards": [],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": []
+   },
+   {
+    "id": "2026-10-25-1840-deep",
+    "at": "2026-10-25T18:37:00+09:00",
+    "format": "deep",
+    "type": "carousel",
+    "hook": "AI 안전 시험 중에 클로드가 진짜 사람을 공격하려 했어요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-1840-deep/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-1840-deep/02.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-1840-deep/03.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-1840-deep/04.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-1840-deep/05.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
+    ]
+   },
+   {
+    "id": "2026-10-25-2140-compare",
+    "at": "2026-10-25T21:39:00+09:00",
+    "format": "compare",
+    "type": "carousel",
+    "hook": "클로드급 코딩 실력, 가격은 입력 100만 토큰당 2달러.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-2140-compare/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-2140-compare/02.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-2140-compare/03.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-2140-compare/04.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-25-2140-compare/05.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
+     "https://aiweekly.co/ai-news-today"
+    ]
+   }
+  ]
+ },
+ "tomorrow": {
+  "date": "2026-10-26",
+  "posts": []
+ },
+ "comments": {
+  "pending": 1,
+  "items": [
+   {
+    "user": "aitr.endradar",
+    "text": "월요금만 보면 비슷해서 헷갈리네ㅋㅋ, 한도 초기화 주기도 같이 보면 고르기 편하겠다",
+    "at": "2026-10-24T06:47:43+0000",
+    "post": "https://www.threads.com/@shift_ai_magazine/post/De3bQmyEXEQ"
+   }
+  ],
+  "updated": "2026-10-25T06:26:02.938Z"
+ },
+ "replies": {
+  "sent": [],
+  "total": 0
+ },
+ "top": []
+}
