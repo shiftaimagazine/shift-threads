@@ -17,7 +17,8 @@ function day(d) {
     const p = posted[it.id] || {}, v = views[it.id] || {};
     return { id: it.id, at: it.at, format: it.format || null, type: it.type || 'text', hook: String(it.parts?.[0] || '').split('\n').filter(Boolean).slice(0, 2).join(' '),
       status: p.status || (Date.parse(it.at) <= Date.now() ? 'waiting' : 'scheduled'), link: p.link || null, cards: [...Array(n)].map((_, k) => card(it.id, k + 1)),
-      views: v.views ?? null, likes: v.likes ?? null, replies: v.replies ?? null, sources: it.sources || [] };
+      views: v.views ?? null, likes: v.likes ?? null, replies: v.replies ?? null, sources: it.sources || [],
+      topic: it.topic || null, parts: it.parts || [], slides: it.slides || [], photoFrom: it.photoFrom || it.photo || null };
   }).sort((a, b) => Date.parse(a.at) - Date.parse(b.at));
 }
 const inbox = read('inbox/pending.json', { items: [] });
