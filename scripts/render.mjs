@@ -173,6 +173,19 @@ for (const it of todo) {
     const sp = j > 0 && photos.length > 1 ? photos[1 + (j - 1) % (photos.length - 1)] : ph;   // 내용 장은 표지와 다른 사진부터
     await p.setContent(`<!doctype html><html><head><meta charset=utf-8><style>${css}</style></head><body>${slide(s, sp)}</body></html>`);
     await p.evaluate(() => document.fonts.ready);
+    // 사진이 칸보다 훨씬 넓으면(가로 배너·로고형) 잘라내지 않고 전체를 보여 주고, 빈 곳은 같은 사진을 흐리게 채움
+    await p.evaluate(async () => {
+      for (const el of document.querySelectorAll('.cv-photo,.ph')) {
+        const m = (el.style.backgroundImage || '').match(/url\("?(.*?)"?\)$/); if (!m) continue;
+        const img = new Image(); img.src = m[1]; await img.decode().catch(() => {});
+        const r = el.getBoundingClientRect(), ir = img.naturalWidth / img.naturalHeight, br = r.width / r.height;
+        if (!img.naturalWidth || ir < br * 1.35) continue;
+        const url = el.style.backgroundImage; el.style.backgroundImage = 'none'; el.style.overflow = 'hidden';
+        const blur = document.createElement('div'); blur.style.cssText = `position:absolute;inset:-40px;background:${url} center/cover;filter:blur(28px) brightness(.55)`;
+        const fit = document.createElement('div'); fit.style.cssText = `position:absolute;inset:0;background:${url} center/contain no-repeat` + (el.classList.contains('cv-photo') ? ';bottom:38%;top:110px' : ';top:90px');
+        el.prepend(fit); el.prepend(blur);
+      }
+    });
     const bad = await p.evaluate(() => { const ph = document.querySelector('.ph'); const w = document.getElementById('w'); return (ph && ph.getBoundingClientRect().height < 471) || (w && w.getBoundingClientRect().top < 100); });
     if (bad) console.log(`  ! ${it.id} ${j + 1}장 글이 많아 사진이 너무 작음 — 글을 줄이세요`);
     await p.screenshot({ path: path.join(dir, String(j + 1).padStart(2, '0') + '.png') });
