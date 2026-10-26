@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T22:13:28.747Z",
+ "updated": "2026-10-26T23:12:05.151Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -21,7 +21,7 @@
     "format": "briefing",
     "type": "carousel",
     "hook": "금융사 망분리, AI 보안 갖추면 풀어 준대요. 놓치면 아쉬운 AI 소식 3가지예요.",
-    "status": "scheduled",
+    "status": "waiting",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-0740-briefing/01.png",
@@ -392,15 +392,15 @@
    "ok": 0,
    "failed": 0,
    "expired": 0,
-   "waiting": 0,
-   "scheduled": 5,
+   "waiting": 1,
+   "scheduled": 4,
    "needCards": 5,
    "cardsReady": 5,
    "times": [
     {
      "at": "2026-10-27T07:37:00+09:00",
      "format": "briefing",
-     "status": "scheduled",
+     "status": "waiting",
      "cards": 5
     },
     {
