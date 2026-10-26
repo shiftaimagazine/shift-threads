@@ -1,10 +1,14 @@
 {
- "updated": "2026-10-26T20:12:25.395Z",
+ "updated": "2026-10-26T21:08:51.069Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
   {
    "date": "2026-10-26",
+   "followers": 74
+  },
+  {
+   "date": "2026-10-27",
    "followers": 74
   }
  ],
@@ -442,6 +446,33 @@
  ],
  "top": [
   {
+   "hook": "회사 엑셀, AI에 그대로 올리면 안 돼요.",
+   "views": 429,
+   "likes": 2,
+   "replies": 0,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/De8S6fHFM8Q",
+   "at": "2026-10-26T03:16:26+0000"
+  },
+  {
+   "hook": "웹사이트 70%가 쓰는 PHP,",
+   "views": 269,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/De9DuZ5lnBs",
+   "at": "2026-10-26T10:22:57+0000"
+  },
+  {
+   "hook": "엘비스 노래 274곡, 소송 한 건에 약 4,100만 달러.",
+   "views": 242,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/De72E1Zo1VQ",
+   "at": "2026-10-25T23:04:29+0000"
+  },
+  {
    "hook": "이 단편영화, 촬영한 장면이 하나도 없어요.",
    "views": 200,
    "likes": 2,
@@ -452,39 +483,12 @@
   },
   {
    "hook": "AI 안전 시험 중에",
-   "views": 146,
-   "likes": 0,
+   "views": 149,
+   "likes": 1,
    "replies": 1,
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/De6dSdwFvVJ",
    "at": "2026-10-25T10:08:36+0000"
-  },
-  {
-   "hook": "AI로 만든 포스터, 글자 깨져서 못 썼죠?",
-   "views": 61,
-   "likes": 1,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De6hO8gAYZZ",
-   "at": "2026-10-25T10:43:20+0000"
-  },
-  {
-   "hook": "📌 AI, 이거 모르고 결제하면 큰일 납니다",
-   "views": 43,
-   "likes": 2,
-   "replies": 2,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De3bQmyEXEQ",
-   "at": "2026-10-24T05:52:57+0000"
-  },
-  {
-   "hook": "AI로 만든 드라마가 벌써 4화까지 나왔어요 👑",
-   "views": 41,
-   "likes": 1,
-   "replies": 0,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DeynhmBDJQ3",
-   "at": "2026-10-22T09:03:57+0000"
   }
  ]
 }
