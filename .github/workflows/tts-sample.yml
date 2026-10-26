@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       voices: { description: '목소리 이름 (쉼표)', default: 'Leda,Zephyr,Aoede,Kore,Autonoe,Laomedeia' }
+      script: { description: '실행할 스크립트', default: 'tts-sample.mjs' }
       model: { description: '모델 (쉼표, 앞에서부터 시도)', default: 'gemini-3.8-flash-tts,gemini-3.1-flash-tts-preview,gemini-2.5-flash-preview-tts' }
 permissions: { contents: write }
 concurrency: { group: threads-repo, cancel-in-progress: false }
@@ -13,7 +14,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with: { node-version: 24 }
-      - run: node tools/tts-sample.mjs
+      - run: node tools/${{ inputs.script || 'tts-sample.mjs' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           VOICES: ${{ inputs.voices }}
