@@ -1,0 +1,32 @@
+{
+ "at": "2026-10-26T10:46:21.694Z",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Leda",
+ "res": [
+  {
+   "name": "plain",
+   "ok": true,
+   "sec": 13.4
+  },
+  {
+   "name": "prefixKo",
+   "ok": true,
+   "sec": 17.4
+  },
+  {
+   "name": "itemMeta",
+   "ok": false,
+   "error": "400 {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0]'.\",\"code\":\"invalid_request\"}"
+  },
+  {
+   "name": "annot",
+   "ok": true,
+   "sec": 12
+  },
+  {
+   "name": "sysInstr",
+   "ok": false,
+   "error": "400 {\"code\":400,\"message\":\"Developer instruction is not enabled for this model\",\"status\":\"INVALID_ARGUMENT\"}"
+  }
+ ]
+}
