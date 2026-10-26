@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T12:43:11.918Z",
+ "updated": "2026-10-26T12:44:47.298Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -234,8 +234,8 @@
     "format": "compare",
     "type": "carousel",
     "hook": "앱 안 깔고 문자로 부리는 AI 비서, 한 달 얼마일까요?",
-    "status": "waiting",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/De9T6mYEUAI",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-26-2140-compare/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-26-2140-compare/02.png"
@@ -361,10 +361,10 @@
   {
    "date": "2026-10-26",
    "total": 5,
-   "ok": 4,
+   "ok": 5,
    "failed": 0,
    "expired": 0,
-   "waiting": 1,
+   "waiting": 0,
    "scheduled": 0,
    "needCards": 5,
    "cardsReady": 5,
@@ -396,7 +396,7 @@
     {
      "at": "2026-10-26T21:41:00+09:00",
      "format": "compare",
-     "status": "waiting",
+     "status": "ok",
      "cards": 2
     }
    ],
