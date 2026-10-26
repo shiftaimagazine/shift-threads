@@ -1,0 +1,33 @@
+{
+ "voice": "Aoede",
+ "model": "MODEL_PLACEHOLDER",
+ "pause_tag": "<long pause>",
+ "debug_full": "samples/tts/split/tag-full.wav",
+ "items": [
+  {
+   "text": "AI 요금표, 직접 열어 봤어요.",
+   "wav": "samples/tts/split/tag-1.wav",
+   "json": "samples/tts/split/tag-1.json"
+  },
+  {
+   "text": "몇 달 새 최대 80%나 내려갔거든요.",
+   "wav": "samples/tts/split/tag-2.wav",
+   "json": "samples/tts/split/tag-2.json"
+  },
+  {
+   "text": "근데 진짜 놀라운 건 마지막 숫자예요.",
+   "wav": "samples/tts/split/tag-3.wav",
+   "json": "samples/tts/split/tag-3.json"
+  },
+  {
+   "text": "하이쿠는 입력 백만 토큰에 일 달러였어요.",
+   "wav": "samples/tts/split/tag-4.wav",
+   "json": "samples/tts/split/tag-4.json"
+  },
+  {
+   "text": "회사 동료한테 꼭 보내 주세요!",
+   "wav": "samples/tts/split/tag-5.wav",
+   "json": "samples/tts/split/tag-5.json"
+  }
+ ]
+}
