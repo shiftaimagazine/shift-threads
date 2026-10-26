@@ -114,7 +114,7 @@
   "at": "2026-10-26T18:39:00+09:00",
   "format": "deep",
   "type": "carousel",
-  "topic": "AI",
+  "topic": "AI Threads",
   "parts": [
    "웹사이트 70%가 쓰는 PHP,\nAI가 치명적 구멍을 찾아냈어요.\n\n보안업체 위즈가 제미나이·GPT로 찾은\n'PHP2Shell' 취약점이 10월 21일 공개됐고,\n일부 사이트는 아예 문을 닫았어요.\n클라우드플레어 CEO는 \"몇 년간 매주\n하늘이 무너지는 느낌일 것\"이라고 했고요.\n\n카드로 정리했어요.\n내 사이트 업데이트, 언제 마지막으로 하셨어요?",
    "출처: 위즈 https://wiz.io/blog/php2shell-php-rce · 로이터(스타애드버타이저) https://www.staradvertiser.com/2026/10/24/breaking-news/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-experts-say/\n영상으로 30초 만에 보기 → 인스타 @shift_ai_magazine"
@@ -178,7 +178,7 @@
   "at": "2026-10-26T21:41:00+09:00",
   "format": "compare",
   "type": "carousel",
-  "topic": "AI툴",
+  "topic": "AI Threads",
   "parts": [
    "앱 안 깔고 문자로 부리는 AI 비서,\n한 달 얼마일까요?\n\n테크크런치가 10월 24일 아이메시지·\n왓츠앱·텔레그램에 사는 AI 비서를\n20개 넘게 정리했어요.\n무료부터 월 20달러대까지 다양해요.\n\nAI 비서, 앱이랑 문자 중\n어느 쪽이 더 편할 것 같아요?",
    "출처: 테크크런치 https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/"

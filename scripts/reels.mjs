@@ -4,7 +4,7 @@
 //   MODE=check : 키 확인만 (게시 안 함) / DRY_RUN=1 : 미리보기만
 // 항목 형식 (매일 08:40 클라우드 예약 작업이 씀):
 //   {"id":"2026-10-26-1000","at":"2026-10-26T10:20:00+09:00","video":"<드라이브 파일 ID>","cover":"<드라이브 파일 ID>",
-//    "threads":{"text":"쓰레드 본문","reply":"출처: …","topic":"AI"}, "instagram":{"caption":"인스타 캡션 전문"} }
+//    "threads":{"text":"쓰레드 본문","reply":"출처: …","topic":"AI Threads"(코드가 고정)}, "instagram":{"caption":"인스타 캡션 전문"} }
 //   instagram 이 없거나 IG_TOKEN 이 없으면 인스타는 건너뜁니다(그때는 Metricool·직접 업로드가 맡음).
 import fs from 'node:fs';
 import path from 'node:path';
@@ -14,6 +14,8 @@ const MODE = process.env.MODE || 'post';
 const DRY = /^(1|true)$/.test(process.env.DRY_RUN || '');
 const TH = process.env.THREADS_TOKEN, IG = process.env.IG_TOKEN;
 const STALE_HOURS = 8;
+// 주제 태그는 전부 'AI Threads' 커뮤니티(약 151만 명) 하나로 통일 (2026-10-26). 항목별 topic 은 무시.
+const TOPIC = process.env.THREADS_TOPIC ?? 'AI Threads';
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const driveUrl = id => /^https?:/.test(id) ? id : `https://drive.usercontent.google.com/download?id=${id}&export=download&confirm=t`;
 const postedFile = path.join(ROOT, 'reels', 'posted.json');
@@ -68,7 +70,7 @@ if (MODE === 'igtest') {   // 인스타 게시 준비만 시험 (컨테이너만
 
 async function threadsVideo(it) {
   const t = it.threads; const text = String(t.text || '').trim().slice(0, 500);
-  const c = await thApi('POST', `/${thMe.id}/threads`, { media_type: 'VIDEO', video_url: driveUrl(it.video), text, ...(t.topic ? { topic_tag: t.topic } : {}) });
+  const c = await thApi('POST', `/${thMe.id}/threads`, { media_type: 'VIDEO', video_url: driveUrl(it.video), text, ...(TOPIC ? { topic_tag: TOPIC } : {}) });
   for (let i = 0; i < 30; i++) { await sleep(10000); const s = await thApi('GET', `/${c.id}`, { fields: 'status,error_message' }).catch(() => ({})); if (s.status === 'FINISHED') break; if (s.status === 'ERROR') throw new Error('쓰레드 영상 처리 실패: ' + (s.error_message || '')); }
   const id = (await thApi('POST', `/${thMe.id}/threads_publish`, { creation_id: c.id })).id;
   if (t.reply) { await sleep(4000); const r = await thApi('POST', `/${thMe.id}/threads`, { media_type: 'TEXT', text: String(t.reply).slice(0, 500), reply_to_id: id }); await sleep(4000); await thApi('POST', `/${thMe.id}/threads_publish`, { creation_id: r.id }); }

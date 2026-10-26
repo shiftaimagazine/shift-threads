@@ -5,6 +5,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const API = 'https://graph.threads.net/v1.0';
+// 주제 태그는 전부 'AI Threads' 커뮤니티(약 151만 명) 하나로 통일 (2026-10-26 사용자 결정). 항목별 topic 은 무시.
+const TOPIC = process.env.THREADS_TOPIC ?? 'AI Threads';
 const TOKEN = process.env.THREADS_TOKEN;
 const MODE = process.env.MODE || 'post';
 const DRY = /^(1|true)$/.test(process.env.DRY_RUN || '');
@@ -33,7 +35,9 @@ async function waitReady(id) {      // 미디어 처리 완료까지 대기 (최
   }
 }
 async function publish(params) {
-  const c = await call('POST', `/${me.id}/threads`, params);
+  let c;
+  try { c = await call('POST', `/${me.id}/threads`, params); }
+  catch (e) { if (!params.topic_tag || !/topic/i.test(e.message)) throw e; console.log(`주제 태그 거부(${e.message}) → 태그 없이 다시`); const { topic_tag, ...rest } = params; params = rest; c = await call('POST', `/${me.id}/threads`, params); }
   if (params.media_type === 'TEXT') await sleep(4000); else await waitReady(c.id);
   return (await call('POST', `/${me.id}/threads_publish`, { creation_id: c.id })).id;
 }
@@ -74,7 +78,7 @@ for (const it of todo) {
   if (DRY) { count++; continue; }
   const ids = [];
   try {
-    const first = { text: parts[0], ...(it.topic ? { topic_tag: it.topic } : {}) };
+    const first = { text: parts[0], ...(TOPIC ? { topic_tag: TOPIC } : {}) };
     if (type === 'carousel') {
       const kids = [];
       for (let k = 1; k <= Math.min(n, 20); k++) kids.push((await call('POST', `/${me.id}/threads`, { media_type: 'IMAGE', image_url: imgUrl(it.id, k), is_carousel_item: 'true' })).id);
