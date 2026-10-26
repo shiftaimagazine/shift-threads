@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T09:23:47.627Z",
+ "updated": "2026-10-26T09:44:12.234Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -158,7 +158,7 @@
     "format": "deep",
     "type": "carousel",
     "hook": "웹사이트 70%가 쓰는 PHP, AI가 치명적 구멍을 찾아냈어요.",
-    "status": "scheduled",
+    "status": "waiting",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-26-1840-deep/01.png",
@@ -364,8 +364,8 @@
    "ok": 3,
    "failed": 0,
    "expired": 0,
-   "waiting": 0,
-   "scheduled": 2,
+   "waiting": 1,
+   "scheduled": 1,
    "needCards": 5,
    "cardsReady": 5,
    "times": [
@@ -390,7 +390,7 @@
     {
      "at": "2026-10-26T18:39:00+09:00",
      "format": "deep",
-     "status": "scheduled",
+     "status": "waiting",
      "cards": 5
     },
     {
