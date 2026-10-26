@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T12:49:10.505Z",
+ "updated": "2026-10-26T12:53:25.766Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -344,14 +344,16 @@
       "label": "소식 1",
       "title": "금융 망분리, 풀린다",
       "body": "금감원이 26일 서울핀테크위크에서\nAI 보안 역량 갖춘 금융사부터\n**망분리 전면 해제**를 검토한다고 했어요.\n6월 테스트엔 49곳 신청, 10곳 선정.",
-      "commons": "File:Korea Yeouido Summer 20140805 11 (14862134703).jpg"
+      "shot": {
+       "url": "https://www.fss.or.kr",
+       "credit": "fss.or.kr"
+      }
      },
      {
       "kind": "text",
       "label": "소식 2",
       "title": "AI 영화 '오디세이'",
-      "body": "그록 이매진이 AI로 만든\n'오디세이' 1화 첫 **7분**을 X에 공개.\n원더 스튜디오와 함께 만들었고\n테크크런치는 \"예술성이 없다\"고 평했어요.",
-      "commons": "File:Homer British Museum.jpg"
+      "body": "그록 이매진이 AI로 만든\n'오디세이' 1화 첫 **7분**을 X에 공개.\n원더 스튜디오와 함께 만들었고\n테크크런치는 \"예술성이 없다\"고 평했어요."
      },
      {
       "kind": "text",
@@ -365,9 +367,7 @@
       }
      }
     ],
-    "photoFrom": [
-     "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
-    ]
+    "photoFrom": "https://cdn.sanity.io/images/e4qjo92p/production/21fa43f6d541115e57887beb1155bddc7541ae71-2400x1260.jpg"
    },
    {
     "id": "2026-10-27-1140-howto",
@@ -499,9 +499,8 @@
        }
       ],
       "shot": {
-       "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-       "credit": "apollo.com",
-       "y": 800
+       "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/total-factor-productivity-tfp/",
+       "credit": "frbsf.org"
       }
      },
      {

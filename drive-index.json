@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T12:49:10.569Z",
+ "updated": "2026-10-26T12:53:25.834Z",
  "items": [
   {
    "id": "2026-10-25-1840-deep",
@@ -98,7 +98,7 @@
     "05.png"
    ],
    "text": "게시 예정: 2026-10-27 07:37 (쓰레드)\n주제 태그: AI Threads\n\n금융사 망분리, AI 보안 갖추면 풀어 준대요.\n\n놓치면 아쉬운 AI 소식 3가지예요.\n① 금감원, 망분리 규제 전면 해제 검토\n② 그록, AI로 만든 '오디세이' 7분 공개\n③ 3조 파라미터 AI, 웨이퍼 59장에 나눠 실행\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 가장 궁금한 건 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 바이라인네트워크 https://byline.network/2026/10/1026-6/ · 테크크런치 https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/ · 세레브라스 https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\n",
-   "sig": "f6c338532905fc54"
+   "sig": "61e2afdb51d25878"
   },
   {
    "id": "2026-10-27-1140-howto",
@@ -133,7 +133,7 @@
     "05.png"
    ],
    "text": "게시 예정: 2026-10-27 18:38 (쓰레드)\n주제 태그: AI Threads\n\nAI에 돈 쓴 회사들,\n빅테크 빼면 아직 번 게 없대요.\n\n아폴로 수석 이코노미스트 토르스텐 슬록이\n10월 24일 \"테크 밖 미국 기업에선\nAI의 재무 성과가 전혀 없다\"고 분석했어요.\n직원당 매출·이익률·생산성 모두 제자리래요.\n\n카드로 정리했어요.\n여러분 회사는 AI로 뭐가 달라졌나요?\n\n── 이어지는 답글 1 ──\n출처: 아폴로 https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector\n영상으로 30초 만에 보기 → 인스타 @shift_ai_magazine\n",
-   "sig": "76bb65ff7a3de703"
+   "sig": "040be3253a96b6d1"
   },
   {
    "id": "2026-10-27-2140-compare",
