@@ -1,0 +1,29 @@
+name: 인스타 캐러셀 올리기
+on:
+  schedule:
+    - cron: '45 3,4 * * *'   # 12:45·13:45 (한국): instagram 필드가 있는 글(월·수·금 비교 카드)을 인스타 캐러셀로. 올릴 게 없으면 API 를 부르지 않음
+  workflow_dispatch:
+    inputs:
+      mode: { description: 'post = 올리기, check = 게시 준비까지만 시험(게시 안 함)', default: 'post' }
+      test_id: { description: 'check 용 media 폴더 이름 (글 id 또는 _igtest)', default: '_igtest' }
+      dry_run: { description: '1 이면 미리보기만', default: '0' }
+permissions: { contents: write }
+concurrency: { group: threads-repo, cancel-in-progress: false }
+jobs:
+  igpost:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 24 }
+      - run: node scripts/igpost.mjs
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          MODE: ${{ inputs.mode || 'post' }}
+          TEST_ID: ${{ inputs.test_id || '_igtest' }}
+          DRY_RUN: ${{ inputs.dry_run || '0' }}
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "shift-threads-bot"; git config user.email "actions@users.noreply.github.com"
+          git add ig; git diff --cached --quiet || (git commit -m "인스타 캐러셀 기록" && git pull --rebase && git push)

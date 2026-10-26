@@ -291,6 +291,7 @@ for (const it of todo) {
     const bad = await p.evaluate(() => { const ph = document.querySelector('.ph'); const w = document.getElementById('w'); const tc = document.querySelector('.tc'); return (ph && ph.getBoundingClientRect().height < 471) || (w && !tc && w.getBoundingClientRect().top < 100) || (tc && tc.scrollHeight > 1350); });
     if (bad) console.log(`  ! ${it.id} ${j + 1}장 글이 많아 사진이 너무 작음 — 글을 줄이세요`);
     await p.screenshot({ path: path.join(dir, String(j + 1).padStart(2, '0') + '.png') });
+    if (it.instagram) await p.screenshot({ path: path.join(dir, String(j + 1).padStart(2, '0') + '.jpg'), type: 'jpeg', quality: 92 });   // 인스타 캐러셀용(인스타는 JPEG 만 받음) — scripts/igpost.mjs
   }
   console.log(`  ${it.id}: ${slides.length}장 · 사진 ${photos.length}장 (${[...new Set(photos.map(x => x.credit))].join(', ') || '없음'})`);
 }
