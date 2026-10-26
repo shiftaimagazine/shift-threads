@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T12:44:47.298Z",
+ "updated": "2026-10-26T12:49:10.505Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -303,7 +303,276 @@
  },
  "tomorrow": {
   "date": "2026-10-27",
-  "posts": [],
+  "posts": [
+   {
+    "id": "2026-10-27-0740-briefing",
+    "at": "2026-10-27T07:37:00+09:00",
+    "format": "briefing",
+    "type": "carousel",
+    "hook": "금융사 망분리, AI 보안 갖추면 풀어 준대요. 놓치면 아쉬운 AI 소식 3가지예요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-0740-briefing/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-0740-briefing/02.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-0740-briefing/03.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-0740-briefing/04.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-0740-briefing/05.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://byline.network/2026/10/1026-6/",
+     "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+     "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+    ],
+    "topic": "AI Threads",
+    "parts": [
+     "금융사 망분리, AI 보안 갖추면 풀어 준대요.\n\n놓치면 아쉬운 AI 소식 3가지예요.\n① 금감원, 망분리 규제 전면 해제 검토\n② 그록, AI로 만든 '오디세이' 7분 공개\n③ 3조 파라미터 AI, 웨이퍼 59장에 나눠 실행\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 가장 궁금한 건 뭐예요?",
+     "출처: 바이라인네트워크 https://byline.network/2026/10/1026-6/ · 테크크런치 https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/ · 세레브라스 https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Morning Brief",
+      "title": "꼭 볼 AI 소식\n==3가지==",
+      "sub": "망분리 해제 · AI 오디세이 · 3조 모델"
+     },
+     {
+      "kind": "text",
+      "label": "소식 1",
+      "title": "금융 망분리, 풀린다",
+      "body": "금감원이 26일 서울핀테크위크에서\nAI 보안 역량 갖춘 금융사부터\n**망분리 전면 해제**를 검토한다고 했어요.\n6월 테스트엔 49곳 신청, 10곳 선정.",
+      "commons": "File:Korea Yeouido Summer 20140805 11 (14862134703).jpg"
+     },
+     {
+      "kind": "text",
+      "label": "소식 2",
+      "title": "AI 영화 '오디세이'",
+      "body": "그록 이매진이 AI로 만든\n'오디세이' 1화 첫 **7분**을 X에 공개.\n원더 스튜디오와 함께 만들었고\n테크크런치는 \"예술성이 없다\"고 평했어요.",
+      "commons": "File:Homer British Museum.jpg"
+     },
+     {
+      "kind": "text",
+      "label": "소식 3",
+      "title": "3조 모델, 웨이퍼 59장",
+      "body": "세레브라스가 약 **3조 파라미터** Kimi K3를\n웨이퍼 59장에 나눠 돌리는 법을 공개.\n속도는 초당 **1,000~2,000+ 토큰**이에요.",
+      "shot": {
+       "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+       "credit": "cerebras.ai",
+       "y": 700
+      }
+     }
+    ],
+    "photoFrom": [
+     "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+    ]
+   },
+   {
+    "id": "2026-10-27-1140-howto",
+    "at": "2026-10-27T11:39:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "AI가 쓴 보고서, 끝까지 읽히게 만드는 한 줄이에요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-1140-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-1140-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "AI가 쓴 보고서,\n끝까지 읽히게 만드는 한 줄이에요.\n\n초안을 받은 뒤 이렇게 다시 시키면 돼요.\n\n\"결론을 첫 줄에 쓰고, 문장은 40자 이내로,\n전문용어는 쉬운 말로 바꿔 줘.\n바꾼 용어는 목록으로 따로 보여 줘.\"\n\n저장해 두고 써 보세요.\nAI 초안, 여러분은 어디부터 고치세요?"
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "AI Tip",
+      "title": "AI 보고서,\n==한 번에== 읽히게",
+      "sub": "다시 쓰기 프롬프트"
+     },
+     {
+      "kind": "list",
+      "label": "복사해 쓰기",
+      "title": "다시 쓰기 3단계",
+      "items": [
+       {
+        "h": "1. 결론 먼저",
+        "d": "\"결론을 첫 줄에 써 줘\""
+       },
+       {
+        "h": "2. 문장 짧게",
+        "d": "\"문장은 40자 이내로 끊어 줘\""
+       },
+       {
+        "h": "3. 쉬운 말로",
+        "d": "\"전문용어는 풀고 목록으로 줘\""
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   },
+   {
+    "id": "2026-10-27-1440-question",
+    "at": "2026-10-27T14:41:00+09:00",
+    "format": "question",
+    "type": "image",
+    "hook": "AI한테 존댓말 쓰세요, 반말 쓰세요?",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-1440-question/01.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "AI한테 존댓말 쓰세요,\n반말 쓰세요?\n\n\"~해 주세요\"가 편한 사람도 있고\n\"이거 요약해\"가 빠른 사람도 있더라고요.\n저희는 아직도 습관처럼\n'부탁해요'를 붙여요.\n\n여러분은 어느 쪽이에요? 이유도 궁금해요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Question",
+      "title": "AI한테\n==존댓말== 쓰세요?",
+      "sub": "존댓말 vs 반말"
+     }
+    ],
+    "photoFrom": null
+   },
+   {
+    "id": "2026-10-27-1840-deep",
+    "at": "2026-10-27T18:38:00+09:00",
+    "format": "deep",
+    "type": "carousel",
+    "hook": "AI에 돈 쓴 회사들, 빅테크 빼면 아직 번 게 없대요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-1840-deep/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-1840-deep/02.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-1840-deep/03.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-1840-deep/04.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-1840-deep/05.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+    ],
+    "topic": "AI Threads",
+    "parts": [
+     "AI에 돈 쓴 회사들,\n빅테크 빼면 아직 번 게 없대요.\n\n아폴로 수석 이코노미스트 토르스텐 슬록이\n10월 24일 \"테크 밖 미국 기업에선\nAI의 재무 성과가 전혀 없다\"고 분석했어요.\n직원당 매출·이익률·생산성 모두 제자리래요.\n\n카드로 정리했어요.\n여러분 회사는 AI로 뭐가 달라졌나요?",
+     "출처: 아폴로 https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector\n영상으로 30초 만에 보기 → 인스타 @shift_ai_magazine"
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "AI Issue",
+      "title": "AI 투자,\n==테크 밖==은 0",
+      "sub": "아폴로 이코노미스트 분석"
+     },
+     {
+      "kind": "list",
+      "label": "핵심 요약",
+      "title": "숫자가 말한 것",
+      "items": [
+       {
+        "h": "직원당 매출 제자리",
+        "d": "M7은 오르고 나머지 493곳은 평평"
+       },
+       {
+        "h": "이익률도 그대로",
+        "d": "S&P 493 기업은 변화 없음"
+       },
+       {
+        "h": "생산성 신호 없음",
+        "d": "샌프란시스코 연은 TFP 기준"
+       }
+      ],
+      "shot": {
+       "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+       "credit": "apollo.com",
+       "y": 800
+      }
+     },
+     {
+      "kind": "text",
+      "label": "세부 내용",
+      "title": "돈은 소수에게 몰려",
+      "body": "AI 지출은 **극소수 기업**에 쏠려 있어요.\n램프(Ramp) 지출 데이터 기준이에요.\n슬록은 승부가 M7이 아니라\n**S&P 493**에서 갈린다고 봤어요.",
+      "shot": {
+       "url": "https://ramp.com/data/ai-index",
+       "credit": "ramp.com"
+      }
+     },
+     {
+      "kind": "text",
+      "label": "시사점",
+      "title": "나한테 미치는 영향",
+      "body": "AI를 쓰는 것과 돈이 되는 건 달라요.\n업무 하나를 정해 **전후 시간**을 재 보세요.\n숫자로 남겨야 다음 투자도 쉬워요.",
+      "commons": "File:New York Stock Exchange Facade 2015.jpg"
+     }
+    ],
+    "photoFrom": [
+     "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+    ]
+   },
+   {
+    "id": "2026-10-27-2140-compare",
+    "at": "2026-10-27T21:42:00+09:00",
+    "format": "compare",
+    "type": "carousel",
+    "hook": "1.76시간 걸리던 AI 학습, 열흘 만에 1.6초가 됐어요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-2140-compare/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-2140-compare/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://www.aitimes.com/news/articleView.html?idxno=216671",
+     "https://github.com/qlabs-eng/noise",
+     "https://qlabs.sh/research/dust/"
+    ],
+    "topic": "AI Threads",
+    "parts": [
+     "1.76시간 걸리던 AI 학습,\n열흘 만에 1.6초가 됐어요.\n\n스타트업 Q랩스가 역전파 없이\n언어모델을 학습하는 공개 실험 '노이즈'를 열었고\n기록이 약 4,000배 빨라졌대요.\n다만 기존 학습법과 직접 비교한 숫자는 아니에요.\n\n이런 공개 기록 경쟁, 지켜볼 만할까요?",
+     "출처: AI타임스 https://www.aitimes.com/news/articleView.html?idxno=216671 · 노이즈 깃허브 https://github.com/qlabs-eng/noise"
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "AI Compare",
+      "title": "1.76시간 →\n==1.6초==",
+      "sub": "Q랩스 '노이즈' 학습 실험"
+     },
+     {
+      "kind": "big",
+      "label": "숫자로 보는 AI",
+      "title": "열흘 만의 단축 배수",
+      "num": "약 ==4,000==배",
+      "d": "3,770만 파라미터 소형 GPT, 목표 손실 4.2\n기존 역전파와 직접 비교한 수치는 아님",
+      "shot": {
+       "url": "https://qlabs.sh/research/dust/",
+       "credit": "qlabs.sh"
+      }
+     }
+    ],
+    "photoFrom": null
+   }
+  ],
   "reels": []
  },
  "comments": {
@@ -404,15 +673,46 @@
   },
   {
    "date": "2026-10-27",
-   "total": 0,
+   "total": 5,
    "ok": 0,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
+   "scheduled": 5,
+   "needCards": 5,
+   "cardsReady": 5,
+   "times": [
+    {
+     "at": "2026-10-27T07:37:00+09:00",
+     "format": "briefing",
+     "status": "scheduled",
+     "cards": 5
+    },
+    {
+     "at": "2026-10-27T11:39:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    },
+    {
+     "at": "2026-10-27T14:41:00+09:00",
+     "format": "question",
+     "status": "scheduled",
+     "cards": 1
+    },
+    {
+     "at": "2026-10-27T18:38:00+09:00",
+     "format": "deep",
+     "status": "scheduled",
+     "cards": 5
+    },
+    {
+     "at": "2026-10-27T21:42:00+09:00",
+     "format": "compare",
+     "status": "scheduled",
+     "cards": 2
+    }
+   ],
    "reels": []
   }
  ],
