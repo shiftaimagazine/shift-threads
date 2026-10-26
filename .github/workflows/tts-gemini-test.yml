@@ -14,7 +14,7 @@ jobs:
       - name: 시험
         env: { GEMINI_API_KEY: '${{ secrets.GEMINI_API_KEY }}' }
         run: |
-          for n in tag plain; do sed -i "s/MODEL_PLACEHOLDER/${{ inputs.model }}/" tools/job-$n.json; (python3 tools/tts_gemini.py tools/job-$n.json 2>&1 | tee samples/tts/split/$n-log.txt) || true; sleep 25; done
+          mkdir -p samples/tts/split; for n in tag plain; do sed -i "s/MODEL_PLACEHOLDER/${{ inputs.model }}/" tools/job-$n.json; (python3 tools/tts_gemini.py tools/job-$n.json 2>&1 | tee samples/tts/split/$n-log.txt) || true; sleep 25; done
       - name: 저장
         if: always()
         run: |
