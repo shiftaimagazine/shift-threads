@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T02:18:46.554Z",
+ "updated": "2026-10-26T03:16:31.337Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -78,8 +78,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "회사 엑셀, AI에 그대로 올리면 안 돼요. 이름·연락처가 들어간 파일은",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/De8S6fHFM8Q",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-26-1140-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-26-1140-howto/02.png"
@@ -361,11 +361,11 @@
   {
    "date": "2026-10-26",
    "total": 5,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 4,
+   "scheduled": 3,
    "needCards": 5,
    "cardsReady": 5,
    "times": [
@@ -378,7 +378,7 @@
     {
      "at": "2026-10-26T11:42:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
@@ -418,15 +418,6 @@
  ],
  "top": [
   {
-   "hook": "GTA6 보다 하늘을 나는 자동차가 먼저 나왔습니다.",
-   "views": 277,
-   "likes": 3,
-   "replies": 2,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DeqNm-hCTBl",
-   "at": "2026-10-19T02:43:35+0000"
-  },
-  {
    "hook": "이 단편영화, 촬영한 장면이 하나도 없어요.",
    "views": 200,
    "likes": 2,
@@ -434,15 +425,6 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/De0m7ixjfEM",
    "at": "2026-10-23T03:37:14+0000"
-  },
-  {
-   "hook": "클로드에게 \"네가 꿈꾸는 미래를 그려봐\"라고 했을 때 일어난 일 🎨✨",
-   "views": 152,
-   "likes": 2,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DeqLxe-idWR",
-   "at": "2026-10-19T02:27:30+0000"
   },
   {
    "hook": "AI 안전 시험 중에",
@@ -461,6 +443,24 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DeqXWi2kwOx",
    "at": "2026-10-19T04:08:43+0000"
+  },
+  {
+   "hook": "AI로 만든 포스터, 글자 깨져서 못 썼죠?",
+   "views": 61,
+   "likes": 1,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/De6hO8gAYZZ",
+   "at": "2026-10-25T10:43:20+0000"
+  },
+  {
+   "hook": "📌 AI, 이거 모르고 결제하면 큰일 납니다",
+   "views": 43,
+   "likes": 2,
+   "replies": 2,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/De3bQmyEXEQ",
+   "at": "2026-10-24T05:52:57+0000"
   }
  ]
 }
