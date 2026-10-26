@@ -8,7 +8,7 @@ const OUT = path.join(ROOT, 'samples', 'tts'); fs.mkdirSync(OUT, { recursive: tr
 const VOICES = (process.env.VOICES || 'Leda,Zephyr,Aoede,Kore,Autonoe,Laomedeia').split(',').map(s => s.trim()).filter(Boolean);
 const MODELS = (process.env.MODEL || 'gemini-3.8-flash-tts,gemini-3.1-flash-tts-preview,gemini-2.5-flash-preview-tts').split(',');
 const TEXT = process.env.TEXT || '직접 물어봤더니, 답이 완전히 달랐어요. 에이아이 요금이 몇 달 만에 최대 팔십 퍼센트나 내려갔거든요. 그럼 우리는 뭘 쓰면 될까요? 끝까지 보시면 바로 알 수 있어요.';
-const STYLE = process.env.STYLE || 'A Korean woman in her twenties hosting a fast-paced tech news Shorts channel, talking to a close friend about something exciting: bright, warm, natural and quick, with lively intonation. Not like an announcer. End each sentence crisply without dragging the last syllable.';
+const STYLE = process.env.STYLE || 'bright, warm, natural and quick, like a Korean woman in her twenties telling a close friend exciting tech news; not like an announcer';
 const log = []; const H = { 'Content-Type': 'application/json', 'x-goog-api-key': KEY };
 const wavFromPcm = (pcm, sr = 24000) => { const h = Buffer.alloc(44); h.write('RIFF', 0); h.writeUInt32LE(36 + pcm.length, 4); h.write('WAVE', 8); h.write('fmt ', 12); h.writeUInt32LE(16, 16); h.writeUInt16LE(1, 20); h.writeUInt16LE(1, 22); h.writeUInt32LE(sr, 24); h.writeUInt32LE(sr * 2, 28); h.writeUInt16LE(2, 32); h.writeUInt16LE(16, 34); h.write('data', 36); h.writeUInt32LE(pcm.length, 40); return Buffer.concat([h, pcm]); };
 function findAudio(o) {   // 응답 어디에 있든 base64 오디오 찾기
@@ -19,7 +19,7 @@ function findAudio(o) {   // 응답 어디에 있든 base64 오디오 찾기
   return null;
 }
 async function tryInteractions(model, voice) {
-  const body = { model, input: [{ type: 'user_input', content: [{ type: 'text', text: TEXT, speech_metadata: { style: STYLE } }] }], response_format: { type: 'audio' }, generation_config: { speech_config: [{ voice }] } };
+  const body = { model, input: [{ type: 'user_input', content: [{ type: 'text', text: TEXT, annotations: [{ type: 'speech_metadata', style: STYLE }] }] }], response_format: { type: 'audio' }, generation_config: { speech_config: [{ voice }] } };
   const r = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions', { method: 'POST', headers: H, body: JSON.stringify(body) });
   const j = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error(`interactions ${r.status}: ${JSON.stringify(j.error || j).slice(0, 300)}`);
@@ -41,13 +41,13 @@ let okModel = null;
 for (const voice of VOICES) {
   let done = false;
   for (const model of okModel ? [okModel] : MODELS) {
-    for (const [name, fn] of [['interactions', tryInteractions], ['generateContent', tryGenerate]]) {
+    for (const [name, fn] of [['interactions', tryInteractions]]) {
       try {
         const wav = await fn(model, voice);
-        fs.writeFileSync(path.join(OUT, `${voice}.wav`), wav);
+        fs.writeFileSync(path.join(OUT, `g-${voice}.wav`), wav);
         log.push({ voice, model, api: name, ok: true, bytes: wav.length }); okModel = model; done = true; console.log(`✓ ${voice} (${model} · ${name})`); break;
       } catch (e) { log.push({ voice, model, api: name, ok: false, error: String(e.message).replace(KEY, '***') }); }
-      await new Promise(r => setTimeout(r, 1500));
+      await new Promise(r => setTimeout(r, 22000));
     }
     if (done) break;
   }
