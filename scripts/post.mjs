@@ -91,9 +91,10 @@ for (const it of todo) {
     }
     // 이어지는 글(타래) — 첫 글 아래 답글로
     for (const p of parts.slice(1)) { await sleep(3000); ids.push(await publish({ media_type: 'TEXT', text: p, reply_to_id: ids.at(-1) })); }
-    const link = await call('GET', `/${ids[0]}`, { fields: 'permalink' }).then(j => j.permalink).catch(() => '');
-    mark('ok', { ids, link, type });
-    console.log(`올림: ${link || ids[0]}`);
+    const info = await call('GET', `/${ids[0]}`, { fields: 'permalink,topic_tag' }).catch(() => ({}));
+    const link = info.permalink || '';
+    mark('ok', { ids, link, type, topic: info.topic_tag || null });
+    console.log(`올림: ${link || ids[0]} · 주제 태그: ${info.topic_tag || '없음'}`);
     count++;
   } catch (e) {
     failed++;
