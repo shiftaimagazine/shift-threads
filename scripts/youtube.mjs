@@ -47,6 +47,18 @@ async function accessToken() {
   if (!r.ok || !j.access_token) throw new Error(`유튜브 키 갱신 실패: ${j.error_description || j.error || r.status} (refresh token 이 만료됐으면 scripts/youtube-auth.mjs 로 다시 발급)`);
   return j.access_token;
 }
+async function existingTitles(token) {   // 채널의 최근 업로드 제목 → 같은 제목은 올리지 않음 (2026-10-26 중복 사고 뒤 추가)
+  const h = { Authorization: `Bearer ${token}` };
+  const ch = await fetch('https://www.googleapis.com/youtube/v3/channels?part=contentDetails&mine=true', { headers: h }).then(r => r.json()).catch(() => ({}));
+  const pl = ch.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
+  if (!pl) return new Map();
+  const it = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${pl}`, { headers: h }).then(r => r.json()).catch(() => ({}));
+  return new Map((it.items || []).map(x => [String(x.snippet?.title || '').trim(), x.snippet?.resourceId?.videoId]));
+}
+async function setThumbnail(token, videoId, buf) {
+  const r = await fetch(`https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=${videoId}`, { method: 'POST', headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'image/jpeg', 'Content-Length': String(buf.length) }, body: buf });
+  if (!r.ok) throw new Error(`썸네일 실패 ${r.status}: ${(await r.text()).slice(0, 200)}`);
+}
 async function upload(token, buf, meta) {
   const init = await fetch('https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status', {
     method: 'POST', headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json; charset=UTF-8', 'X-Upload-Content-Length': String(buf.length), 'X-Upload-Content-Type': 'video/mp4' },
@@ -71,13 +83,13 @@ for (const d of [today, tomorrow]) {
   let list = [];
   if (byName['youtube.json']) {
     // PC 오토파일럿이 쓰는 형식: [{slot, publishAt, file:"1-yt.mp4", title, description, aiContent}]
-    list = (await driveGet(byName['youtube.json'].id, true)).map(x => ({ ...x, date: d, key: `${d}/${x.file}`, fileId: byName[x.file]?.id, kind: 'new' }));
+    list = (await driveGet(byName['youtube.json'].id, true)).map(x => ({ ...x, date: d, key: `${d}/${x.file}`, fileId: byName[x.file]?.id, coverId: x.cover ? byName[x.cover]?.id : null, kind: 'new' }));
   } else if (byName['manifest.json']) {
     // 예비: manifest.json 만 있을 때 (손으로 옮긴 폴더 등). 유튜브 사본이 없으면 원본 mp4 를 올림
     const m = await driveGet(byName['manifest.json'].id, true);
     list = (m.items || []).filter(it => /^\d{2}:\d{2}$/.test(it.slot)).map((it, i) => {
       const yt = byName[`${i + 1}-yt.mp4`] || byName[it.video];
-      return { slot: it.slot, publishAt: `${d}T${it.slot}:00+09:00`, file: yt?.name, fileId: yt?.id, title: it.ytTitle || it.title,
+      return { slot: it.slot, publishAt: `${d}T${it.slot}:00+09:00`, file: yt?.name, fileId: yt?.id, coverId: byName[it.cover]?.id || null, title: it.ytTitle || it.title,
         description: `${String(it.caption || '').replace(/[<>]/g, '').trim()}${FOOTER}`.slice(0, 4900), aiContent: /화제작|퀴즈|대결/.test(it.format || ''), date: d, key: `${d}/${yt?.name}`, kind: 'new' };
     });
   }
@@ -114,9 +126,12 @@ function slotFor(it) {
 }
 
 const token = await accessToken();
+const have = await existingTitles(token);
 let n = 0, failed = 0;
 for (const it of todo) {
   if (n >= MAX_PER_RUN) break;
+  const dupId = have.get(String(it.title || '').replace(/[<>]/g, '').slice(0, 100).trim());
+  if (dupId) { posted[it.key] = { videoId: dupId, publishAt: it.publishAt, title: it.title, at: kstIso(), note: '같은 제목이 이미 채널에 있어 올리지 않음' }; console.log(`건너뜀(이미 있음): ${it.key} → ${dupId}`); continue; }
   const at = slotFor(it);
   if (!at) { posted[it.key] = { error: '48시간 넘게 밀려 건너뜀', at: kstIso() }; console.log(`건너뜀(너무 늦음): ${it.key}`); continue; }
   const publishAt = new Date(at).toISOString();
@@ -129,7 +144,9 @@ for (const it of todo) {
     if (buf.length < 50e3) throw new Error(`영상 파일이 너무 작음 (${buf.length} bytes) — 드라이브 동기화 전일 수 있음`);
     const v = await upload(token, buf, meta);
     posted[it.key] = { videoId: v.id, publishAt: kstIso(new Date(at)), title: meta.snippet.title, at: kstIso() };
+    have.set(meta.snippet.title, v.id);
     console.log(`   예약됨: https://youtube.com/shorts/${v.id}`); n++;
+    if (it.coverId) { try { await setThumbnail(token, v.id, await driveGet(it.coverId)); console.log('   썸네일 설정'); } catch (e) { posted[it.key].note = e.message; console.error(`   ${e.message}`); } }
     await sleep(3000);
   } catch (e) {
     failed++; console.error(`   실패: ${e.message}`);
