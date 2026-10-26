@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T12:42:54.316Z",
+ "updated": "2026-10-26T14:06:38.630Z",
  "sources": [
   {
    "name": "AI타임스",
@@ -62,7 +62,7 @@
    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
    "ok": true,
    "items": 10,
-   "fresh": 0,
+   "fresh": 1,
    "note": ""
   },
   {
@@ -86,7 +86,7 @@
    "url": "https://news.hada.io/rss/news",
    "ok": true,
    "items": 50,
-   "fresh": 18,
+   "fresh": 20,
    "note": ""
   },
   {
@@ -94,7 +94,7 @@
    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
    "ok": true,
    "items": 10,
-   "fresh": 4,
+   "fresh": 7,
    "note": ""
   },
   {
@@ -142,7 +142,7 @@
    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 7,
+   "fresh": 6,
    "note": ""
   },
   {
