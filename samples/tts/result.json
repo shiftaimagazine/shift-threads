@@ -1,0 +1,91 @@
+{
+ "at": "2026-10-26T10:42:54.083Z",
+ "text": "직접 물어봤더니, 답이 완전히 달랐어요. 에이아이 요금이 몇 달 만에 최대 팔십 퍼센트나 내려갔거든요. 그럼 우리는 뭘 쓰면 될까요? 끝까지 보시면 바로 알 수 있어요.",
+ "style": "A Korean woman in her twenties hosting a fast-paced tech news Shorts channel, talking to a close friend about something exciting: bright, warm, natural and quick, with lively intonation. Not like an announcer. End each sentence crisply without dragging the last syllable.",
+ "log": [
+  {
+   "voice": "Leda",
+   "model": "gemini-3.8-flash-tts",
+   "api": "interactions",
+   "ok": false,
+   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
+  },
+  {
+   "voice": "Leda",
+   "model": "gemini-3.8-flash-tts",
+   "api": "generateContent",
+   "ok": true,
+   "bytes": 1363556
+  },
+  {
+   "voice": "Zephyr",
+   "model": "gemini-3.8-flash-tts",
+   "api": "interactions",
+   "ok": false,
+   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
+  },
+  {
+   "voice": "Zephyr",
+   "model": "gemini-3.8-flash-tts",
+   "api": "generateContent",
+   "ok": true,
+   "bytes": 1476836
+  },
+  {
+   "voice": "Aoede",
+   "model": "gemini-3.8-flash-tts",
+   "api": "interactions",
+   "ok": false,
+   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
+  },
+  {
+   "voice": "Aoede",
+   "model": "gemini-3.8-flash-tts",
+   "api": "generateContent",
+   "ok": true,
+   "bytes": 1461476
+  },
+  {
+   "voice": "Kore",
+   "model": "gemini-3.8-flash-tts",
+   "api": "interactions",
+   "ok": false,
+   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
+  },
+  {
+   "voice": "Kore",
+   "model": "gemini-3.8-flash-tts",
+   "api": "generateContent",
+   "ok": true,
+   "bytes": 1413476
+  },
+  {
+   "voice": "Autonoe",
+   "model": "gemini-3.8-flash-tts",
+   "api": "interactions",
+   "ok": false,
+   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
+  },
+  {
+   "voice": "Autonoe",
+   "model": "gemini-3.8-flash-tts",
+   "api": "generateContent",
+   "ok": false,
+   "error": "generateContent 429: {\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: genera"
+  },
+  {
+   "voice": "Laomedeia",
+   "model": "gemini-3.8-flash-tts",
+   "api": "interactions",
+   "ok": false,
+   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
+  },
+  {
+   "voice": "Laomedeia",
+   "model": "gemini-3.8-flash-tts",
+   "api": "generateContent",
+   "ok": false,
+   "error": "generateContent 429: {\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: genera"
+  }
+ ]
+}
