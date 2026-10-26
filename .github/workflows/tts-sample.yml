@@ -1,0 +1,25 @@
+name: 목소리 샘플 만들기 (Gemini TTS)
+on:
+  workflow_dispatch:
+    inputs:
+      voices: { description: '목소리 이름 (쉼표)', default: 'Leda,Zephyr,Aoede,Kore,Autonoe,Laomedeia' }
+      model: { description: '모델 (쉼표, 앞에서부터 시도)', default: 'gemini-3.8-flash-tts,gemini-3.1-flash-tts-preview,gemini-2.5-flash-preview-tts' }
+permissions: { contents: write }
+concurrency: { group: threads-repo, cancel-in-progress: false }
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 24 }
+      - run: node tools/tts-sample.mjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          VOICES: ${{ inputs.voices }}
+          MODEL: ${{ inputs.model }}
+      - name: 저장
+        if: always()
+        run: |
+          git config user.name "shift-threads-bot"; git config user.email "actions@users.noreply.github.com"
+          git add samples; git diff --cached --quiet || (git commit -m "목소리 샘플" && git pull --rebase && git push)
