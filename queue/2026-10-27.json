@@ -5,9 +5,6 @@
   "format": "briefing",
   "type": "carousel",
   "topic": "AI Threads",
-  "photoFrom": [
-   "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
-  ],
   "photoCredit": "Cerebras",
   "parts": [
    "금융사 망분리, AI 보안 갖추면 풀어 준대요.\n\n놓치면 아쉬운 AI 소식 3가지예요.\n① 금감원, 망분리 규제 전면 해제 검토\n② 그록, AI로 만든 '오디세이' 7분 공개\n③ 3조 파라미터 AI, 웨이퍼 59장에 나눠 실행\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 가장 궁금한 건 뭐예요?",
@@ -25,14 +22,16 @@
     "label": "소식 1",
     "title": "금융 망분리, 풀린다",
     "body": "금감원이 26일 서울핀테크위크에서\nAI 보안 역량 갖춘 금융사부터\n**망분리 전면 해제**를 검토한다고 했어요.\n6월 테스트엔 49곳 신청, 10곳 선정.",
-    "commons": "File:Korea Yeouido Summer 20140805 11 (14862134703).jpg"
+    "shot": {
+     "url": "https://www.fss.or.kr",
+     "credit": "fss.or.kr"
+    }
    },
    {
     "kind": "text",
     "label": "소식 2",
     "title": "AI 영화 '오디세이'",
-    "body": "그록 이매진이 AI로 만든\n'오디세이' 1화 첫 **7분**을 X에 공개.\n원더 스튜디오와 함께 만들었고\n테크크런치는 \"예술성이 없다\"고 평했어요.",
-    "commons": "File:Homer British Museum.jpg"
+    "body": "그록 이매진이 AI로 만든\n'오디세이' 1화 첫 **7분**을 X에 공개.\n원더 스튜디오와 함께 만들었고\n테크크런치는 \"예술성이 없다\"고 평했어요."
    },
    {
     "kind": "text",
@@ -50,7 +49,8 @@
    "https://byline.network/2026/10/1026-6/",
    "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
    "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
-  ]
+  ],
+  "photo": "https://cdn.sanity.io/images/e4qjo92p/production/21fa43f6d541115e57887beb1155bddc7541ae71-2400x1260.jpg"
  },
  {
   "id": "2026-10-27-1140-howto",
@@ -157,9 +157,8 @@
      }
     ],
     "shot": {
-     "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-     "credit": "apollo.com",
-     "y": 800
+     "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/total-factor-productivity-tfp/",
+     "credit": "frbsf.org"
     }
    },
    {
