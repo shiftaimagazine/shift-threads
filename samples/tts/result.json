@@ -1,91 +1,49 @@
 {
- "at": "2026-10-26T10:42:54.083Z",
+ "at": "2026-10-26T10:48:13.255Z",
  "text": "직접 물어봤더니, 답이 완전히 달랐어요. 에이아이 요금이 몇 달 만에 최대 팔십 퍼센트나 내려갔거든요. 그럼 우리는 뭘 쓰면 될까요? 끝까지 보시면 바로 알 수 있어요.",
- "style": "A Korean woman in her twenties hosting a fast-paced tech news Shorts channel, talking to a close friend about something exciting: bright, warm, natural and quick, with lively intonation. Not like an announcer. End each sentence crisply without dragging the last syllable.",
+ "style": "bright, warm, natural and quick, like a Korean woman in her twenties telling a close friend exciting tech news; not like an announcer",
  "log": [
   {
    "voice": "Leda",
    "model": "gemini-3.8-flash-tts",
    "api": "interactions",
-   "ok": false,
-   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
-  },
-  {
-   "voice": "Leda",
-   "model": "gemini-3.8-flash-tts",
-   "api": "generateContent",
    "ok": true,
-   "bytes": 1363556
+   "bytes": 572516
   },
   {
    "voice": "Zephyr",
    "model": "gemini-3.8-flash-tts",
    "api": "interactions",
-   "ok": false,
-   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
-  },
-  {
-   "voice": "Zephyr",
-   "model": "gemini-3.8-flash-tts",
-   "api": "generateContent",
    "ok": true,
-   "bytes": 1476836
-  },
-  {
-   "voice": "Aoede",
-   "model": "gemini-3.8-flash-tts",
-   "api": "interactions",
-   "ok": false,
-   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
-  },
-  {
-   "voice": "Aoede",
-   "model": "gemini-3.8-flash-tts",
-   "api": "generateContent",
-   "ok": true,
-   "bytes": 1461476
-  },
-  {
-   "voice": "Kore",
-   "model": "gemini-3.8-flash-tts",
-   "api": "interactions",
-   "ok": false,
-   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
-  },
-  {
-   "voice": "Kore",
-   "model": "gemini-3.8-flash-tts",
-   "api": "generateContent",
-   "ok": true,
-   "bytes": 1413476
+   "bytes": 585956
   },
   {
    "voice": "Autonoe",
    "model": "gemini-3.8-flash-tts",
    "api": "interactions",
    "ok": false,
-   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
-  },
-  {
-   "voice": "Autonoe",
-   "model": "gemini-3.8-flash-tts",
-   "api": "generateContent",
-   "ok": false,
-   "error": "generateContent 429: {\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: genera"
+   "error": "interactions 429: {\"message\":\"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 20h12m41s or upgrade your tier at https://ai.dev/rate-limit.\",\"code\":\"too_many_requests\"}"
   },
   {
    "voice": "Laomedeia",
    "model": "gemini-3.8-flash-tts",
    "api": "interactions",
    "ok": false,
-   "error": "interactions 400: {\"message\":\"Unknown parameter 'speech_metadata' at 'input[0].content[0]'.\",\"code\":\"invalid_request\"}"
+   "error": "interactions 429: {\"message\":\"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 20h12m18s or upgrade your tier at https://ai.dev/rate-limit.\",\"code\":\"too_many_requests\"}"
   },
   {
-   "voice": "Laomedeia",
+   "voice": "Aoede",
    "model": "gemini-3.8-flash-tts",
-   "api": "generateContent",
-   "ok": false,
-   "error": "generateContent 429: {\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: genera"
+   "api": "interactions",
+   "ok": true,
+   "bytes": 532196
+  },
+  {
+   "voice": "Despina",
+   "model": "gemini-3.8-flash-tts",
+   "api": "interactions",
+   "ok": true,
+   "bytes": 568676
   }
  ]
 }
