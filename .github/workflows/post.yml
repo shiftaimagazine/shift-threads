@@ -15,6 +15,8 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with: { node-version: 24 }
+      - name: 매거진 링크 붙이기 (출처 답글에 SHIFT AI 매거진 주소)
+        run: node scripts/maglink.mjs || true
       - run: node scripts/post.mjs
         env:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
@@ -24,4 +26,4 @@ jobs:
         if: always()
         run: |
           git config user.name "shift-threads-bot"; git config user.email "actions@users.noreply.github.com"
-          node scripts/status.mjs || true; git add posted.json status.json; git diff --cached --quiet || (git commit -m "쓰레드 업로드 기록" && git pull --rebase && git push)
+          node scripts/status.mjs || true; git add posted.json status.json queue; git diff --cached --quiet || (git commit -m "쓰레드 업로드 기록" && git pull --rebase && git push)
