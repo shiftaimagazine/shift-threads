@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:44:58.225Z",
+ "updated": "2026-10-27T12:49:25.368Z",
  "items": [
   {
    "id": "2026-10-25-1840-deep",
@@ -158,7 +158,7 @@
     "05.png"
    ],
    "text": "게시 예정: 2026-10-28 07:39 (쓰레드)\n주제 태그: AI Threads\n\n시리 AI, 이제 한국어로 대화돼요.\n\n어제 나온 AI 소식 3가지예요.\n① 애플 iOS 27.2, 시리 AI 한국어 지원\n② 네이버, AI 팩토리에 18.7조 지급보증\n③ MS, 4개국 직원에 자발적 퇴직 제안\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 눈에 띄는 건 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 맥루머스 https://www.macrumors.com/2026/10/26/apple-releases-ios-27-2/ · 바이라인네트워크 https://byline.network/2026/10/27_19287373-2/ · 마이크로소프트 https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/\n",
-   "sig": "e2053b95c50df186"
+   "sig": "eaf178fc2b659dd0"
   },
   {
    "id": "2026-10-28-1140-howto",
@@ -179,7 +179,7 @@
     "01.png"
    ],
    "text": "게시 예정: 2026-10-28 14:38 (쓰레드)\n주제 태그: AI Threads\n\nAI한테 장보기 맡기면\n결제 버튼까지 누르게 하실래요?\n\n상품 찾고 비교하는 건 이미 꽤 잘해요.\n고민되는 건 마지막 '결제' 한 번이더라고요.\n저희는 장바구니까지만 맡기고 싶어요.\n\n여러분은 어디까지 맡길 수 있어요?\n",
-   "sig": "4fb5e3c3ee1f3b2d"
+   "sig": "46be68e95400cb05"
   },
   {
    "id": "2026-10-28-1840-deep",
@@ -193,7 +193,7 @@
     "05.png"
    ],
    "text": "게시 예정: 2026-10-28 18:37 (쓰레드)\n주제 태그: AI Threads\n\n상반기 매출 163억 달러,\n클로드 만든 앤트로픽이 상장 서류를 냈어요.\n\n1년 전 같은 기간 12억 달러에서 13배 넘게 늘었고\n영업손실은 6.9억 달러로 줄었어요.\n티커는 'ANT', 공모 규모는 아직 미정이에요.\n\n카드로 정리했어요.\nAI 회사 상장 러시, 어떻게 보세요?\n\n── 이어지는 답글 1 ──\n출처: 테크크런치 https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/\n영상으로 30초 만에 보기 → 인스타 @shift_ai_magazine\n",
-   "sig": "706dae54f743e27b"
+   "sig": "85317e7a97f2d1d3"
   },
   {
    "id": "2026-10-28-2140-compare",
@@ -207,7 +207,7 @@
     "05.png"
    ],
    "text": "게시 예정: 2026-10-28 21:42 (쓰레드)\n주제 태그: AI Threads\n\nSol보다 반값에 3배 빠른 GPT가 나왔어요.\n\n오픈AI GPT-6.1 Terra, 공식 발표 기준\n입력 100만 토큰 1달러, 출력 5달러예요.\n다만 아주 복잡한 코딩은\n여전히 Sol·Astra를 권한대요.\n\n여러분은 싼 모델, 센 모델 중 어디부터 써요?\n\n── 이어지는 답글 1 ──\n출처: OpenAI https://openai.com/index/introducing-gpt-6-1-terra/\n",
-   "sig": "4f2c680a1797ce48"
+   "sig": "ed41ab7c48b330d4"
   }
  ]
 }

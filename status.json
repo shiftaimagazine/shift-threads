@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:44:58.159Z",
+ "updated": "2026-10-27T12:49:25.283Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -329,7 +329,7 @@
       "title": "시리 AI, 한국어로",
       "body": "iOS 27.2에서 한국어 등 5개 언어 추가.\n지난 대화를 **기억**하고 이어서 답해요.\n아이폰 15 Pro·16 이후 모델 대상.",
       "shot": {
-       "url": "https://www.apple.com/kr/",
+       "url": "https://www.apple.com/kr/siri/",
        "credit": "apple.com"
       }
      },
@@ -484,8 +484,8 @@
        }
       ],
       "shot": {
-       "url": "https://www.sec.gov/edgar/search/",
-       "credit": "sec.gov"
+       "url": "https://www.anthropic.com/news",
+       "credit": "anthropic.com"
       }
      },
      {
@@ -577,12 +577,7 @@
       "label": "숫자로 보는 AI",
       "title": "Astra급 점수, 가격은",
       "num": "==1/10==",
-      "d": "에이전트 시험에서 GPT-6 Astra와 비슷,\n토큰당 가격은 10분의 1이래요.",
-      "shot": {
-       "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-       "credit": "openai.com",
-       "y": 600
-      }
+      "d": "에이전트 시험에서 GPT-6 Astra와 비슷,\n토큰당 가격은 10분의 1이래요."
      },
      {
       "kind": "text",
@@ -591,9 +586,7 @@
       "body": "**반복 작업·화면 조작** → Terra\n**아주 복잡한 코딩** → Sol·Astra\nPlus·Pro·기업·교육 요금제에서 사용.\n한 줄 추천: 일단 Terra부터 써 보세요."
      }
     ],
-    "photoFrom": [
-     "https://openai.com/index/introducing-gpt-6-1-terra/"
-    ]
+    "photoFrom": null
    }
   ],
   "reels": []
