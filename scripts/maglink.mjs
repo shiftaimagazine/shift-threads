@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = path.dirname(path.dirname(new URL(import.meta.url).pathname));
-const SITE = 'https://shiftaimagazine.github.io';
+const SITE = 'https://shiftaimagazine.com';
 const TAG = '?utm_source=threads';
 const MAX_PER_DAY = 2, LIMIT = 480;
 
