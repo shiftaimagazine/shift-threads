@@ -1,0 +1,678 @@
+{
+ "updated": "2026-10-27T12:18:23.851Z",
+ "kstDate": "2026-10-27",
+ "windowHours": 48,
+ "note": "글쓰기 작업용 뉴스 후보. 쓰기로 한 소식은 반드시 link 원문을 열어 숫자·날짜를 확인할 것. summary 는 피드 요약이라 사실 확인 근거로 쓰지 않음.",
+ "items": [
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "link": "https://openai.com/index/greptile-code-review-codex-astra",
+   "published": "2026-10-26T22:00:00.000Z",
+   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework."
+  },
+  {
+   "source": "Google AI 블로그",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Our newest AI Quest: Mapping the human brain",
+   "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+   "published": "2026-10-26T16:00:00.000Z",
+   "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.max-600x600.format-webp.webp\">Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”"
+  },
+  {
+   "source": "Microsoft 블로그",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Introducing a Voluntary Exit Offer",
+   "link": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+   "published": "2026-10-26T15:33:56.000Z",
+   "summary": "Amy Coleman, Executive Vice President and Chief People Officer, shared the below communication with Microsoft employees today. Today, we’re introducing a new Voluntary Exit Offer (VEO) to eligible employees within participating organizations. This offer gives eligible employees who may be considering a future outside t"
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Working with academic communities to build scientific understanding",
+   "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "published": "2026-10-26T14:30:00.000Z",
+   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them."
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "published": "2026-10-26T13:45:00.000Z",
+   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes."
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "ChatGPT’s expanding world of work",
+   "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "published": "2026-10-26T10:00:00.000Z",
+   "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "How Fanatics and OpenAI streamline the fan experience",
+   "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "published": "2026-10-26T07:00:00.000Z",
+   "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement."
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+   "link": "https://openai.com/index/openai-cut-incident-investigation",
+   "published": "2026-10-26T07:00:00.000Z",
+   "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows."
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Introducing GPT-6.1 Terra",
+   "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "published": "2026-10-26T00:00:00.000Z",
+   "summary": "Bringing fast and capable computer use to everyone"
+  },
+  {
+   "source": "AI타임스",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "\"성능은 그대로, 비용은 최대 3배\"…에이전트 가로막는 '복잡한 하네스'",
+   "link": "https://www.aitimes.com/news/articleView.html?idxno=216712",
+   "published": "2026-10-27T18:20:31.000Z",
+   "summary": "AI 코딩 에이전트의 작업 환경을 복잡하게 구성해도 코드 작성 정확도는 거의 높아지지 않지만, 추론 비용은 최대 3배까지 늘어날 수 있다는 연구 결과가 나왔다. 모델을 둘러싼 도구와 실행 절차 등 '하네스'를 정교하게 설계하는 것보다 불필요한 지시문과 도구 정의를 줄이는 편이 비용 효율에 더 큰 영향을 줄 수 있다는 분석이다.중국 산둥대와 미국 UC버클리 연구진은 최근 온라인 아카이브에 공개한 연구에서 앤트로픽의 '클로드 코드'와 오픈소스 도구 '오픈코드', 최소한의 기능으로 구성된 '미니-SWE-에이전트(mini-SWE-agent"
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "‘19조 투입’ 네이버, AI 팩토리 본격 추진한다",
+   "link": "https://byline.network/2026/10/27_19287373-2/",
+   "published": "2026-10-27T11:54:27.000Z",
+   "summary": "네이버가 브룩필드와 추진하는 인공지능(AI)팩토리 사업과 관련해 최대 18조7400억원 규모 지급보증을 결정했다. 이에 따라 네이버-엔비디아-브룩필드가 공동 추진하는 1GW급 글로벌 AI 팩토리 사업의 첫 단계인 200MW 인프라 구축도 본격화될 전망이다."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "인스페이스, 기술성평가 A·BBB 획득…코스닥 상장 재도전 '청신호'",
+   "link": "https://www.etnews.com/20261027000452",
+   "published": "2026-10-27T11:38:42.000Z",
+   "summary": "AI 데이터 인텔리전스 전문기업 인스페이스(대표 최명진)가 코스닥 기술특례상장을 위한 기술성평가에서 전문평가기관 두 곳으로부터 각각 A등급과 BBB등급을 획득했다. 핵심 기술 제품화와 사업화 성과를 앞세워 코스닥 입성에 다시 도전한다는 계획이다. 인스페이스는 지난해 기술특례상장에 필요한 기술평가 요건을 충족한 데 이어 핵심 기술 완성도와 사업화 역량을 지속적으로 강화해 왔다. 이번 평가 결과를 토대로 후속 상장 절차를 추진하고, 연구개발과 제품"
+  },
+  {
+   "source": "긱뉴스",
+   "kind": "community",
+   "lang": "ko",
+   "official": false,
+   "title": "AI 시대의 맨먼스 미신",
+   "link": "https://news.hada.io/topic?id=36105",
+   "published": "2026-10-27T11:32:28.000Z",
+   "summary": "AI 에이전트와 LLM 이 등장해도 브룩스의 법칙은 사라지기보다 형태가 바뀜 온보딩, 반복되는 스탠드업 회의, 사내 정치 같은 기존 병목이 사라지는 듯 보여도 순차 작업 은 여전히 순차적으로 수행해야 함 관리 부담은 사람에서 에이전트 관리"
+  },
+  {
+   "source": "MIT 테크놀로지 리뷰",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+   "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+   "published": "2026-10-27T11:19:18.000Z",
+   "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during "
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+   "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+   "published": "2026-10-27T11:00:00.000Z",
+   "summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "AI Agents Are Media’s New Favorite Audience",
+   "link": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+   "published": "2026-10-27T11:00:00.000Z",
+   "summary": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "'학생 연구를 산업 현장으로'… 한국뉴욕주립대, GM테크니컬센터 코리아 AI Week에서 AI 융합 연구성과 공유",
+   "link": "https://www.etnews.com/20261027000446",
+   "published": "2026-10-27T10:38:18.000Z",
+   "summary": "한국뉴욕주립대학교(SUNY Korea)는 지난 14~15일 GM 테크니컬센터 코리아(GMTCK) 청라·부평 사업장에서 열린 'GMTCK AI Week 2026'에 참여해 학생과 교수진 연구성과를 공유했다. 행사는 'Beyond Awareness into Value. AI That Truly Works'를 주제로, AI에 대한 이해를 넘어 실제 업무와 연구개발 현장에서 활용할 수 있는 사례를 공유하기 위해 마련했다. GMTCK와 지멘스, 구글 등"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "한국컴퓨터교육학회·성균관대·순천향대·호서대·한신대·전남대, '2026년 캡스톤 디자인 및 AI 해커톤 경진대회' 성료",
+   "link": "https://www.etnews.com/20261027000442",
+   "published": "2026-10-27T10:12:36.000Z",
+   "summary": "한국컴퓨터교육학회는 5개 대학과 공동으로 지난 23~25일 '2026년 캡스톤 디자인 및 AI 해커톤' 경진대회를 개최했다. 경진대회는 순천향대 AI중심대학사업단, 호서대 AI·SW중심대학사업단, 전남대 인공지능혁신융합대학사업단, 한신대 SW중심대학사업단 등이 참여했다. 인공지능(AI)과 데이터사이언스 분야에서 예선을 통과한 성균관대, 순천향대, 호서대, 전남대, 한신대 학생 100명이 해커톤 팀 빌딩을 통해 20개 팀으로 구성했다. '자유주제"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Data center backlash is uniting America",
+   "link": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+   "published": "2026-10-27T10:00:00.000Z",
+   "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across the country and become a major issue in ma"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
+   "link": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+   "published": "2026-10-27T09:30:00.000Z",
+   "summary": "I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "NIPA, AI·SW 기업지원 성과관리 개선… 한준호 “과기부 실행계획으로 이어져야”",
+   "link": "https://www.etnews.com/20261027000436",
+   "published": "2026-10-27T09:17:42.000Z",
+   "summary": "정보통신산업진흥원(NIPA)이 인공지능(AI)·소프트웨어(SW) 기업별 누적 지원이력과 성장성과를 연계해 관리하는 종합관리 방안을 마련했다. 정부 지원이 여러 사업에 걸쳐 이뤄지는 만큼 기업별 지원 규모와 매출·투자유치·고용 등 성과를 함께 살펴 지원의 실효성을 높이겠다는 취지다. 한준호 더불어민주당 의원실은 한 의원의 국정감사 질의 이후 NIPA가 이 같은 내용의 'AI·SW 기업 지원사업 종합관리 방안'을 제출했다고 27일 밝혔다. 한 의원"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "제논, 기업용 보안 AI 가드레일 솔루션 '젠가드' 출시",
+   "link": "https://www.etnews.com/20261027000431",
+   "published": "2026-10-27T09:04:59.000Z",
+   "summary": "제논은 생성형 인공지능(AI) 서비스의 보안 위협에 대응하는 AI 가드레일 솔루션 '젠가드(GenGuard)'를 출시했다고 26일 밝혔다. 기업 환경과 보안 정책에 맞춰 AI 서비스의 입력과 응답을 판정·차단하는 기술이 특징이다. 생성형 AI 플랫폼 '제노스(GenOS)'에 탑재된 가드레일 기능을 독립 솔루션으로 개발했다. 별도 모델 학습 없이 자연어로 보안 정책을 설정할 수 있다. 명령에 따라 AI 요청과 응답을 통제하고, 유해 콘텐츠와 AI"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "KTR-KOSA, AI·SW 기업 성장 지원",
+   "link": "https://www.etnews.com/20261027000430",
+   "published": "2026-10-27T09:04:20.000Z",
+   "summary": "한국화학융합시험연구원(KTR)과 한국인공지능·소프트웨어산업협회(KOSA)가 AI·SW 기업 성장을 지원한다. 이승렬 KTR 원장은 27일 서울 KOSA에서 조준희 KOSA 회장과 중소 AI·SW 기업 성장과 피지컬 AI 확산 지원을 위한 협력관계 구축 업무협약(MOU)을 체결했다. 양 기관은 △중소기업 AI 활용 지원 △피지컬 AI 확산 및 신기술 분야 협력 △AI·SW 국내외 인증 획득 지원 △전문인력 양성 등의 분야에서 협력을 확대하기로 했"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "'몸값 2700조' 앤트로픽 “삼전닉스가 반도체 안주면 AI 멈춘다”",
+   "link": "https://www.etnews.com/20261027000429",
+   "published": "2026-10-27T08:53:25.000Z",
+   "summary": "기업가치 최대 2700조원을 목표로 미국 증시 상장을 추진하는 인공지능(AI) 기업 앤트로픽이 삼성전자와 SK하이닉스 등 메모리 반도체 제조사의 공급 결정에 따라 사업이 타격을 받을 수 있다고 경고했다. AI 시장이 급성장하고 있지만 핵심 반도체 공급이 수요를 따라가지 못하면 사업 확장에 제동이 걸릴 수 있다는 것이다. 27일 앤트로픽이 미국 증권거래위원회(SEC)에 제출한 기업공개(IPO) 증권신고서에 따르면 회사는 AI용 메모리와 가속기 공"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "엘리스그룹, 청소년 에이전트 AI 해커톤 '메이커톤' 성료",
+   "link": "https://www.etnews.com/20261027000426",
+   "published": "2026-10-27T08:41:27.000Z",
+   "summary": "엘리스그룹은 에이전트 인공지능(AI) 해커톤 '메이커톤(Make-thon)'을 마무리했다고 27일 밝혔다. 메이커톤에는 전국 중·고등학교 21곳에서 청소년 161명이 참가했다. '배운 AI를 우리에게 필요한 AI로'를 슬로건으로 서울 건국대와 대전 KT인재개발원에서 개최됐다. 학생들은 친환경 쓰레기 재활용, 디지털 격차 완화, 고교학점제 지원 등 실생활 문제 해결을 위한 AI 에이전트를 개발했다. 참가한 38개 팀 모두 프로젝트를 완수했다. 과"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "철도연, AI·디지털 기반 철도사고 예방기술 12종 시연",
+   "link": "https://www.etnews.com/20261027000424",
+   "published": "2026-10-27T08:28:30.000Z",
+   "summary": "한국철도기술연구원(원장 사공명)이 AI와 디지털 기술 기반의 예방형 철도안전 핵심기술을 소개하는 자리를 가졌다. 철도연은 26일 철도연 오송분원에서 국토교통부 및 철도유관기관 관계자 30여명을 대상으로 이같은 자리를 마련했다고 밝혔다. 철도연은 이번 시연회에서 철도종사자의 인적오류를 사전에 분석·예측하고, 현장 위험상황을 실시간으로 감지·대응할 수 있는 12개 핵심 연구성과에 대한 연계 시연을 진행했다. 주요 기술은 △AI 영상분석 기반 기관사"
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[주간 리포트] PHP2Shell, 발견에서 패치까지",
+   "link": "https://byline.network/2026/10/25-592/",
+   "published": "2026-10-27T08:04:56.000Z",
+   "summary": "바이라인 주간 프리미엄 트렌드 리포트 493호가 발간됐습니다. 이번 호 딥다이브에서는 ‘PHP2Shell, 발견에서 패치까지’를 다뤘습니다. 지난 한 주 동안 놓치지 말았어야 할 국내외 IT 이슈들이 무엇이 있었는지 ▲전기·전자 ▲인터넷·콘텐츠·게임 ▲커머스 물류 ▲디지털 금융 ▲인공지능 ▲엔터프라이즈 IT 등 분야별 핫토픽과 옐로스토리, 딥다이브에서 확인하세요."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "데이터독, ′장애 분석부터 보안 대응까지’ AI 에이전트로 IT 운영 자동화",
+   "link": "https://byline.network/2026/10/1027-5/",
+   "published": "2026-10-27T07:57:13.000Z",
+   "summary": "AI가 소프트웨어 개발과 운영 과정에서 발생하는 문제를 스스로 분석하고 해결하는 기술이 IT 운영의 주요 과제로 떠오르고 있다. 클라우드와 AI 확산으로 시스템 복잡성이 커지는 가운데, 데이터독은 장애 원인 분석부터 코드 수정, 보안 위협 탐지까지 지원하는 AI 에이전트를 통해 IT 운영 자동화에 나섰다."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "쿤텍 “공들인 AI 전주기 보안 기술, 글로벌과 견줄 수준”",
+   "link": "https://byline.network/2026/10/27-689/",
+   "published": "2026-10-27T06:36:42.000Z",
+   "summary": "국내 융합 보안 전문기업 쿤텍이 인공지능(AI) 모델 도입부터 에이전트 운영, 데이터 활용까지 아우르는 전주기 보안 제품군을 앞세워 AI 보안 시장 공략에 나선다. 방혁준 쿤텍 대표는 27일 서울 양재동 엘타워에서 열린 기자간담회에서 AI 에이전트 보안 시장의 성장 가능성과 그동안 준비해 온 기술을 소개했다. 쿤텍은 지난해부터 AI 에이전트의 행동을 감시하고 위험한 작업을 실행 전에 차단하는 기술을 개발해 왔다. 여기에 기존 공급망 보안과 데이터 보호 기술을 연계해 보안 범위를 넓혔다."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "The Mythical Man-Month in the Age of AI",
+   "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+   "published": "2026-10-27T06:25:37.000Z",
+   "summary": "Article URL: https://j11g.com/the-mythical-man-month-in-the-age-of-ai Comments URL: https://news.ycombinator.com/item?id=50255298 Points: 220 # Comments: 156"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+   "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+   "published": "2026-10-27T02:00:00.000Z",
+   "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+   "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+   "published": "2026-10-27T01:12:21.000Z",
+   "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "오라클, DB를 거버넌스 최종 결정권자로 임명하다",
+   "link": "https://byline.network/2026/10/26-648/",
+   "published": "2026-10-27T00:54:06.000Z",
+   "summary": "오라클이 데이터베이스에 거버넌스를 내장시키며, AI 에이전트의 비즈니스 규칙 준수를 데이터베이스 차원에서 통제하려 하고 있다. AI의 신뢰성을 높이려면, 천방지축 AI에게 단순히 가이드라인을 따르라고 지시하는 것으로 부족하고, 데이터베이스 인프라 계층에 거버넌스 체계를 구축해 AI의 우회를 원천 차단해야 한다는 것이다. 데이터베이스 외부에 있던 데이터 품질, 데이터 카탈로그보다 더 견고한 내벽을 쌓아 AI 에이전트의 데이터 오남용을 방어한다는 구상이다."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+   "published": "2026-10-26T23:34:58.000Z",
+   "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes "
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+   "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+   "published": "2026-10-26T22:41:48.000Z",
+   "summary": "Article URL: https://blog.cloudflare.com/kv-cache-exposure-remediation/ Comments URL: https://news.ycombinator.com/item?id=50252159 Points: 145 # Comments: 47"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Anthropic is burning gas to feed the AI boom",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+   "published": "2026-10-26T21:45:31.000Z",
+   "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monday, Anthropic acknowl"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+   "link": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+   "published": "2026-10-26T21:27:15.000Z",
+   "summary": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells WIRED."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+   "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+   "published": "2026-10-26T20:04:16.000Z",
+   "summary": "Included is the ability to limit which applications Siri can directly access."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+   "link": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+   "published": "2026-10-26T18:50:41.000Z",
+   "summary": "US robotics company stands by ICE deal as more than 300 employees warn of risk."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "“오라클 속 AI는 성과 창출 속도를 높인다”",
+   "link": "https://byline.network/2026/10/26-647/",
+   "published": "2026-10-26T18:39:06.000Z",
+   "summary": "“AI는 오라클을 통해 더 많은 걸 이룰 수 있다. 오라클 속에서 AI는 조직의 운영 방식을 개선하고, 업무 처리를 더 쉽게 하며, 성과를 창출하게 돕는다. 오라클은 비즈니스 현장에서 AI를 빠르게 가동할 수 있게 지원한다. 우리의 목표는 고객이 소프트웨어를 준비에 소요하는 시간을 줄이고, 실제 활용에 더 많은 시간을 할애하게 하는 것이다.” - 마이크 시실리아 오라클 CEO."
+  },
+  {
+   "source": "MIT 테크놀로지 리뷰",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Will the real Anthropic please stand up",
+   "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+   "published": "2026-10-26T17:45:43.000Z",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the te"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The RealReal won’t let AI agents hog designer clothing",
+   "link": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+   "published": "2026-10-26T17:30:55.000Z",
+   "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve system. On the retaile"
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+   "link": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+   "published": "2026-10-26T17:26:36.000Z",
+   "summary": "Investigators explain how highway thieves stole $100M in data center equipment."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Five weird details from Anthropic’s IPO filing",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+   "published": "2026-10-26T17:10:23.000Z",
+   "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lot to […]"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+   "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+   "published": "2026-10-26T16:49:42.000Z",
+   "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+   "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+   "published": "2026-10-26T16:46:36.000Z",
+   "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Concerning behavior from a popular open-weight AI model",
+   "link": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+   "published": "2026-10-26T16:35:44.000Z",
+   "summary": "Article URL: https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model Comments URL: https://news.ycombinator.com/item?id=50246658 Points: 308 # Comments: 121"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+   "link": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+   "published": "2026-10-26T16:01:55.000Z",
+   "summary": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Microsoft offers buyouts to 60,000 employees",
+   "link": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+   "published": "2026-10-26T15:58:27.000Z",
+   "summary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company look"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+   "link": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+   "published": "2026-10-26T14:50:47.000Z",
+   "summary": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Anthropic officially files for its public debut",
+   "link": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "published": "2026-10-26T14:35:22.000Z",
+   "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
+   "link": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+   "published": "2026-10-26T14:30:27.000Z",
+   "summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+   "link": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+   "published": "2026-10-26T14:00:00.000Z",
+   "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the show Casey Newton just left the […]"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+   "published": "2026-10-26T13:32:49.000Z",
+   "summary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SE"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Can AI help solve the COBOL code crisis?",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+   "published": "2026-10-26T13:15:00.000Z",
+   "summary": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvem"
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Brown student maps the hidden global labor powering AI",
+   "link": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+   "published": "2026-10-26T12:58:27.000Z",
+   "summary": "Article URL: https://www.brown.edu/news/2026-10-26/ai-data-workers Comments URL: https://news.ycombinator.com/item?id=50242843 Points: 179 # Comments: 171"
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "금감원 “AI 보안 역량을 갖춘 금융사부터 망분리 해제 검토”",
+   "link": "https://byline.network/2026/10/1026-6/",
+   "published": "2026-10-26T11:17:37.000Z",
+   "summary": "이석 금융감독원 디지털금융총괄국장은 26일 서울 여의도 콘래드서울에서 열린 ‘서울핀테크위크 2026’에서 금융사의 AI 활용 범위를 보안 업무에서 다양한 분야로 확대하기 위해 보안 역량이 뛰어난 금융사부터 망분리 규제를 전면 해제하는 방안을 검토하고 있다고 밝혔다."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "AI 에이전트의 긴 여정, 안전벨트는 준비됐나",
+   "link": "https://byline.network/2026/10/26-643/",
+   "published": "2026-10-26T09:53:16.000Z",
+   "summary": "AI 에이전트를 기업 업무에 도입하는 여정은 이제 막 시작됐다. 기업은 AI 에이전트를 만들고 데이터와 업무 시스템을 연결하는 일부터 어려움을 겪고 있다. 그러나 기술과 데이터를 준비하는 것만으로는 충분하지 않다. 출발 단계에서부터 함께 설계해야 할 것이 있다. 바로 ‘보안’이다. 기업이 AI의 편리함과 생산성에 주목하는 사이, 그 이면에서는 AI의 판단과 행동을 어디까지 통제할 수 있느냐는 문제가 커지고 있다. AI 에이전트가 사람을 대신해 업무를 수행하고 자율적으로 행동하는 범위가 넓어질수록 보안의 중요성도 커질 수밖에 없다."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
+   "link": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+   "published": "2026-10-26T09:30:00.000Z",
+   "summary": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents."
+  },
+  {
+   "source": "MIT 테크놀로지 리뷰",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The focus on AI safety disasters ignores everyday harms",
+   "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+   "published": "2026-10-26T09:01:00.000Z",
+   "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while c"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
+   "link": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
+   "published": "2026-10-26T09:00:00.000Z",
+   "summary": "Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artificial personalities."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "조호, 자체 인프라 앞세워 기업용 AI 시장 공략",
+   "link": "https://byline.network/2026/10/1026-7/",
+   "published": "2026-10-26T08:47:48.000Z",
+   "summary": "글로벌 소프트웨어 기업 조호는 지난 30년간 단 한 건의 인수합병(M&A) 없이 자체 개발한 60여개 기업용 애플리케이션을 앞세워 한국 시장 공략에 나섰다. 아마존웹서비스(AWS)나 마이크로소프트 애저(Azure) 등 외부 클라우드에 의존하는 대신 전 세계 18개 데이터센터와 서버 하드웨어를 직접 구축·운영하며 데이터 통제권을 확보하는 전략이다."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+   "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+   "published": "2026-10-25T21:31:16.000Z",
+   "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+   "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+   "published": "2026-10-25T16:57:32.000Z",
+   "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\""
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+   "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+   "published": "2026-10-25T16:28:26.000Z",
+   "summary": "Article URL: https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html Comments URL: https://news.ycombinator.com/item?id=50233304 Points: 238 # Comments: 328"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The hottest AI wearables and gadgets you should know about",
+   "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+   "published": "2026-10-25T14:10:00.000Z",
+   "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "r/opensource just banned AI, non-English speakers, and more",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+   "published": "2026-10-25T13:25:32.000Z",
+   "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]"
+  }
+ ]
+}

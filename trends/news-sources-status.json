@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T14:06:38.630Z",
+ "updated": "2026-10-27T12:18:23.851Z",
  "sources": [
   {
    "name": "AI타임스",
@@ -14,7 +14,7 @@
    "url": "https://blog.google/technology/ai/rss/",
    "ok": true,
    "items": 20,
-   "fresh": 0,
+   "fresh": 1,
    "note": ""
   },
   {
@@ -54,7 +54,7 @@
    "url": "https://blogs.microsoft.com/feed/",
    "ok": true,
    "items": 10,
-   "fresh": 0,
+   "fresh": 1,
    "note": ""
   },
   {
@@ -62,7 +62,7 @@
    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
    "ok": true,
    "items": 10,
-   "fresh": 1,
+   "fresh": 3,
    "note": ""
   },
   {
@@ -77,8 +77,8 @@
    "name": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1318,
-   "fresh": 0,
+   "items": 1325,
+   "fresh": 7,
    "note": ""
   },
   {
@@ -86,7 +86,7 @@
    "url": "https://news.hada.io/rss/news",
    "ok": true,
    "items": 50,
-   "fresh": 20,
+   "fresh": 19,
    "note": ""
   },
   {
@@ -94,7 +94,7 @@
    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
    "ok": true,
    "items": 10,
-   "fresh": 7,
+   "fresh": 10,
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "url": "https://byline.network/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 3,
+   "fresh": 9,
    "note": ""
   },
   {
@@ -118,7 +118,7 @@
    "url": "https://arstechnica.com/ai/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 0,
+   "fresh": 4,
    "note": ""
   },
   {
@@ -126,23 +126,23 @@
    "url": "https://www.wired.com/feed/tag/ai/latest/rss",
    "ok": true,
    "items": 10,
-   "fresh": 3,
+   "fresh": 7,
    "note": ""
   },
   {
    "name": "전자신문 SW·AI",
    "url": "https://rss.etnews.com/Section902.xml",
-   "ok": false,
-   "items": 0,
-   "fresh": 0,
-   "note": "fetch failed"
+   "ok": true,
+   "items": 30,
+   "fresh": 9,
+   "note": ""
   },
   {
    "name": "테크크런치 AI",
    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 6,
+   "fresh": 9,
    "note": ""
   },
   {
@@ -150,7 +150,7 @@
    "url": "https://hnrss.org/newest?q=AI&points=100",
    "ok": true,
    "items": 20,
-   "fresh": 6,
+   "fresh": 5,
    "note": ""
   }
  ]
