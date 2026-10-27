@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T05:16:09.342Z",
+ "updated": "2026-10-27T06:16:33.636Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -135,8 +135,8 @@
     "format": "question",
     "type": "image",
     "hook": "AI한테 존댓말 쓰세요, 반말 쓰세요?",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/De_MUJ9FsAH",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-27-1440-question/01.png"
     ],
@@ -389,11 +389,11 @@
   {
    "date": "2026-10-27",
    "total": 5,
-   "ok": 2,
+   "ok": 3,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 3,
+   "scheduled": 2,
    "needCards": 5,
    "cardsReady": 5,
    "times": [
@@ -412,7 +412,7 @@
     {
      "at": "2026-10-27T14:41:00+09:00",
      "format": "question",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 1
     },
     {
