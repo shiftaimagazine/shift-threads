@@ -77,5 +77,16 @@
   "type": "carousel",
   "topic": "AI Threads"
  },
- "_tries_2026-10-27-0740-briefing": 1
+ "_tries_2026-10-27-0740-briefing": 1,
+ "2026-10-27-0740-briefing": {
+  "status": "ok",
+  "at": "2026-10-27T00:08:48.074Z",
+  "ids": [
+   "17903001708671498",
+   "18031268045688705"
+  ],
+  "link": "https://www.threads.com/@shift_ai_magazine/post/De-iMTxCSF6",
+  "type": "carousel",
+  "topic": "AI Threads"
+ }
 }
