@@ -11,6 +11,28 @@
   }
  },
  {
+  "id": "2026-10-27-1000-late",
+  "at": "2026-10-28T13:20:00+09:00",
+  "video": "1JnCmvP7xnX_G4QmDMTcsLXOn2YLsg-bb",
+  "cover": "1xcAGMWM4rxqeSFoeNkvwnxuiIimFPidL",
+  "threads": {
+   "text": "기자 3명이 전부 AI? 언론사에 기사 제안하는 AI가 나왔어요.\n\n알아서 일하는 AI(에이전트)가 직접 기획안을 써서 편집자에게 메일을 보내요.\n미국 매체 디펙터는 9월부터 이런 메일을 매일 받는대요.\n이제 메일 보낸 쪽이 사람인지부터 확인해야 하는 시대예요.\n\n30초 영상으로 정리했어요.\nAI가 쓴 기사 제안, 여러분이라면 받아 줄래요?",
+   "reply": "출처: WIRED · Kate Knibbs https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/\n매일 AI 영상 정리는 인스타 @shift_ai_magazine 에서도 봐요",
+   "topic": "AI Threads"
+  }
+ },
+ {
+  "id": "2026-10-27-1800-late",
+  "at": "2026-10-28T16:20:00+09:00",
+  "video": "1r_RMdfey4YTRcTKu_neOg_jHltdNUjI8",
+  "cover": "1J3FJ6uxLDyrHdQ6gSo1VVpHmnKSh19tr",
+  "threads": {
+   "text": "AI 사용료, 몇 달 새 최대 80% 내렸어요.\n\n챗GPT 만든 오픈AI도, 클로드 만든 앤트로픽도 가격을 내렸어요.\n오픈AI에서 가장 싼 모델은 6월 1달러에서 지금 0.1달러예요. (같은 사용량 기준)\nAI 붙은 앱·서비스가 더 싸지고 흔해질 수 있다는 뜻이에요.\n\n30초 영상으로 정리했어요.\n여러분 회사는 AI 쓰고 있어요?",
+   "reply": "출처: minimaxir.com · Max Woolf https://minimaxir.com/2026/10/cheap-llms/\n매일 AI 영상 정리는 인스타 @shift_ai_magazine 에서도 봐요",
+   "topic": "AI Threads"
+  }
+ },
+ {
   "id": "2026-10-28-1800",
   "at": "2026-10-28T18:20:00+09:00",
   "video": "1FW3fNDc6bM_uVXaWEyO2YzGrPGZUfDjn",
