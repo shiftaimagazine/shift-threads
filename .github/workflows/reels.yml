@@ -1,10 +1,11 @@
-name: 릴스 영상 올리기 (쓰레드·인스타)
+name: 릴스 영상 올리기 (쓰레드)
+# 2026-10-28 사용자 결정: 인스타그램은 사용자가 직접 운영합니다. IG_TOKEN 을 넘기지 않아 인스타에는 올리지 않습니다.
 on:
   schedule:
     - cron: '35 * * * *'     # 매시 35분: 예약 시각(10:20·18:20)이 지난 릴스 영상을 올림. 올릴 게 없으면 API 를 부르지 않음
   workflow_dispatch:
     inputs:
-      mode: { description: 'post = 올리기, check = 키 확인만, igtest = 인스타 게시 준비 시험(게시 안 함)', default: 'post' }
+      mode: { description: 'post = 올리기, check = 키 확인만', default: 'post' }
       test_video: { description: 'igtest 용 드라이브 영상 파일 ID', default: '' }
       dry_run: { description: '1 이면 미리보기만', default: '0' }
 permissions: { contents: write }
@@ -19,7 +20,6 @@ jobs:
       - run: node scripts/reels.mjs
         env:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
-          IG_TOKEN: ${{ secrets.IG_TOKEN }}
           MODE: ${{ inputs.mode || 'post' }}
           DRY_RUN: ${{ inputs.dry_run || '0' }}
           TEST_VIDEO: ${{ inputs.test_video || '' }}

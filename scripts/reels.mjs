@@ -1,11 +1,12 @@
 // SHIFT AI 릴스 영상 올리기 (GitHub Actions, PC 불필요)
-//   reels/YYYY-MM-DD.json 의 영상을 시간이 되면 쓰레드(영상 글)와, IG_TOKEN 이 있으면 인스타 릴스로 올립니다.
+//   reels/YYYY-MM-DD.json 의 영상을 시간이 되면 쓰레드(영상 글)로 올립니다.
+//   2026-10-28 사용자 결정: 인스타그램은 사용자가 직접 운영. reels.yml 이 IG_TOKEN 을 넘기지 않아 아래 인스타 코드는 동작하지 않습니다.
 //   영상은 구글 드라이브 'SHIFT-autopilot' 폴더 파일(링크 공개)을 바로 가져갑니다.
 //   MODE=check : 키 확인만 (게시 안 함) / DRY_RUN=1 : 미리보기만
 // 항목 형식 (매일 08:40 클라우드 예약 작업이 씀):
 //   {"id":"2026-10-26-1000","at":"2026-10-26T10:20:00+09:00","video":"<드라이브 파일 ID>","cover":"<드라이브 파일 ID>",
 //    "threads":{"text":"쓰레드 본문","reply":"출처: …","topic":"AI Threads"(코드가 고정)}, "instagram":{"caption":"인스타 캡션 전문"} }
-//   instagram 이 없거나 IG_TOKEN 이 없으면 인스타는 건너뜁니다(그때는 Metricool·직접 업로드가 맡음).
+//   instagram 이 없거나 IG_TOKEN 이 없으면 인스타는 건너뜁니다(인스타는 사용자가 직접 올림).
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -50,7 +51,7 @@ const status = { checkedAt: new Date().toISOString(), threads: null, instagram: 
 let thMe = null, igMe = null;
 if (TH) { try { thMe = await thApi('GET', '/me', { fields: 'id,username' }); status.threads = '@' + thMe.username; } catch (e) { status.threads = '오류: ' + e.message; } }
 if (IG) { try { igMe = await igApi('GET', '/me', { fields: 'user_id,username' }); status.instagram = '@' + igMe.username; status.igReady = true; } catch (e) { status.instagram = '오류: ' + e.message; } }
-else status.instagram = 'IG_TOKEN 없음 (인스타는 Metricool·직접 업로드)';
+else status.instagram = '자동 게시 꺼짐 (인스타는 사용자가 직접 운영)';
 console.log(`쓰레드: ${status.threads || '키 없음'} · 인스타: ${status.instagram}`);
 fs.writeFileSync(statusFile, JSON.stringify(status, null, 1) + '\n');
 if (MODE === 'check') process.exit(0);
