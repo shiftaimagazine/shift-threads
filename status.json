@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T06:18:44.654Z",
+ "updated": "2026-10-28T07:40:00.390Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 73,
  "followersHistory": [
@@ -345,8 +345,8 @@
     "format": "reel",
     "type": "video",
     "hook": "AI 사용료, 몇 달 새 최대 80% 내렸어요.",
-    "status": "scheduled",
-    "link": null
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfB6N5yiOAT"
    },
    {
     "id": "2026-10-28-1800",
@@ -564,7 +564,7 @@
     },
     {
      "at": "2026-10-28T16:20:00+09:00",
-     "status": "scheduled"
+     "status": "ok"
     },
     {
      "at": "2026-10-28T18:20:00+09:00",
