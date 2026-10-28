@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-28T20:22:22.919Z",
+ "updated": "2026-10-28T21:16:20.983Z",
  "repo": "shiftaimagazine/shift-threads",
- "followers": 73,
+ "followers": 74,
  "followersHistory": [
   {
    "date": "2026-10-26",
@@ -14,6 +14,10 @@
   {
    "date": "2026-10-28",
    "followers": 73
+  },
+  {
+   "date": "2026-10-29",
+   "followers": 74
   }
  ],
  "today": {
@@ -590,7 +594,7 @@
  "top": [
   {
    "hook": "회사 엑셀, AI에 그대로 올리면 안 돼요.",
-   "views": 460,
+   "views": 461,
    "likes": 2,
    "replies": 0,
    "reposts": 0,
@@ -599,7 +603,7 @@
   },
   {
    "hook": "웹사이트 70%가 쓰는 PHP,",
-   "views": 283,
+   "views": 284,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -617,7 +621,7 @@
   },
   {
    "hook": "AI에 돈 쓴 회사들,",
-   "views": 232,
+   "views": 237,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -626,7 +630,7 @@
   },
   {
    "hook": "이 단편영화, 촬영한 장면이 하나도 없어요.",
-   "views": 200,
+   "views": 202,
    "likes": 2,
    "replies": 0,
    "reposts": 0,
