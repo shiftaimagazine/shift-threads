@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T22:18:58.740Z",
+ "updated": "2026-10-28T23:17:43.071Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -29,8 +29,8 @@
     "format": "briefing",
     "type": "carousel",
     "hook": "AI도 잠을 자야 기억한대요. 어제 나온 AI 소식 3가지예요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfDl9BjDvfd",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-29-0740-briefing/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-29-0740-briefing/02.png",
@@ -536,18 +536,18 @@
   {
    "date": "2026-10-29",
    "total": 5,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 5,
+   "scheduled": 4,
    "needCards": 5,
    "cardsReady": 5,
    "times": [
     {
      "at": "2026-10-29T07:37:00+09:00",
      "format": "briefing",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 5
     },
     {
