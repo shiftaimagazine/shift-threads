@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T12:43:16.539Z",
+ "updated": "2026-10-28T12:45:32.581Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 73,
  "followersHistory": [
@@ -421,13 +421,13 @@
       "label": "소식 3",
       "title": "챗GPT로 오라클 업무",
       "body": "챗GPT에서 오라클 업무를 바로 처리.\n코딩 몰라도 Codex로 업무 앱 만들기.\n소상공인 번들엔 연 **1.2만 달러** 크레딧.",
-      "photoFrom": "https://www.oracle.com/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/",
-      "photoCredit": "Oracle"
+      "shot": {
+       "url": "https://www.oracle.com/artificial-intelligence/oracle-openai/",
+       "credit": "oracle.com"
+      }
      }
     ],
-    "photoFrom": [
-     "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
-    ]
+    "photoFrom": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg"
    },
    {
     "id": "2026-10-29-1140-howto",
@@ -649,7 +649,11 @@
         "텍스트 칸만"
        ]
       ],
-      "note": "2026.10 기준 · Mozilla 발표"
+      "note": "2026.10 기준 · Mozilla 발표",
+      "shot": {
+       "url": "https://support.mozilla.org/en-US/kb/smart-window",
+       "credit": "support.mozilla.org"
+      }
      }
     ],
     "photoFrom": [
