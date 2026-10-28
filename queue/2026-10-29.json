@@ -1,0 +1,250 @@
+[
+ {
+  "id": "2026-10-29-0740-briefing",
+  "at": "2026-10-29T07:37:00+09:00",
+  "format": "briefing",
+  "type": "carousel",
+  "topic": "AI Threads",
+  "photoFrom": [
+   "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+  ],
+  "photoCredit": "Google Research",
+  "parts": [
+   "AI도 잠을 자야 기억한대요.\n\n어제 나온 AI 소식 3가지예요.\n① 구글, AI가 '자면서' 배우는 방법 공개\n② 메타 AI 비서 Muse, 싱가포르 출시\n③ 오라클 업무, 이제 챗GPT 안에서\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 궁금한 건 뭐예요?",
+   "출처: 구글 https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/ · 메타 https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/ · 오라클 https://www.oracle.com/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "Morning Brief",
+    "title": "어제 AI 소식\n==3가지==",
+    "sub": "구글 수면 학습 · 메타 Muse · 오라클×오픈AI"
+   },
+   {
+    "kind": "text",
+    "label": "소식 1",
+    "title": "AI도 자면서 기억",
+    "body": "새 걸 배우면 옛 지식을 잊는 문제.\n'잠' 단계에서 기억을 장기 저장해요.\n수학 시험 AIME 24에서 **79.2%**.",
+    "shot": {
+     "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+     "credit": "research.google",
+     "y": 600
+    }
+   },
+   {
+    "kind": "text",
+    "label": "소식 2",
+    "title": "메타 Muse, 싱가포르로",
+    "body": "그랩·싱가포르항공 등 8곳과 연결.\n결제·메일 보내기 전엔 **꼭 확인**.\n대부분 기능은 무료로 써요.",
+    "photoFrom": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+    "photoCredit": "Meta"
+   },
+   {
+    "kind": "text",
+    "label": "소식 3",
+    "title": "챗GPT로 오라클 업무",
+    "body": "챗GPT에서 오라클 업무를 바로 처리.\n코딩 몰라도 Codex로 업무 앱 만들기.\n소상공인 번들엔 연 **1.2만 달러** 크레딧.",
+    "photoFrom": "https://www.oracle.com/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/",
+    "photoCredit": "Oracle"
+   }
+  ],
+  "sources": [
+   "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+   "https://www.oracle.com/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/"
+  ]
+ },
+ {
+  "id": "2026-10-29-1140-howto",
+  "at": "2026-10-29T11:43:00+09:00",
+  "format": "howto",
+  "type": "carousel",
+  "topic": "AI Threads",
+  "shot": {
+   "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview",
+   "credit": "docs.claude.com"
+  },
+  "parts": [
+   "회의 메모 → 할 일 표, 한 문장이면 돼요.\n\n\"아래 회의 메모에서 할 일만 뽑아\n'할 일 / 담당자 / 마감일' 표로 만들어 줘.\n메모에 없는 담당자·날짜는 '미정'으로 둬.\"\n\n마지막 줄이 AI가 지어내는 걸 막아요.\n저장해 두고 써 보세요."
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "Prompt Tip",
+    "title": "회의 메모 →\n==할 일 표==",
+    "sub": "복사해 쓰는 프롬프트 한 줄"
+   },
+   {
+    "kind": "list",
+    "label": "복사해 쓰기",
+    "title": "표로 받으면 좋은 점",
+    "items": [
+     {
+      "h": "할 일만 골라 표로",
+      "d": "잡담·배경 설명은 빠져요"
+     },
+     {
+      "h": "담당자·마감일 칸",
+      "d": "누가 언제까지 한눈에"
+     },
+     {
+      "h": "없는 건 '미정'으로",
+      "d": "지어낸 이름·날짜를 막아요"
+     }
+    ]
+   }
+  ],
+  "sources": []
+ },
+ {
+  "id": "2026-10-29-1440-question",
+  "at": "2026-10-29T14:39:00+09:00",
+  "format": "question",
+  "type": "image",
+  "topic": "AI Threads",
+  "shot": {
+   "url": "https://chatgpt.com/",
+   "credit": "chatgpt.com"
+  },
+  "parts": [
+   "AI가 써 준 생일 축하 메시지, 받으면 서운할까요?\n\n문장은 더 예쁜데\n마음은 덜 담긴 것 같기도 하고요.\n바쁜 와중에 챙겨 준 게 고맙다는 사람도 있죠.\n\n여러분은 받으면 어때요?\nAI로 보내 본 적 있어요?"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "Question",
+    "title": "AI가 쓴 축하,\n==서운==할까?",
+    "sub": "생일 메시지, AI로 써도 될까"
+   }
+  ],
+  "sources": []
+ },
+ {
+  "id": "2026-10-29-1840-deep",
+  "at": "2026-10-29T18:41:00+09:00",
+  "format": "deep",
+  "type": "carousel",
+  "topic": "AI Threads",
+  "photoFrom": [
+   "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+  ],
+  "photoCredit": "Google DeepMind",
+  "parts": [
+   "글 한 줄로 가상 세계가 생기고, 소리까지 나요.\n\n구글 딥마인드가 Genie 4를 공개했어요.\n돌아다니다가 날씨·카메라를 말로 바꾸면\n장면이 실시간으로 바뀌어요.\n지금은 일부 테스터만, 곧 Ultra 구독자에게 풀려요.\n\n카드로 정리했어요.\n이걸로 제일 먼저 해 보고 싶은 건 뭐예요?",
+   "출처: 구글 딥마인드 https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/ · 테크크런치 https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/\n영상으로 30초 만에 보기 → 인스타 @shift_ai_magazine"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "AI Issue",
+    "title": "말하면 생기는\n==가상 세계==",
+    "sub": "구글 딥마인드 Genie 4"
+   },
+   {
+    "kind": "list",
+    "label": "핵심 요약",
+    "title": "Genie 4 달라진 점",
+    "items": [
+     {
+      "h": "소리를 직접 만들어요",
+      "d": "배경음·대사까지 실시간"
+     },
+     {
+      "h": "중간에 말로 바꾸기",
+      "d": "날씨·카메라·사람 추가"
+     },
+     {
+      "h": "최대 2분 일관 유지",
+      "d": "이전 모델의 2배"
+     }
+    ],
+    "shot": {
+     "url": "https://deepmind.google/models/genie/",
+     "credit": "deepmind.google"
+    }
+   },
+   {
+    "kind": "text",
+    "label": "세부 내용",
+    "title": "제미나이가 감독 역할",
+    "body": "제미나이가 장면을 계획·점검하고\nGenie 4가 화면을 그려요.\n로봇이 할 일을 미리 연습하는\n시뮬레이션 실험에도 썼어요.",
+    "photoFrom": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+    "photoCredit": "Google"
+   },
+   {
+    "kind": "text",
+    "label": "시사점",
+    "title": "아직은 짧은 체험",
+    "body": "오래 돌리면 사물·디테일이 **흐트러져요**.\n화면 속 글자·소리 정확도도 숙제.\n곧 **Ultra 구독자**·일부 API 파트너에게.\n만든 영상·소리엔 SynthID 표시.",
+    "shot": {
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+     "credit": "deepmind.google",
+     "y": 900
+    }
+   }
+  ],
+  "sources": [
+   "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+  ]
+ },
+ {
+  "id": "2026-10-29-2140-compare",
+  "at": "2026-10-29T21:38:00+09:00",
+  "format": "compare",
+  "type": "carousel",
+  "topic": "AI Threads",
+  "photoFrom": [
+   "https://blog.mozilla.org/en/firefox/skip-the-busywork-with-smart-window/"
+  ],
+  "photoCredit": "Mozilla",
+  "parts": [
+   "웹페이지 새로고침, 이제 AI가 대신 해 줘요.\n\n파이어폭스 Smart Window에 '/watch'가 생겼어요.\n지켜볼 페이지를 정하면 매일·매주 확인하고\n원하는 변화가 생기면 알려 줘요.\n지금은 미국·캐나다 영어 베타예요.\n\n여러분은 어떤 페이지를 맡기고 싶어요?",
+   "출처: 모질라 https://blog.mozilla.org/en/firefox/skip-the-busywork-with-smart-window/"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "숫자로 보는 AI",
+    "title": "AI가 대신\n==새로고침==",
+    "sub": "파이어폭스 Smart Window 베타"
+   },
+   {
+    "kind": "table",
+    "label": "숫자로 보기",
+    "title": "페이지 감시 규칙",
+    "rows": [
+     [
+      "한 작업당",
+      "5페이지",
+      "최대"
+     ],
+     [
+      "동시 작업",
+      "15개",
+      "최대"
+     ],
+     [
+      "60일 변화 없음",
+      "일시정지",
+      "자동"
+     ],
+     [
+      "90일 변화 없음",
+      "종료",
+      "자동"
+     ],
+     [
+      "폼 채우기",
+      "4칸 이상",
+      "텍스트 칸만"
+     ]
+    ],
+    "note": "2026.10 기준 · Mozilla 발표"
+   }
+  ],
+  "sources": [
+   "https://blog.mozilla.org/en/firefox/skip-the-busywork-with-smart-window/"
+  ]
+ }
+]
