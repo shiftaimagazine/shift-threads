@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T02:25:41.982Z",
+ "updated": "2026-10-28T03:23:13.802Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 73,
  "followersHistory": [
@@ -91,8 +91,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "AI 답, 믿어도 되는지 헷갈리죠? 질문 끝에 이 한 줄만 붙여 보세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBdRciG3m8",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-28-1140-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-28-1140-howto/02.png"
@@ -507,11 +507,11 @@
   {
    "date": "2026-10-28",
    "total": 5,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 4,
+   "scheduled": 3,
    "needCards": 5,
    "cardsReady": 5,
    "times": [
@@ -524,7 +524,7 @@
     {
      "at": "2026-10-28T11:41:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
