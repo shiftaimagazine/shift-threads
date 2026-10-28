@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T03:26:14.114Z",
+ "updated": "2026-10-28T04:23:17.363Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 73,
  "followersHistory": [
@@ -336,7 +336,7 @@
     "format": "reel",
     "type": "video",
     "hook": "기자 3명이 전부 AI? 언론사에 기사 제안하는 AI가 나왔어요.",
-    "status": "scheduled",
+    "status": "waiting",
     "link": null
    },
    {
@@ -560,7 +560,7 @@
     },
     {
      "at": "2026-10-28T13:20:00+09:00",
-     "status": "scheduled"
+     "status": "waiting"
     },
     {
      "at": "2026-10-28T16:20:00+09:00",
