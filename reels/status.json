@@ -1,6 +1,10 @@
 {
- "checkedAt": "2026-10-27T12:10:23.988Z",
+ "checkedAt": "2026-10-28T00:12:28.313Z",
  "threads": "@shift_ai_magazine",
  "instagram": "@shift_ai_magazine",
- "igReady": true
+ "igReady": true,
+ "igPublishTest": {
+  "at": "2026-10-28T00:13:41.774Z",
+  "result": "FINISHED"
+ }
 }
