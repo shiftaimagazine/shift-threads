@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T20:24:14.888Z",
+ "updated": "2026-10-29T21:17:37.386Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -17,6 +17,10 @@
   },
   {
    "date": "2026-10-29",
+   "followers": 74
+  },
+  {
+   "date": "2026-10-30",
    "followers": 74
   }
  ],
@@ -444,7 +448,7 @@
  "top": [
   {
    "hook": "회사 엑셀, AI에 그대로 올리면 안 돼요.",
-   "views": 461,
+   "views": 462,
    "likes": 2,
    "replies": 0,
    "reposts": 0,
@@ -453,7 +457,7 @@
   },
   {
    "hook": "웹사이트 70%가 쓰는 PHP,",
-   "views": 284,
+   "views": 285,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -479,13 +483,13 @@
    "at": "2026-10-27T11:19:21+0000"
   },
   {
-   "hook": "이 단편영화, 촬영한 장면이 하나도 없어요.",
-   "views": 202,
-   "likes": 2,
+   "hook": "회의 메모 → 할 일 표, 한 문장이면 돼요.",
+   "views": 213,
+   "likes": 0,
    "replies": 0,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De0m7ixjfEM",
-   "at": "2026-10-23T03:37:14+0000"
+   "reposts": 1,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfECY-_lFQP",
+   "at": "2026-10-29T03:25:58+0000"
   }
  ]
 }
