@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:45:08.689Z",
+ "updated": "2026-10-29T12:49:31.001Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -364,9 +364,8 @@
       "title": "제미나이 4 Carbon",
       "body": "AI 종합 지능 지수 **1위**(59점).\n보안 취약점 찾기 시험 **88.2%**.\n지금은 보안 전문가 일부만 써요.",
       "shot": {
-       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-       "credit": "deepmind.google",
-       "y": 600
+       "url": "https://deepmind.google/models/evals-methodology/gemini-4-carbon",
+       "credit": "deepmind.google"
       }
      },
      {
@@ -438,7 +437,11 @@
         "h": "클로드 시크릿 채팅",
         "d": "이 대화는 학습에 안 써요"
        }
-      ]
+      ],
+      "shot": {
+       "url": "https://help.openai.com/en/articles/8983130-what-if-i-want-to-keep-my-history-on-but-disable-model-training",
+       "credit": "help.openai.com"
+      }
      }
     ],
     "photoFrom": null
