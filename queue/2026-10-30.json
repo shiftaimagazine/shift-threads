@@ -5,23 +5,47 @@
   "format": "briefing",
   "type": "carousel",
   "topic": "AI Threads",
-  "photoFrom": ["https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"],
+  "photoFrom": [
+   "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+  ],
   "photoCredit": "Google",
   "parts": [
    "구글 새 AI, 성능 1위인데 아직 못 써요.\n\n어제 나온 AI 소식 3가지예요.\n① 구글, 제미나이 4 Carbon 공개\n② 크롬 자동완성, 지메일 정보로 채워요\n③ MS 코파일럿, AI 모델 20개+ 골라 써요\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 써 보고 싶은 건 뭐예요?",
    "출처: 구글 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ · 구글 https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/ · MS https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
   ],
   "slides": [
-   {"kind": "cover", "tag": "Morning Brief", "title": "어제 AI 소식\n==3가지==", "sub": "제미나이 4 Carbon · 크롬 자동완성 · MS 코파일럿"},
-   {"kind": "text", "label": "소식 1", "title": "제미나이 4 Carbon",
+   {
+    "kind": "cover",
+    "tag": "Morning Brief",
+    "title": "어제 AI 소식\n==3가지==",
+    "sub": "제미나이 4 Carbon · 크롬 자동완성 · MS 코파일럿"
+   },
+   {
+    "kind": "text",
+    "label": "소식 1",
+    "title": "제미나이 4 Carbon",
     "body": "AI 종합 지능 지수 **1위**(59점).\n보안 취약점 찾기 시험 **88.2%**.\n지금은 보안 전문가 일부만 써요.",
-    "shot": {"url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/", "credit": "deepmind.google", "y": 600}},
-   {"kind": "text", "label": "소식 2", "title": "크롬이 지메일 보고 채움",
+    "shot": {
+     "url": "https://deepmind.google/models/evals-methodology/gemini-4-carbon",
+     "credit": "deepmind.google"
+    }
+   },
+   {
+    "kind": "text",
+    "label": "소식 2",
+    "title": "크롬이 지메일 보고 채움",
     "body": "주문번호·배송 조회·항공권 정보를\n지메일에서 찾아 양식에 채워 줘요.\n미국부터, 크롬 설정에서 끌 수 있어요.",
-    "photoFrom": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/", "photoCredit": "Google"},
-   {"kind": "text", "label": "소식 3", "title": "MS, 모델 20개+ 골라 써",
+    "photoFrom": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/",
+    "photoCredit": "Google"
+   },
+   {
+    "kind": "text",
+    "label": "소식 3",
+    "title": "MS, 모델 20개+ 골라 써",
     "body": "코파일럿 '하네스' 엔진 공개.\n일마다 맞는 AI 모델에 나눠 맡겨요.\nGitHub·VS Code 코파일럿도 이걸로.",
-    "photoFrom": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/", "photoCredit": "Microsoft"}
+    "photoFrom": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+    "photoCredit": "Microsoft"
+   }
   ],
   "sources": [
    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
@@ -35,18 +59,44 @@
   "format": "howto",
   "type": "carousel",
   "topic": "AI Threads",
-  "shot": {"url": "https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations", "credit": "support.claude.com"},
+  "shot": {
+   "url": "https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations",
+   "credit": "support.claude.com"
+  },
   "parts": [
    "AI한테 한 말, 학습에 쓰일 수 있어요.\n\n챗GPT·클로드 둘 다\n1분이면 끌 수 있어요.\n· 챗GPT: OpenAI 개인정보 포털에서\n  'do not train on my content'\n· 클로드: 설정 → 개인정보에서\n  'Model Improvement' 끄기\n\n회사 자료 넣기 전에 꼭 꺼 두세요.\n저장해 두고 써 보세요.",
    "출처: OpenAI 도움말 https://help.openai.com/en/articles/8983130-what-if-i-want-to-keep-my-history-on-but-disable-model-training · Claude 도움말 https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations"
   ],
   "slides": [
-   {"kind": "cover", "tag": "Privacy Tip", "title": "AI 학습,\n==1분==에 끄기", "sub": "챗GPT · 클로드 설정법"},
-   {"kind": "list", "label": "따라 하기", "title": "학습 끄는 3곳", "items": [
-     {"h": "챗GPT 개인정보 포털", "d": "'do not train on my content' 누르기"},
-     {"h": "클로드 설정 → 개인정보", "d": "'Model Improvement' 끄기"},
-     {"h": "클로드 시크릿 채팅", "d": "이 대화는 학습에 안 써요"}
-   ]}
+   {
+    "kind": "cover",
+    "tag": "Privacy Tip",
+    "title": "AI 학습,\n==1분==에 끄기",
+    "sub": "챗GPT · 클로드 설정법"
+   },
+   {
+    "kind": "list",
+    "label": "따라 하기",
+    "title": "학습 끄는 3곳",
+    "items": [
+     {
+      "h": "챗GPT 개인정보 포털",
+      "d": "'do not train on my content' 누르기"
+     },
+     {
+      "h": "클로드 설정 → 개인정보",
+      "d": "'Model Improvement' 끄기"
+     },
+     {
+      "h": "클로드 시크릿 채팅",
+      "d": "이 대화는 학습에 안 써요"
+     }
+    ],
+    "shot": {
+     "url": "https://help.openai.com/en/articles/8983130-what-if-i-want-to-keep-my-history-on-but-disable-model-training",
+     "credit": "help.openai.com"
+    }
+   }
   ],
   "sources": [
    "https://help.openai.com/en/articles/8983130-what-if-i-want-to-keep-my-history-on-but-disable-model-training",
