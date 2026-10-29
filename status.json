@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T05:24:49.834Z",
+ "updated": "2026-10-29T06:21:41.309Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -145,8 +145,8 @@
     "format": "question",
     "type": "image",
     "hook": "AI가 써 준 생일 축하 메시지, 받으면 서운할까요? 문장은 더 예쁜데",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfEWfg_FPo_",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-29-1440-question/01.png"
     ],
@@ -529,11 +529,11 @@
   {
    "date": "2026-10-29",
    "total": 5,
-   "ok": 2,
+   "ok": 3,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 3,
+   "scheduled": 2,
    "needCards": 5,
    "cardsReady": 5,
    "times": [
@@ -552,7 +552,7 @@
     {
      "at": "2026-10-29T14:39:00+09:00",
      "format": "question",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 1
     },
     {
