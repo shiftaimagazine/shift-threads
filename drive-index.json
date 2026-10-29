@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:49:31.053Z",
+ "updated": "2026-10-29T12:54:05.484Z",
  "items": [
   {
    "id": "2026-10-27-0740-briefing",
@@ -196,7 +196,7 @@
     "05.png"
    ],
    "text": "게시 예정: 2026-10-30 07:39 (쓰레드)\n주제 태그: AI Threads\n\n구글 새 AI, 성능 1위인데 아직 못 써요.\n\n어제 나온 AI 소식 3가지예요.\n① 구글, 제미나이 4 Carbon 공개\n② 크롬 자동완성, 지메일 정보로 채워요\n③ MS 코파일럿, AI 모델 20개+ 골라 써요\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 써 보고 싶은 건 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 구글 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ · 구글 https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/ · MS https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/\n",
-   "sig": "7ee50c98923a6f72"
+   "sig": "a902f01e479c53df"
   },
   {
    "id": "2026-10-30-1140-howto",
@@ -207,7 +207,7 @@
     "02.png"
    ],
    "text": "게시 예정: 2026-10-30 11:38 (쓰레드)\n주제 태그: AI Threads\n\nAI한테 한 말, 학습에 쓰일 수 있어요.\n\n챗GPT·클로드 둘 다\n1분이면 끌 수 있어요.\n· 챗GPT: OpenAI 개인정보 포털에서\n  'do not train on my content'\n· 클로드: 설정 → 개인정보에서\n  'Model Improvement' 끄기\n\n회사 자료 넣기 전에 꼭 꺼 두세요.\n저장해 두고 써 보세요.\n\n── 이어지는 답글 1 ──\n출처: OpenAI 도움말 https://help.openai.com/en/articles/8983130-what-if-i-want-to-keep-my-history-on-but-disable-model-training · Claude 도움말 https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations\n",
-   "sig": "9af072279584f188"
+   "sig": "c1bbd3cd3d1e1189"
   }
  ]
 }
