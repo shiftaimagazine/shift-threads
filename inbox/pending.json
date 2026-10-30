@@ -1,7 +1,19 @@
 {
- "updated": "2026-10-30T03:27:33.182Z",
- "count": 1,
+ "updated": "2026-10-30T12:24:02.228Z",
+ "count": 2,
  "items": [
+  {
+   "id": "18096671801449303",
+   "user": "ai.dev.day",
+   "text": "1분이면 끈다는 게 편하네요. 회사 자료 넣기 전에 끄라는 말이 특히 와닿아요",
+   "at": "2026-10-30T06:00:58+0000",
+   "to": "post",
+   "post": {
+    "id": "18105425651011911",
+    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.  챗GPT·클로드 둘 다",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7"
+   }
+  },
   {
    "id": "18018088634745339",
    "user": "orke_kr",
