@@ -1,66 +1,6 @@
 {
- "updated": "2026-10-29T12:54:05.484Z",
+ "updated": "2026-10-30T12:44:39.663Z",
  "items": [
-  {
-   "id": "2026-10-27-0740-briefing",
-   "date": "2026-10-27",
-   "folder": "0737-briefing",
-   "files": [
-    "01.png",
-    "02.png",
-    "03.png",
-    "04.png",
-    "05.png"
-   ],
-   "text": "게시 예정: 2026-10-27 07:37 (쓰레드)\n주제 태그: AI Threads\n\n금융사 망분리, AI 보안 갖추면 풀어 준대요.\n\n놓치면 아쉬운 AI 소식 3가지예요.\n① 금감원, 망분리 규제 전면 해제 검토\n② 그록, AI로 만든 '오디세이' 7분 공개\n③ 3조 파라미터 AI, 웨이퍼 59장에 나눠 실행\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 가장 궁금한 건 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 바이라인네트워크 https://byline.network/2026/10/1026-6/ · 테크크런치 https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/ · 세레브라스 https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\n",
-   "sig": "61e2afdb51d25878"
-  },
-  {
-   "id": "2026-10-27-1140-howto",
-   "date": "2026-10-27",
-   "folder": "1139-howto",
-   "files": [
-    "01.png",
-    "02.png"
-   ],
-   "text": "게시 예정: 2026-10-27 11:39 (쓰레드)\n주제 태그: AI Threads\n\nAI가 쓴 보고서,\n끝까지 읽히게 만드는 한 줄이에요.\n\n초안을 받은 뒤 이렇게 다시 시키면 돼요.\n\n\"결론을 첫 줄에 쓰고, 문장은 40자 이내로,\n전문용어는 쉬운 말로 바꿔 줘.\n바꾼 용어는 목록으로 따로 보여 줘.\"\n\n저장해 두고 써 보세요.\nAI 초안, 여러분은 어디부터 고치세요?\n",
-   "sig": "ed244cea5732ad9c"
-  },
-  {
-   "id": "2026-10-27-1440-question",
-   "date": "2026-10-27",
-   "folder": "1441-question",
-   "files": [
-    "01.png"
-   ],
-   "text": "게시 예정: 2026-10-27 14:41 (쓰레드)\n주제 태그: AI Threads\n\nAI한테 존댓말 쓰세요,\n반말 쓰세요?\n\n\"~해 주세요\"가 편한 사람도 있고\n\"이거 요약해\"가 빠른 사람도 있더라고요.\n저희는 아직도 습관처럼\n'부탁해요'를 붙여요.\n\n여러분은 어느 쪽이에요? 이유도 궁금해요.\n",
-   "sig": "ca64b96b68515b21"
-  },
-  {
-   "id": "2026-10-27-1840-deep",
-   "date": "2026-10-27",
-   "folder": "1838-deep",
-   "files": [
-    "01.png",
-    "02.png",
-    "03.png",
-    "04.png",
-    "05.png"
-   ],
-   "text": "게시 예정: 2026-10-27 18:38 (쓰레드)\n주제 태그: AI Threads\n\nAI에 돈 쓴 회사들,\n빅테크 빼면 아직 번 게 없대요.\n\n아폴로 수석 이코노미스트 토르스텐 슬록이\n10월 24일 \"테크 밖 미국 기업에선\nAI의 재무 성과가 전혀 없다\"고 분석했어요.\n직원당 매출·이익률·생산성 모두 제자리래요.\n\n카드로 정리했어요.\n여러분 회사는 AI로 뭐가 달라졌나요?\n\n── 이어지는 답글 1 ──\n출처: 아폴로 https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector\n매거진에서 자세히 읽기 → https://shiftaimagazine.github.io/news/2026-10-24-apollo-no-ai-payoff/?utm_source=threads\n영상으로 30초 만에 보기 → 인스타 @shift_ai_magazine\n",
-   "sig": "854f0cedcc6af078"
-  },
-  {
-   "id": "2026-10-27-2140-compare",
-   "date": "2026-10-27",
-   "folder": "2142-compare",
-   "files": [
-    "01.png",
-    "02.png"
-   ],
-   "text": "게시 예정: 2026-10-27 21:42 (쓰레드)\n주제 태그: AI Threads\n\n1.76시간 걸리던 AI 학습,\n열흘 만에 1.6초가 됐어요.\n\n스타트업 Q랩스가 역전파 없이\n언어모델을 학습하는 공개 실험 '노이즈'를 열었고\n기록이 약 4,000배 빨라졌대요.\n다만 기존 학습법과 직접 비교한 숫자는 아니에요.\n\n이런 공개 기록 경쟁, 지켜볼 만할까요?\n\n── 이어지는 답글 1 ──\n출처: AI타임스 https://www.aitimes.com/news/articleView.html?idxno=216671 · 노이즈 깃허브 https://github.com/qlabs-eng/noise\n",
-   "sig": "eadb75928f042098"
-  },
   {
    "id": "2026-10-28-0740-briefing",
    "date": "2026-10-28",
@@ -195,8 +135,8 @@
     "04.png",
     "05.png"
    ],
-   "text": "게시 예정: 2026-10-30 07:39 (쓰레드)\n주제 태그: AI Threads\n\n구글 새 AI, 성능 1위인데 아직 못 써요.\n\n어제 나온 AI 소식 3가지예요.\n① 구글, 제미나이 4 Carbon 공개\n② 크롬 자동완성, 지메일 정보로 채워요\n③ MS 코파일럿, AI 모델 20개+ 골라 써요\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 써 보고 싶은 건 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 구글 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ · 구글 https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/ · MS https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/\n",
-   "sig": "a902f01e479c53df"
+   "text": "게시 예정: 2026-10-30 07:39 (쓰레드)\n주제 태그: AI Threads\n\n구글 새 AI, 성능 1위인데 아직 못 써요.\n\n어제 나온 AI 소식 3가지예요.\n① 구글, 제미나이 4 Carbon 공개\n② 크롬 자동완성, 지메일 정보로 채워요\n③ MS 코파일럿, AI 모델 20개+ 골라 써요\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 써 보고 싶은 건 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 구글 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ · 구글 https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/ · MS https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/\n오늘 AI 소식 전체 정리는 매거진에서 → https://shiftaimagazine.com/daily/2026-10-30/?utm_source=threads\n",
+   "sig": "cbe0b5dc783d0b82"
   },
   {
    "id": "2026-10-30-1140-howto",
@@ -208,6 +148,31 @@
    ],
    "text": "게시 예정: 2026-10-30 11:38 (쓰레드)\n주제 태그: AI Threads\n\nAI한테 한 말, 학습에 쓰일 수 있어요.\n\n챗GPT·클로드 둘 다\n1분이면 끌 수 있어요.\n· 챗GPT: OpenAI 개인정보 포털에서\n  'do not train on my content'\n· 클로드: 설정 → 개인정보에서\n  'Model Improvement' 끄기\n\n회사 자료 넣기 전에 꼭 꺼 두세요.\n저장해 두고 써 보세요.\n\n── 이어지는 답글 1 ──\n출처: OpenAI 도움말 https://help.openai.com/en/articles/8983130-what-if-i-want-to-keep-my-history-on-but-disable-model-training · Claude 도움말 https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations\n",
    "sig": "c1bbd3cd3d1e1189"
+  },
+  {
+   "id": "2026-10-31-0740-briefing",
+   "date": "2026-10-31",
+   "folder": "0736-briefing",
+   "files": [
+    "01.png",
+    "02.png",
+    "03.png",
+    "04.png",
+    "05.png"
+   ],
+   "text": "게시 예정: 2026-10-31 07:36 (쓰레드)\n주제 태그: AI Threads\n\n1조 파라미터 AI, 이제 누구나 내려받아요.\n\n어제 나온 AI 소식 3가지예요.\n① 미스트랄, Large 4 가중치 공개\n② 아마존 쇼핑 AI, 기능 100개+ 추가\n③ AWS 매출 39% 성장\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 눈에 띄는 소식은 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 미스트랄 https://mistral.ai/news/mistral-large-4-oss/ · 아마존 https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities · 아마존 IR https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx\n",
+   "sig": "2f7f08c32ffedab1"
+  },
+  {
+   "id": "2026-10-31-1140-howto",
+   "date": "2026-10-31",
+   "folder": "1137-howto",
+   "files": [
+    "01.png",
+    "02.png"
+   ],
+   "text": "게시 예정: 2026-10-31 11:37 (쓰레드)\n주제 태그: AI Threads\n\nPDF·엑셀 파일, 채팅창에서 바로 받아요.\n\n제미나이에 이렇게만 쓰면 돼요.\n\"방금 정리한 표를 엑셀 파일로 만들어 줘\"\n\n· 되는 형식: PDF·워드·엑셀·CSV,\n  구글 문서·시트·슬라이드\n· 바로 다운로드하거나 드라이브에 저장\n\n제미나이 앱 쓰는 분은 누구나 돼요.\n저장해 두고 써 보세요.\n\n── 이어지는 답글 1 ──\n출처: 구글 블로그 https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini\n",
+   "sig": "e0e9b1703e10ef3f"
   }
  ]
 }

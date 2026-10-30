@@ -1,7 +1,2 @@
-2026-10-29T12:54:05.365Z
-2026-10-30-0740-briefing: 이미지 아님(application/octet-stream) https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_header.width-2200.format-webp.webp
-2026-10-30-0740-briefing: 이미지 아님(application/octet-stream) https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon__evals-table.width-2000.format-webp.webp
-2026-10-30-0740-briefing: 이미지 아님(application/octet-stream) https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_secbench-pro.width-2000.format-webp.webp
-2026-10-30-0740-briefing: 이미지 아님(application/octet-stream) https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_exploitgym.width-2000.format-webp.webp
-2026-10-30-0740-briefing: 이미지 아님(application/octet-stream) https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_cwe-bench.width-2000.format-webp.webp
-2026-10-30-0740-briefing: 이미지 아님(application/octet-stream) https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_grey_swan.width-2000.format-webp.webp
+2026-10-30T12:44:39.538Z
+사진 실패 없음
