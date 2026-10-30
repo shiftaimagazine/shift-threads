@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:16:59.934Z",
+ "updated": "2026-10-30T23:15:16.131Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -37,8 +37,8 @@
     "format": "briefing",
     "type": "carousel",
     "hook": "1조 파라미터 AI, 이제 누구나 내려받아요. 어제 나온 AI 소식 3가지예요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfIvQOKmi7I",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-31-0740-briefing/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-31-0740-briefing/02.png",
@@ -452,18 +452,18 @@
   {
    "date": "2026-10-31",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-10-31T07:36:00+09:00",
      "format": "briefing",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 5
     },
     {
