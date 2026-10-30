@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T02:26:17.762Z",
+ "updated": "2026-10-30T03:25:55.577Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -100,8 +100,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "AI한테 한 말, 학습에 쓰일 수 있어요. 챗GPT·클로드 둘 다",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-30-1140-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-30-1140-howto/02.png"
@@ -408,11 +408,11 @@
   {
    "date": "2026-10-30",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -425,7 +425,7 @@
     {
      "at": "2026-10-30T11:38:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
