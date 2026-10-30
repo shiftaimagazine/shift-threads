@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T20:18:06.606Z",
+ "updated": "2026-10-30T21:14:52.804Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -21,6 +21,10 @@
   },
   {
    "date": "2026-10-30",
+   "followers": 74
+  },
+  {
+   "date": "2026-10-31",
    "followers": 74
   }
  ],
@@ -496,6 +500,24 @@
    "at": "2026-10-26T03:16:26+0000"
   },
   {
+   "hook": "구글 새 AI, 성능 1위인데 아직 못 써요.",
+   "views": 395,
+   "likes": 4,
+   "replies": 4,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfGKznpoLty",
+   "at": "2026-10-29T23:17:59+0000"
+  },
+  {
+   "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
+   "views": 348,
+   "likes": 1,
+   "replies": 3,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7",
+   "at": "2026-10-30T03:25:36+0000"
+  },
+  {
    "hook": "웹사이트 70%가 쓰는 PHP,",
    "views": 285,
    "likes": 0,
@@ -512,24 +534,6 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/De72E1Zo1VQ",
    "at": "2026-10-25T23:04:29+0000"
-  },
-  {
-   "hook": "AI에 돈 쓴 회사들,",
-   "views": 237,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De_u-XHlX07",
-   "at": "2026-10-27T11:19:21+0000"
-  },
-  {
-   "hook": "회의 메모 → 할 일 표, 한 문장이면 돼요.",
-   "views": 213,
-   "likes": 0,
-   "replies": 0,
-   "reposts": 1,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfECY-_lFQP",
-   "at": "2026-10-29T03:25:58+0000"
   }
  ]
 }

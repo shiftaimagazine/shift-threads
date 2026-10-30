@@ -1,7 +1,37 @@
 {
- "updated": "2026-10-29T21:17:37.342Z",
+ "updated": "2026-10-30T21:14:52.749Z",
  "followers": 74,
  "posts": [
+  {
+   "at": "2026-10-30T03:25:36+0000",
+   "id": "2026-10-30-1140-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7",
+   "views": 348,
+   "likes": 1,
+   "replies": 3,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 29
+  },
+  {
+   "at": "2026-10-29T23:17:59+0000",
+   "id": "2026-10-30-0740-briefing",
+   "format": "briefing",
+   "type": "carousel",
+   "hook": "구글 새 AI, 성능 1위인데 아직 못 써요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfGKznpoLty",
+   "views": 395,
+   "likes": 4,
+   "replies": 4,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 41
+  },
   {
    "at": "2026-10-29T13:43:11+0000",
    "id": "2026-10-29-2140-compare",
@@ -9,13 +39,13 @@
    "type": "carousel",
    "hook": "웹페이지 새로고침, 이제 AI가 대신 해 줘요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfFJBeBEaTP",
-   "views": 98,
+   "views": 99,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 31
+   "score": 30
   },
   {
    "at": "2026-10-29T10:28:35+0000",
@@ -24,13 +54,13 @@
    "type": "carousel",
    "hook": "글 한 줄로 가상 세계가 생기고, 소리까지 나요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfEywL4Fijk",
-   "views": 43,
+   "views": 45,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 70
+   "score": 67
   },
   {
    "at": "2026-10-29T06:21:38+0000",
@@ -54,13 +84,13 @@
    "type": "carousel",
    "hook": "회의 메모 → 할 일 표, 한 문장이면 돼요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfECY-_lFQP",
-   "views": 213,
+   "views": 223,
    "likes": 0,
    "replies": 0,
    "reposts": 1,
    "quotes": 0,
    "shares": 0,
-   "score": 19
+   "score": 18
   },
   {
    "at": "2026-10-28T23:17:22+0000",
@@ -69,13 +99,13 @@
    "type": "carousel",
    "hook": "AI도 잠을 자야 기억한대요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfDl9BjDvfd",
-   "views": 28,
+   "views": 29,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 107
+   "score": 103
   },
   {
    "at": "2026-10-28T13:39:58+0000",
@@ -84,13 +114,13 @@
    "type": "carousel",
    "hook": "Sol보다 반값에 3배 빠른 GPT가 나왔어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfCj2_EEXeT",
-   "views": 77,
+   "views": 78,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 39
+   "score": 38
   },
   {
    "at": "2026-10-28T10:26:06+0000",
@@ -99,13 +129,13 @@
    "type": "carousel",
    "hook": "상반기 매출 163억 달러,",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfCNrR7FRC4",
-   "views": 17,
+   "views": 19,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 176
+   "score": 158
   },
   {
    "at": "2026-10-28T09:22:26+0000",
@@ -144,13 +174,13 @@
    "type": "VIDEO",
    "hook": "AI 사용료, 몇 달 새 최대 80% 내렸어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfB6N5yiOAT",
-   "views": 44,
+   "views": 45,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 68
+   "score": 67
   },
   {
    "at": "2026-10-28T06:18:40+0000",
@@ -159,7 +189,7 @@
    "type": "image",
    "hook": "AI한테 장보기 맡기면",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBxWyFG-LP",
-   "views": 11,
+   "views": 16,
    "likes": 0,
    "replies": 0,
    "reposts": 0,
@@ -189,13 +219,13 @@
    "type": "carousel",
    "hook": "AI 답, 믿어도 되는지 헷갈리죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBdRciG3m8",
-   "views": 19,
+   "views": 21,
    "likes": 1,
    "replies": 0,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 53
+   "score": 48
   },
   {
    "at": "2026-10-28T01:33:35+0000",
@@ -204,7 +234,7 @@
    "type": "VIDEO",
    "hook": "로봇 좀비 영화인데, 전부 AI로 만든 단편이에요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBQtdsAvFp",
-   "views": 88,
+   "views": 89,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -309,13 +339,13 @@
    "type": "carousel",
    "hook": "AI가 쓴 보고서,",
    "link": "https://www.threads.com/@shift_ai_magazine/post/De-3qMZkV0P",
-   "views": 54,
+   "views": 55,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 74
+   "score": 73
   },
   {
    "at": "2026-10-27T00:08:26+0000",
@@ -324,7 +354,7 @@
    "type": "carousel",
    "hook": "금융사 망분리, AI 보안 갖추면 풀어 준대요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/De-iMTxCSF6",
-   "views": 174,
+   "views": 176,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
@@ -429,7 +459,7 @@
    "type": "VIDEO",
    "hook": "AI로 만든 포스터, 글자 깨져서 못 썼죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/De6hO8gAYZZ",
-   "views": 83,
+   "views": 84,
    "likes": 2,
    "replies": 1,
    "reposts": 0,
@@ -571,36 +601,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 10
-  },
-  {
-   "at": "2026-10-19T02:43:35+0000",
-   "id": null,
-   "format": null,
-   "type": "VIDEO",
-   "hook": "GTA6 보다 하늘을 나는 자동차가 먼저 나왔습니다.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DeqNm-hCTBl",
-   "views": 277,
-   "likes": 3,
-   "replies": 2,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 32
-  },
-  {
-   "at": "2026-10-19T02:27:30+0000",
-   "id": null,
-   "format": null,
-   "type": "TEXT_POST",
-   "hook": "클로드에게 \"네가 꿈꾸는 미래를 그려봐\"라고 했을 때 일어난 일 🎨✨",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DeqLxe-idWR",
-   "views": 152,
-   "likes": 2,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 33
   }
  ]
 }
