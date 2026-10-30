@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T03:25:55.577Z",
+ "updated": "2026-10-30T03:27:33.227Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -161,9 +161,16 @@
   "reels": []
  },
  "comments": {
-  "pending": 0,
-  "items": [],
-  "updated": "2026-10-29T12:24:12.913Z"
+  "pending": 1,
+  "items": [
+   {
+    "user": "orke_kr",
+    "text": "세 가지 소식을 한눈에 묶어 준 게 편하네. 아직 쓸 수 없는 발표는 제목에서 먼저 구분해 둔 점도 명확하게 읽혀.",
+    "at": "2026-10-29T23:45:46+0000",
+    "post": "https://www.threads.com/@shift_ai_magazine/post/DfGKznpoLty"
+   }
+  ],
+  "updated": "2026-10-30T03:27:33.182Z"
  },
  "replies": {
   "sent": [
