@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T12:44:39.663Z",
+ "updated": "2026-10-30T12:48:56.016Z",
  "items": [
   {
    "id": "2026-10-28-0740-briefing",
@@ -161,7 +161,7 @@
     "05.png"
    ],
    "text": "게시 예정: 2026-10-31 07:36 (쓰레드)\n주제 태그: AI Threads\n\n1조 파라미터 AI, 이제 누구나 내려받아요.\n\n어제 나온 AI 소식 3가지예요.\n① 미스트랄, Large 4 가중치 공개\n② 아마존 쇼핑 AI, 기능 100개+ 추가\n③ AWS 매출 39% 성장\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 눈에 띄는 소식은 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 미스트랄 https://mistral.ai/news/mistral-large-4-oss/ · 아마존 https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities · 아마존 IR https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx\n",
-   "sig": "2f7f08c32ffedab1"
+   "sig": "41414af96c73fad7"
   },
   {
    "id": "2026-10-31-1140-howto",
@@ -172,7 +172,7 @@
     "02.png"
    ],
    "text": "게시 예정: 2026-10-31 11:37 (쓰레드)\n주제 태그: AI Threads\n\nPDF·엑셀 파일, 채팅창에서 바로 받아요.\n\n제미나이에 이렇게만 쓰면 돼요.\n\"방금 정리한 표를 엑셀 파일로 만들어 줘\"\n\n· 되는 형식: PDF·워드·엑셀·CSV,\n  구글 문서·시트·슬라이드\n· 바로 다운로드하거나 드라이브에 저장\n\n제미나이 앱 쓰는 분은 누구나 돼요.\n저장해 두고 써 보세요.\n\n── 이어지는 답글 1 ──\n출처: 구글 블로그 https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini\n",
-   "sig": "e0e9b1703e10ef3f"
+   "sig": "3aa078a0848092b0"
   }
  ]
 }

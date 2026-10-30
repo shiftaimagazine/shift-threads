@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T12:44:39.606Z",
+ "updated": "2026-10-30T12:48:55.965Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -217,10 +217,8 @@
       "label": "소식 3",
       "title": "AWS 매출 39% 성장",
       "body": "3분기 AWS 매출 **460억 달러**.\n올해 설비 투자 약 **2,200억 달러**,\n늘어난 투자는 주로 AI 쪽이에요.",
-      "shot": {
-       "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
-       "credit": "ir.aboutamazon.com"
-      }
+      "photoFrom": "https://www.aboutamazon.com/news/company-news/amazon-q3-2026-earnings-preview",
+      "photoCredit": "Amazon"
      }
     ],
     "photoFrom": [
@@ -274,7 +272,12 @@
         "h": "\"구글 슬라이드로 만들어 줘\"",
         "d": "발표 초안을 드라이브에 저장"
        }
-      ]
+      ],
+      "shot": {
+       "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini",
+       "credit": "blog.google",
+       "y": 900
+      }
      }
     ],
     "photoFrom": [
