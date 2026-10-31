@@ -1,7 +1,37 @@
 {
- "updated": "2026-10-30T21:14:52.749Z",
- "followers": 74,
+ "updated": "2026-10-31T21:10:22.971Z",
+ "followers": 75,
  "posts": [
+  {
+   "at": "2026-10-31T03:25:45+0000",
+   "id": "2026-10-31-1140-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfJL9A7FT9a",
+   "views": 442,
+   "likes": 3,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 1,
+   "score": 20
+  },
+  {
+   "at": "2026-10-30T23:14:58+0000",
+   "id": "2026-10-31-0740-briefing",
+   "format": "briefing",
+   "type": "carousel",
+   "hook": "1조 파라미터 AI, 이제 누구나 내려받아요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfIvQOKmi7I",
+   "views": 15,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 200
+  },
   {
    "at": "2026-10-30T03:25:36+0000",
    "id": "2026-10-30-1140-howto",
@@ -9,9 +39,9 @@
    "type": "carousel",
    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7",
-   "views": 348,
+   "views": 442,
    "likes": 1,
-   "replies": 3,
+   "replies": 4,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
@@ -24,13 +54,13 @@
    "type": "carousel",
    "hook": "구글 새 AI, 성능 1위인데 아직 못 써요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfGKznpoLty",
-   "views": 395,
+   "views": 404,
    "likes": 4,
-   "replies": 4,
+   "replies": 6,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 41
+   "score": 54
   },
   {
    "at": "2026-10-29T13:43:11+0000",
@@ -39,7 +69,7 @@
    "type": "carousel",
    "hook": "웹페이지 새로고침, 이제 AI가 대신 해 줘요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfFJBeBEaTP",
-   "views": 99,
+   "views": 100,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -384,13 +414,13 @@
    "type": "carousel",
    "hook": "웹사이트 70%가 쓰는 PHP,",
    "link": "https://www.threads.com/@shift_ai_magazine/post/De9DuZ5lnBs",
-   "views": 285,
+   "views": 287,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 11
+   "score": 10
   },
   {
    "at": "2026-10-26T06:16:20+0000",
@@ -571,36 +601,6 @@
    "quotes": 0,
    "shares": 1,
    "score": 25
-  },
-  {
-   "at": "2026-10-22T09:03:57+0000",
-   "id": null,
-   "format": null,
-   "type": "VIDEO",
-   "hook": "AI로 만든 드라마가 벌써 4화까지 나왔어요 👑",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DeynhmBDJQ3",
-   "views": 42,
-   "likes": 1,
-   "replies": 0,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 24
-  },
-  {
-   "at": "2026-10-19T04:08:43+0000",
-   "id": null,
-   "format": null,
-   "type": "VIDEO",
-   "hook": "💡 AI 에이전트 만들고 $50 벌 수 있는 대외활동?!",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DeqXWi2kwOx",
-   "views": 101,
-   "likes": 1,
-   "replies": 0,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 10
   }
  ]
 }
