@@ -5,23 +5,47 @@
   "format": "briefing",
   "type": "carousel",
   "topic": "AI Threads",
-  "photoFrom": ["https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"],
+  "photoFrom": [
+   "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+  ],
   "photoCredit": "Google",
   "parts": [
    "우주에 띄운 AI가 시를 써서 보냈어요.\n\n어제 나온 AI 소식 3가지예요.\n① 구글 위성 속 AI, 궤도에서 첫 답장\n② 'AI 학습 거부', 한 줄로 끝내는 표준\n③ 메타, 사진으로 옷장 만드는 AI 앱\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 눈에 띄는 소식은 뭐예요?",
    "출처: 구글 https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/ · 실리콘앵글 https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard/ · 엔가젯 https://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes/"
   ],
   "slides": [
-   {"kind": "cover", "tag": "Morning Brief", "title": "어제 AI 소식\n==3가지==", "sub": "구글 우주 AI · AI 학습 거부 표준 · 메타 옷장 앱"},
-   {"kind": "text", "label": "소식 1", "title": "우주에서 온 AI 답장",
+   {
+    "kind": "cover",
+    "tag": "Morning Brief",
+    "title": "어제 AI 소식\n==3가지==",
+    "sub": "구글 우주 AI · AI 학습 거부 표준 · 메타 옷장 앱"
+   },
+   {
+    "kind": "text",
+    "label": "소식 1",
+    "title": "우주에서 온 AI 답장",
     "body": "구글 '선캐처' 위성의 TPU에서\n젬마 4 모델이 하이쿠를 써서\n지구로 보냈어요. 10월 1일 발사,\n2027년엔 위성 2대를 연결해 시험해요.",
-    "photoFrom": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/", "photoCredit": "Google"},
-   {"kind": "text", "label": "소식 2", "title": "AI 학습 거부, 한 줄로",
+    "photoFrom": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+    "photoCredit": "Google"
+   },
+   {
+    "kind": "text",
+    "label": "소식 2",
+    "title": "AI 학습 거부, 한 줄로",
     "body": "구글·MS·앤트로픽·오픈AI가\nrobots.txt 한 줄로 AI 학습을\n막는 표준을 IETF에 제안했어요.\n오픈AI·MS는 몇 달 안, 구글은 내년 적용.",
-    "photoFrom": "https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/", "photoCredit": "Microsoft"},
-   {"kind": "text", "label": "소식 3", "title": "메타 AI 옷장 앱",
+    "photoFrom": "https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/",
+    "photoCredit": "Microsoft"
+   },
+   {
+    "kind": "text",
+    "label": "소식 3",
+    "title": "메타 AI 옷장 앱",
     "body": "'스타일 스케치'는 인스타·페북 사진으로\n가상 옷장을 만들고 코디를 추천해요.\n날씨·여행에 맞춘 추천도 돼요.\n지금은 인니·싱가포르·태국만.",
-    "photoFrom": "https://apps.apple.com/id/app/style-sketch-outfit-planner/id6794461626", "photoCredit": "Meta · App Store"}
+    "shot": {
+     "url": "https://apps.apple.com/id/app/style-sketch-outfit-planner/id6794461626",
+     "credit": "apps.apple.com"
+    }
+   }
   ],
   "sources": [
    "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
@@ -37,20 +61,43 @@
   "format": "howto",
   "type": "carousel",
   "topic": "AI Threads",
-  "shot": {"url": "https://support.google.com/gemini/answer/16622858", "credit": "support.google.com"},
+  "shot": {
+   "url": "https://support.google.com/gemini/answer/16622858",
+   "credit": "support.google.com"
+  },
   "parts": [
    "1시간짜리 유튜브 강의, 3줄이면 충분할 때 있죠.\n\n제미나이에 이렇게 물어보세요.\n\"이 영상 핵심 3줄로 요약해 줘\" + 영상 링크\n\n· 제미나이 앱이나 gemini.google.com\n· 로그인하고 '활동 기록'을 켜 둬야 돼요\n· 라이브 대화에서는 아직 안 돼요\n\n주말에 밀린 영상 정리할 때 써 보세요.\n요즘 요약해 보고 싶은 영상 있어요?",
    "출처: 구글 고객센터 https://support.google.com/gemini/answer/16622858"
   ],
   "slides": [
-   {"kind": "cover", "tag": "Gemini Tip", "title": "긴 유튜브,\n==3줄==로 보기", "sub": "제미나이 유튜브 요약"},
-   {"kind": "list", "label": "따라 하기", "title": "복붙 프롬프트 3개",
+   {
+    "kind": "cover",
+    "tag": "Gemini Tip",
+    "title": "긴 유튜브,\n==3줄==로 보기",
+    "sub": "제미나이 유튜브 요약"
+   },
+   {
+    "kind": "list",
+    "label": "따라 하기",
+    "title": "복붙 프롬프트 3개",
     "items": [
-     {"h": "\"핵심 3줄로 요약해 줘\"", "d": "영상 링크를 같이 붙여 넣기"},
-     {"h": "\"따라 할 단계만 번호로\"", "d": "요리·설정 영상에 딱"},
-     {"h": "\"이 주제 영상 찾아 줘\"", "d": "찾은 뒤 \"첫 영상 요약해 줘\""}
-    ]}
+     {
+      "h": "\"핵심 3줄로 요약해 줘\"",
+      "d": "영상 링크를 같이 붙여 넣기"
+     },
+     {
+      "h": "\"따라 할 단계만 번호로\"",
+      "d": "요리·설정 영상에 딱"
+     },
+     {
+      "h": "\"이 주제 영상 찾아 줘\"",
+      "d": "찾은 뒤 \"첫 영상 요약해 줘\""
+     }
+    ]
+   }
   ],
-  "sources": ["https://support.google.com/gemini/answer/16622858"]
+  "sources": [
+   "https://support.google.com/gemini/answer/16622858"
+  ]
  }
 ]
