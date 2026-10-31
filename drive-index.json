@@ -1,55 +1,6 @@
 {
- "updated": "2026-10-30T12:48:56.016Z",
+ "updated": "2026-10-31T12:34:48.740Z",
  "items": [
-  {
-   "id": "2026-10-28-0740-briefing",
-   "date": "2026-10-28",
-   "folder": "0739-briefing",
-   "files": [
-    "01.png",
-    "02.png",
-    "03.png",
-    "04.png",
-    "05.png"
-   ],
-   "text": "게시 예정: 2026-10-28 07:39 (쓰레드)\n주제 태그: AI Threads\n\n시리 AI, 이제 한국어로 대화돼요.\n\n어제 나온 AI 소식 3가지예요.\n① 애플 iOS 27.2, 시리 AI 한국어 지원\n② 네이버, AI 팩토리에 18.7조 지급보증\n③ MS, 4개국 직원에 자발적 퇴직 제안\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 눈에 띄는 건 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 맥루머스 https://www.macrumors.com/2026/10/26/apple-releases-ios-27-2/ · 바이라인네트워크 https://byline.network/2026/10/27_19287373-2/ · 마이크로소프트 https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/\n오늘 AI 소식 전체 정리는 매거진에서 → https://shiftaimagazine.com/daily/2026-10-28/?utm_source=threads\n오늘 AI 소식 전체 정리는 매거진에서 → https://shiftaimagazine.com/daily/2026-10-28/?utm_source=threads\n",
-   "sig": "927d90250bea75f0"
-  },
-  {
-   "id": "2026-10-28-1140-howto",
-   "date": "2026-10-28",
-   "folder": "1141-howto",
-   "files": [
-    "01.png",
-    "02.png"
-   ],
-   "text": "게시 예정: 2026-10-28 11:41 (쓰레드)\n주제 태그: AI Threads\n\nAI 답, 믿어도 되는지 헷갈리죠?\n질문 끝에 이 한 줄만 붙여 보세요.\n\n\"답을 '확실한 것 / 추측 / 확인 필요'로\n나눠 주고, 숫자·날짜엔 근거를 달아 줘.\n모르면 모른다고 해 줘.\"\n\n어디부터 직접 확인할지 바로 보여요.\n저장해 두고 써 보세요.\n",
-   "sig": "718c2c1dd49075db"
-  },
-  {
-   "id": "2026-10-28-1440-question",
-   "date": "2026-10-28",
-   "folder": "1438-question",
-   "files": [
-    "01.png"
-   ],
-   "text": "게시 예정: 2026-10-28 14:38 (쓰레드)\n주제 태그: AI Threads\n\nAI한테 장보기 맡기면\n결제 버튼까지 누르게 하실래요?\n\n상품 찾고 비교하는 건 이미 꽤 잘해요.\n고민되는 건 마지막 '결제' 한 번이더라고요.\n저희는 장바구니까지만 맡기고 싶어요.\n\n여러분은 어디까지 맡길 수 있어요?\n",
-   "sig": "46be68e95400cb05"
-  },
-  {
-   "id": "2026-10-28-1840-deep",
-   "date": "2026-10-28",
-   "folder": "1837-deep",
-   "files": [
-    "01.png",
-    "02.png",
-    "03.png",
-    "04.png",
-    "05.png"
-   ],
-   "text": "게시 예정: 2026-10-28 18:37 (쓰레드)\n주제 태그: AI Threads\n\n상반기 매출 163억 달러,\n클로드 만든 앤트로픽이 상장 서류를 냈어요.\n\n1년 전 같은 기간 12억 달러에서 13배 넘게 늘었고\n영업손실은 6.9억 달러로 줄었어요.\n티커는 'ANT', 공모 규모는 아직 미정이에요.\n\n카드로 정리했어요.\nAI 회사 상장 러시, 어떻게 보세요?\n\n── 이어지는 답글 1 ──\n출처: 테크크런치 https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/\n영상으로 30초 만에 보기 → 인스타 @shift_ai_magazine\n",
-   "sig": "85317e7a97f2d1d3"
-  },
   {
    "id": "2026-10-28-2140-compare",
    "date": "2026-10-28",
@@ -173,6 +124,31 @@
    ],
    "text": "게시 예정: 2026-10-31 11:37 (쓰레드)\n주제 태그: AI Threads\n\nPDF·엑셀 파일, 채팅창에서 바로 받아요.\n\n제미나이에 이렇게만 쓰면 돼요.\n\"방금 정리한 표를 엑셀 파일로 만들어 줘\"\n\n· 되는 형식: PDF·워드·엑셀·CSV,\n  구글 문서·시트·슬라이드\n· 바로 다운로드하거나 드라이브에 저장\n\n제미나이 앱 쓰는 분은 누구나 돼요.\n저장해 두고 써 보세요.\n\n── 이어지는 답글 1 ──\n출처: 구글 블로그 https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini\n",
    "sig": "3aa078a0848092b0"
+  },
+  {
+   "id": "2026-11-01-0740-briefing",
+   "date": "2026-11-01",
+   "folder": "0735-briefing",
+   "files": [
+    "01.png",
+    "02.png",
+    "03.png",
+    "04.png",
+    "05.png"
+   ],
+   "text": "게시 예정: 2026-11-01 07:35 (쓰레드)\n주제 태그: AI Threads\n\n우주에 띄운 AI가 시를 써서 보냈어요.\n\n어제 나온 AI 소식 3가지예요.\n① 구글 위성 속 AI, 궤도에서 첫 답장\n② 'AI 학습 거부', 한 줄로 끝내는 표준\n③ 메타, 사진으로 옷장 만드는 AI 앱\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 눈에 띄는 소식은 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 구글 https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/ · 실리콘앵글 https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard/ · 엔가젯 https://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes/\n",
+   "sig": "3ff35daf9b3b1f3d"
+  },
+  {
+   "id": "2026-11-01-1140-howto",
+   "date": "2026-11-01",
+   "folder": "1136-howto",
+   "files": [
+    "01.png",
+    "02.png"
+   ],
+   "text": "게시 예정: 2026-11-01 11:36 (쓰레드)\n주제 태그: AI Threads\n\n1시간짜리 유튜브 강의, 3줄이면 충분할 때 있죠.\n\n제미나이에 이렇게 물어보세요.\n\"이 영상 핵심 3줄로 요약해 줘\" + 영상 링크\n\n· 제미나이 앱이나 gemini.google.com\n· 로그인하고 '활동 기록'을 켜 둬야 돼요\n· 라이브 대화에서는 아직 안 돼요\n\n주말에 밀린 영상 정리할 때 써 보세요.\n요즘 요약해 보고 싶은 영상 있어요?\n\n── 이어지는 답글 1 ──\n출처: 구글 고객센터 https://support.google.com/gemini/answer/16622858\n",
+   "sig": "02ab2671d9776c94"
   }
  ]
 }
