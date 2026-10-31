@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T14:19:39.149Z",
+ "updated": "2026-10-31T15:15:03.215Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 74,
  "followersHistory": [
@@ -29,138 +29,6 @@
   }
  ],
  "today": {
-  "date": "2026-10-31",
-  "posts": [
-   {
-    "id": "2026-10-31-0740-briefing",
-    "at": "2026-10-31T07:36:00+09:00",
-    "format": "briefing",
-    "type": "carousel",
-    "hook": "1조 파라미터 AI, 이제 누구나 내려받아요. 어제 나온 AI 소식 3가지예요.",
-    "status": "ok",
-    "link": "https://www.threads.com/@shift_ai_magazine/post/DfIvQOKmi7I",
-    "cards": [
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-31-0740-briefing/01.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-31-0740-briefing/02.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-31-0740-briefing/03.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-31-0740-briefing/04.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-31-0740-briefing/05.png"
-    ],
-    "views": null,
-    "likes": null,
-    "replies": null,
-    "sources": [
-     "https://mistral.ai/news/mistral-large-4-oss/",
-     "https://thenewstack.io/mistral-large-4-weights/",
-     "https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities",
-     "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
-    ],
-    "topic": "AI Threads",
-    "parts": [
-     "1조 파라미터 AI, 이제 누구나 내려받아요.\n\n어제 나온 AI 소식 3가지예요.\n① 미스트랄, Large 4 가중치 공개\n② 아마존 쇼핑 AI, 기능 100개+ 추가\n③ AWS 매출 39% 성장\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 눈에 띄는 소식은 뭐예요?",
-     "출처: 미스트랄 https://mistral.ai/news/mistral-large-4-oss/ · 아마존 https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities · 아마존 IR https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
-    ],
-    "slides": [
-     {
-      "kind": "cover",
-      "tag": "Morning Brief",
-      "title": "어제 AI 소식\n==3가지==",
-      "sub": "미스트랄 Large 4 · 알렉사 쇼핑 · AWS 실적"
-     },
-     {
-      "kind": "text",
-      "label": "소식 1",
-      "title": "1조 모델, 공개 배포",
-      "body": "미스트랄 Large 4 가중치를\n허깅페이스에 올렸어요.\n코딩·보안 특화, 상업 이용 가능\n(서비스형 판매는 별도 라이선스).",
-      "shot": {
-       "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
-       "credit": "huggingface.co"
-      }
-     },
-     {
-      "kind": "text",
-      "label": "소식 2",
-      "title": "알렉사 쇼핑 100개+",
-      "body": "말로 쇼핑 목록 만들고,\n정기배송 건너뛰기·배송 요청 변경.\n미국 아마존 고객 모두 쓸 수 있어요.",
-      "photoFrom": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities",
-      "photoCredit": "Amazon"
-     },
-     {
-      "kind": "text",
-      "label": "소식 3",
-      "title": "AWS 매출 39% 성장",
-      "body": "3분기 AWS 매출 **460억 달러**.\n올해 설비 투자 약 **2,200억 달러**,\n늘어난 투자는 주로 AI 쪽이에요.",
-      "photoFrom": "https://www.aboutamazon.com/news/company-news/amazon-q3-2026-earnings-preview",
-      "photoCredit": "Amazon"
-     }
-    ],
-    "photoFrom": [
-     "https://mistral.ai/news/mistral-large-4-oss/"
-    ]
-   },
-   {
-    "id": "2026-10-31-1140-howto",
-    "at": "2026-10-31T11:37:00+09:00",
-    "format": "howto",
-    "type": "carousel",
-    "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요. 제미나이에 이렇게만 쓰면 돼요.",
-    "status": "ok",
-    "link": "https://www.threads.com/@shift_ai_magazine/post/DfJL9A7FT9a",
-    "cards": [
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-31-1140-howto/01.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-10-31-1140-howto/02.png"
-    ],
-    "views": null,
-    "likes": null,
-    "replies": null,
-    "sources": [
-     "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini"
-    ],
-    "topic": "AI Threads",
-    "parts": [
-     "PDF·엑셀 파일, 채팅창에서 바로 받아요.\n\n제미나이에 이렇게만 쓰면 돼요.\n\"방금 정리한 표를 엑셀 파일로 만들어 줘\"\n\n· 되는 형식: PDF·워드·엑셀·CSV,\n  구글 문서·시트·슬라이드\n· 바로 다운로드하거나 드라이브에 저장\n\n제미나이 앱 쓰는 분은 누구나 돼요.\n저장해 두고 써 보세요.",
-     "출처: 구글 블로그 https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini"
-    ],
-    "slides": [
-     {
-      "kind": "cover",
-      "tag": "Gemini Tip",
-      "title": "채팅 한 줄로\n==파일== 받기",
-      "sub": "제미나이 파일 만들기"
-     },
-     {
-      "kind": "list",
-      "label": "따라 하기",
-      "title": "복붙 프롬프트 3개",
-      "items": [
-       {
-        "h": "\"엑셀 파일로 만들어 줘\"",
-        "d": "정리한 예산·일정을 .xlsx로"
-       },
-       {
-        "h": "\"한 장짜리 PDF로 줘\"",
-        "d": "긴 대화를 요약 문서 하나로"
-       },
-       {
-        "h": "\"구글 슬라이드로 만들어 줘\"",
-        "d": "발표 초안을 드라이브에 저장"
-       }
-      ],
-      "shot": {
-       "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini",
-       "credit": "blog.google",
-       "y": 900
-      }
-     }
-    ],
-    "photoFrom": [
-     "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini"
-    ]
-   }
-  ],
-  "reels": []
- },
- "tomorrow": {
   "date": "2026-11-01",
   "posts": [
    {
@@ -286,6 +154,11 @@
   ],
   "reels": []
  },
+ "tomorrow": {
+  "date": "2026-11-02",
+  "posts": [],
+  "reels": []
+ },
  "comments": {
   "pending": 1,
   "items": [
@@ -320,43 +193,6 @@
   "total": 4
  },
  "days": [
-  {
-   "date": "2026-10-25",
-   "total": 3,
-   "ok": 3,
-   "failed": 0,
-   "expired": 0,
-   "waiting": 0,
-   "scheduled": 0,
-   "needCards": 2,
-   "cardsReady": 2,
-   "times": [
-    {
-     "at": "2026-10-25T14:45:00+09:00",
-     "format": null,
-     "status": "ok",
-     "cards": 0
-    },
-    {
-     "at": "2026-10-25T18:37:00+09:00",
-     "format": "deep",
-     "status": "ok",
-     "cards": 5
-    },
-    {
-     "at": "2026-10-25T21:39:00+09:00",
-     "format": "compare",
-     "status": "ok",
-     "cards": 2
-    }
-   ],
-   "reels": [
-    {
-     "at": "2026-10-25T19:30:00+09:00",
-     "status": "ok"
-    }
-   ]
-  },
   {
    "date": "2026-10-26",
    "total": 5,
@@ -626,6 +462,19 @@
      "cards": 2
     }
    ],
+   "reels": []
+  },
+  {
+   "date": "2026-11-02",
+   "total": 0,
+   "ok": 0,
+   "failed": 0,
+   "expired": 0,
+   "waiting": 0,
+   "scheduled": 0,
+   "needCards": 0,
+   "cardsReady": 0,
+   "times": [],
    "reels": []
   }
  ],
