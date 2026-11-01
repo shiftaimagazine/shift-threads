@@ -1,5 +1,18 @@
 {
- "updated": "2026-11-01T03:32:11.346Z",
- "count": 0,
- "items": []
+ "updated": "2026-11-01T12:20:57.093Z",
+ "count": 1,
+ "items": [
+  {
+   "id": "18122788223293037",
+   "user": "aitr.endradar",
+   "text": "실습 강의라면 핵심 세 줄 옆에, 따라 할 구간 시간도 남겨두고 싶네",
+   "at": "2026-11-01T04:24:47+0000",
+   "to": "post",
+   "post": {
+    "id": "18005283816007303",
+    "hook": "1시간짜리 유튜브 강의, 3줄이면 충분할 때 있죠.  제미나이에 이렇게 물어보세요.",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfLxOjVjSxk"
+   }
+  }
+ ]
 }

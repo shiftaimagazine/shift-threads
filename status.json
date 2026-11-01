@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T12:16:34.751Z",
+ "updated": "2026-11-01T12:20:57.148Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 75,
  "followersHistory": [
@@ -164,9 +164,16 @@
   "reels": []
  },
  "comments": {
-  "pending": 0,
-  "items": [],
-  "updated": "2026-11-01T03:32:11.346Z"
+  "pending": 1,
+  "items": [
+   {
+    "user": "aitr.endradar",
+    "text": "실습 강의라면 핵심 세 줄 옆에, 따라 할 구간 시간도 남겨두고 싶네",
+    "at": "2026-11-01T04:24:47+0000",
+    "post": "https://www.threads.com/@shift_ai_magazine/post/DfLxOjVjSxk"
+   }
+  ],
+  "updated": "2026-11-01T12:20:57.093Z"
  },
  "replies": {
   "sent": [
