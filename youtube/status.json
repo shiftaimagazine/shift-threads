@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-02T07:45:33+09:00",
- "message": "연결 확인 2026-11-02T07:45:33+09:00",
+ "updated": "2026-11-02T07:49:19+09:00",
+ "message": "11-02T07:49 쇼츠 0편 예약 (미리보기)",
  "limit": {
   "hit": false,
   "at": null,
@@ -15,8 +15,8 @@
    "slot": "09:00",
    "kind": "new",
    "title": "Claude Code가 게임 복제를 막았다 🎮",
-   "status": "pending",
-   "videoId": null,
+   "status": "scheduled",
+   "videoId": "NBmuSP47tuI",
    "note": null
   },
   {
@@ -25,8 +25,8 @@
    "slot": "18:00",
    "kind": "new",
    "title": "중국 AI Kimi K3.1 Pro, Claude와 0.7점 차 👀",
-   "status": "pending",
-   "videoId": null,
+   "status": "scheduled",
+   "videoId": "X_tNmaTvN4g",
    "note": null
   }
  ]
