@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T02:30:15.575Z",
+ "updated": "2026-11-01T03:30:14.803Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 75,
  "followersHistory": [
@@ -109,8 +109,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "1시간짜리 유튜브 강의, 3줄이면 충분할 때 있죠. 제미나이에 이렇게 물어보세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfLxOjVjSxk",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-01-1140-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-01-1140-howto/02.png"
@@ -445,11 +445,11 @@
   {
    "date": "2026-11-01",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -462,7 +462,7 @@
     {
      "at": "2026-11-01T11:36:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
