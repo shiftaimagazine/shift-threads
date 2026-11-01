@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T03:30:14.803Z",
+ "updated": "2026-11-01T03:32:11.399Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 75,
  "followersHistory": [
@@ -164,16 +164,9 @@
   "reels": []
  },
  "comments": {
-  "pending": 1,
-  "items": [
-   {
-    "user": "orke_kr",
-    "text": "사용 가능 여부를 제목에서 먼저 보여주니 읽는 입장에서도 기대를 맞추기 편했어. 내일 아침 소식도 챙겨볼게 ㅎㅎ",
-    "at": "2026-10-30T12:51:59+0000",
-    "post": "https://www.threads.com/@shift_ai_magazine/post/DfGKznpoLty"
-   }
-  ],
-  "updated": "2026-10-31T12:20:15.117Z"
+  "pending": 0,
+  "items": [],
+  "updated": "2026-11-01T03:32:11.346Z"
  },
  "replies": {
   "sent": [
