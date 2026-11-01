@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T20:13:48.442Z",
+ "updated": "2026-11-01T21:10:48.793Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 75,
  "followersHistory": [
@@ -29,6 +29,10 @@
   },
   {
    "date": "2026-11-01",
+   "followers": 75
+  },
+  {
+   "date": "2026-11-02",
    "followers": 75
   }
  ],
@@ -470,6 +474,15 @@
  ],
  "top": [
   {
+   "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
+   "views": 462,
+   "likes": 3,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfJL9A7FT9a",
+   "at": "2026-10-31T03:25:45+0000"
+  },
+  {
    "hook": "회사 엑셀, AI에 그대로 올리면 안 돼요.",
    "views": 462,
    "likes": 2,
@@ -479,17 +492,8 @@
    "at": "2026-10-26T03:16:26+0000"
   },
   {
-   "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
-   "views": 442,
-   "likes": 3,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfJL9A7FT9a",
-   "at": "2026-10-31T03:25:45+0000"
-  },
-  {
    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
-   "views": 442,
+   "views": 444,
    "likes": 1,
    "replies": 4,
    "reposts": 0,
