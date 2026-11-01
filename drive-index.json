@@ -1,69 +1,6 @@
 {
- "updated": "2026-10-31T12:38:50.270Z",
+ "updated": "2026-11-01T12:29:26.927Z",
  "items": [
-  {
-   "id": "2026-10-28-2140-compare",
-   "date": "2026-10-28",
-   "folder": "2142-compare",
-   "files": [
-    "01.png",
-    "02.png",
-    "03.png",
-    "04.png",
-    "05.png"
-   ],
-   "text": "게시 예정: 2026-10-28 21:42 (쓰레드)\n주제 태그: AI Threads\n\nSol보다 반값에 3배 빠른 GPT가 나왔어요.\n\n오픈AI GPT-6.1 Terra, 공식 발표 기준\n입력 100만 토큰 1달러, 출력 5달러예요.\n다만 아주 복잡한 코딩은\n여전히 Sol·Astra를 권한대요.\n\n여러분은 싼 모델, 센 모델 중 어디부터 써요?\n\n── 이어지는 답글 1 ──\n출처: OpenAI https://openai.com/index/introducing-gpt-6-1-terra/\n매거진에서 자세히 읽기 → https://shiftaimagazine.com/news/2026-10-27-gpt-6-1-terra/?utm_source=threads\n",
-   "sig": "f8258d713671abbd"
-  },
-  {
-   "id": "2026-10-29-0740-briefing",
-   "date": "2026-10-29",
-   "folder": "0737-briefing",
-   "files": [
-    "01.png",
-    "02.png",
-    "03.png",
-    "04.png",
-    "05.png"
-   ],
-   "text": "게시 예정: 2026-10-29 07:37 (쓰레드)\n주제 태그: AI Threads\n\nAI도 잠을 자야 기억한대요.\n\n어제 나온 AI 소식 3가지예요.\n① 구글, AI가 '자면서' 배우는 방법 공개\n② 메타 AI 비서 Muse, 싱가포르 출시\n③ 오라클 업무, 이제 챗GPT 안에서\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 궁금한 건 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 구글 https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/ · 메타 https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/ · 오라클 https://www.oracle.com/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/\n오늘 AI 소식 전체 정리는 매거진에서 → https://shiftaimagazine.com/daily/2026-10-29/?utm_source=threads\n",
-   "sig": "ee015a03c0d5da6a"
-  },
-  {
-   "id": "2026-10-29-1140-howto",
-   "date": "2026-10-29",
-   "folder": "1143-howto",
-   "files": [
-    "01.png",
-    "02.png"
-   ],
-   "text": "게시 예정: 2026-10-29 11:43 (쓰레드)\n주제 태그: AI Threads\n\n회의 메모 → 할 일 표, 한 문장이면 돼요.\n\n\"아래 회의 메모에서 할 일만 뽑아\n'할 일 / 담당자 / 마감일' 표로 만들어 줘.\n메모에 없는 담당자·날짜는 '미정'으로 둬.\"\n\n마지막 줄이 AI가 지어내는 걸 막아요.\n저장해 두고 써 보세요.\n",
-   "sig": "05760788c3a60807"
-  },
-  {
-   "id": "2026-10-29-1440-question",
-   "date": "2026-10-29",
-   "folder": "1439-question",
-   "files": [
-    "01.png"
-   ],
-   "text": "게시 예정: 2026-10-29 14:39 (쓰레드)\n주제 태그: AI Threads\n\nAI가 써 준 생일 축하 메시지, 받으면 서운할까요?\n\n문장은 더 예쁜데\n마음은 덜 담긴 것 같기도 하고요.\n바쁜 와중에 챙겨 준 게 고맙다는 사람도 있죠.\n\n여러분은 받으면 어때요?\nAI로 보내 본 적 있어요?\n",
-   "sig": "9ba46dd9943a0859"
-  },
-  {
-   "id": "2026-10-29-1840-deep",
-   "date": "2026-10-29",
-   "folder": "1841-deep",
-   "files": [
-    "01.png",
-    "02.png",
-    "03.png",
-    "04.png",
-    "05.png"
-   ],
-   "text": "게시 예정: 2026-10-29 18:41 (쓰레드)\n주제 태그: AI Threads\n\n글 한 줄로 가상 세계가 생기고, 소리까지 나요.\n\n구글 딥마인드가 Genie 4를 공개했어요.\n돌아다니다가 날씨·카메라를 말로 바꾸면\n장면이 실시간으로 바뀌어요.\n지금은 일부 테스터만, 곧 Ultra 구독자에게 풀려요.\n\n카드로 정리했어요.\n이걸로 제일 먼저 해 보고 싶은 건 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 구글 딥마인드 https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/ · 테크크런치 https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/\n영상으로 30초 만에 보기 → 인스타 @shift_ai_magazine\n",
-   "sig": "57f69032a9f82337"
-  },
   {
    "id": "2026-10-29-2140-compare",
    "date": "2026-10-29",
@@ -136,8 +73,8 @@
     "04.png",
     "05.png"
    ],
-   "text": "게시 예정: 2026-11-01 07:35 (쓰레드)\n주제 태그: AI Threads\n\n우주에 띄운 AI가 시를 써서 보냈어요.\n\n어제 나온 AI 소식 3가지예요.\n① 구글 위성 속 AI, 궤도에서 첫 답장\n② 'AI 학습 거부', 한 줄로 끝내는 표준\n③ 메타, 사진으로 옷장 만드는 AI 앱\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 눈에 띄는 소식은 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 구글 https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/ · 실리콘앵글 https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard/ · 엔가젯 https://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes/\n",
-   "sig": "ffc364f5f93472d5"
+   "text": "게시 예정: 2026-11-01 07:35 (쓰레드)\n주제 태그: AI Threads\n\n우주에 띄운 AI가 시를 써서 보냈어요.\n\n어제 나온 AI 소식 3가지예요.\n① 구글 위성 속 AI, 궤도에서 첫 답장\n② 'AI 학습 거부', 한 줄로 끝내는 표준\n③ 메타, 사진으로 옷장 만드는 AI 앱\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 눈에 띄는 소식은 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 구글 https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/ · 실리콘앵글 https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard/ · 엔가젯 https://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes/\n오늘 AI 소식 전체 정리는 매거진에서 → https://shiftaimagazine.com/daily/2026-11-01/?utm_source=threads\n",
+   "sig": "5ac570db9a09828d"
   },
   {
    "id": "2026-11-01-1140-howto",
@@ -149,6 +86,31 @@
    ],
    "text": "게시 예정: 2026-11-01 11:36 (쓰레드)\n주제 태그: AI Threads\n\n1시간짜리 유튜브 강의, 3줄이면 충분할 때 있죠.\n\n제미나이에 이렇게 물어보세요.\n\"이 영상 핵심 3줄로 요약해 줘\" + 영상 링크\n\n· 제미나이 앱이나 gemini.google.com\n· 로그인하고 '활동 기록'을 켜 둬야 돼요\n· 라이브 대화에서는 아직 안 돼요\n\n주말에 밀린 영상 정리할 때 써 보세요.\n요즘 요약해 보고 싶은 영상 있어요?\n\n── 이어지는 답글 1 ──\n출처: 구글 고객센터 https://support.google.com/gemini/answer/16622858\n",
    "sig": "02ab2671d9776c94"
+  },
+  {
+   "id": "2026-11-02-0740-briefing",
+   "date": "2026-11-02",
+   "folder": "0737-briefing",
+   "files": [
+    "01.png",
+    "02.png",
+    "03.png",
+    "04.png",
+    "05.png"
+   ],
+   "text": "게시 예정: 2026-11-02 07:37 (쓰레드)\n주제 태그: AI Threads\n\n딥시크가 코딩 에이전트를 통째로 공개했어요.\n\n주말에 나온 AI 소식 3가지예요.\n① 딥시크, 팀 채팅 받아 일하는 코딩 에이전트\n② 애플 새 CEO \"AI를 위한 AI는 안 해요\"\n③ 외계 신호 찾기에 AI 에이전트 투입\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 궁금한 소식은 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 더넥스트웹 https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent · 테크크런치 https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/ · 엔비디아 https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/\n",
+   "sig": "6b07e2aba25bc987"
+  },
+  {
+   "id": "2026-11-02-1140-howto",
+   "date": "2026-11-02",
+   "folder": "1134-howto",
+   "files": [
+    "01.png",
+    "02.png"
+   ],
+   "text": "게시 예정: 2026-11-02 11:34 (쓰레드)\n주제 태그: AI Threads\n\n긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.\n\n구글 무료 도구 '제미나이 노트북'(옛 NotebookLM)이에요.\n· 지메일 계정으로 무료 가입\n· PDF·워드·웹 링크·유튜브 링크 다 돼요\n· 형식 '브리프'를 고르면 한 명이 2분 안에 핵심만\n\n출근길에 보고서 하나 들어 보세요.\n저장해 두고 써 보세요.\n\n── 이어지는 답글 1 ──\n출처: 구글 고객센터 https://support.google.com/notebooklm/answer/16212820 · https://support.google.com/notebooklm/answer/16213268\n",
+   "sig": "0cf27a46b56c350c"
   }
  ]
 }

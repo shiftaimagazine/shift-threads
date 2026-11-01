@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T12:26:20.052Z",
+ "updated": "2026-11-01T12:29:26.877Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 75,
  "followersHistory": [
@@ -160,7 +160,132 @@
  },
  "tomorrow": {
   "date": "2026-11-02",
-  "posts": [],
+  "posts": [
+   {
+    "id": "2026-11-02-0740-briefing",
+    "at": "2026-11-02T07:37:00+09:00",
+    "format": "briefing",
+    "type": "carousel",
+    "hook": "딥시크가 코딩 에이전트를 통째로 공개했어요. 주말에 나온 AI 소식 3가지예요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-02-0740-briefing/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-02-0740-briefing/02.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-02-0740-briefing/03.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-02-0740-briefing/04.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-02-0740-briefing/05.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent",
+     "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+     "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/"
+    ],
+    "topic": "AI Threads",
+    "parts": [
+     "딥시크가 코딩 에이전트를 통째로 공개했어요.\n\n주말에 나온 AI 소식 3가지예요.\n① 딥시크, 팀 채팅 받아 일하는 코딩 에이전트\n② 애플 새 CEO \"AI를 위한 AI는 안 해요\"\n③ 외계 신호 찾기에 AI 에이전트 투입\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 궁금한 소식은 뭐예요?",
+     "출처: 더넥스트웹 https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent · 테크크런치 https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/ · 엔비디아 https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/"
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Morning Brief",
+      "title": "주말 AI 소식\n==3가지==",
+      "sub": "딥시크 에이전트 · 애플 CEO · 외계 신호 AI"
+     },
+     {
+      "kind": "text",
+      "label": "소식 1",
+      "title": "딥시크 코딩 에이전트",
+      "body": "깃허브 저장소 하나를 맡아\n팀 채팅(페이슈)으로 일을 받고\n결과를 PR로 돌려줘요. MIT 공개,\n아직은 '연구용 시제품'이에요.",
+      "shot": {
+       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+       "credit": "github.com"
+      }
+     },
+     {
+      "kind": "text",
+      "label": "소식 2",
+      "title": "애플 CEO의 AI 원칙",
+      "body": "9월 취임한 존 터너스 CEO가\n\"AI를 위한 AI는 내놓지 않는다\"며\nAI인지 의식 못 할 만큼 자연스러운\n제품을 만들겠다고 했어요.",
+      "photoFrom": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "photoCredit": "Apple"
+     },
+     {
+      "kind": "text",
+      "label": "소식 3",
+      "title": "외계 신호, AI가 찾아요",
+      "body": "SETI 연구소 앨런 망원경에\n말로 시키는 AI 에이전트가 붙었어요.\n안테나 조종·보정까지 맡고\n초당 2.4테라비트를 처리해요.",
+      "shot": {
+       "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+       "credit": "blogs.nvidia.com",
+       "y": 900
+      }
+     }
+    ],
+    "photoFrom": [
+     "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/"
+    ]
+   },
+   {
+    "id": "2026-11-02-1140-howto",
+    "at": "2026-11-02T11:34:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요. 구글 무료 도구 '제미나이 노트북'(옛 NotebookLM)이에요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-02-1140-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-02-1140-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://support.google.com/notebooklm/answer/16212820",
+     "https://support.google.com/notebooklm/answer/16213268",
+     "https://support.google.com/notebooklm/answer/16215270"
+    ],
+    "topic": "AI Threads",
+    "parts": [
+     "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.\n\n구글 무료 도구 '제미나이 노트북'(옛 NotebookLM)이에요.\n· 지메일 계정으로 무료 가입\n· PDF·워드·웹 링크·유튜브 링크 다 돼요\n· 형식 '브리프'를 고르면 한 명이 2분 안에 핵심만\n\n출근길에 보고서 하나 들어 보세요.\n저장해 두고 써 보세요.",
+     "출처: 구글 고객센터 https://support.google.com/notebooklm/answer/16212820 · https://support.google.com/notebooklm/answer/16213268"
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Free Tool",
+      "title": "PDF를\n==2분 오디오==로",
+      "sub": "제미나이 노트북(옛 NotebookLM)"
+     },
+     {
+      "kind": "list",
+      "label": "따라 하기",
+      "title": "오디오로 듣는 3단계",
+      "items": [
+       {
+        "h": "새 노트북에 PDF 올리기",
+        "d": "notebooklm.google 에서 무료로"
+       },
+       {
+        "h": "Studio → Audio Overview",
+        "d": "만드는 데 몇 분 걸려요"
+       },
+       {
+        "h": "형식 '브리프' + 한국어",
+        "d": "집중할 주제도 적을 수 있어요"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   }
+  ],
   "reels": []
  },
  "comments": {
@@ -470,15 +595,28 @@
   },
   {
    "date": "2026-11-02",
-   "total": 0,
+   "total": 2,
    "ok": 0,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
+   "scheduled": 2,
+   "needCards": 2,
+   "cardsReady": 2,
+   "times": [
+    {
+     "at": "2026-11-02T07:37:00+09:00",
+     "format": "briefing",
+     "status": "scheduled",
+     "cards": 5
+    },
+    {
+     "at": "2026-11-02T11:34:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    }
+   ],
    "reels": []
   }
  ],
