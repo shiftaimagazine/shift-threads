@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T12:29:46.479Z",
+ "updated": "2026-11-02T12:37:03.270Z",
  "kstDate": "2026-11-02",
  "windowHours": 48,
  "note": "글쓰기 작업용 뉴스 후보. 쓰기로 한 소식은 반드시 link 원문을 열어 숫자·날짜를 확인할 것. summary 는 피드 요약이라 사실 확인 근거로 쓰지 않음.",
@@ -43,6 +43,26 @@
    "link": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
    "published": "2026-11-02T09:35:19.000Z",
    "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous software agents that coul"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "한미약품, '에피데이' 챗봇 국산 AI로 전환…자체 인프라 구축 추진",
+   "link": "https://www.etnews.com/20261102000455",
+   "published": "2026-11-02T09:34:54.000Z",
+   "summary": "한미약품이 디지털 헬스케어 플랫폼 '에피데이'의 인공지능(AI) 건강 코칭 챗봇을 국내 대규모언어모델(LLM)과 AI 반도체 기반으로 전환한다. 해외 클라우드 의존도를 낮추고 환자 건강정보에 대한 통제권과 서비스 운영 안정성을 높이는 데 나섰다. 한미약품은 지난달 30일 서울 송파구 한미약품 C&C스퀘어에서 퓨리오사AI·엑스페릭스·베이글랩스와 에피데이 챗봇의 한국형 LLM 전환과 국내 AI 인프라 구축을 위한 전략적 파트너십 협약(MOU)을 맺"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "위챗페이, 中 'AI 결제 단말기' 출시",
+   "link": "https://www.etnews.com/20261102000441",
+   "published": "2026-11-02T08:39:44.000Z",
+   "summary": "위챗페이가 '인공지능(AI) 결제 단말기'를 중국에서 첫 출시했다. 국내에서 네이버페이와 토스가 얼굴결제 기능을 갖춘 단말기로 오프라인 결제 접점을 넓히는 가운데, 위챗페이는 상품 안내와 주문까지 처리하는 AI 단말기를 선보인 것이다. 간편결제 사업자들이 자체 단말기를 앞세워 오프라인 시장으로 사업 영역을 넓히는 흐름이 세계적으로 확산하고 있다. 2일 외신을 종합하면, 위챗페이가 선전 텐센트 본사 단지에 문을 연 광둥 세븐일레븐에 AI 결제 단"
   },
   {
    "source": "바이라인네트워크",
@@ -142,7 +162,7 @@
    "title": "The AI cost of JavaScript frameworks",
    "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
    "published": "2026-11-01T06:06:19.000Z",
-   "summary": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/ Comments URL: https://news.ycombinator.com/item?id=50323088 Points: 393 # Comments: 301"
+   "summary": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/ Comments URL: https://news.ycombinator.com/item?id=50323088 Points: 395 # Comments: 301"
   },
   {
    "source": "테크크런치 AI",

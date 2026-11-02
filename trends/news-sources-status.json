@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T12:29:46.479Z",
+ "updated": "2026-11-02T12:37:03.270Z",
  "sources": [
   {
    "name": "AI타임스",
@@ -132,10 +132,10 @@
   {
    "name": "전자신문 SW·AI",
    "url": "https://rss.etnews.com/Section902.xml",
-   "ok": false,
-   "items": 0,
-   "fresh": 0,
-   "note": "fetch failed"
+   "ok": true,
+   "items": 30,
+   "fresh": 2,
+   "note": ""
   },
   {
    "name": "테크크런치 AI",
