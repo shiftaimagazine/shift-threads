@@ -1,0 +1,56 @@
+[
+ {
+  "id": "2026-11-03-0740-briefing",
+  "at": "2026-11-03T07:39:00+09:00",
+  "format": "briefing",
+  "type": "carousel",
+  "topic": "AI Threads",
+  "photoFrom": ["https://news.samsung.com/ca/samsung-brings-galaxy-ecosystem-into-everyday-eyewear"],
+  "photoCredit": "Samsung",
+  "parts": [
+   "삼성 AI 안경, 12월 한국 판매 보도가 나왔어요.\n\n어제 나온 AI 소식 3가지예요.\n① 삼성 AI 안경, 12월 한·미 판매 보도\n② 엔비디아 'AI 데이 서울' 9~10일\n③ 삼성·SK·LG·쿠팡, 엔비디아 무대에\n\n매일 아침 AI 소식 3가지씩 정리해요.\n화면 없는 AI 안경, 써 보실 건가요?",
+   "출처: 뉴스웍스 https://www.newsworks.co.kr/news/articleView.html?idxno=901578 · 뉴스핌 https://www.newspim.com/news/view/20261102000268 · 엔비디아 https://www.nvidia.com/ko-kr/ai-days/"
+  ],
+  "slides": [
+   {"kind": "cover", "tag": "Morning Brief", "title": "어제 AI 소식\n==3가지==", "sub": "삼성 AI 안경 · 엔비디아 AI 데이 · 국내 AI 사례"},
+   {"kind": "text", "label": "소식 1", "title": "삼성 AI 안경, 12월?",
+    "body": "12월 한국·미국 먼저 판매 보도예요.\n삼성은 일정을 공식 확인 안 했고\n\"화면은 없다\"고 밝혔어요.\n제미나이 탑재, 최대 9시간 배터리.",
+    "shot": {"url": "https://samsungmobilepress.com/articles/samsung-google-new-intelligent-eyewear", "credit": "samsungmobilepress.com"}},
+   {"kind": "text", "label": "소식 2", "title": "엔비디아, 서울 온다",
+    "body": "'AI 데이 서울' 9~10일 코엑스.\n약 2,000명 규모, 등록은 마감.\n주요 세션은 행사 뒤\n엔비디아 온디맨드로 공개돼요.",
+    "photo": "https://www.nvidia.com/content/dam/en-zz/ko_kr/ai-days/2026/ai-day-seoul-og.jpg", "photoCredit": "NVIDIA"},
+   {"kind": "text", "label": "소식 3", "title": "파트너 20곳 참여",
+    "body": "삼성·SK하이닉스는 반도체 설계,\nLG는 로봇 학습, 쿠팡은 GB300\n서버 사례를 보여 줘요.\n네이버클라우드·업스테이지도 참여.",
+    "shot": {"url": "https://www.nvidia.com/ko-kr/ai-days/", "credit": "nvidia.com", "y": 1600}}
+  ],
+  "sources": [
+   "https://www.newsworks.co.kr/news/articleView.html?idxno=901578",
+   "https://www.wikitree.co.kr/articles/1170919",
+   "https://www.newspim.com/news/view/20261102000268",
+   "https://hankookilbo.com/news/article/A2026110212370001395",
+   "https://www.nvidia.com/ko-kr/ai-days/"
+  ]
+ },
+ {
+  "id": "2026-11-03-1140-howto",
+  "at": "2026-11-03T11:36:00+09:00",
+  "format": "howto",
+  "type": "carousel",
+  "topic": "AI Threads",
+  "commons": "File:QWERTY keyboard.jpg",
+  "parts": [
+   "거절 메일, 쓰다 지우다 반복하셨죠?\n\nAI한테 이 4줄만 채워서 주세요.\n· 받는 사람(관계)\n· 거절할 일\n· 이유 한 줄\n· 대신 해 줄 수 있는 것\n\n톤 3가지로 받아서 고르면 끝이에요.\n저장해 두고 써 보세요.",
+   "복붙용 프롬프트 👇\n\n아래 내용으로 정중한 거절 메일을 써 줘.\n- 받는 사람: (예: 거래처 팀장)\n- 거절할 일: (예: 이번 주 추가 미팅)\n- 이유: (한 줄)\n- 대안: (예: 다음 주 화요일 가능)\n조건: 사과는 한 번만, 변명은 짧게, 관계는 이어지게.\n부드럽게·담백하게·단호하게 3가지 버전으로."
+  ],
+  "slides": [
+   {"kind": "cover", "tag": "Copy Prompt", "title": "거절 메일,\n==4줄==이면 돼요", "sub": "챗GPT·클로드·제미나이 어디서나"},
+   {"kind": "list", "label": "복붙 프롬프트", "title": "이렇게 채우세요",
+    "items": [
+     {"h": "받는 사람·거절할 일", "d": "예: 거래처 팀장 · 이번 주 추가 미팅"},
+     {"h": "이유는 딱 한 줄", "d": "길어지면 변명처럼 읽혀요"},
+     {"h": "대안 + 톤 3가지 요청", "d": "부드럽게·담백하게·단호하게 중 고르기"}
+    ]}
+  ],
+  "sources": []
+ }
+]
