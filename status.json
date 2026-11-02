@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-02T20:27:07.035Z",
+ "updated": "2026-11-02T21:22:13.795Z",
  "repo": "shiftaimagazine/shift-threads",
- "followers": 75,
+ "followers": 76,
  "followersHistory": [
   {
    "date": "2026-10-26",
@@ -34,6 +34,10 @@
   {
    "date": "2026-11-02",
    "followers": 75
+  },
+  {
+   "date": "2026-11-03",
+   "followers": 76
   }
  ],
  "today": {
@@ -457,6 +461,15 @@
  ],
  "top": [
   {
+   "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
+   "views": 642,
+   "likes": 6,
+   "replies": 4,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5",
+   "at": "2026-11-02T03:33:16+0000"
+  },
+  {
    "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
    "views": 462,
    "likes": 3,
@@ -467,7 +480,7 @@
   },
   {
    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
-   "views": 444,
+   "views": 451,
    "likes": 1,
    "replies": 4,
    "reposts": 0,
@@ -476,7 +489,7 @@
   },
   {
    "hook": "구글 새 AI, 성능 1위인데 아직 못 써요.",
-   "views": 404,
+   "views": 406,
    "likes": 4,
    "replies": 6,
    "reposts": 0,
@@ -491,15 +504,6 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfLT_iuHe6o",
    "at": "2026-10-31T23:14:28+0000"
-  },
-  {
-   "hook": "AI에 돈 쓴 회사들,",
-   "views": 238,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De_u-XHlX07",
-   "at": "2026-10-27T11:19:21+0000"
   }
  ]
 }

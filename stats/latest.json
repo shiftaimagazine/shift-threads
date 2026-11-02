@@ -1,7 +1,37 @@
 {
- "updated": "2026-11-01T21:10:48.736Z",
- "followers": 75,
+ "updated": "2026-11-02T21:22:13.744Z",
+ "followers": 76,
  "posts": [
+  {
+   "at": "2026-11-02T03:33:16+0000",
+   "id": "2026-11-02-1140-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5",
+   "views": 642,
+   "likes": 6,
+   "replies": 4,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 28
+  },
+  {
+   "at": "2026-11-01T23:15:31+0000",
+   "id": "2026-11-02-0740-briefing",
+   "format": "briefing",
+   "type": "carousel",
+   "hook": "딥시크가 코딩 에이전트를 통째로 공개했어요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfN46EhFecw",
+   "views": 17,
+   "likes": 1,
+   "replies": 4,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 765
+  },
   {
    "at": "2026-11-01T03:29:55+0000",
    "id": "2026-11-01-1140-howto",
@@ -9,13 +39,13 @@
    "type": "carousel",
    "hook": "1시간짜리 유튜브 강의, 3줄이면 충분할 때 있죠.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfLxOjVjSxk",
-   "views": 63,
+   "views": 68,
    "likes": 2,
    "replies": 3,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 175
+   "score": 162
   },
   {
    "at": "2026-10-31T23:14:28+0000",
@@ -69,7 +99,7 @@
    "type": "carousel",
    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7",
-   "views": 444,
+   "views": 451,
    "likes": 1,
    "replies": 4,
    "reposts": 0,
@@ -84,7 +114,7 @@
    "type": "carousel",
    "hook": "구글 새 AI, 성능 1위인데 아직 못 써요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfGKznpoLty",
-   "views": 404,
+   "views": 406,
    "likes": 4,
    "replies": 6,
    "reposts": 0,
@@ -189,13 +219,13 @@
    "type": "carousel",
    "hook": "상반기 매출 163억 달러,",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfCNrR7FRC4",
-   "views": 19,
+   "views": 20,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 158
+   "score": 150
   },
   {
    "at": "2026-10-28T09:22:26+0000",
@@ -249,7 +279,7 @@
    "type": "image",
    "hook": "AI한테 장보기 맡기면",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBxWyFG-LP",
-   "views": 16,
+   "views": 17,
    "likes": 0,
    "replies": 0,
    "reposts": 0,
@@ -264,13 +294,13 @@
    "type": "VIDEO",
    "hook": "기자 3명이 전부 AI? 언론사에 기사 제안하는 AI가 나왔어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBqSIQjB1n",
-   "views": 17,
+   "views": 19,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 235
+   "score": 211
   },
   {
    "at": "2026-10-28T03:23:10+0000",
@@ -414,13 +444,13 @@
    "type": "carousel",
    "hook": "금융사 망분리, AI 보안 갖추면 풀어 준대요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/De-iMTxCSF6",
-   "views": 176,
+   "views": 180,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 23
+   "score": 22
   },
   {
    "at": "2026-10-26T12:44:27+0000",
@@ -571,36 +601,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 0
-  },
-  {
-   "at": "2026-10-24T08:56:03+0000",
-   "id": null,
-   "format": null,
-   "type": "VIDEO",
-   "hook": "🎬 AI Pick #3 | 같은 장면, 다른 AI. 차이가 보이시나요? 👀",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De3wNgyDIgq",
-   "views": 13,
-   "likes": 0,
-   "replies": 0,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 0
-  },
-  {
-   "at": "2026-10-24T05:52:57+0000",
-   "id": null,
-   "format": null,
-   "type": "CAROUSEL_ALBUM",
-   "hook": "📌 AI, 이거 모르고 결제하면 큰일 납니다",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De3bQmyEXEQ",
-   "views": 44,
-   "likes": 2,
-   "replies": 2,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 182
   }
  ]
 }
