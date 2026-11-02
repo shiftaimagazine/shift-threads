@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T02:33:53.100Z",
+ "updated": "2026-11-02T03:33:32.622Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 75,
  "followersHistory": [
@@ -115,8 +115,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요. 구글 무료 도구 '제미나이 노트북'(옛 NotebookLM)이에요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-02-1140-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-02-1140-howto/02.png"
@@ -435,11 +435,11 @@
   {
    "date": "2026-11-02",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -452,7 +452,7 @@
     {
      "at": "2026-11-02T11:34:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
@@ -483,15 +483,6 @@
    "at": "2026-10-31T03:25:45+0000"
   },
   {
-   "hook": "회사 엑셀, AI에 그대로 올리면 안 돼요.",
-   "views": 462,
-   "likes": 2,
-   "replies": 0,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De8S6fHFM8Q",
-   "at": "2026-10-26T03:16:26+0000"
-  },
-  {
    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
    "views": 444,
    "likes": 1,
@@ -517,6 +508,15 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/De9DuZ5lnBs",
    "at": "2026-10-26T10:22:57+0000"
+  },
+  {
+   "hook": "우주에 띄운 AI가 시를 써서 보냈어요.",
+   "views": 238,
+   "likes": 2,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfLT_iuHe6o",
+   "at": "2026-10-31T23:14:28+0000"
   }
  ]
 }
