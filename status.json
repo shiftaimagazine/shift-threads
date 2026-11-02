@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:23:59.413Z",
+ "updated": "2026-11-02T23:22:17.372Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -49,8 +49,8 @@
     "format": "briefing",
     "type": "carousel",
     "hook": "삼성 AI 안경, 12월 한국 판매 보도가 나왔어요. 어제 나온 AI 소식 3가지예요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfQebnYGZkd",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-03-0740-briefing/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-03-0740-briefing/02.png",
@@ -422,18 +422,18 @@
   {
    "date": "2026-11-03",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-03T07:39:00+09:00",
      "format": "briefing",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 5
     },
     {
