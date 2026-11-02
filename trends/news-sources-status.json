@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-01T12:17:19.793Z",
+ "updated": "2026-11-02T12:29:46.479Z",
  "sources": [
   {
    "name": "AI타임스",
    "url": "https://www.aitimes.com/rss/allArticle.xml",
    "ok": true,
    "items": 50,
-   "fresh": 40,
+   "fresh": 50,
    "note": ""
   },
   {
@@ -38,7 +38,7 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 894,
-   "fresh": 1,
+   "fresh": 0,
    "note": ""
   },
   {
@@ -62,7 +62,7 @@
    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
    "ok": true,
    "items": 10,
-   "fresh": 0,
+   "fresh": 1,
    "note": ""
   },
   {
@@ -70,7 +70,7 @@
    "url": "https://blogs.nvidia.com/feed/",
    "ok": true,
    "items": 18,
-   "fresh": 1,
+   "fresh": 0,
    "note": ""
   },
   {
@@ -94,7 +94,7 @@
    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
    "ok": true,
    "items": 10,
-   "fresh": 9,
+   "fresh": 1,
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "url": "https://byline.network/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 0,
+   "fresh": 2,
    "note": ""
   },
   {
@@ -118,7 +118,7 @@
    "url": "https://arstechnica.com/ai/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 6,
+   "fresh": 0,
    "note": ""
   },
   {
@@ -126,23 +126,23 @@
    "url": "https://www.wired.com/feed/tag/ai/latest/rss",
    "ok": true,
    "items": 10,
-   "fresh": 5,
+   "fresh": 3,
    "note": ""
   },
   {
    "name": "전자신문 SW·AI",
    "url": "https://rss.etnews.com/Section902.xml",
-   "ok": true,
-   "items": 30,
-   "fresh": 12,
-   "note": ""
+   "ok": false,
+   "items": 0,
+   "fresh": 0,
+   "note": "fetch failed"
   },
   {
    "name": "테크크런치 AI",
    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 17,
+   "fresh": 6,
    "note": ""
   },
   {
@@ -150,7 +150,7 @@
    "url": "https://hnrss.org/newest?q=AI&points=100",
    "ok": true,
    "items": 20,
-   "fresh": 5,
+   "fresh": 4,
    "note": ""
   }
  ]
