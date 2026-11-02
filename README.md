@@ -10,7 +10,7 @@ SHIFT AI(@shift_ai_magazine) 쓰레드 완전 자동화. PC 없이 동작합니�
 | 글이 들어오면 | 카드 이미지 생성 → `media/<id>/` | `render.yml` |
 | 매시간 7분 | 예약 시각이 지난 글 업로드 → `posted.json` | `post.yml` |
 | 월요일 09:20 | 쓰레드 키 기간 연장 | `refresh.yml` |
-| 22:35 · 07:35 | 드라이브 날짜 폴더의 쇼츠를 유튜브에 예약 업로드 → `youtube/` | `youtube.yml` (설정: `YOUTUBE_SETUP.md`) |
+| 04:47 · 07:35 | 드라이브의 오늘 날짜 폴더 쇼츠를 유튜브에 예약 업로드 → `youtube/` | `youtube.yml` (설정: `YOUTUBE_SETUP.md`) |
 
 - **인스타그램 자동 게시는 꺼져 있어요 (2026-10-28 사용자 결정: 인스타는 사용자가 직접 운영).** `igpost.yml`(캐러셀)은 실행되지 않고, `reels.yml` 은 쓰레드에만 올립니다. `refresh.yml` 의 인스타 키 기간 연장만 남아 있어요(게시와 무관).
 - 운영 규칙·편성표·글 형식: `CONTENT_GUIDE.md`

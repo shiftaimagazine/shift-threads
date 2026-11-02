@@ -1,6 +1,6 @@
 # 유튜브 쇼츠 자동 예약 (API 방식) — 한 번만 하면 되는 설정
 
-크롬·PC·Claude 없이 GitHub Actions 가 매일 22:35·07:35(한국)에 드라이브 `SHIFT-autopilot/<날짜>/` 의 쇼츠를 YouTube 에 '예약 공개'로 올립니다. 비용 0, 하루 100편까지.
+크롬·PC·Claude 없이 GitHub Actions 가 매일 04:47·07:35(한국)에 드라이브 `SHIFT-autopilot/<오늘 날짜>/` 의 쇼츠를 YouTube 에 '예약 공개'로 올립니다. 비용 0, 하루 100편까지.
 
 ## 1. 구글 클라우드 프로젝트 (10분)
 1. https://console.cloud.google.com → 새 프로젝트 (이름 예: `shift-ai-youtube`). **유튜브 채널을 가진 구글 계정**으로 하세요.
@@ -31,7 +31,8 @@ https://github.com/shiftaimagazine/shift-threads/settings/secrets/actions → **
 Actions → **유튜브 쇼츠 예약 업로드** → Run workflow → mode `check` → 로그에 채널 이름이 나오면 끝. 그다음 mode `post`, dry_run `1` 로 한 번 돌려 올릴 목록을 미리 봅니다.
 
 ## 그 뒤에
-- 밤에 "1. 오늘 밤 릴스 2편 만들기" 가 끝나면 드라이브 날짜 폴더에 `1-yt.mp4 · 2-yt.mp4 · youtube.json` 이 같이 저장되고, 22:35 에 GitHub 가 올립니다. PC 는 꺼도 됩니다.
+- 밤에 "1. 오늘 밤 릴스 2편 만들기" 가 끝나면 드라이브 날짜 폴더에 `1-yt.mp4 · 2-yt.mp4 · youtube.json` 이 같이 저장되고, 공개 당일 새벽 04:47 에 GitHub 가 올립니다(못 올리면 07:35 에 한 번 더). PC 는 꺼도 됩니다.
+- 마음에 안 들어 다시 만들 때는 **공개 당일 04:47 전까지** 드라이브 날짜 폴더의 파일을 바꿔 두면 새 영상이 올라갑니다. 그 뒤에 바꾸면 이미 예약된 예전 영상이 그대로 남습니다(Studio 에서 지우고 `youtube/posted.json` 의 그 항목을 지워야 다시 올라감).
 - 올라간 기록: 저장소 `youtube/posted.json`, 현황: `youtube/status.json`.
 - 잘 돌면 Claude 예약 작업 "SHIFT AI 유튜브 쇼츠 예약 업로드 (밤)" 은 꺼도 됩니다 (Claude 토큰 0).
 - 키가 만료되면(Actions 로그에 "유튜브 키 갱신 실패") 2단계만 다시 하고 `YT_REFRESH_TOKEN` 을 바꿔 넣으면 됩니다.

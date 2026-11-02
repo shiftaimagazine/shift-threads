@@ -71,11 +71,15 @@ async function upload(token, buf, meta) {
   return j;
 }
 
-// ── 올릴 항목 모으기: 오늘·내일 날짜 폴더 ──
+// ── 올릴 항목 모으기: 오늘 날짜 폴더만 ──
+//   2026-11-03 사용자 요청: 실행을 새벽 04:47·07:35 로 옮기고 오늘 폴더만 봄. 내일 폴더를 미리 올려 버리면
+//   그 뒤에 다시 만든 영상이 반영되지 않아서(posted.json 키가 같음), 영상은 공개 당일 새벽에만 확정됩니다.
+//   DAYS=2 로 실행하면 예전처럼 내일 폴더까지 봅니다(손으로 미리 올릴 때).
 const today = kstDate(), tomorrow = kstDate(new Date(Date.now() + 864e5));
+const days = process.env.DAYS === '2' ? [today, tomorrow] : [today];
 const rootFiles = await driveList(FOLDER);
 const items = [];
-for (const d of [today, tomorrow]) {
+for (const d of days) {
   const dir = rootFiles.find(f => f.name === d && f.mimeType === 'application/vnd.google-apps.folder');
   if (!dir) continue;
   const files = await driveList(dir.id);
@@ -97,7 +101,7 @@ for (const d of [today, tomorrow]) {
 }
 items.sort((a, b) => Date.parse(a.publishAt) - Date.parse(b.publishAt));
 const todo = items.filter(it => !posted[it.key]?.videoId);
-console.log(`날짜 폴더 ${[today, tomorrow].join('·')} · 항목 ${items.length}개 · 올릴 것 ${todo.length}개`);
+console.log(`날짜 폴더 ${days.join('·')} · 항목 ${items.length}개 · 올릴 것 ${todo.length}개`);
 
 function writeStatus(message, extra = {}) {
   const all = items.map(it => { const p = posted[it.key] || {}; return { date: it.date, at: p.publishAt || it.publishAt, slot: it.slot, kind: it.kind, title: it.title,
