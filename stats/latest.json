@@ -1,7 +1,37 @@
 {
- "updated": "2026-11-02T21:22:13.744Z",
- "followers": 76,
+ "updated": "2026-11-03T21:21:46.921Z",
+ "followers": 77,
  "posts": [
+  {
+   "at": "2026-11-03T03:31:47+0000",
+   "id": "2026-11-03-1140-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "거절 메일, 쓰다 지우다 반복하셨죠?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfQ7B9XlPux",
+   "views": 4,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 750
+  },
+  {
+   "at": "2026-11-02T23:21:54+0000",
+   "id": "2026-11-03-0740-briefing",
+   "format": "briefing",
+   "type": "carousel",
+   "hook": "삼성 AI 안경, 12월 한국 판매 보도가 나왔어요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfQebnYGZkd",
+   "views": 81,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 37
+  },
   {
    "at": "2026-11-02T03:33:16+0000",
    "id": "2026-11-02-1140-howto",
@@ -9,13 +39,13 @@
    "type": "carousel",
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5",
-   "views": 642,
+   "views": 734,
    "likes": 6,
-   "replies": 4,
+   "replies": 6,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 28
+   "score": 33
   },
   {
    "at": "2026-11-01T23:15:31+0000",
@@ -24,13 +54,13 @@
    "type": "carousel",
    "hook": "딥시크가 코딩 에이전트를 통째로 공개했어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfN46EhFecw",
-   "views": 17,
+   "views": 18,
    "likes": 1,
-   "replies": 4,
+   "replies": 6,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 765
+   "score": 1056
   },
   {
    "at": "2026-11-01T03:29:55+0000",
@@ -69,7 +99,7 @@
    "type": "carousel",
    "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfJL9A7FT9a",
-   "views": 462,
+   "views": 467,
    "likes": 3,
    "replies": 1,
    "reposts": 0,
@@ -99,7 +129,7 @@
    "type": "carousel",
    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7",
-   "views": 451,
+   "views": 452,
    "likes": 1,
    "replies": 4,
    "reposts": 0,
@@ -309,13 +339,13 @@
    "type": "carousel",
    "hook": "AI 답, 믿어도 되는지 헷갈리죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBdRciG3m8",
-   "views": 23,
+   "views": 24,
    "likes": 1,
    "replies": 0,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 43
+   "score": 42
   },
   {
    "at": "2026-10-28T01:33:35+0000",
@@ -429,13 +459,13 @@
    "type": "carousel",
    "hook": "AI가 쓴 보고서,",
    "link": "https://www.threads.com/@shift_ai_magazine/post/De-3qMZkV0P",
-   "views": 55,
+   "views": 56,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 73
+   "score": 71
   },
   {
    "at": "2026-10-27T00:08:26+0000",
@@ -444,7 +474,7 @@
    "type": "carousel",
    "hook": "금융사 망분리, AI 보안 갖추면 풀어 준대요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/De-iMTxCSF6",
-   "views": 180,
+   "views": 182,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
@@ -571,36 +601,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 27
-  },
-  {
-   "at": "2026-10-25T05:48:26+0000",
-   "id": "2026-10-25-hello",
-   "format": null,
-   "type": "TEXT_POST",
-   "hook": "안녕하세요, SHIFT AI예요 👋",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De5_hhdEX_i",
-   "views": 14,
-   "likes": 0,
-   "replies": 0,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 0
-  },
-  {
-   "at": "2026-10-24T08:59:02+0000",
-   "id": null,
-   "format": null,
-   "type": "VIDEO",
-   "hook": "🎬 AI Pick #3 | 같은 장면, 다른 AI. 차이가 보이시나요? 👀",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De3wjM0DsMZ",
-   "views": 11,
-   "likes": 0,
-   "replies": 0,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 0
   }
  ]
 }

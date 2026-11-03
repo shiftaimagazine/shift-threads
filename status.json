@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-03T20:30:43.217Z",
+ "updated": "2026-11-03T21:21:46.970Z",
  "repo": "shiftaimagazine/shift-threads",
- "followers": 76,
+ "followers": 77,
  "followersHistory": [
   {
    "date": "2026-10-26",
@@ -38,6 +38,10 @@
   {
    "date": "2026-11-03",
    "followers": 76
+  },
+  {
+   "date": "2026-11-04",
+   "followers": 77
   }
  ],
  "today": {
@@ -294,16 +298,16 @@
  "top": [
   {
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
-   "views": 642,
+   "views": 734,
    "likes": 6,
-   "replies": 4,
+   "replies": 6,
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5",
    "at": "2026-11-02T03:33:16+0000"
   },
   {
    "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
-   "views": 462,
+   "views": 467,
    "likes": 3,
    "replies": 1,
    "reposts": 0,
@@ -312,7 +316,7 @@
   },
   {
    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
-   "views": 451,
+   "views": 452,
    "likes": 1,
    "replies": 4,
    "reposts": 0,
