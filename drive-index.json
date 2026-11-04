@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:34:41.450Z",
+ "updated": "2026-11-04T12:38:05.623Z",
  "items": [
   {
    "id": "2026-11-02-0740-briefing",
@@ -63,7 +63,7 @@
     "05.png"
    ],
    "text": "게시 예정: 2026-11-05 07:37 (쓰레드)\n주제 태그: AI Threads\n\n챗GPT 화면, 곧 이렇게 바뀔 수 있어요.\n\n최근 AI 소식 3가지예요.\n① 챗GPT 데스크톱 '채팅·작업' 탭 합친다\n② 구글, AI 생성물 판별 도구 전 세계로\n③ 제미나이 4 아르곤, 전 세계 공개\n\n매일 아침 AI 소식 3가지씩 정리해요.\n탭이 하나로 합쳐지면 더 편할까요?\n\n── 이어지는 답글 1 ──\n출처: 테크크런치 https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/ · 구글 https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/\n",
-   "sig": "12e1374814de0a6c"
+   "sig": "5e545ee37613d947"
   },
   {
    "id": "2026-11-05-1140-howto",
