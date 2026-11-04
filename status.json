@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T13:50:58.009Z",
+ "updated": "2026-11-04T15:34:06.242Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -45,11 +45,6 @@
   }
  ],
  "today": {
-  "date": "2026-11-04",
-  "posts": [],
-  "reels": []
- },
- "tomorrow": {
   "date": "2026-11-05",
   "posts": [
    {
@@ -165,6 +160,11 @@
   ],
   "reels": []
  },
+ "tomorrow": {
+  "date": "2026-11-06",
+  "posts": [],
+  "reels": []
+ },
  "comments": {
   "pending": 0,
   "items": [],
@@ -192,50 +192,6 @@
   "total": 8
  },
  "days": [
-  {
-   "date": "2026-10-29",
-   "total": 5,
-   "ok": 5,
-   "failed": 0,
-   "expired": 0,
-   "waiting": 0,
-   "scheduled": 0,
-   "needCards": 5,
-   "cardsReady": 5,
-   "times": [
-    {
-     "at": "2026-10-29T07:37:00+09:00",
-     "format": "briefing",
-     "status": "ok",
-     "cards": 5
-    },
-    {
-     "at": "2026-10-29T11:43:00+09:00",
-     "format": "howto",
-     "status": "ok",
-     "cards": 2
-    },
-    {
-     "at": "2026-10-29T14:39:00+09:00",
-     "format": "question",
-     "status": "ok",
-     "cards": 1
-    },
-    {
-     "at": "2026-10-29T18:41:00+09:00",
-     "format": "deep",
-     "status": "ok",
-     "cards": 5
-    },
-    {
-     "at": "2026-10-29T21:38:00+09:00",
-     "format": "compare",
-     "status": "ok",
-     "cards": 2
-    }
-   ],
-   "reels": []
-  },
   {
    "date": "2026-10-30",
    "total": 2,
@@ -367,19 +323,6 @@
    "reels": []
   },
   {
-   "date": "2026-11-04",
-   "total": 0,
-   "ok": 0,
-   "failed": 0,
-   "expired": 0,
-   "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
-   "reels": []
-  },
-  {
    "date": "2026-11-05",
    "total": 2,
    "ok": 0,
@@ -403,6 +346,19 @@
      "cards": 2
     }
    ],
+   "reels": []
+  },
+  {
+   "date": "2026-11-06",
+   "total": 0,
+   "ok": 0,
+   "failed": 0,
+   "expired": 0,
+   "waiting": 0,
+   "scheduled": 0,
+   "needCards": 0,
+   "cardsReady": 0,
+   "times": [],
    "reels": []
   }
  ],
