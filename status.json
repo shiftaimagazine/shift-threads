@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:28:33.220Z",
+ "updated": "2026-11-04T23:25:53.144Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -57,8 +57,8 @@
     "format": "briefing",
     "type": "carousel",
     "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요. 최근 AI 소식 3가지예요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfVocXpnQSI",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-05-0740-briefing/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-05-0740-briefing/02.png",
@@ -329,18 +329,18 @@
   {
    "date": "2026-11-05",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-05T07:37:00+09:00",
      "format": "briefing",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 5
     },
     {
