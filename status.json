@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:32:28.854Z",
+ "updated": "2026-11-04T12:34:41.385Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -90,11 +90,7 @@
       "kind": "text",
       "label": "소식 1",
       "title": "챗GPT 탭이 하나로",
-      "body": "데스크톱 앱의 채팅·작업 탭을\n하나로 합친다고 메일로 안내했어요.\n코덱스는 따로 유지, 사용량은\n챗GPT와 같은 풀에서 차감돼요.",
-      "shot": {
-       "url": "https://openai.com/chatgpt/overview/",
-       "credit": "openai.com"
-      }
+      "body": "데스크톱 앱의 채팅·작업 탭을\n하나로 합친다고 메일로 안내했어요.\n코덱스는 따로 유지, 사용량은\n챗GPT와 같은 풀에서 차감돼요."
      },
      {
       "kind": "text",
@@ -104,7 +100,7 @@
       "shot": {
        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
        "credit": "blog.google",
-       "y": 1800
+       "y": 2600
       }
      },
      {
@@ -115,7 +111,7 @@
       "shot": {
        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
        "credit": "blog.google",
-       "y": 600
+       "y": 1800
       }
      }
     ],
