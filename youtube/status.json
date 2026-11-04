@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T08:14:01+09:00",
+ "updated": "2026-11-05T05:29:02+09:00",
  "message": "올릴 쇼츠 없음",
  "limit": {
   "hit": false,
@@ -8,26 +8,5 @@
  },
  "backlogLeft": 0,
  "via": "youtube-api",
- "items": [
-  {
-   "date": "2026-11-04",
-   "at": "2026-11-04T09:00:00+09:00",
-   "slot": "09:00",
-   "kind": "new",
-   "title": "글 말고 그림으로, Archify 무료 도구 🖼️",
-   "status": "scheduled",
-   "videoId": "42nYgw7PLAM",
-   "note": null
-  },
-  {
-   "date": "2026-11-04",
-   "at": "2026-11-04T18:00:00+09:00",
-   "slot": "18:00",
-   "kind": "new",
-   "title": "엑셀 수식 검색 그만, Claude에 말로 주문 ✍️",
-   "status": "scheduled",
-   "videoId": "DL1hc-jZono",
-   "note": null
-  }
- ]
+ "items": []
 }
