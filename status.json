@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:56:32.518Z",
+ "updated": "2026-11-05T15:38:14.655Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -49,122 +49,6 @@
   }
  ],
  "today": {
-  "date": "2026-11-05",
-  "posts": [
-   {
-    "id": "2026-11-05-0740-briefing",
-    "at": "2026-11-05T07:37:00+09:00",
-    "format": "briefing",
-    "type": "carousel",
-    "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요. 최근 AI 소식 3가지예요.",
-    "status": "ok",
-    "link": "https://www.threads.com/@shift_ai_magazine/post/DfVocXpnQSI",
-    "cards": [
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-05-0740-briefing/01.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-05-0740-briefing/02.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-05-0740-briefing/03.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-05-0740-briefing/04.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-05-0740-briefing/05.png"
-    ],
-    "views": null,
-    "likes": null,
-    "replies": null,
-    "sources": [
-     "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-     "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"
-    ],
-    "topic": "AI Threads",
-    "parts": [
-     "챗GPT 화면, 곧 이렇게 바뀔 수 있어요.\n\n최근 AI 소식 3가지예요.\n① 챗GPT 데스크톱 '채팅·작업' 탭 합친다\n② 구글, AI 생성물 판별 도구 전 세계로\n③ 제미나이 4 아르곤, 전 세계 공개\n\n매일 아침 AI 소식 3가지씩 정리해요.\n탭이 하나로 합쳐지면 더 편할까요?",
-     "출처: 테크크런치 https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/ · 구글 https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/\n오늘 AI 소식 전체 정리는 매거진에서 → https://shiftaimagazine.com/daily/2026-11-05/?utm_source=threads"
-    ],
-    "slides": [
-     {
-      "kind": "cover",
-      "tag": "Morning Brief",
-      "title": "최근 AI 소식\n==3가지==",
-      "sub": "챗GPT 탭 통합 · SynthID · 제미나이 4"
-     },
-     {
-      "kind": "text",
-      "label": "소식 1",
-      "title": "챗GPT 탭이 하나로",
-      "body": "데스크톱 앱의 채팅·작업 탭을\n하나로 합친다고 메일로 안내했어요.\n코덱스는 따로 유지, 사용량은\n챗GPT와 같은 풀에서 차감돼요."
-     },
-     {
-      "kind": "text",
-      "label": "소식 2",
-      "title": "AI 판별 도구, 확대",
-      "body": "구글 SynthID Detector가\n영어로 전 세계에 확대됐어요.\n이미지·영상·오디오가 AI 생성인지\n누구나 확인할 수 있어요."
-     },
-     {
-      "kind": "text",
-      "label": "소식 3",
-      "title": "제미나이 4 아르곤",
-      "body": "추론 모델이 개발자·기업·일반\n사용자에게 전 세계 출시됐어요.\n제미나이 앱, 검색, API에서\n쓸 수 있다고 구글이 밝혔어요.",
-      "shot": {
-       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-       "credit": "blog.google",
-       "y": 1800
-      }
-     }
-    ],
-    "photoFrom": null
-   },
-   {
-    "id": "2026-11-05-1140-howto",
-    "at": "2026-11-05T11:35:00+09:00",
-    "format": "howto",
-    "type": "carousel",
-    "hook": "엑셀 수식, 검색하다 30분 날리셨죠? AI한테는 말로 설명하면 돼요.",
-    "status": "ok",
-    "link": "https://www.threads.com/@shift_ai_magazine/post/DfWEyE0EdnX",
-    "cards": [
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-05-1140-howto/01.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-05-1140-howto/02.png"
-    ],
-    "views": null,
-    "likes": null,
-    "replies": null,
-    "sources": [],
-    "topic": "AI Threads",
-    "parts": [
-     "엑셀 수식, 검색하다 30분 날리셨죠?\n\nAI한테는 말로 설명하면 돼요.\n· 어떤 열에 무슨 값이 있는지\n· 원하는 결과가 뭔지\n· 쓰는 프로그램(엑셀/구글시트)\n\n수식과 설명을 같이 받아 보세요.\n저장해 두고 써 보세요.",
-     "복붙용 프롬프트 👇\n\n엑셀 수식을 만들어 줘.\n- A열: (예: 날짜) / B열: (예: 금액)\n- 원하는 결과: (예: 월별 합계)\n- 프로그램: 엑셀 (또는 구글시트)\n조건: 수식 하나, 쓰는 법 2줄, 오류 나면 확인할 곳 1가지."
-    ],
-    "slides": [
-     {
-      "kind": "cover",
-      "tag": "Copy Prompt",
-      "title": "엑셀 수식,\n==말로== 시키세요",
-      "sub": "챗GPT·클로드·제미나이 어디서나"
-     },
-     {
-      "kind": "list",
-      "label": "복붙 프롬프트",
-      "title": "이 3가지만 적어요",
-      "items": [
-       {
-        "h": "열마다 들어 있는 값",
-        "d": "예: A열 날짜, B열 금액"
-       },
-       {
-        "h": "원하는 결과 한 줄",
-        "d": "예: 월별 합계, 중복 제거"
-       },
-       {
-        "h": "프로그램 이름",
-        "d": "엑셀과 구글시트 수식이 달라요"
-       }
-      ]
-     }
-    ],
-    "photoFrom": null
-   }
-  ],
-  "reels": []
- },
- "tomorrow": {
   "date": "2026-11-06",
   "posts": [
    {
@@ -220,6 +104,11 @@
   ],
   "reels": []
  },
+ "tomorrow": {
+  "date": "2026-11-07",
+  "posts": [],
+  "reels": []
+ },
  "comments": {
   "pending": 0,
   "items": [],
@@ -247,32 +136,6 @@
   "total": 8
  },
  "days": [
-  {
-   "date": "2026-10-30",
-   "total": 2,
-   "ok": 2,
-   "failed": 0,
-   "expired": 0,
-   "waiting": 0,
-   "scheduled": 0,
-   "needCards": 2,
-   "cardsReady": 2,
-   "times": [
-    {
-     "at": "2026-10-30T07:39:00+09:00",
-     "format": "briefing",
-     "status": "ok",
-     "cards": 5
-    },
-    {
-     "at": "2026-10-30T11:38:00+09:00",
-     "format": "howto",
-     "status": "ok",
-     "cards": 2
-    }
-   ],
-   "reels": []
-  },
   {
    "date": "2026-10-31",
    "total": 2,
@@ -421,6 +284,19 @@
      "cards": 2
     }
    ],
+   "reels": []
+  },
+  {
+   "date": "2026-11-07",
+   "total": 0,
+   "ok": 0,
+   "failed": 0,
+   "expired": 0,
+   "waiting": 0,
+   "scheduled": 0,
+   "needCards": 0,
+   "cardsReady": 0,
+   "times": [],
    "reels": []
   }
  ],
