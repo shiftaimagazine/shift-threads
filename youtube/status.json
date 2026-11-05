@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-05T08:15:00+09:00",
- "message": "11-05T08:15 쇼츠 2편 예약",
+ "updated": "2026-11-06T05:28:02+09:00",
+ "message": "11-06T05:28 쇼츠 2편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -10,23 +10,23 @@
  "via": "youtube-api",
  "items": [
   {
-   "date": "2026-11-05",
-   "at": "2026-11-05T09:00:00+09:00",
+   "date": "2026-11-06",
+   "at": "2026-11-06T09:00:00+09:00",
    "slot": "09:00",
    "kind": "new",
-   "title": "낫싱 화면 없는 AI 기기 예고 👀",
+   "title": "포토샵 구독료 안 내는 법, Photopea 💸",
    "status": "scheduled",
-   "videoId": "xY6yvC1hPrU",
+   "videoId": "RLIQRITqaOY",
    "note": null
   },
   {
-   "date": "2026-11-05",
-   "at": "2026-11-05T18:00:00+09:00",
+   "date": "2026-11-06",
+   "at": "2026-11-06T18:00:00+09:00",
    "slot": "18:00",
    "kind": "new",
-   "title": "Claude 무료로 엑셀 파일 만드는 설정 하나 📊",
+   "title": "Claude Code 마케팅 스킬 53개 한 줄 설치 📌",
    "status": "scheduled",
-   "videoId": "qYr6qCQrL4c",
+   "videoId": "l2-SiGpkhFs",
    "note": null
   }
  ]
