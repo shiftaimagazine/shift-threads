@@ -220,12 +220,12 @@ function slide(s, ph) {
 <img class=cv-logo src="${logo}" style="top:44px">
 <div class=cv-text id=w><div class=cat>${esc(s.tag || 'AI Issue')}</div>
 <div class=cv-t1 style="font-size:${fs1}px">${rich(t1)}</div>${sub ? `<div class=cv-t2 style="color:#cfd0c6">${rich(sub)}</div>` : ''}</div>
-<div class=foot style="color:#9a9b92"><span>@shift_ai_magazine</span><span>Don't search. Just Shift.</span></div>`;
+<div class=foot style="color:#9a9b92"><span>@shift_ai_magazine</span><span>검색 말고 SHIFT</span></div>`;
     return `<div class="cv-photo ${ph ? '' : 'brand'}" ${bg}></div><div class=cv-grad></div>
 <img class=cv-logo src="${logo}">
 <div class=cv-text id=w><div class=cat>${esc(s.tag || 'AI Issue')}</div>
 <div class=cv-t1 style="font-size:${fs1}px">${rich(t1)}</div>${sub ? `<div class=cv-t2>${rich(sub)}</div>` : ''}</div>
-<div class=foot><span>@shift_ai_magazine</span><span>Don't search. Just Shift.</span></div>`;
+<div class=foot><span>@shift_ai_magazine</span><span>검색 말고 SHIFT</span></div>`;
   }
   if (k === 'cta') {
     return `<div class="end" style="position:absolute;inset:0"><div class=circ style="left:-120px;top:-120px;width:480px;height:480px"></div><div class=circ style="left:780px;top:964px;width:320px;height:320px"></div>
@@ -238,7 +238,7 @@ function slide(s, ph) {
   else if (k === 'big') inner = `<div class=num>${rich(s.num)}</div><p style="margin-top:16px">${rich(s.d)}</p>`;
   else inner = String(s.body || '').split('\n').map(l => `<p>${rich(l)}</p>`).join('');
   if (!ph) return `<div class=tc id=w><img class=lg src="${logo}"><div class=lab>${esc(s.label ? `SHIFT AI · ${s.label}` : 'SHIFT AI Issue')}</div><div class=h>${rich(s.title)}</div><div class=bd>${inner}</div>
-<div class=ft><span>@shift_ai_magazine</span><span>Don't search. Just Shift.</span></div></div>`;
+<div class=ft><span>@shift_ai_magazine</span><span>검색 말고 SHIFT</span></div></div>`;
   return `<div class=card><div class="ph ${ph ? '' : 'brand'}" ${bg}>${ph ? `<div class=cr>${esc(ph.label || '사진')}: ${esc(ph.credit)}</div>` : `<img class=lg src="${logo}">`}</div><div class=gap></div>
 <div class=tx id=w><div class=lab>${esc(s.label ? `SHIFT AI · ${s.label}` : 'SHIFT AI Issue')}</div><div class=h>${rich(s.title)}</div><div class=bd style="${k === 'big' ? 'margin-top:0' : ''}">${inner}</div></div></div>`;
 }
