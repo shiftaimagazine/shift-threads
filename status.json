@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:28:47.589Z",
+ "updated": "2026-11-05T21:22:52.930Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -45,6 +45,10 @@
   },
   {
    "date": "2026-11-05",
+   "followers": 77
+  },
+  {
+   "date": "2026-11-06",
    "followers": 77
   }
  ],
@@ -303,7 +307,7 @@
  "top": [
   {
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
-   "views": 750,
+   "views": 760,
    "likes": 6,
    "replies": 6,
    "reposts": 0,
@@ -321,7 +325,7 @@
   },
   {
    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
-   "views": 456,
+   "views": 457,
    "likes": 1,
    "replies": 4,
    "reposts": 0,
