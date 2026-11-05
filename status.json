@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:28:08.376Z",
+ "updated": "2026-11-05T23:26:23.472Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -333,15 +333,6 @@
    "at": "2026-10-30T03:25:36+0000"
   },
   {
-   "hook": "구글 새 AI, 성능 1위인데 아직 못 써요.",
-   "views": 406,
-   "likes": 4,
-   "replies": 6,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfGKznpoLty",
-   "at": "2026-10-29T23:17:59+0000"
-  },
-  {
    "hook": "우주에 띄운 AI가 시를 써서 보냈어요.",
    "views": 238,
    "likes": 2,
@@ -349,6 +340,15 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfLT_iuHe6o",
    "at": "2026-10-31T23:14:28+0000"
+  },
+  {
+   "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요.",
+   "views": 193,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfVocXpnQSI",
+   "at": "2026-11-04T23:25:34+0000"
   }
  ]
 }
