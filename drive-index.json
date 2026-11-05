@@ -1,31 +1,6 @@
 {
- "updated": "2026-11-04T12:38:05.623Z",
+ "updated": "2026-11-05T08:19:39.276Z",
  "items": [
-  {
-   "id": "2026-11-02-0740-briefing",
-   "date": "2026-11-02",
-   "folder": "0737-briefing",
-   "files": [
-    "01.png",
-    "02.png",
-    "03.png",
-    "04.png",
-    "05.png"
-   ],
-   "text": "게시 예정: 2026-11-02 07:37 (쓰레드)\n주제 태그: AI Threads\n\n딥시크가 코딩 에이전트를 통째로 공개했어요.\n\n주말에 나온 AI 소식 3가지예요.\n① 딥시크, 팀 채팅 받아 일하는 코딩 에이전트\n② 애플 새 CEO \"AI를 위한 AI는 안 해요\"\n③ 외계 신호 찾기에 AI 에이전트 투입\n\n매일 아침 AI 소식 3가지씩 정리해요.\n셋 중 제일 궁금한 소식은 뭐예요?\n\n── 이어지는 답글 1 ──\n출처: 더넥스트웹 https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent · 테크크런치 https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/ · 엔비디아 https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/\n오늘 AI 소식 전체 정리는 매거진에서 → https://shiftaimagazine.com/daily/2026-11-02/?utm_source=threads\n",
-   "sig": "3a5f4eedd9796a75"
-  },
-  {
-   "id": "2026-11-02-1140-howto",
-   "date": "2026-11-02",
-   "folder": "1134-howto",
-   "files": [
-    "01.png",
-    "02.png"
-   ],
-   "text": "게시 예정: 2026-11-02 11:34 (쓰레드)\n주제 태그: AI Threads\n\n긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.\n\n구글 무료 도구 '제미나이 노트북'(옛 NotebookLM)이에요.\n· 지메일 계정으로 무료 가입\n· PDF·워드·웹 링크·유튜브 링크 다 돼요\n· 형식 '요약'을 고르면 한 명이 2분 안에 핵심만\n\n출근길에 보고서 하나 들어 보세요.\n저장해 두고 써 보세요.\n\n── 이어지는 답글 1 ──\n출처: 구글 고객센터 https://support.google.com/notebooklm/answer/16212820 · https://support.google.com/notebooklm/answer/16213268\n",
-   "sig": "210ae518a05341d8"
-  },
   {
    "id": "2026-11-03-0740-briefing",
    "date": "2026-11-03",
@@ -62,8 +37,8 @@
     "04.png",
     "05.png"
    ],
-   "text": "게시 예정: 2026-11-05 07:37 (쓰레드)\n주제 태그: AI Threads\n\n챗GPT 화면, 곧 이렇게 바뀔 수 있어요.\n\n최근 AI 소식 3가지예요.\n① 챗GPT 데스크톱 '채팅·작업' 탭 합친다\n② 구글, AI 생성물 판별 도구 전 세계로\n③ 제미나이 4 아르곤, 전 세계 공개\n\n매일 아침 AI 소식 3가지씩 정리해요.\n탭이 하나로 합쳐지면 더 편할까요?\n\n── 이어지는 답글 1 ──\n출처: 테크크런치 https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/ · 구글 https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/\n",
-   "sig": "5e545ee37613d947"
+   "text": "게시 예정: 2026-11-05 07:37 (쓰레드)\n주제 태그: AI Threads\n\n챗GPT 화면, 곧 이렇게 바뀔 수 있어요.\n\n최근 AI 소식 3가지예요.\n① 챗GPT 데스크톱 '채팅·작업' 탭 합친다\n② 구글, AI 생성물 판별 도구 전 세계로\n③ 제미나이 4 아르곤, 전 세계 공개\n\n매일 아침 AI 소식 3가지씩 정리해요.\n탭이 하나로 합쳐지면 더 편할까요?\n\n── 이어지는 답글 1 ──\n출처: 테크크런치 https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/ · 구글 https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/\n오늘 AI 소식 전체 정리는 매거진에서 → https://shiftaimagazine.com/daily/2026-11-05/?utm_source=threads\n",
+   "sig": "d29bb02451ec7b72"
   },
   {
    "id": "2026-11-05-1140-howto",
