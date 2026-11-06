@@ -1,9 +1,139 @@
 {
- "updated": "2026-11-05T12:40:49.177Z",
- "kstDate": "2026-11-05",
+ "updated": "2026-11-06T12:37:52.874Z",
+ "kstDate": "2026-11-06",
  "windowHours": 48,
  "note": "글쓰기 작업용 뉴스 후보. 쓰기로 한 소식은 반드시 link 원문을 열어 숫자·날짜를 확인할 것. summary 는 피드 요약이라 사실 확인 근거로 쓰지 않음.",
  "items": [
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+   "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+   "published": "2026-11-06T00:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "source": "NVIDIA 블로그",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+   "link": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+   "published": "2026-11-05T20:00:41.000Z",
+   "summary": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute th"
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Cult.fit builds operational muscle with Codex",
+   "link": "https://openai.com/index/cultfit-builds-with-codex",
+   "published": "2026-11-05T20:00:00.000Z",
+   "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done."
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+   "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+   "published": "2026-11-05T19:35:16.000Z",
+   "summary": ""
+  },
+  {
+   "source": "Google DeepMind",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "published": "2026-11-05T17:05:16.000Z",
+   "summary": ""
+  },
+  {
+   "source": "NVIDIA 블로그",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "published": "2026-11-05T17:00:35.000Z",
+   "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, invest"
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Australian universities are creating AI-native graduates",
+   "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+   "published": "2026-11-05T17:00:00.000Z",
+   "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce."
+  },
+  {
+   "source": "Google Research",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Detecting signs of hypertension using wearable sensors",
+   "link": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+   "published": "2026-11-05T16:01:08.000Z",
+   "summary": "Health & Bioscience"
+  },
+  {
+   "source": "NVIDIA 블로그",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+   "link": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+   "published": "2026-11-05T16:00:05.000Z",
+   "summary": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical f"
+  },
+  {
+   "source": "NVIDIA 블로그",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+   "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+   "published": "2026-11-05T16:00:00.000Z",
+   "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 techn"
+  },
+  {
+   "source": "NVIDIA 블로그",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
+   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+   "published": "2026-11-05T14:00:34.000Z",
+   "summary": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW mem"
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "link": "https://openai.com/index/introducing-gpt-6-cyber",
+   "published": "2026-11-05T09:00:00.000Z",
+   "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Merge builds product and business tools with OpenAI technology",
+   "link": "https://openai.com/index/merge-builds-with-openai",
+   "published": "2026-11-05T08:00:00.000Z",
+   "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates."
+  },
   {
    "source": "OpenAI",
    "kind": "official",
@@ -13,6 +143,26 @@
    "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
    "published": "2026-11-05T02:00:00.000Z",
    "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development."
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Flipsnack grows product signups with conversion optimization",
+   "link": "https://openai.com/ads/customers/flipsnack",
+   "published": "2026-11-05T00:45:15.000Z",
+   "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup."
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Franklin Templeton uses OpenAI to support investment research",
+   "link": "https://openai.com/index/franklin-templeton",
+   "published": "2026-11-05T00:00:00.000Z",
+   "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks."
   },
   {
    "source": "Hugging Face",
@@ -55,94 +205,394 @@
    "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code."
   },
   {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "A thousand fewer paths to root",
-   "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-   "published": "2026-11-04T08:00:00.000Z",
-   "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-   "link": "https://openai.com/index/daybreak-red-aws-govcloud",
-   "published": "2026-11-04T07:00:00.000Z",
-   "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Introducing Images 2.6",
-   "link": "https://openai.com/index/introducing-images-2-6",
-   "published": "2026-11-04T00:00:00.000Z",
-   "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-   "link": "https://openai.com/index/devrev-enterprise-self-service",
-   "published": "2026-11-04T00:00:00.000Z",
-   "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service."
-  },
-  {
-   "source": "Hugging Face",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "StateBench: Testing how language models track state changes over long documents",
-   "link": "https://huggingface.co/blog/allenai/statebench",
-   "published": "2026-11-03T17:15:21.000Z",
-   "summary": ""
-  },
-  {
-   "source": "Google DeepMind",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Agentic cheminformatics with Google Antigravity",
-   "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-   "published": "2026-11-03T17:01:49.000Z",
-   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles."
-  },
-  {
-   "source": "Hugging Face",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Palette: teaching a small model to build decks in your design language",
-   "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-   "published": "2026-11-03T16:35:36.000Z",
-   "summary": ""
-  },
-  {
-   "source": "NVIDIA 블로그",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-   "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-   "published": "2026-11-03T16:00:45.000Z",
-   "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semicon"
-  },
-  {
    "source": "AI타임스",
    "kind": "media",
    "lang": "ko",
    "official": false,
-   "title": "앤트로픽, AI 모델 '신원 확인' 기술 공개...클로드가 개발 과정 주도",
-   "link": "https://www.aitimes.com/news/articleView.html?idxno=217043",
-   "published": "2026-11-05T18:18:08.000Z",
-   "summary": "앤트로픽이 이용자가 받은 답변을 약속된 AI 모델이 생성했는지 수학적으로 검증하는 오픈소스 기술을 공개했다. 모델 가중치를 노출하지 않고도 서비스 업체의 모델 바꿔치기나 응답 조작을 확인할 수 있다.앤트로픽은 2일(현지시간) AI 추론 결과의 신뢰성을 검증하는 시스템 '플래시프루브(FlashProve)'를 공개했다.영지식 증명(Zero-Knowledge Proof) 기술의 일종인 ‘zkSNARK’를 활용해 모델의 내부 가중치를 노출하지 않고도 해당 응답이 지정한 모델의 계산 결과인지 확인하는 방식이다.현재 이용자는 AI 서비스에 질"
+   "title": "구글 출신 연구진, 65B 모델로 8배 큰 AI 코딩 성능 추월…개발비도 10분의 1",
+   "link": "https://www.aitimes.com/news/articleView.html?idxno=217107",
+   "published": "2026-11-06T17:44:08.000Z",
+   "summary": "구글 출신 연구진이 설립한 리커시브 인텔리전스(Ricursive Intelligence)가 매개변수 규모가 8배 가까이 큰 AI 모델을 코딩 성능 평가에서 앞서는 오픈웨이트 모델을 공개했다. 기존 선두 모델보다 개발 비용은 약 10분의 1에 불과하다고 밝혀, 대형 모델에 맞먹는 성능을 적은 비용으로 구현한 사례로 주목받고 있다.리커시브 인텔리전스는 최근 650억개 매개변수를 갖춘 오픈웨이트 AI 모델 '리플-65B 프리뷰(Ripple-65B Preview)'를 공개했다. 터미널 기반 코딩과 복잡한 소프트웨어 개발 작업을 평가하는 두"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Protesters break into Microsoft data center site in Amsterdam",
+   "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+   "published": "2026-11-06T11:55:19.000Z",
+   "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the co"
+  },
+  {
+   "source": "긱뉴스",
+   "kind": "community",
+   "lang": "ko",
+   "official": false,
+   "title": "Inkling 2 Small - 이미지 입력과 장시간 자율 작업을 지원하는 MoE 모델",
+   "link": "https://news.hada.io/topic?id=36699&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+   "published": "2026-11-06T10:38:05.000Z",
+   "summary": "Thinking Machines Lab이 총 5,940억, 활성 170억 파라미터 의 2세대 MoE 모델 Inkling 2 Small을 공개함. 이미지 입력과 추론 노력 수준 조절을 지원하며, 장시간 자율 작업 능력을 강화함 Artificial Analysis Intelligence Index 약 31점 을 기록해 이전 자체 모델을 크게 앞섬. 사전학습 효율 개선과 통합 강화학습으로 에이전트 코딩, 시각 이해, 지식 업무, 추론 성능을 높임 시각 피드백을 활용한 반복 작업 과 자율 연구를 지원함. 내부 평가에서는 Qwen3.5-4B를 스스로 학습시켜 4.5시간, Ti"
+  },
+  {
+   "source": "MIT 테크놀로지 리뷰",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+   "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+   "published": "2026-11-06T10:00:00.000Z",
+   "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…"
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "미토스 등장 반년, 프론티어 AI의 보안 능력은 얼마나 발전했나",
+   "link": "https://byline.network/2026/11/6-474/",
+   "published": "2026-11-06T09:37:34.000Z",
+   "summary": "지난 4월 앤트로픽이 ‘클로드 미토스 프리뷰’를 공개했을 때, 보안업계는 놀랐다. AI가 소프트웨어 취약점을 찾아 실제 공격 코드까지 만들었기 때문이다. 반년이 지난 지금, 오픈AI·앤트로픽·구글 등 AI 기업들은 취약점 발견과 공격 검증 능력을 높인 프론티어 모델을 앞다퉈 공개하고 있다. 최근에는 AI가 취약점을 수정하는 패치까지 작성하는 단계에 도달했다."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "지정호 토스 CISO “보안 조직, 기업 AX 가능케 해야”",
+   "link": "https://byline.network/2026/11/6-467/",
+   "published": "2026-11-06T08:01:47.000Z",
+   "summary": "“토스의 모든 보안 조직은 기업의 AX를 막는 조직에서 가능하게 하는 조직으로 일하려고 노력하고 있습니다.” 지정호 토스 정보보호최고책임자(CISO)는 6일 서울 삼성동 코엑스에서 열린 보안 콘퍼런스 ‘토스 가디언즈 26’ 기조연설에서 이렇게 말했다. 그는 “기업의 인공지능 전환(AX)이 빨라지는 만큼, 이제 보안 조직도 새로운 기술을 차단하는 방식에서 벗어나 안전한 활용을 지원하는 방식으로 업무 체계를 바꿔야 한다”고 강조했다."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "기업 AI, 만들고 쓰고 지킨다…아이티센 ‘에이전트고’",
+   "link": "https://byline.network/2026/11/1106-11/",
+   "published": "2026-11-06T07:59:33.000Z",
+   "summary": "아이티센그룹이 AI 에이전트 구축부터 운영, 보안까지 통합 관리하는 플랫폼 ‘에이전트고 2026’을 선보였다. 독립형 보안 플랫폼 ‘에이전트고 가드’로 섀도우 AI와 데이터 유출 위험에 대응하고, 자체 개발한 AI 비서 ‘세니 3.0’을 통해 그룹 내 업무 효율을 높였다. 향후 기업의 업무 경험과 암묵지를 AI 에이전트에 반영해 맞춤형 업무 자동화를 고도화할 계획이다."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "사규는 AI가 찾고 미국 증시는 AI가 요약한다…하나증권의 AI 실험",
+   "link": "https://byline.network/2026/11/1105-14/",
+   "published": "2026-11-06T06:59:40.000Z",
+   "summary": "하나증권이 인공지능(AI)을 활용한 사내 업무 효율화와 고객 서비스 확대에 나선다. 올해 AI 플랫폼을 구축하고 사규·법령 관련 질문에 답하는 AI 에이전트를 개발해 임직원 업무에 적용했다. 고객 서비스에서는 신규 모바일트레이딩시스템(MTS) ‘하나증권V’를 통해 AI 기반 투자정보 분석과 종목 추천 기능을 선보였다. 퇴직연금 분야에서도 AI 기반 초개인화 서비스를 강화하며 자산관리 영역으로 AI 활용 범위를 넓히고 있다."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+   "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+   "published": "2026-11-06T06:28:32.000Z",
+   "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "I struggle to believe that AI R&D is ingenious",
+   "link": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+   "published": "2026-11-06T05:19:04.000Z",
+   "summary": "Article URL: https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL Comments URL: https://news.ycombinator.com/item?id=50388513 Points: 136 # Comments: 116"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "OpenAI is stepping back from NDAs for data center projects",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+   "published": "2026-11-06T00:37:56.000Z",
+   "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Airbnb is working on an AI travel agent",
+   "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+   "published": "2026-11-06T00:06:12.000Z",
+   "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"Bu"
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+   "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+   "published": "2026-11-05T23:09:57.000Z",
+   "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html Comments URL: https://news.ycombinator.com/item?id=50385870 Points: 385 # Comments: 181"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+   "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+   "published": "2026-11-05T22:40:55.000Z",
+   "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Perplexity launches its own take on AI agents for work",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+   "published": "2026-11-05T22:26:50.000Z",
+   "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI syst"
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+   "link": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+   "published": "2026-11-05T21:40:36.000Z",
+   "summary": "Google is technically offering schools more choice but not the choices anyone wants."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+   "link": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+   "published": "2026-11-05T21:39:40.000Z",
+   "summary": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+   "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+   "published": "2026-11-05T21:37:18.000Z",
+   "summary": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "AI 에이전트 제휴사 늘리지 못하던 카카오의 해법은?",
+   "link": "https://byline.network/2026/11/05_398172-2/",
+   "published": "2026-11-05T20:49:33.000Z",
+   "summary": "카카오가 인공지능(AI) 서비스 확산 속도가 시장 기대에 미치지 못했다고 인정했다. 카카오톡을 중심으로 에이전틱 AI 사업을 추진하고 있지만, 실제 외부 서비스를 연결하는 과정에서 예상보다 많은 어려움을 확인했다. 이에 카카오는 카카오톡 AI 에이전트가 이용할 수 있는 외부 서비스를 빠르게 늘리기 위해 연동 전략을 바꾸기로 했다. 기존에는 외부 기업과 시스템을 직접 연결하는 방식을 우선 추진했다면, 앞으로는 AI가 사람처럼 직접 화면을 탐색하고 버튼을 누르는 ‘컴퓨터 사용 에이전트(CUA)’ 방식도 병행하기로 했다."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Meta says US users can now video chat with their Muse AI avatar",
+   "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+   "published": "2026-11-05T19:48:28.000Z",
+   "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+   "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+   "published": "2026-11-05T19:12:39.000Z",
+   "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "OpenAI released a new cybersecurity model. Is that enough?",
+   "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+   "published": "2026-11-05T19:06:12.000Z",
+   "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Muse has a voice mode now",
+   "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+   "published": "2026-11-05T19:03:04.000Z",
+   "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of […]"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+   "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+   "published": "2026-11-05T18:02:27.000Z",
+   "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+   "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+   "published": "2026-11-05T18:00:01.000Z",
+   "summary": "Article URL: https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026 Comments URL: https://news.ycombinator.com/item?id=50382179 Points: 160 # Comments: 190"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Claude AI can plug directly into your bank account",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+   "published": "2026-11-05T18:00:00.000Z",
+   "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create an overview […]"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Claude can now analyze your spending with its new Personal Finance tool",
+   "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+   "published": "2026-11-05T18:00:00.000Z",
+   "summary": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "‘Total repudiation’: The blue wave is about to hit AI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+   "published": "2026-11-05T17:51:52.000Z",
+   "summary": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ced"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Grimes is going to star in an AI movie that’s coming to theaters",
+   "link": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
+   "published": "2026-11-05T17:00:00.000Z",
+   "summary": "The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star Grimes is going to appear in the movie. Billed as \"the first AI film to come to theatres,\" Gods Don't Give Gifts is a notable test case for the commercial potential of AI films, and it releases on […]"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+   "published": "2026-11-05T17:00:00.000Z",
+   "summary": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process. OpenAI says that during testing, GPT-6 Cyber went out of bounds less than 1 percent of the time, down from around […]"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’",
+   "link": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
+   "published": "2026-11-05T16:26:57.000Z",
+   "summary": "Alexis Ohanian is trying to figure out what’s next for user-generated content now that so much of the internet is “compromised.”"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Axiom Math wants to keep AI slop out of mathematics",
+   "link": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+   "published": "2026-11-05T16:16:45.000Z",
+   "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+   "link": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+   "published": "2026-11-05T15:19:05.000Z",
+   "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The hidden supply chain costs of the AI boom",
+   "link": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+   "published": "2026-11-05T15:00:00.000Z",
+   "summary": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Supply Chains. Willy is one of my all-time favorite Decoder guests — his way of looking at the world t"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+   "link": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+   "published": "2026-11-05T14:42:00.000Z",
+   "summary": "Aina's ring can also take calls and help you dictate notes on your Mac."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+   "link": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+   "published": "2026-11-05T14:00:00.000Z",
+   "summary": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
+   "link": "https://www.wired.com/story/aina-smart-ring/",
+   "published": "2026-11-05T14:00:00.000Z",
+   "summary": "The startup Aina bets you won’t need to rely on your phone to control virtual assistants. It’s making a smart ring that lets you control the actions of your autonomous agents with one tap."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
+   "link": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+   "published": "2026-11-05T13:00:00.000Z",
+   "summary": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Finding New Drugs Is Laborious. This AI Startup Is Skipping The Lab Work",
+   "link": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work/",
+   "published": "2026-11-05T13:00:00.000Z",
+   "summary": "Potential Sciences, a startup backed by the UK government, is betting that training AI models on computer-generated biochemical data can speed up the plodding process of developing new drugs."
   },
   {
    "source": "아스테크니카 AI",
@@ -152,7 +602,7 @@
    "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
    "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
    "published": "2026-11-05T12:00:41.000Z",
-   "summary": "US leader in deploying humanoid robots goes public on the Nadaq stock exchange."
+   "summary": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange."
   },
   {
    "source": "테크크런치 AI",
@@ -162,7 +612,7 @@
    "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
    "link": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
    "published": "2026-11-05T12:00:00.000Z",
-   "summary": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company."
+   "summary": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company."
   },
   {
    "source": "와이어드 AI",
@@ -183,26 +633,6 @@
    "link": "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
    "published": "2026-11-05T11:45:00.000Z",
    "summary": "OpenAI, Anthropic, and SpaceXSI have all reached out to Husk, an influencer who regularly goes viral by exposing the shortcomings of chatbots."
-  },
-  {
-   "source": "긱뉴스",
-   "kind": "community",
-   "lang": "ko",
-   "official": false,
-   "title": "Qualcomm Cloud AI 100 Ultra - 128GB 메모리와 548GB/s 대역폭을 갖춘 150W AI 가속기 카드",
-   "link": "https://news.hada.io/topic?id=36652&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-   "published": "2026-11-05T11:32:05.000Z",
-   "summary": "Cloud AI 100 Ultra 는 생성형 AI와 대규모 언어 모델(LLM)을 위해 설계된 추론 카드로, 대규모 배포에 필요한 성능과 전력 효율, 비용 최적화를 목표로 함 TDP 150W 에서 ECC 지원 128GB 메모리와 548GB/s 메모리 대역폭을 제공함 카드당 AI 코어 64개 와 최대 576MB 온다이 SRAM을 갖추며, 최대 연산 성능은 INT8 870 TOPS, FP16 288 TFLOPS임 다양한 워크로드와 가속 기법을 프로그래밍할 수 있으며, 컴퓨터 비전과 자연어 처리 부터 Transformer 기반 LLM까지 대상으로 함 PCIe Gen4 16레"
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Big Tech’s big AI buildout will not end until someone stops it",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
-   "published": "2026-11-05T10:45:00.000Z",
-   "summary": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center buildout, and the AI data center buildout is not any closer to yielding its promised returns. A third thing is also […]"
   },
   {
    "source": "바이라인네트워크",
@@ -252,7 +682,7 @@
    "title": "Apple is reportedly cutting budgets for its internal AI usage",
    "link": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
    "published": "2026-11-05T01:26:22.000Z",
-   "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams."
+   "summary": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach."
   },
   {
    "source": "바이라인네트워크",
@@ -295,16 +725,6 @@
    "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle."
   },
   {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
-   "published": "2026-11-04T22:42:15.000Z",
-   "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced ear"
-  },
-  {
    "source": "테크크런치 AI",
    "kind": "media",
    "lang": "en",
@@ -323,16 +743,6 @@
    "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
    "published": "2026-11-04T21:56:01.000Z",
    "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent."
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "17 better ways Elon Musk could have wasted $446 million",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
-   "published": "2026-11-04T21:45:00.000Z",
-   "summary": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you […]"
   },
   {
    "source": "테크크런치 AI",
@@ -362,7 +772,7 @@
    "title": "Everything is an AI scam now",
    "link": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
    "published": "2026-11-04T21:05:19.000Z",
-   "summary": "Article URL: https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/ Comments URL: https://news.ycombinator.com/item?id=50371508 Points: 143 # Comments: 54"
+   "summary": "Article URL: https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/ Comments URL: https://news.ycombinator.com/item?id=50371508 Points: 151 # Comments: 62"
   },
   {
    "source": "아스테크니카 AI",
@@ -385,16 +795,6 @@
    "summary": "Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night."
   },
   {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Gemini for Home now plugs into AT&T’s smart security system",
-   "link": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-   "published": "2026-11-04T20:23:24.000Z",
-   "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, "
-  },
-  {
    "source": "와이어드 AI",
    "kind": "media",
    "lang": "en",
@@ -412,27 +812,7 @@
    "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
    "link": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
    "published": "2026-11-04T19:55:14.000Z",
-   "summary": "Article URL: https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra Comments URL: https://news.ycombinator.com/item?id=50370654 Points: 161 # Comments: 60"
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Open source AI is booming. Hugging Face explains who profits.",
-   "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-   "published": "2026-11-04T19:30:04.000Z",
-   "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can America"
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-   "link": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-   "published": "2026-11-04T19:29:52.000Z",
-   "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features."
+   "summary": "Article URL: https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra Comments URL: https://news.ycombinator.com/item?id=50370654 Points: 170 # Comments: 64"
   },
   {
    "source": "와이어드 AI",
@@ -455,134 +835,24 @@
    "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican "
   },
   {
-   "source": "테크크런치 AI",
-   "kind": "media",
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
    "lang": "en",
    "official": false,
-   "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-   "link": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
-   "published": "2026-11-04T18:44:57.000Z",
-   "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can America"
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Nothing teases a screen-free AI device ahead of launch next month",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
-   "published": "2026-11-04T18:26:07.000Z",
-   "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature […]"
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
-   "link": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
-   "published": "2026-11-04T18:00:00.000Z",
-   "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therapy. Plenty of life events, big and […]"
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "ChatGPT will now make you animated GIFs",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
-   "published": "2026-11-04T18:00:00.000Z",
-   "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a s"
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "The Results Are In: Voters Hate Data Centers",
-   "link": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
-   "published": "2026-11-04T16:56:17.000Z",
-   "summary": "From high-profile Senate races to local rezoning initiatives, data centers and their supporters did miserably on the ballot in the 2026 midterms."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
-   "link": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
-   "published": "2026-11-04T16:51:35.000Z",
-   "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
-   "link": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-   "published": "2026-11-04T16:17:22.000Z",
-   "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly."
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Data centers lost the midterms",
-   "link": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
-   "published": "2026-11-04T16:05:39.000Z",
-   "summary": "Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on E"
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Uber only fulfilled 4 rides from AI agents last quarter",
-   "link": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
-   "published": "2026-11-04T15:58:45.000Z",
-   "summary": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little higher, with the company recording \"around 5"
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
-   "published": "2026-11-04T14:46:01.000Z",
-   "summary": "OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of memory and people to put as much as they want in their computers, and it […]"
+   "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+   "link": "https://news.ycombinator.com/item?id=50368804",
+   "published": "2026-11-04T17:31:53.000Z",
+   "summary": "Hi HN! I'm Luke from Kino ( https://kino.ai ). Kino lets you make great videos with your agents and your teammates. Storage of footage and assets, a rich video editor, and review links for teammates are all bundled into one. Your colleagues and Codex / Claude Code can work on the same timeline with review notes and foo"
   },
   {
    "source": "해커뉴스 (AI, 100점↑)",
    "kind": "community",
    "lang": "en",
    "official": false,
-   "title": "Ask HN: What's your current AI agentic setup?",
-   "link": "https://news.ycombinator.com/item?id=50366117",
-   "published": "2026-11-04T14:37:22.000Z",
-   "summary": "I'm curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to answer every question of course, just wanted to get a gut feel how people are using AI. 1) What AI subscriptions are you personally paying for? (Claude, ChatGPT/Codex, Cursor, et"
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google",
-   "link": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
-   "published": "2026-11-04T13:49:51.000Z",
-   "summary": "The AI minister now concedes the estimated figure is less than a third of that. Researchers blame the country’s slow rate of adoption."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
-   "link": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
-   "published": "2026-11-04T13:00:00.000Z",
-   "summary": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today."
+   "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+   "link": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+   "published": "2026-11-04T15:28:31.000Z",
+   "summary": "Article URL: https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/ Comments URL: https://news.ycombinator.com/item?id=50366971 Points: 106 # Comments: 172"
   },
   {
    "source": "MIT 테크놀로지 리뷰",
@@ -593,226 +863,6 @@
    "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
    "published": "2026-11-04T13:00:00.000Z",
    "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either "
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "AI is forcing us to pay off 40 years of technical debt",
-   "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "published": "2026-11-04T11:52:17.000Z",
-   "summary": "Article URL: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability Comments URL: https://news.ycombinator.com/item?id=50364336 Points: 1211 # Comments: 709"
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Geoffrey Hinton: it might turn out we were better off without AI",
-   "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-   "published": "2026-11-04T10:23:34.000Z",
-   "summary": "Article URL: https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai Comments URL: https://news.ycombinator.com/item?id=50363554 Points: 310 # Comments: 303"
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "역설계 문턱 낮춘 AI 도구 ‘REA’, 보안 위협 키우나",
-   "link": "https://byline.network/2026/11/4-504/",
-   "published": "2026-11-04T08:25:52.000Z",
-   "summary": "인공지능(AI)을 활용한 소프트웨어 역설계 기술이 등장하면서 소스코드가 공개되지 않은 프로그램도 분석하기 쉬워지고 있다. 기존에는 전문 인력이 상당한 시간을 들여야 했던 작업을 AI가 지원하면서 취약점 탐색이나 악성 프로그램 제작에 악용될 가능성도 제기된다. 새로운 공격 기법이 등장했다기보다는 기존 공격에 필요한 시간과 비용이 줄어들 수 있다는 점에서 주목할 필요가 있다. 최근 주목받는 ‘REA(Reverse Engineer Anything)’는 AI 코딩 에이전트가 소프트웨어를 분석하도록 돕는 오픈소스 도구다. AI 에이전트를 기존 역설계 도구와 연결해 프로그램의 "
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "메타넷·스켈터랩스, 똑똑한 AI보다 중요한 건 ‘통제’",
-   "link": "https://byline.network/2026/11/1104-12/",
-   "published": "2026-11-04T07:31:53.000Z",
-   "summary": "최근 엔터프라이즈 인공지능(AI) 시장에서 IT 인프라·컨설팅 역량과 AI 코어 기술력의 결합이 필수적인 생존 전략으로 떠오르고 있다. 기업의 성공적인 인공지능 전환(AX)을 위해서는 단순히 우수한 AI 모델을 도입하는 것을 넘어, 인프라 구축부터 전사적 정책 적용까지 아우르는 통합 역량이 요구된다. 이 지점에서 대형 IT 서비스 전문 그룹 ‘메타넷(Metanet)’과 대화형 AI 전문 기술 기업 ‘스켈터랩스(Skelter Labs)’의 유기적인 파트너십이 강력한 시너지를 내고 있다."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "메신저 회사 라인플러스는 왜 아마존 판매자의 상품페이지를 만들까",
-   "link": "https://byline.network/2026/11/03_lineplus_oneable_ai/",
-   "published": "2026-11-04T03:21:13.000Z",
-   "summary": "라인(LINE)의 한국 법인 라인플러스가 아마존 판매자들의 상품페이지를 만들기 시작했습니다. 메신저 서비스로 잘 알려진 회사가 AI를 활용해 다른 회사에서 팔릴 상품 이미지와 설명 콘텐츠를 만드는 사업에 뛰어든 겁니다. 라인플러스가 지난 9월 선보인 워너블 AI입니다. 워너블 AI는 판매자가 상품 사진과 상품 설명 페이지를 올리면 현지 경쟁 상품을 분석해 상품페이지용 이미지를 만들어줍니다. 국가별 규정과 아마존의 콘텐츠 기준도 반영합니다. AI에 명령문(프롬프트)을 따로 쓸 필요 없이, 대표 이미지부터 상품 설명란을 꾸미는 ‘A+ 콘텐츠’까지 한 세트를 약 10분 만"
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Anthropic is working on a system to prove AI models’ identity",
-   "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-   "published": "2026-11-03T22:41:03.000Z",
-   "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Data centers are turning to old jet engines as the wait for power grows",
-   "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
-   "published": "2026-11-03T22:19:53.000Z",
-   "summary": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-   "link": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
-   "published": "2026-11-03T21:43:08.000Z",
-   "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
-   "link": "https://arxiv.org/abs/2605.29713",
-   "published": "2026-11-03T21:40:53.000Z",
-   "summary": "Article URL: https://arxiv.org/abs/2605.29713 Comments URL: https://news.ycombinator.com/item?id=50358582 Points: 386 # Comments: 60"
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
-   "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-   "published": "2026-11-03T21:26:44.000Z",
-   "summary": "Article URL: https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months Comments URL: https://news.ycombinator.com/item?id=50358422 Points: 412 # Comments: 167"
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
-   "link": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
-   "published": "2026-11-03T21:05:55.000Z",
-   "summary": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever."
-  },
-  {
-   "source": "아스테크니카 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
-   "link": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
-   "published": "2026-11-03T20:39:55.000Z",
-   "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
-   "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
-   "published": "2026-11-03T19:34:43.000Z",
-   "summary": "The five-year-old startup raised a $1.3 billion round led by Bessemer."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
-   "link": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
-   "published": "2026-11-03T18:42:16.000Z",
-   "summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "How I use AI (Oct 2026)",
-   "link": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
-   "published": "2026-11-03T18:11:11.000Z",
-   "summary": "Article URL: https://ben.stolovitz.com/posts/how-use-ai-oct-2026/ Comments URL: https://news.ycombinator.com/item?id=50355767 Points: 253 # Comments: 308"
-  },
-  {
-   "source": "아스테크니카 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Google will let schools skip AI tools, but they have to give up search, too",
-   "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-   "published": "2026-11-03T17:54:43.000Z",
-   "summary": "Google will offer schools AI tools that purportedly don't give away the answers."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-   "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "published": "2026-11-03T17:22:37.000Z",
-   "summary": "Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 1505 # Comments: 487"
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "투자 앱 이름까지 바꾼 미래에셋증권, AI로 무엇을 노리나",
-   "link": "https://byline.network/2026/11/1013-16/",
-   "published": "2026-11-03T15:55:09.000Z",
-   "summary": "미래에셋증권은 테크&인공지능(AI)부문 산하 본부에서 AI 관련 업무를 담당하고 있다. 해당 조직은 거버넌스, 서비스 기획, 개발 조직으로 구성돼 있으며 인력 규모는 약 40명이다. 올해 AI를 활용한 ‘사내 업무 효율화’와 ‘대고객 서비스 확대’를 주요 목표로 세웠다. 회사 측은 현재까지 올해 계획의 85% 이상을 달성했다고 밝혔다."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "AI is destroying my CS degree",
-   "link": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
-   "published": "2026-11-03T15:35:06.000Z",
-   "summary": "Article URL: https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/ Comments URL: https://news.ycombinator.com/item?id=50353300 Points: 125 # Comments: 117"
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Google will turn off search for schools that reject AI",
-   "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-   "published": "2026-11-03T15:25:47.000Z",
-   "summary": "https://archive.ph/RuwsB https://blog.google/products-and-platforms/products/educatio... Comments URL: https://news.ycombinator.com/item?id=50353192 Points: 667 # Comments: 463"
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Here’s Why You Shouldn’t Use AI to Vote",
-   "link": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
-   "published": "2026-11-03T14:45:08.000Z",
-   "summary": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Just a little AI resistance, as a treat",
-   "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
-   "published": "2026-11-03T14:14:12.000Z",
-   "summary": "Article URL: https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/ Comments URL: https://news.ycombinator.com/item?id=50352257 Points: 177 # Comments: 108"
   }
  ]
 }
