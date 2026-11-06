@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T22:22:30.057Z",
+ "updated": "2026-11-06T23:22:29.314Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -65,8 +65,8 @@
     "format": "briefing",
     "type": "carousel",
     "hook": "챗GPT가 이제 움직이는 GIF도 만들어 줘요. 어제 AI 소식 3가지 정리했어요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfaxo6yox1P",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-07-0740-briefing/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-07-0740-briefing/02.png",
@@ -332,18 +332,18 @@
   {
    "date": "2026-11-07",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-07T07:36:00+09:00",
      "format": "briefing",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 5
     },
     {
