@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-07T05:26:32+09:00",
- "message": "올릴 쇼츠 없음",
+ "updated": "2026-11-07T08:10:59+09:00",
+ "message": "11-07T08:10 쇼츠 2편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -8,5 +8,26 @@
  },
  "backlogLeft": 0,
  "via": "youtube-api",
- "items": []
+ "items": [
+  {
+   "date": "2026-11-07",
+   "at": "2026-11-07T09:00:00+09:00",
+   "slot": "09:00",
+   "kind": "new",
+   "title": "AI 답에서 인사말 빼는 스킬 하나 ✂️",
+   "status": "scheduled",
+   "videoId": "jknM-2ggtn0",
+   "note": null
+  },
+  {
+   "date": "2026-11-07",
+   "at": "2026-11-07T18:00:00+09:00",
+   "slot": "18:00",
+   "kind": "new",
+   "title": "무료 중국 AI가 해킹 코드를 짠다 GLM-5.3 😨",
+   "status": "scheduled",
+   "videoId": "wynZFGZ-1cw",
+   "note": null
+  }
+ ]
 }
