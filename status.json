@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T01:51:57.851Z",
+ "updated": "2026-11-06T03:32:05.334Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -61,8 +61,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "보고 들어가기 전에, 상사 질문부터 뽑아 보세요. 보고서 초안을 AI에게 주고",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfYpb38EW7H",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-06-1140-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-06-1140-howto/02.png"
@@ -273,18 +273,18 @@
   {
    "date": "2026-11-06",
    "total": 1,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 1,
    "cardsReady": 1,
    "times": [
     {
      "at": "2026-11-06T11:36:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
@@ -324,15 +324,6 @@
    "at": "2026-10-31T03:25:45+0000"
   },
   {
-   "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
-   "views": 457,
-   "likes": 1,
-   "replies": 4,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7",
-   "at": "2026-10-30T03:25:36+0000"
-  },
-  {
    "hook": "우주에 띄운 AI가 시를 써서 보냈어요.",
    "views": 238,
    "likes": 2,
@@ -349,6 +340,15 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfVocXpnQSI",
    "at": "2026-11-04T23:25:34+0000"
+  },
+  {
+   "hook": "삼성 AI 안경, 12월 한국 판매 보도가 나왔어요.",
+   "views": 83,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfQebnYGZkd",
+   "at": "2026-11-02T23:21:54+0000"
   }
  ]
 }
