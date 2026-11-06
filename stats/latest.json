@@ -1,7 +1,22 @@
 {
- "updated": "2026-11-05T21:22:52.875Z",
- "followers": 77,
+ "updated": "2026-11-06T21:18:21.771Z",
+ "followers": 76,
  "posts": [
+  {
+   "at": "2026-11-06T03:31:48+0000",
+   "id": "2026-11-06-1140-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "보고 들어가기 전에, 상사 질문부터 뽑아 보세요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfYpb38EW7H",
+   "views": 46,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 2,
+   "score": 196
+  },
   {
    "at": "2026-11-05T03:33:13+0000",
    "id": "2026-11-05-1140-howto",
@@ -9,13 +24,13 @@
    "type": "carousel",
    "hook": "엑셀 수식, 검색하다 30분 날리셨죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfWEyE0EdnX",
-   "views": 64,
+   "views": 73,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 63
+   "score": 55
   },
   {
    "at": "2026-11-04T23:25:34+0000",
@@ -24,13 +39,13 @@
    "type": "carousel",
    "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfVocXpnQSI",
-   "views": 193,
+   "views": 197,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 16
+   "score": 15
   },
   {
    "at": "2026-11-03T03:31:47+0000",
@@ -69,13 +84,13 @@
    "type": "carousel",
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5",
-   "views": 760,
+   "views": 765,
    "likes": 6,
    "replies": 6,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 32
+   "score": 31
   },
   {
    "at": "2026-11-01T23:15:31+0000",
@@ -129,7 +144,7 @@
    "type": "carousel",
    "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfJL9A7FT9a",
-   "views": 467,
+   "views": 469,
    "likes": 3,
    "replies": 1,
    "reposts": 0,
@@ -369,13 +384,13 @@
    "type": "carousel",
    "hook": "AI 답, 믿어도 되는지 헷갈리죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBdRciG3m8",
-   "views": 27,
+   "views": 29,
    "likes": 1,
    "replies": 0,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 37
+   "score": 34
   },
   {
    "at": "2026-10-28T01:33:35+0000",
@@ -504,13 +519,13 @@
    "type": "carousel",
    "hook": "금융사 망분리, AI 보안 갖추면 풀어 준대요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/De-iMTxCSF6",
-   "views": 186,
+   "views": 187,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 22
+   "score": 21
   },
   {
    "at": "2026-10-26T12:44:27+0000",
@@ -586,21 +601,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 12
-  },
-  {
-   "at": "2026-10-25T13:18:38+0000",
-   "id": "2026-10-25-2140-compare",
-   "format": "compare",
-   "type": "carousel",
-   "hook": "클로드급 코딩 실력,",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De6zCJdkcvt",
-   "views": 35,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 86
   }
  ]
 }

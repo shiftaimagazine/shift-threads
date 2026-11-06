@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-06T20:28:06.506Z",
+ "updated": "2026-11-06T21:18:21.822Z",
  "repo": "shiftaimagazine/shift-threads",
- "followers": 77,
+ "followers": 76,
  "followersHistory": [
   {
    "date": "2026-10-26",
@@ -50,6 +50,10 @@
   {
    "date": "2026-11-06",
    "followers": 77
+  },
+  {
+   "date": "2026-11-07",
+   "followers": 76
   }
  ],
  "today": {
@@ -368,7 +372,7 @@
  "top": [
   {
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
-   "views": 760,
+   "views": 765,
    "likes": 6,
    "replies": 6,
    "reposts": 0,
@@ -377,7 +381,7 @@
   },
   {
    "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
-   "views": 467,
+   "views": 469,
    "likes": 3,
    "replies": 1,
    "reposts": 0,
@@ -395,7 +399,7 @@
   },
   {
    "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요.",
-   "views": 193,
+   "views": 197,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
