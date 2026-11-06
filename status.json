@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T12:33:08.198Z",
+ "updated": "2026-11-06T12:35:18.396Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -151,9 +151,7 @@
       "kind": "text",
       "label": "소식 1",
       "title": "챗GPT, GIF도 만들어요",
-      "body": "오픈AI가 **이미지 2.6**을 공개했어요.\n더버지는 챗GPT가 이제\n움직이는 GIF를 만든다고 전했어요.",
-      "photoFrom": "https://openai.com/index/introducing-images-2-6",
-      "photoCredit": "OpenAI"
+      "body": "오픈AI가 **이미지 2.6**을 공개했어요.\n더버지는 챗GPT가 이제\n움직이는 GIF를 만든다고 전했어요."
      },
      {
       "kind": "text",
@@ -169,16 +167,10 @@
       "kind": "text",
       "label": "소식 3",
       "title": "낫싱, 화면 없는 AI 기기",
-      "body": "낫싱 CEO가 AI 중심 신기기를\n**다음 달** 내놓겠다고 밝혔어요.\n화면 없는 기기를 예고했어요.",
-      "shot": {
-       "url": "https://nothing.tech/",
-       "credit": "nothing.tech"
-      }
+      "body": "낫싱 CEO가 AI 중심 신기기를\n**다음 달** 내놓겠다고 밝혔어요.\n화면 없는 기기를 예고했어요."
      }
     ],
-    "photoFrom": [
-     "https://openai.com/index/introducing-images-2-6"
-    ]
+    "photoFrom": null
    },
    {
     "id": "2026-11-07-1140-howto",
