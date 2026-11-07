@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:24:57.849Z",
+ "updated": "2026-11-07T12:31:38.259Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -175,7 +175,62 @@
  },
  "tomorrow": {
   "date": "2026-11-08",
-  "posts": [],
+  "posts": [
+   {
+    "id": "2026-11-08-1140-howto",
+    "at": "2026-11-08T11:36:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "계약서·약관, 끝까지 읽고 서명하셨나요? AI에 붙여넣고 \"나한테 불리한 조항\"만 골라 달라고 하세요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-08-1140-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-08-1140-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "계약서·약관, 끝까지 읽고 서명하셨나요?\n\nAI에 붙여넣고 \"나한테 불리한 조항\"만 골라 달라고 하세요.\n\n읽기 전에 훑어보는 용도로 쓰면\n놓치던 조항을 먼저 확인할 수 있어요.\n저장해 두고 써 보세요.",
+     "복붙용 프롬프트 👇\n\n아래 계약서를 읽고 정리해 줘.\n- 내게 불리할 수 있는 조항 3~5개 (조항 번호와 이유)\n- 금액·기간·해지 조건만 따로 표로\n- 서명 전에 상대에게 물어볼 질문 3개\n\n(여기에 계약서 붙여넣기)\n\n※ 이름·연락처·주민번호는 지우고 넣어요. 법률 자문이 아니라 참고용이니 중요한 계약은 전문가에게 확인하세요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Copy Prompt",
+      "title": "계약서 읽기 전\n==불리한 조항==부터",
+      "sub": "챗GPT·클로드·제미나이 어디서나"
+     },
+     {
+      "kind": "list",
+      "label": "복붙 프롬프트",
+      "title": "이렇게 시켜요",
+      "items": [
+       {
+        "h": "계약서를 붙여넣기",
+        "d": "개인정보는 먼저 지워요"
+       },
+       {
+        "h": "불리한 조항 3~5개 받기",
+        "d": "조항 번호와 이유까지"
+       },
+       {
+        "h": "금액·기간·해지 조건 표",
+        "d": "한눈에 비교해요"
+       },
+       {
+        "h": "서명 전 질문 3개",
+        "d": "상대에게 그대로 물어봐요"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   }
+  ],
   "reels": []
  },
  "comments": {
@@ -357,15 +412,22 @@
   },
   {
    "date": "2026-11-08",
-   "total": 0,
+   "total": 1,
    "ok": 0,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
+   "scheduled": 1,
+   "needCards": 1,
+   "cardsReady": 1,
+   "times": [
+    {
+     "at": "2026-11-08T11:36:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    }
+   ],
    "reels": []
   }
  ],
