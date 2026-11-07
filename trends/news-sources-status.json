@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T12:37:52.874Z",
+ "updated": "2026-11-07T12:20:58.947Z",
  "sources": [
   {
    "name": "AI타임스",
@@ -30,7 +30,7 @@
    "url": "https://research.google/blog/rss/",
    "ok": true,
    "items": 100,
-   "fresh": 2,
+   "fresh": 1,
    "note": ""
   },
   {
@@ -38,7 +38,7 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 899,
-   "fresh": 4,
+   "fresh": 3,
    "note": ""
   },
   {
@@ -62,7 +62,7 @@
    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
    "ok": true,
    "items": 10,
-   "fresh": 3,
+   "fresh": 1,
    "note": ""
   },
   {
@@ -77,8 +77,8 @@
    "name": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1366,
-   "fresh": 8,
+   "items": 1368,
+   "fresh": 4,
    "note": ""
   },
   {
@@ -86,7 +86,7 @@
    "url": "https://news.hada.io/rss/news",
    "ok": true,
    "items": 20,
-   "fresh": 7,
+   "fresh": 11,
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "url": "https://byline.network/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 10,
+   "fresh": 7,
    "note": ""
   },
   {
@@ -126,16 +126,16 @@
    "url": "https://www.wired.com/feed/tag/ai/latest/rss",
    "ok": true,
    "items": 10,
-   "fresh": 10,
+   "fresh": 7,
    "note": ""
   },
   {
    "name": "전자신문 SW·AI",
    "url": "https://rss.etnews.com/Section902.xml",
-   "ok": false,
-   "items": 0,
-   "fresh": 0,
-   "note": "fetch failed"
+   "ok": true,
+   "items": 30,
+   "fresh": 3,
+   "note": ""
   },
   {
    "name": "테크크런치 AI",
@@ -150,7 +150,7 @@
    "url": "https://hnrss.org/newest?q=AI&points=100",
    "ok": true,
    "items": 20,
-   "fresh": 8,
+   "fresh": 5,
    "note": ""
   }
  ]
