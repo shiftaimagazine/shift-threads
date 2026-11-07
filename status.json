@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T14:25:21.027Z",
+ "updated": "2026-11-07T15:18:39.936Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -57,123 +57,6 @@
   }
  ],
  "today": {
-  "date": "2026-11-07",
-  "posts": [
-   {
-    "id": "2026-11-07-0740-briefing",
-    "at": "2026-11-07T07:36:00+09:00",
-    "format": "briefing",
-    "type": "carousel",
-    "hook": "챗GPT가 이제 움직이는 GIF도 만들어 줘요. 어제 AI 소식 3가지 정리했어요.",
-    "status": "ok",
-    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfaxo6yox1P",
-    "cards": [
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-07-0740-briefing/01.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-07-0740-briefing/02.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-07-0740-briefing/03.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-07-0740-briefing/04.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-07-0740-briefing/05.png"
-    ],
-    "views": null,
-    "likes": null,
-    "replies": null,
-    "sources": [
-     "https://openai.com/index/introducing-images-2-6",
-     "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
-     "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-     "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-teases-a-screen-free-ai-device-ahead-of-launch-next-month"
-    ],
-    "topic": "AI Threads",
-    "parts": [
-     "챗GPT가 이제 움직이는 GIF도 만들어 줘요.\n\n어제 AI 소식 3가지 정리했어요.\n① 오픈AI 이미지 2.6 공개\n② 구글, 학교 AI 정책 논란\n③ 낫싱, AI 기기 다음 달 출시 예고\n\n매일 아침 AI 소식 3가지씩 정리해요.\n가장 궁금한 건 어느 쪽인가요?",
-     "출처: OpenAI https://openai.com/index/introducing-images-2-6\n더버지 https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6\n오늘 AI 소식 전체 정리는 매거진에서 → https://shiftaimagazine.com/daily/2026-11-07/?utm_source=threads"
-    ],
-    "slides": [
-     {
-      "kind": "cover",
-      "tag": "Morning Brief",
-      "title": "어제 AI 소식\n==3가지==",
-      "sub": "GIF · 학교 AI · 낫싱 신기기"
-     },
-     {
-      "kind": "text",
-      "label": "소식 1",
-      "title": "챗GPT, GIF도 만들어요",
-      "body": "오픈AI가 **이미지 2.6**을 공개했어요.\n더버지는 챗GPT가 이제\n움직이는 GIF를 만든다고 전했어요."
-     },
-     {
-      "kind": "text",
-      "label": "소식 2",
-      "title": "구글 AI, 학교는 고민",
-      "body": "AI 도구를 쓰지 않으려면\n검색도 포기해야 한다는\n구글 방침이 학교에서 논란이에요.",
-      "shot": {
-       "url": "https://edu.google.com/",
-       "credit": "edu.google.com"
-      }
-     },
-     {
-      "kind": "text",
-      "label": "소식 3",
-      "title": "낫싱, 화면 없는 AI 기기",
-      "body": "낫싱 CEO가 AI 중심 신기기를\n**다음 달** 내놓겠다고 밝혔어요.\n화면 없는 기기를 예고했어요."
-     }
-    ],
-    "photoFrom": null
-   },
-   {
-    "id": "2026-11-07-1140-howto",
-    "at": "2026-11-07T11:34:00+09:00",
-    "format": "howto",
-    "type": "carousel",
-    "hook": "회의 메모, 정리하다 30분 쓰셨죠? 날것의 메모를 AI에 붙여넣고",
-    "status": "ok",
-    "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",
-    "cards": [
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-07-1140-howto/01.png",
-     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-07-1140-howto/02.png"
-    ],
-    "views": null,
-    "likes": null,
-    "replies": null,
-    "sources": [],
-    "topic": "AI Threads",
-    "parts": [
-     "회의 메모, 정리하다 30분 쓰셨죠?\n\n날것의 메모를 AI에 붙여넣고\n\"할 일·담당·기한\" 표로 뽑게 하세요.\n\n빠진 담당자나 기한은\nAI가 따로 표시해 줘서 놓치지 않아요.\n저장해 두고 써 보세요.",
-     "복붙용 프롬프트 👇\n\n아래 회의 메모를 읽고 표로 정리해 줘.\n- 열: 할 일 / 담당자 / 기한\n- 담당자나 기한이 메모에 없으면 \"미정\"으로 표시\n- 마지막에 결정된 내용 3줄 요약\n\n(여기에 회의 메모 붙여넣기)\n\n※ 회사 기밀·개인정보는 지우고 넣어요."
-    ],
-    "slides": [
-     {
-      "kind": "cover",
-      "tag": "Copy Prompt",
-      "title": "회의 메모를\n==할 일 표==로",
-      "sub": "챗GPT·클로드·제미나이 어디서나"
-     },
-     {
-      "kind": "list",
-      "label": "복붙 프롬프트",
-      "title": "이렇게 시켜요",
-      "items": [
-       {
-        "h": "회의 메모를 그대로 붙여넣기",
-        "d": "기밀·개인정보는 먼저 지워요"
-       },
-       {
-        "h": "할 일·담당·기한 표로 받기",
-        "d": "없는 정보는 \"미정\"으로 표시"
-       },
-       {
-        "h": "결정 사항 3줄 요약",
-        "d": "공유 메일에 그대로 써요"
-       }
-      ]
-     }
-    ],
-    "photoFrom": null
-   }
-  ],
-  "reels": []
- },
- "tomorrow": {
   "date": "2026-11-08",
   "posts": [
    {
@@ -233,6 +116,11 @@
   ],
   "reels": []
  },
+ "tomorrow": {
+  "date": "2026-11-09",
+  "posts": [],
+  "reels": []
+ },
  "comments": {
   "pending": 0,
   "items": [],
@@ -260,32 +148,6 @@
   "total": 8
  },
  "days": [
-  {
-   "date": "2026-11-01",
-   "total": 2,
-   "ok": 2,
-   "failed": 0,
-   "expired": 0,
-   "waiting": 0,
-   "scheduled": 0,
-   "needCards": 2,
-   "cardsReady": 2,
-   "times": [
-    {
-     "at": "2026-11-01T07:35:00+09:00",
-     "format": "briefing",
-     "status": "ok",
-     "cards": 5
-    },
-    {
-     "at": "2026-11-01T11:36:00+09:00",
-     "format": "howto",
-     "status": "ok",
-     "cards": 2
-    }
-   ],
-   "reels": []
-  },
   {
    "date": "2026-11-02",
    "total": 2,
@@ -428,6 +290,19 @@
      "cards": 2
     }
    ],
+   "reels": []
+  },
+  {
+   "date": "2026-11-09",
+   "total": 0,
+   "ok": 0,
+   "failed": 0,
+   "expired": 0,
+   "waiting": 0,
+   "scheduled": 0,
+   "needCards": 0,
+   "cardsReady": 0,
+   "times": [],
    "reels": []
   }
  ],
