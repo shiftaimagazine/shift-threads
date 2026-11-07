@@ -1,7 +1,52 @@
 {
- "updated": "2026-11-06T21:18:21.771Z",
+ "updated": "2026-11-07T21:13:28.951Z",
  "followers": 76,
  "posts": [
+  {
+   "at": "2026-11-07T03:29:26+0000",
+   "id": "2026-11-07-1140-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "회의 메모, 정리하다 30분 쓰셨죠?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",
+   "views": 125,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 24
+  },
+  {
+   "at": "2026-11-07T01:09:19+0000",
+   "id": null,
+   "format": null,
+   "type": "VIDEO",
+   "hook": "클로드로 만드는 애니메이션 스타일 10가지 🎬",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Dfa97XTAAEW",
+   "views": 17,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 0
+  },
+  {
+   "at": "2026-11-06T23:22:10+0000",
+   "id": "2026-11-07-0740-briefing",
+   "format": "briefing",
+   "type": "carousel",
+   "hook": "챗GPT가 이제 움직이는 GIF도 만들어 줘요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Dfaxo6yox1P",
+   "views": 139,
+   "likes": 1,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 29
+  },
   {
    "at": "2026-11-06T03:31:48+0000",
    "id": "2026-11-06-1140-howto",
@@ -9,13 +54,13 @@
    "type": "carousel",
    "hook": "보고 들어가기 전에, 상사 질문부터 뽑아 보세요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfYpb38EW7H",
-   "views": 46,
+   "views": 63,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 2,
-   "score": 196
+   "score": 143
   },
   {
    "at": "2026-11-05T03:33:13+0000",
@@ -24,13 +69,13 @@
    "type": "carousel",
    "hook": "엑셀 수식, 검색하다 30분 날리셨죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfWEyE0EdnX",
-   "views": 73,
+   "views": 74,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 55
+   "score": 54
   },
   {
    "at": "2026-11-04T23:25:34+0000",
@@ -39,7 +84,7 @@
    "type": "carousel",
    "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfVocXpnQSI",
-   "views": 197,
+   "views": 198,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -69,7 +114,7 @@
    "type": "carousel",
    "hook": "삼성 AI 안경, 12월 한국 판매 보도가 나왔어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfQebnYGZkd",
-   "views": 83,
+   "views": 84,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -84,7 +129,7 @@
    "type": "carousel",
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5",
-   "views": 765,
+   "views": 768,
    "likes": 6,
    "replies": 6,
    "reposts": 0,
@@ -384,13 +429,13 @@
    "type": "carousel",
    "hook": "AI 답, 믿어도 되는지 헷갈리죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBdRciG3m8",
-   "views": 29,
+   "views": 37,
    "likes": 1,
    "replies": 0,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 34
+   "score": 27
   },
   {
    "at": "2026-10-28T01:33:35+0000",
@@ -556,51 +601,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 10
-  },
-  {
-   "at": "2026-10-26T06:16:20+0000",
-   "id": "2026-10-26-1440-question",
-   "format": "question",
-   "type": "image",
-   "hook": "AI가 같이 쓴 글,",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De8ngDklt5w",
-   "views": 21,
-   "likes": 0,
-   "replies": 0,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 0
-  },
-  {
-   "at": "2026-10-26T03:16:26+0000",
-   "id": "2026-10-26-1140-howto",
-   "format": "howto",
-   "type": "carousel",
-   "hook": "회사 엑셀, AI에 그대로 올리면 안 돼요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De8S6fHFM8Q",
-   "views": 463,
-   "likes": 2,
-   "replies": 0,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 2,
-   "score": 17
-  },
-  {
-   "at": "2026-10-25T23:04:29+0000",
-   "id": "2026-10-26-0740-briefing",
-   "format": "briefing",
-   "type": "carousel",
-   "hook": "엘비스 노래 274곡, 소송 한 건에 약 4,100만 달러.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De72E1Zo1VQ",
-   "views": 243,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 12
   }
  ]
 }

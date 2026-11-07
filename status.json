@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T20:14:54.043Z",
+ "updated": "2026-11-07T21:13:29.010Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -53,6 +53,10 @@
   },
   {
    "date": "2026-11-07",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-08",
    "followers": 76
   }
  ],
@@ -309,7 +313,7 @@
  "top": [
   {
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
-   "views": 765,
+   "views": 768,
    "likes": 6,
    "replies": 6,
    "reposts": 0,
@@ -327,7 +331,7 @@
   },
   {
    "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요.",
-   "views": 197,
+   "views": 198,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -335,22 +339,22 @@
    "at": "2026-11-04T23:25:34+0000"
   },
   {
-   "hook": "삼성 AI 안경, 12월 한국 판매 보도가 나왔어요.",
-   "views": 83,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfQebnYGZkd",
-   "at": "2026-11-02T23:21:54+0000"
-  },
-  {
-   "hook": "엑셀 수식, 검색하다 30분 날리셨죠?",
-   "views": 73,
+   "hook": "챗GPT가 이제 움직이는 GIF도 만들어 줘요.",
+   "views": 139,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfWEyE0EdnX",
-   "at": "2026-11-05T03:33:13+0000"
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Dfaxo6yox1P",
+   "at": "2026-11-06T23:22:10+0000"
+  },
+  {
+   "hook": "회의 메모, 정리하다 30분 쓰셨죠?",
+   "views": 125,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",
+   "at": "2026-11-07T03:29:26+0000"
   }
  ]
 }
