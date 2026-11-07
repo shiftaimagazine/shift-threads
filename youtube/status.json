@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08T05:13:54+09:00",
- "message": "올릴 쇼츠 없음",
+ "updated": "2026-11-08T08:05:01+09:00",
+ "message": "11-08T08:05 쇼츠 2편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -8,5 +8,26 @@
  },
  "backlogLeft": 0,
  "via": "youtube-api",
- "items": []
+ "items": [
+  {
+   "date": "2026-11-08",
+   "at": "2026-11-08T09:00:00+09:00",
+   "slot": "09:00",
+   "kind": "new",
+   "title": "셀카 한 장이 90년대 영화로 📸 Gemini 직접 해 봄",
+   "status": "scheduled",
+   "videoId": "-aTJCZiNehQ",
+   "note": null
+  },
+  {
+   "date": "2026-11-08",
+   "at": "2026-11-08T18:00:00+09:00",
+   "slot": "18:00",
+   "kind": "new",
+   "title": "AI 보고서 숫자, 근거 없으면 지우게 시키는 한 줄 📝",
+   "status": "scheduled",
+   "videoId": "mtv-GhkQhik",
+   "note": null
+  }
+ ]
 }
