@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T22:16:36.329Z",
+ "updated": "2026-11-07T23:14:55.708Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -321,15 +321,6 @@
    "at": "2026-11-02T03:33:16+0000"
   },
   {
-   "hook": "우주에 띄운 AI가 시를 써서 보냈어요.",
-   "views": 238,
-   "likes": 2,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfLT_iuHe6o",
-   "at": "2026-10-31T23:14:28+0000"
-  },
-  {
    "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요.",
    "views": 198,
    "likes": 0,
@@ -355,6 +346,15 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",
    "at": "2026-11-07T03:29:26+0000"
+  },
+  {
+   "hook": "삼성 AI 안경, 12월 한국 판매 보도가 나왔어요.",
+   "views": 84,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfQebnYGZkd",
+   "at": "2026-11-02T23:21:54+0000"
   }
  ]
 }
