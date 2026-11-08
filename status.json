@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T20:16:14.021Z",
+ "updated": "2026-11-08T21:12:57.448Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -57,6 +57,10 @@
   },
   {
    "date": "2026-11-08",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-09",
    "followers": 76
   }
  ],
@@ -376,7 +380,7 @@
  "top": [
   {
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
-   "views": 768,
+   "views": 770,
    "likes": 6,
    "replies": 6,
    "reposts": 0,
@@ -394,7 +398,7 @@
   },
   {
    "hook": "챗GPT가 이제 움직이는 GIF도 만들어 줘요.",
-   "views": 139,
+   "views": 143,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
@@ -403,8 +407,8 @@
   },
   {
    "hook": "회의 메모, 정리하다 30분 쓰셨죠?",
-   "views": 125,
-   "likes": 0,
+   "views": 131,
+   "likes": 1,
    "replies": 1,
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",

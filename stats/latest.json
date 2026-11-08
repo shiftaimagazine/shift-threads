@@ -1,7 +1,22 @@
 {
- "updated": "2026-11-07T21:13:28.951Z",
+ "updated": "2026-11-08T21:12:57.394Z",
  "followers": 76,
  "posts": [
+  {
+   "at": "2026-11-08T03:33:22+0000",
+   "id": "2026-11-08-1140-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "계약서·약관, 끝까지 읽고 서명하셨나요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfdzLzkDVmq",
+   "views": 26,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 115
+  },
   {
    "at": "2026-11-07T03:29:26+0000",
    "id": "2026-11-07-1140-howto",
@@ -9,13 +24,13 @@
    "type": "carousel",
    "hook": "회의 메모, 정리하다 30분 쓰셨죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",
-   "views": 125,
-   "likes": 0,
+   "views": 131,
+   "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 24
+   "score": 31
   },
   {
    "at": "2026-11-07T01:09:19+0000",
@@ -24,7 +39,7 @@
    "type": "VIDEO",
    "hook": "클로드로 만드는 애니메이션 스타일 10가지 🎬",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfa97XTAAEW",
-   "views": 17,
+   "views": 20,
    "likes": 0,
    "replies": 0,
    "reposts": 0,
@@ -39,13 +54,13 @@
    "type": "carousel",
    "hook": "챗GPT가 이제 움직이는 GIF도 만들어 줘요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfaxo6yox1P",
-   "views": 139,
+   "views": 143,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 29
+   "score": 28
   },
   {
    "at": "2026-11-06T03:31:48+0000",
@@ -54,13 +69,13 @@
    "type": "carousel",
    "hook": "보고 들어가기 전에, 상사 질문부터 뽑아 보세요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfYpb38EW7H",
-   "views": 63,
+   "views": 64,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 2,
-   "score": 143
+   "score": 141
   },
   {
    "at": "2026-11-05T03:33:13+0000",
@@ -69,13 +84,13 @@
    "type": "carousel",
    "hook": "엑셀 수식, 검색하다 30분 날리셨죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfWEyE0EdnX",
-   "views": 74,
+   "views": 75,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 54
+   "score": 53
   },
   {
    "at": "2026-11-04T23:25:34+0000",
@@ -129,7 +144,7 @@
    "type": "carousel",
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5",
-   "views": 768,
+   "views": 770,
    "likes": 6,
    "replies": 6,
    "reposts": 0,
@@ -429,13 +444,13 @@
    "type": "carousel",
    "hook": "AI 답, 믿어도 되는지 헷갈리죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBdRciG3m8",
-   "views": 37,
+   "views": 42,
    "likes": 1,
    "replies": 0,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 27
+   "score": 24
   },
   {
    "at": "2026-10-28T01:33:35+0000",
@@ -519,7 +534,7 @@
    "type": "VIDEO",
    "hook": "저희가 직접 만든 크롬 실시간 번역기, 무료로 배포해요 🎧",
    "link": "https://www.threads.com/@shift_ai_magazine/post/De_ipMDim8r",
-   "views": 21,
+   "views": 22,
    "likes": 0,
    "replies": 0,
    "reposts": 0,
@@ -586,21 +601,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 188
-  },
-  {
-   "at": "2026-10-26T10:22:57+0000",
-   "id": "2026-10-26-1840-deep",
-   "format": "deep",
-   "type": "carousel",
-   "hook": "웹사이트 70%가 쓰는 PHP,",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De9DuZ5lnBs",
-   "views": 287,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 10
   }
  ]
 }
