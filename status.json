@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T22:16:55.559Z",
+ "updated": "2026-11-08T23:16:36.568Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -73,8 +73,8 @@
     "format": "briefing",
     "type": "carousel",
     "hook": "과학자들이 AI에 가장 많이 시킨 일은 '데이터 분석'이었어요. 최근 AI 소식 3가지 정리했어요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Dff6jkjDxNO",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-09-0740-briefing/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-09-0740-briefing/02.png",
@@ -340,18 +340,18 @@
   {
    "date": "2026-11-09",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-09T07:38:00+09:00",
      "format": "briefing",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 5
     },
     {
