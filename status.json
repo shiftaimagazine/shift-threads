@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T02:33:46.250Z",
+ "updated": "2026-11-08T03:33:38.501Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -69,8 +69,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "계약서·약관, 끝까지 읽고 서명하셨나요? AI에 붙여넣고 \"나한테 불리한 조항\"만 골라 달라고 하세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfdzLzkDVmq",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-08-1140-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-08-1140-howto/02.png"
@@ -279,18 +279,18 @@
   {
    "date": "2026-11-08",
    "total": 1,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 1,
    "cardsReady": 1,
    "times": [
     {
      "at": "2026-11-08T11:36:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
