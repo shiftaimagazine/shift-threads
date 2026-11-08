@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-07T12:20:58.947Z",
- "kstDate": "2026-11-07",
+ "updated": "2026-11-08T12:20:19.699Z",
+ "kstDate": "2026-11-08",
  "windowHours": 48,
  "note": "글쓰기 작업용 뉴스 후보. 쓰기로 한 소식은 반드시 link 원문을 열어 숫자·날짜를 확인할 것. summary 는 피드 요약이라 사실 확인 근거로 쓰지 않음.",
  "items": [
@@ -15,154 +15,184 @@
    "summary": ""
   },
   {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-   "link": "https://openai.com/index/partnering-with-hacktron",
-   "published": "2026-11-06T08:00:00.000Z",
-   "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Measuring how AI agents handle everyday wet-lab science",
-   "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-   "published": "2026-11-06T00:00:00.000Z",
-   "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science."
-  },
-  {
-   "source": "Hugging Face",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-   "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-   "published": "2026-11-06T00:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "source": "NVIDIA 블로그",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-   "link": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-   "published": "2026-11-05T20:00:41.000Z",
-   "summary": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute th"
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Cult.fit builds operational muscle with Codex",
-   "link": "https://openai.com/index/cultfit-builds-with-codex",
-   "published": "2026-11-05T20:00:00.000Z",
-   "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done."
-  },
-  {
-   "source": "Hugging Face",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-   "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-   "published": "2026-11-05T19:35:16.000Z",
-   "summary": ""
-  },
-  {
-   "source": "Google DeepMind",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-   "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-   "published": "2026-11-05T17:05:16.000Z",
-   "summary": ""
-  },
-  {
-   "source": "NVIDIA 블로그",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-   "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-   "published": "2026-11-05T17:00:35.000Z",
-   "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, invest"
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Australian universities are creating AI-native graduates",
-   "link": "https://openai.com/index/australian-universities-ai-native-graduates",
-   "published": "2026-11-05T17:00:00.000Z",
-   "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce."
-  },
-  {
-   "source": "Google Research",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Detecting signs of hypertension using wearable sensors",
-   "link": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
-   "published": "2026-11-05T16:01:08.000Z",
-   "summary": "Health & Bioscience"
-  },
-  {
-   "source": "NVIDIA 블로그",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-   "link": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
-   "published": "2026-11-05T16:00:05.000Z",
-   "summary": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical f"
-  },
-  {
-   "source": "NVIDIA 블로그",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-   "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-   "published": "2026-11-05T16:00:00.000Z",
-   "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 techn"
-  },
-  {
-   "source": "NVIDIA 블로그",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
-   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
-   "published": "2026-11-05T14:00:34.000Z",
-   "summary": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW mem"
-  },
-  {
    "source": "AI타임스",
    "kind": "media",
    "lang": "ko",
    "official": false,
-   "title": "오픈AI, '클로드 코드' 성공 주역 캣 우 영입…핵심 제품 총괄 맡아",
-   "link": "https://www.aitimes.com/news/articleView.html?idxno=217134",
-   "published": "2026-11-07T19:05:17.000Z",
-   "summary": "오픈AI가 앤트로픽의 AI 코딩 에이전트 '클로드 코드'를 성공적인 상용 제품으로 키운 핵심 인물을 영입했다. '코워크'의 제품 개발에도 참여한 캣 우(Cat Wu)로, 오픈AI의 코덱스와 기업용 AI 에이전트 경쟁력을 강화하는 데 중요한 역할을 맡을 전망이다.비즈니스인사이더는 5일(현지시간) 앤트로픽의 클로드 코드 제품 책임자였던 캣 우가 오픈AI에 합류해 핵심 제품(Core Products) 조직의 제품 관리를 총괄한다고 보도했다. 오픈AI도 그의 영입을 공식 확인했다.우는 같은 날 X를 통해 이직 소식을 알리며 \"오픈AI가 A"
+   "title": "과학자들은 AI를 어떻게 쓸까…앤트로픽 \"데이터 분석 1위, 가설 생성 4%\"",
+   "link": "https://www.aitimes.com/news/articleView.html?idxno=217147",
+   "published": "2026-11-08T18:14:24.000Z",
+   "summary": "과학 연구에서 AI 활용이 늘고 있지만, 새로운 아이디어나 가설을 만드는 작업보다 데이터 분석과 논문 작성에 집중되고 있다는 조사 결과가 나왔다. 연구자들은 가설 생성을 과학적 발견에서 가장 중요한 활동으로 꼽았지만, 실제 AI 사용 비중은 4% 수준에 그쳤다.앤트로픽은 5일(현지시간) 공식 블로그를 통해 '과학적 발견을 위한 AI: 연구자들은 클로드를 어떻게 사용하는가'라는 보고서를 공개했다.지난 8월2일부터 9월30일까지 '클로드'와 '클로드 코드'에서 이뤄진 과학 연구 관련 세션 20만7049건을 분석하고, 별도로 과학자 52"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+   "link": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+   "published": "2026-11-08T12:00:00.000Z",
+   "summary": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark."
   },
   {
    "source": "긱뉴스",
    "kind": "community",
    "lang": "ko",
    "official": false,
-   "title": "Devvm.dev: 프로젝트마다 하나의 VM",
-   "link": "https://news.hada.io/topic?id=36746&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-   "published": "2026-11-07T11:32:47.000Z",
-   "summary": "devvm 은 프로젝트별로 도구 체인을 갖춘 격리 VM을 만들어, 개발자나 코딩 에이전트가 바로 작업할 수 있게 하는 무료 오픈소스 도구임 프로젝트 파일을 바탕으로 도구 체인을 자동 선택 하며, Claude Code, Codex, opencode를 호스트에 설치하지 않고 VM 안에서 실행할 수 있음 기본적으로 허용 목록 기반 네트워크 를 사용하고 홈 디렉터리 접근을 제한하며, --clone 을 쓰면 호스트 작업 트리 대신 VM 전용 저장소 복제본에서 작업함 에이전트의 인증 정보는 호스트에 유지 하고 VM에는 대체 값을 전달하며, 외부 요청이 나갈 때 호스트의 …"
+   "title": "Show GN: 라플라스의 가위 - LLM을 재학습하지 않고, 출력 가중치만 안전하게 수정.",
+   "link": "https://news.hada.io/topic?id=36805&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+   "published": "2026-11-08T10:58:38.000Z",
+   "summary": "모델을 재학습하지 않고, 출력 가중치의 방향을 조절해서 답변을 바꿀 수 있게 도와줍니다. 기존 정답도 안전하게 유지합니다."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+   "link": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+   "published": "2026-11-08T10:00:00.000Z",
+   "summary": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "TSMC '메모리 반도체 사업 진출설' 공식 부인…“기존 파운드리 집중”",
+   "link": "https://www.etnews.com/20261108000094",
+   "published": "2026-11-08T09:38:33.000Z",
+   "summary": "세계 최대 파운드리(반도체 위탁생산) 기업 TSMC가 엔비디아 요청으로 차세대 '3차원(3D) D램' 생산을 검토 중이라는 외신 보도와 관련해 “기존 파운드리 사업에 집중한다”는 입장을 내놨다. 7일 미국 IT 매체 톰스하드웨어 등 현지 매체에 따르면 TSMC 대변인은 관련 질의에 “회사는 언제나 전업 반도체 위탁생산(파운드리)이라는 핵심 사업에 집중하고 있다”며 “앞으로도 글로벌 로직(비메모리) 반도체 산업에서 신뢰받는 기술·생산능력 공급자가"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "전남정보문화산업진흥원, 콘텐츠기업 투자유치 발표회 'LINK UP 데이' 성료",
+   "link": "https://www.etnews.com/20261108000091",
+   "published": "2026-11-08T08:45:42.000Z",
+   "summary": "전남정보문화산업진흥원(원장 이인용, 이하 '진흥원')은 지난달 22일 나주 빛가람복합문화센터에서 '링크 업(LINK UP) 데이'를 개최하고 인공지능(AI) 전환 시대 콘텐츠 산업 동향을 공유하며 도내 콘텐츠기업과 투자 관계자 간 교류의 장을 마련했다. 이번 행사는 진흥원이 운영하는 '2026 전남콘텐츠기업지원센터(JCEP) 콘텐츠기업 엑셀러레이팅 프로그램'의 일환으로, 전남 콘텐츠기업의 비즈니스모델을 고도화하고 투자역량을 강화하기 위해 산업"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[사설] AI투자 불확실성 걷히는 과정이다",
+   "link": "https://www.etnews.com/20261108000052",
+   "published": "2026-11-08T08:00:00.000Z",
+   "summary": "미국 중간선거에서 민주당이 승리하며 이른바 '블루 쓰나미'가 몰아치자, 현지 데이터센터 인허가 규제 우려로 한·미 반도체 주가가 요동쳤다. 그러나 시장의 극단적 공포와 달리 현장 진단은 차분하다. 미국 차기 의회·주정부의 규제 움직임이 우리 반도체 공급망에 미칠 실질적 타격은 제한적이며, 최근 변동성은 거시경제적 피로감과 정치적 불확실성이 맞물린 단기 과잉 반응이라는 시각이 중론이다. 우선, 명확히 구분할 점은 미국의 정치적 시그널이다. '블루"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "박경희 티맥스티베로·소프트 총괄 대표 “전사 AX 속도...글로벌 시장 진출”",
+   "link": "https://www.etnews.com/20261108000035",
+   "published": "2026-11-08T08:00:00.000Z",
+   "summary": "박경희 티맥스티베로·티맥스소프트 총괄 대표가 전사적 인공지능 전환(AX)을 양사 핵심 과제로 지목했다. 데이터베이스(DB)와 미들웨어 제품에 AI를 접목하는 것은 물론 소프트웨어 개발, 기술지원, 경영 관리 등 업무 전반에 AI 도입이 시급하다는 판단에서다. 제품 경쟁력과 조직 운영 체계를 함께 혁신해 글로벌 시장 진출의 발판을 마련한다는 구상이다. 박 대표는 8일 전자신문과의 인터뷰에서 “제품 하나하나에 AI를 접목해 AI 플랫폼으로 발전시키"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "로봇 넘어 학습 데이터까지…中 칭무, 한국 피지컬AI 시장 공략",
+   "link": "https://www.etnews.com/20261106000180",
+   "published": "2026-11-08T08:00:00.000Z",
+   "summary": "중국 유니트리, 애지봇 등 주요 로봇기업과 협력하는 피지컬 인공지능(AI) 기술기업 칭무(CHINGMU)가 로봇 학습용 데이터 수집 솔루션을 앞세워 한국 시장 공략에 나섰다. 8일 업계에 따르면 중국 상하이에 본사를 둔 칭무는 최근 양쯔이 이사를 한국 지사장으로 선임하고 국내 사업 확대에 나섰다. 칭무는 2015년 설립된 광학 모션캡처 전문기업이다. 영화, 게임, 애니메이션 분야에서 축적한 기술을 휴머노이드 로봇의 동작 학습과 원격조작, 성능"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "니어네트웍스, AI·블록체인 융합 '예방형 디지털 돌봄 플랫폼' 실증",
+   "link": "https://www.etnews.com/20261105000442",
+   "published": "2026-11-08T07:21:00.000Z",
+   "summary": "니어네트웍스(대표 이복동)는 인공지능(AI)과 블록체인 기술을 융합해 고령자 건강 상태를 분석하고 이상징후를 조기에 탐지하는 '예방형 디지털 돌봄 플랫폼'을 개발, 경기도 남양주시 소재 경로당을 중심으로 현장 실증을 진행하고 있다고 8일 밝혔다. 이번 프로젝트는 과학기술정보통신부와 대구시, 한국인터넷진흥원(KISA), 대구디지털혁신진흥원(DIP) 지원으로 추진하는 '2026년 블록체인 융복합타운 조성사업 맞춤형 사업화 지원 과제'다. 기존 사후"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "KT, 국방 AI 플랫폼 구축…박윤영 대표 체제 AX 성과",
+   "link": "https://www.etnews.com/20261106000286",
+   "published": "2026-11-08T07:20:31.000Z",
+   "summary": "KT가 214억원 규모 '국방 인공지능(AI) 플랫폼 고도화' 사업을 수주했다. 군사 데이터 등을 AI 개발·학습에 활용할 수 있는 국방 AI 인프라 구축을 전담한다. KT가 국방 AI전환(AX) 분야에서 중요한 레퍼런스를 확보하면서 공공·기업사업 확장에 더욱 속도를 낼 것으로 전망된다. 8일 통신업계에 따르면 KT는 지난달 국방부와 한국지능정보사회진흥원(NIA)이 추진하는 '국방 지능형 플랫폼 고도화 구축' 사업자로 선정됐다. 총 사업금액은"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+   "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+   "published": "2026-11-07T22:07:22.000Z",
+   "summary": "On Equity, we unpacked what the midterms mean for the tech industry."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+   "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+   "published": "2026-11-07T21:17:08.000Z",
+   "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "The end of Microsoft Research's AI Frontiers group",
+   "link": "https://hunch.net/?p=13764006",
+   "published": "2026-11-07T18:02:17.000Z",
+   "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 467 # Comments: 279"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+   "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+   "published": "2026-11-07T15:50:00.000Z",
+   "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best […]"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The US let Nvidia sell chips to an empty office in China",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+   "published": "2026-11-07T15:43:45.000Z",
+   "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell […]"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "AI broke the cybersecurity world. What’s next?",
+   "link": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+   "published": "2026-11-07T15:00:00.000Z",
+   "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say "
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+   "published": "2026-11-07T12:30:00.000Z",
+   "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an"
   },
   {
    "source": "와이어드 AI",
@@ -173,26 +203,6 @@
    "link": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
    "published": "2026-11-07T11:00:00.000Z",
    "summary": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved."
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "수능 앞두고 대통령도 경계한 AI안경 부정행위…뿔테 수험생 “안경 빼앗기면 어떡하나”",
-   "link": "https://www.etnews.com/20261107000027",
-   "published": "2026-11-07T07:50:00.000Z",
-   "summary": "2027학년도 대학수학능력시험(수능)을 앞두고 인공지능(AI) 스마트안경을 이용한 부정행위 우려가 확산하면서 시험장에 때아닌 '안경 소동'이 벌어지고 있다. 교육당국이 첨단기기를 활용한 부정행위 차단에 나선 가운데 일부 수험생은 일반 안경이 스마트안경으로 오인될 가능성을 걱정하고 있다. 시험 감독을 맡는 교사들도 기기 식별과 민원 대응에 부담을 호소하고 있다. 7일 교육계에 따르면 서울시교육청은 이날 실시되는 2027학년도 유치원·초등학교·특수"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "라이너, 글쓰기 AI '취업 준비' 기능 강화…“이용자 53%가 청년층”",
-   "link": "https://www.etnews.com/20261107000017",
-   "published": "2026-11-07T02:28:13.000Z",
-   "summary": "라이너가 인공지능(AI) 글쓰기 서비스의 취업 준비 기능을 강화했다. 기존 자기소개서 초안 작성에서 강점·약점 분석과 직무별 면접 연습까지 지원 범위를 확대했다. 7일 업계에 따르면 라이너는 AI 글쓰기 서비스 '라이너 라이트'에 자기소개서 분석과 면접 준비 기능을 추가했다. AI가 채용 공고를 분석해 자기소개서·이력서의 강점과 개선점을 분석하고 지원 직무별 예상 면접 질문과 답변 전략을 제시한다. 이번 기능 확대는 청년층의 취업 준비 수요를"
   },
   {
    "source": "바이라인네트워크",
@@ -223,16 +233,6 @@
    "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
    "published": "2026-11-07T01:40:28.000Z",
    "summary": "The deal highlights the challenges of developing massive AI data centers."
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "[미리보는 소부장 테크페어]〈1〉ST, SiC·GaN 차세대 전력 반도체로 성장 동력 강화",
-   "link": "https://www.etnews.com/20261106000102",
-   "published": "2026-11-07T00:00:00.000Z",
-   "summary": "ST마이크로일렉트로닉스가 차세대 전력 반도체 시장 공략에 박차를 가한다. 인공지능(AI) 확산으로 급증한 전력 반도체 시장 수요에 대응하기 위해서다. 실리콘카바이드(SiC)와 질화갈륨(GaN) 등 차세대 전력 반도체 역량을 앞세워 기술 혁신부터 공급망 관리, 시장 확대까지 총력을 기울이고 있다. 한국산업기술기획평가원(Keit)과 전자신문이 공동 주최하고 산업통상부가 후원해 20일 서울 삼성동 섬유센터빌딩에서 개최되는 '2026 글로벌 소재·부품"
   },
   {
    "source": "더버지 AI",
@@ -272,7 +272,7 @@
    "title": "AI is dramatically accelerating AI research",
    "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
    "published": "2026-11-06T20:27:23.000Z",
-   "summary": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 324 # Comments: 280"
+   "summary": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 370 # Comments: 348"
   },
   {
    "source": "더버지 AI",
@@ -325,6 +325,16 @@
    "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space"
   },
   {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+   "link": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+   "published": "2026-11-06T18:04:06.000Z",
+   "summary": "Article URL: https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/ Comments URL: https://news.ycombinator.com/item?id=50395933 Points: 107 # Comments: 19"
+  },
+  {
    "source": "테크크런치 AI",
    "kind": "media",
    "lang": "en",
@@ -375,16 +385,6 @@
    "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nilay and David […]"
   },
   {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "How Akai and Moog are embracing vibe-coded mods",
-   "link": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
-   "published": "2026-11-06T16:34:39.000Z",
-   "summary": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings of, say, an MPC or Sample so that people c"
-  },
-  {
    "source": "아스테크니카 AI",
    "kind": "media",
    "lang": "en",
@@ -422,7 +422,7 @@
    "title": "University libraries are being swarmed by AI bots, putting public access at risk",
    "link": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
    "published": "2026-11-06T14:13:09.000Z",
-   "summary": "Article URL: https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287 Comments URL: https://news.ycombinator.com/item?id=50392499 Points: 130 # Comments: 59"
+   "summary": "Article URL: https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287 Comments URL: https://news.ycombinator.com/item?id=50392499 Points: 136 # Comments: 63"
   },
   {
    "source": "테크크런치 AI",
@@ -433,16 +433,6 @@
    "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
    "published": "2026-11-06T14:10:00.000Z",
    "summary": "Amazon said that the feature will roll out to millions of users in coming weeks."
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Amazon will let you text Alexa your shopping list",
-   "link": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
-   "published": "2026-11-06T14:00:00.000Z",
-   "summary": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listings, text back with re"
   },
   {
    "source": "테크크런치 AI",
@@ -463,276 +453,6 @@
    "link": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
    "published": "2026-11-06T13:00:00.000Z",
    "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online."
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Protesters break into Microsoft data center site in Amsterdam",
-   "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
-   "published": "2026-11-06T11:55:19.000Z",
-   "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the co"
-  },
-  {
-   "source": "MIT 테크놀로지 리뷰",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-   "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-   "published": "2026-11-06T10:00:00.000Z",
-   "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…"
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "미토스 등장 반년, 프론티어 AI의 보안 능력은 얼마나 발전했나",
-   "link": "https://byline.network/2026/11/6-474/",
-   "published": "2026-11-06T09:37:34.000Z",
-   "summary": "지난 4월 앤트로픽이 ‘클로드 미토스 프리뷰’를 공개했을 때, 보안업계는 놀랐다. AI가 소프트웨어 취약점을 찾아 실제 공격 코드까지 만들었기 때문이다. 반년이 지난 지금, 오픈AI·앤트로픽·구글 등 AI 기업들은 취약점 발견과 공격 검증 능력을 높인 프론티어 모델을 앞다퉈 공개하고 있다. 최근에는 AI가 취약점을 수정하는 패치까지 작성하는 단계에 도달했다."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "지정호 토스 CISO “보안 조직, 기업 AX 가능케 해야”",
-   "link": "https://byline.network/2026/11/6-467/",
-   "published": "2026-11-06T08:01:47.000Z",
-   "summary": "“토스의 모든 보안 조직은 기업의 AX를 막는 조직에서 가능하게 하는 조직으로 일하려고 노력하고 있습니다.” 지정호 토스 정보보호최고책임자(CISO)는 6일 서울 삼성동 코엑스에서 열린 보안 콘퍼런스 ‘토스 가디언즈 26’ 기조연설에서 이렇게 말했다. 그는 “기업의 인공지능 전환(AX)이 빨라지는 만큼, 이제 보안 조직도 새로운 기술을 차단하는 방식에서 벗어나 안전한 활용을 지원하는 방식으로 업무 체계를 바꿔야 한다”고 강조했다."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "기업 AI, 만들고 쓰고 지킨다…아이티센 ‘에이전트고’",
-   "link": "https://byline.network/2026/11/1106-11/",
-   "published": "2026-11-06T07:59:33.000Z",
-   "summary": "아이티센그룹이 AI 에이전트 구축부터 운영, 보안까지 통합 관리하는 플랫폼 ‘에이전트고 2026’을 선보였다. 독립형 보안 플랫폼 ‘에이전트고 가드’로 섀도우 AI와 데이터 유출 위험에 대응하고, 자체 개발한 AI 비서 ‘세니 3.0’을 통해 그룹 내 업무 효율을 높였다. 향후 기업의 업무 경험과 암묵지를 AI 에이전트에 반영해 맞춤형 업무 자동화를 고도화할 계획이다."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "사규는 AI가 찾고 미국 증시는 AI가 요약한다…하나증권의 AI 실험",
-   "link": "https://byline.network/2026/11/1105-14/",
-   "published": "2026-11-06T06:59:40.000Z",
-   "summary": "하나증권이 인공지능(AI)을 활용한 사내 업무 효율화와 고객 서비스 확대에 나선다. 올해 AI 플랫폼을 구축하고 사규·법령 관련 질문에 답하는 AI 에이전트를 개발해 임직원 업무에 적용했다. 고객 서비스에서는 신규 모바일트레이딩시스템(MTS) ‘하나증권V’를 통해 AI 기반 투자정보 분석과 종목 추천 기능을 선보였다. 퇴직연금 분야에서도 AI 기반 초개인화 서비스를 강화하며 자산관리 영역으로 AI 활용 범위를 넓히고 있다."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-   "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-   "published": "2026-11-06T06:28:32.000Z",
-   "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "I struggle to believe that AI R&D is ingenious",
-   "link": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
-   "published": "2026-11-06T05:19:04.000Z",
-   "summary": "Article URL: https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL Comments URL: https://news.ycombinator.com/item?id=50388513 Points: 203 # Comments: 200"
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "OpenAI is stepping back from NDAs for data center projects",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-   "published": "2026-11-06T00:37:56.000Z",
-   "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have"
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-   "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-   "published": "2026-11-05T23:09:57.000Z",
-   "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html Comments URL: https://news.ycombinator.com/item?id=50385870 Points: 509 # Comments: 224"
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-   "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-   "published": "2026-11-05T22:40:55.000Z",
-   "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay."
-  },
-  {
-   "source": "아스테크니카 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
-   "link": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
-   "published": "2026-11-05T21:40:36.000Z",
-   "summary": "Google is technically offering schools more choice but not the choices anyone wants."
-  },
-  {
-   "source": "아스테크니카 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
-   "link": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
-   "published": "2026-11-05T21:39:40.000Z",
-   "summary": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says."
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
-   "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
-   "published": "2026-11-05T21:37:18.000Z",
-   "summary": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "AI 에이전트 제휴사 늘리지 못하던 카카오의 해법은?",
-   "link": "https://byline.network/2026/11/05_398172-2/",
-   "published": "2026-11-05T20:49:33.000Z",
-   "summary": "카카오가 인공지능(AI) 서비스 확산 속도가 시장 기대에 미치지 못했다고 인정했다. 카카오톡을 중심으로 에이전틱 AI 사업을 추진하고 있지만, 실제 외부 서비스를 연결하는 과정에서 예상보다 많은 어려움을 확인했다. 이에 카카오는 카카오톡 AI 에이전트가 이용할 수 있는 외부 서비스를 빠르게 늘리기 위해 연동 전략을 바꾸기로 했다. 기존에는 외부 기업과 시스템을 직접 연결하는 방식을 우선 추진했다면, 앞으로는 AI가 사람처럼 직접 화면을 탐색하고 버튼을 누르는 ‘컴퓨터 사용 에이전트(CUA)’ 방식도 병행하기로 했다."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Meta says US users can now video chat with their Muse AI avatar",
-   "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-   "published": "2026-11-05T19:48:28.000Z",
-   "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-   "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-   "published": "2026-11-05T19:12:39.000Z",
-   "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "OpenAI released a new cybersecurity model. Is that enough?",
-   "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-   "published": "2026-11-05T19:06:12.000Z",
-   "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-   "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-   "published": "2026-11-05T18:02:27.000Z",
-   "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
-   "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
-   "published": "2026-11-05T18:00:01.000Z",
-   "summary": "Article URL: https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026 Comments URL: https://news.ycombinator.com/item?id=50382179 Points: 163 # Comments: 191"
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Claude can now analyze your spending with its new Personal Finance tool",
-   "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-   "published": "2026-11-05T18:00:00.000Z",
-   "summary": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances."
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’",
-   "link": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
-   "published": "2026-11-05T16:26:57.000Z",
-   "summary": "Alexis Ohanian is trying to figure out what’s next for user-generated content now that so much of the internet is “compromised.”"
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Axiom Math wants to keep AI slop out of mathematics",
-   "link": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
-   "published": "2026-11-05T16:16:45.000Z",
-   "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-   "link": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-   "published": "2026-11-05T15:19:05.000Z",
-   "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
-   "link": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-   "published": "2026-11-05T14:42:00.000Z",
-   "summary": "Aina's ring can also take calls and help you dictate notes on your Mac."
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
-   "link": "https://www.wired.com/story/aina-smart-ring/",
-   "published": "2026-11-05T14:00:00.000Z",
-   "summary": "The startup Aina bets you won’t need to rely on your phone to control virtual assistants. It’s making a smart ring that lets you control the actions of your autonomous agents with one tap."
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Finding New Drugs Is Laborious. This AI Startup Is Skipping The Lab Work",
-   "link": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work/",
-   "published": "2026-11-05T13:00:00.000Z",
-   "summary": "Potential Sciences, a startup backed by the UK government, is betting that training AI models on computer-generated biochemical data can speed up the plodding process of developing new drugs."
   }
  ]
 }
