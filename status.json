@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T12:24:01.830Z",
+ "updated": "2026-11-08T12:27:26.765Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -122,7 +122,125 @@
  },
  "tomorrow": {
   "date": "2026-11-09",
-  "posts": [],
+  "posts": [
+   {
+    "id": "2026-11-09-0740-briefing",
+    "at": "2026-11-09T07:38:00+09:00",
+    "format": "briefing",
+    "type": "carousel",
+    "hook": "과학자들이 AI에 가장 많이 시킨 일은 '데이터 분석'이었어요. 최근 AI 소식 3가지 정리했어요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-09-0740-briefing/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-09-0740-briefing/02.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-09-0740-briefing/03.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-09-0740-briefing/04.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-09-0740-briefing/05.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://www.aitimes.com/news/articleView.html?idxno=217147",
+     "https://www.etnews.com/20261108000094",
+     "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+    ],
+    "topic": "AI Threads",
+    "parts": [
+     "과학자들이 AI에 가장 많이 시킨 일은 '데이터 분석'이었어요.\n\n최근 AI 소식 3가지 정리했어요.\n① 앤트로픽, 과학자의 클로드 사용 분석\n② TSMC, 메모리 진출설에 \"파운드리 집중\"\n③ 메타 뮤즈, 프로젝트별 '스페이스' 공개\n\n매일 아침 AI 소식 3가지씩 정리해요.\n가장 궁금한 건 어느 쪽인가요?",
+     "출처: AI타임스 https://www.aitimes.com/news/articleView.html?idxno=217147\n전자신문 https://www.etnews.com/20261108000094\n테크크런치 https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Morning Brief",
+      "title": "최근 AI 소식\n==3가지==",
+      "sub": "과학자 AI · TSMC · 메타 뮤즈"
+     },
+     {
+      "kind": "text",
+      "label": "소식 1",
+      "title": "과학자가 AI에 시키는 일",
+      "body": "앤트로픽이 과학 연구 세션 **20만 건**을 분석했어요.\n1위는 데이터 분석 **33.7%**,\n가설 생성은 **4.2%**였어요.",
+      "photoFrom": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "photoCredit": "Anthropic"
+     },
+     {
+      "kind": "text",
+      "label": "소식 2",
+      "title": "TSMC, 메모리 진출설",
+      "body": "한 외신이 엔비디아 요청으로 3D D램을 검토 중이라고 보도했어요.\nTSMC는 **파운드리 집중**이라고 밝혔어요.",
+      "commons": "File:TSMC Fab5.JPG"
+     },
+     {
+      "kind": "text",
+      "label": "소식 3",
+      "title": "메타 뮤즈, 스페이스",
+      "body": "주제별 작업 공간 **스페이스**가 생겼어요.\n여행 계획이나 선물 트래커를\n채팅으로 만들 수 있어요.",
+      "shot": {
+       "url": "https://about.fb.com/news/",
+       "credit": "about.fb.com"
+      }
+     }
+    ],
+    "photoFrom": null
+   },
+   {
+    "id": "2026-11-09-1137-howto",
+    "at": "2026-11-09T11:37:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "월요일 아침, 할 일이 뒤죽박죽이신가요? 머릿속 할 일을 그대로 쏟아내고",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-09-1137-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-09-1137-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "월요일 아침, 할 일이 뒤죽박죽이신가요?\n\n머릿속 할 일을 그대로 쏟아내고\nAI한테 우선순위만 매기게 하세요.\n\n\"오늘 할 것\"과 \"미뤄도 되는 것\"이\n5분 만에 갈려요.\n저장해 두고 써 보세요.",
+     "복붙용 프롬프트 👇\n\n아래는 이번 주 내 할 일이야. 정리해 줘.\n- 오늘 꼭 할 것 3개 (이유 한 줄)\n- 이번 주 안에 할 것\n- 미뤄도 되는 것 / 남에게 넘길 수 있는 것\n- 마감이 있는 건 날짜순으로 따로\n\n(여기에 할 일 막 적기)\n\n※ 회사 기밀·개인정보는 지우고 넣어요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Copy Prompt",
+      "title": "이번 주 할 일\n==우선순위==부터",
+      "sub": "챗GPT·클로드·제미나이 어디서나"
+     },
+     {
+      "kind": "list",
+      "label": "복붙 프롬프트",
+      "title": "이렇게 시켜요",
+      "items": [
+       {
+        "h": "할 일을 막 적어서 붙여넣기",
+        "d": "순서·형식 신경 쓰지 않아요"
+       },
+       {
+        "h": "오늘 꼭 할 것 3개 받기",
+        "d": "이유 한 줄까지"
+       },
+       {
+        "h": "미룰 것·넘길 것 나누기",
+        "d": "부담이 확 줄어요"
+       },
+       {
+        "h": "마감은 날짜순 정리",
+        "d": "놓치는 일이 없어요"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   }
+  ],
   "reels": []
  },
  "comments": {
@@ -298,15 +416,28 @@
   },
   {
    "date": "2026-11-09",
-   "total": 0,
+   "total": 2,
    "ok": 0,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
+   "scheduled": 2,
+   "needCards": 2,
+   "cardsReady": 2,
+   "times": [
+    {
+     "at": "2026-11-09T07:38:00+09:00",
+     "format": "briefing",
+     "status": "scheduled",
+     "cards": 5
+    },
+    {
+     "at": "2026-11-09T11:37:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    }
+   ],
    "reels": []
   }
  ],
