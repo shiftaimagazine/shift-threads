@@ -1,7 +1,37 @@
 {
- "updated": "2026-11-08T21:12:57.394Z",
+ "updated": "2026-11-09T21:26:40.706Z",
  "followers": 76,
  "posts": [
+  {
+   "at": "2026-11-09T03:36:20+0000",
+   "id": "2026-11-09-1137-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "월요일 아침, 할 일이 뒤죽박죽이신가요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfgYUZslZUM",
+   "views": 135,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 22
+  },
+  {
+   "at": "2026-11-08T23:16:17+0000",
+   "id": "2026-11-09-0740-briefing",
+   "format": "briefing",
+   "type": "carousel",
+   "hook": "과학자들이 AI에 가장 많이 시킨 일은 '데이터 분석'이었어요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Dff6jkjDxNO",
+   "views": 24,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 125
+  },
   {
    "at": "2026-11-08T03:33:22+0000",
    "id": "2026-11-08-1140-howto",
@@ -9,13 +39,13 @@
    "type": "carousel",
    "hook": "계약서·약관, 끝까지 읽고 서명하셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfdzLzkDVmq",
-   "views": 26,
+   "views": 30,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 115
+   "score": 100
   },
   {
    "at": "2026-11-07T03:29:26+0000",
@@ -234,7 +264,7 @@
    "type": "carousel",
    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7",
-   "views": 457,
+   "views": 458,
    "likes": 1,
    "replies": 4,
    "reposts": 0,
@@ -369,13 +399,13 @@
    "type": "VIDEO",
    "hook": "ChatGPT 새 모델, 뭐가 바뀌었을까요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfCGXIGlgsI",
-   "views": 27,
+   "views": 28,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 111
+   "score": 107
   },
   {
    "at": "2026-10-28T09:20:57+0000",
@@ -429,13 +459,13 @@
    "type": "VIDEO",
    "hook": "기자 3명이 전부 AI? 언론사에 기사 제안하는 AI가 나왔어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBqSIQjB1n",
-   "views": 19,
+   "views": 20,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 211
+   "score": 200
   },
   {
    "at": "2026-10-28T03:23:10+0000",
@@ -444,13 +474,13 @@
    "type": "carousel",
    "hook": "AI 답, 믿어도 되는지 헷갈리죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfBdRciG3m8",
-   "views": 42,
+   "views": 50,
    "likes": 1,
    "replies": 0,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 24
+   "score": 20
   },
   {
    "at": "2026-10-28T01:33:35+0000",
@@ -571,36 +601,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 71
-  },
-  {
-   "at": "2026-10-27T00:08:26+0000",
-   "id": "2026-10-27-0740-briefing",
-   "format": "briefing",
-   "type": "carousel",
-   "hook": "금융사 망분리, AI 보안 갖추면 풀어 준대요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De-iMTxCSF6",
-   "views": 187,
-   "likes": 1,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 21
-  },
-  {
-   "at": "2026-10-26T12:44:27+0000",
-   "id": "2026-10-26-2140-compare",
-   "format": "compare",
-   "type": "carousel",
-   "hook": "앱 안 깔고 문자로 부리는 AI 비서,",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/De9T6mYEUAI",
-   "views": 16,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 188
   }
  ]
 }

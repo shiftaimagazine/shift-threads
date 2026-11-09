@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T20:31:45.261Z",
+ "updated": "2026-11-09T21:26:40.750Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -61,6 +61,10 @@
   },
   {
    "date": "2026-11-09",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-10",
    "followers": 76
   }
  ],
@@ -398,6 +402,15 @@
    "at": "2026-11-06T23:22:10+0000"
   },
   {
+   "hook": "월요일 아침, 할 일이 뒤죽박죽이신가요?",
+   "views": 135,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfgYUZslZUM",
+   "at": "2026-11-09T03:36:20+0000"
+  },
+  {
    "hook": "회의 메모, 정리하다 30분 쓰셨죠?",
    "views": 131,
    "likes": 1,
@@ -414,15 +427,6 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfQebnYGZkd",
    "at": "2026-11-02T23:21:54+0000"
-  },
-  {
-   "hook": "엑셀 수식, 검색하다 30분 날리셨죠?",
-   "views": 75,
-   "likes": 1,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfWEyE0EdnX",
-   "at": "2026-11-05T03:33:13+0000"
   }
  ]
 }
