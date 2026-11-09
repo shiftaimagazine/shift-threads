@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T12:40:26.430Z",
+ "updated": "2026-11-09T12:43:49.127Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -230,8 +230,10 @@
       "label": "소식 1",
       "title": "오픈AI 110억 달러 추가",
       "body": "블룸버그 보도로는 몸값 **1.25조 달러**\n라운드예요.\n아직 마무리 전이고 몇 주 안에\n끝날 전망이에요.",
-      "photoFrom": "https://openai.com/",
-      "photoCredit": "OpenAI"
+      "shot": {
+       "url": "https://openai.com/news/",
+       "credit": "openai.com"
+      }
      },
      {
       "kind": "text",
@@ -248,8 +250,10 @@
       "label": "소식 3",
       "title": "알렉사에 문자로 쇼핑",
       "body": "아마존이 알렉사 AI에게 문자로\n검색·장바구니·구매를 시키는\n기능을 공개했어요.\n미국 일부 고객부터 시작이에요.",
-      "photoFrom": "https://www.aboutamazon.com/news",
-      "photoCredit": "Amazon"
+      "shot": {
+       "url": "https://www.aboutamazon.com/news/retail",
+       "credit": "aboutamazon.com"
+      }
      }
     ],
     "photoFrom": null
