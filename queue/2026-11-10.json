@@ -5,21 +5,56 @@
   "format": "briefing",
   "type": "carousel",
   "topic": "AI Threads",
-  "shot": {"url": "https://openai.com/", "credit": "openai.com"},
+  "shot": {
+   "url": "https://www.aboutamazon.com/news/devices",
+   "credit": "aboutamazon.com"
+  },
   "parts": [
-    "오픈AI 몸값이 1.25조 달러로 거론돼요.\n\n어제 나온 AI 소식 3가지 정리했어요.\n① 오픈AI, 110억 달러 추가 조달 보도\n② 램프 데이터: AI 지출 증가세 둔화\n③ 아마존, 알렉사에 문자로 쇼핑 시키기\n\n매일 아침 AI 소식 3가지씩 정리해요.\n가장 궁금한 건 어느 쪽인가요?",
-    "출처: 테크크런치 https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/\nhttps://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/\nhttps://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
+   "오픈AI 몸값이 1.25조 달러로 거론돼요.\n\n어제 나온 AI 소식 3가지 정리했어요.\n① 오픈AI, 110억 달러 추가 조달 보도\n② 램프 데이터: AI 지출 증가세 둔화\n③ 아마존, 알렉사에 문자로 쇼핑 시키기\n\n매일 아침 AI 소식 3가지씩 정리해요.\n가장 궁금한 건 어느 쪽인가요?",
+   "출처: 테크크런치 https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/\nhttps://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/\nhttps://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
   ],
   "slides": [
-    {"kind": "cover", "tag": "Morning Brief", "title": "어제 AI 소식\n==3가지==", "sub": "오픈AI 투자 · AI 지출 · 알렉사 쇼핑"},
-    {"kind": "text", "label": "소식 1", "title": "오픈AI 110억 달러 추가", "body": "블룸버그 보도로는 몸값 **1.25조 달러**\n라운드예요.\n아직 마무리 전이고 몇 주 안에\n끝날 전망이에요.", "photoFrom": "https://openai.com/", "photoCredit": "OpenAI"},
-    {"kind": "text", "label": "소식 2", "title": "AI 지출, 증가세 둔화", "body": "램프 데이터로 토큰 지출은\n8~9월 **1.5%** 증가에 그쳤어요.\n7월엔 **42%** 늘었는데,\n10월엔 다시 **8.9%** 늘었어요.", "shot": {"url": "https://ramp.com/", "credit": "ramp.com"}},
-    {"kind": "text", "label": "소식 3", "title": "알렉사에 문자로 쇼핑", "body": "아마존이 알렉사 AI에게 문자로\n검색·장바구니·구매를 시키는\n기능을 공개했어요.\n미국 일부 고객부터 시작이에요.", "photoFrom": "https://www.aboutamazon.com/news", "photoCredit": "Amazon"}
+   {
+    "kind": "cover",
+    "tag": "Morning Brief",
+    "title": "어제 AI 소식\n==3가지==",
+    "sub": "오픈AI 투자 · AI 지출 · 알렉사 쇼핑"
+   },
+   {
+    "kind": "text",
+    "label": "소식 1",
+    "title": "오픈AI 110억 달러 추가",
+    "body": "블룸버그 보도로는 몸값 **1.25조 달러**\n라운드예요.\n아직 마무리 전이고 몇 주 안에\n끝날 전망이에요.",
+    "shot": {
+     "url": "https://openai.com/news/",
+     "credit": "openai.com"
+    }
+   },
+   {
+    "kind": "text",
+    "label": "소식 2",
+    "title": "AI 지출, 증가세 둔화",
+    "body": "램프 데이터로 토큰 지출은\n8~9월 **1.5%** 증가에 그쳤어요.\n7월엔 **42%** 늘었는데,\n10월엔 다시 **8.9%** 늘었어요.",
+    "shot": {
+     "url": "https://ramp.com/",
+     "credit": "ramp.com"
+    }
+   },
+   {
+    "kind": "text",
+    "label": "소식 3",
+    "title": "알렉사에 문자로 쇼핑",
+    "body": "아마존이 알렉사 AI에게 문자로\n검색·장바구니·구매를 시키는\n기능을 공개했어요.\n미국 일부 고객부터 시작이에요.",
+    "shot": {
+     "url": "https://www.aboutamazon.com/news/retail",
+     "credit": "aboutamazon.com"
+    }
+   }
   ],
   "sources": [
-    "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-    "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-    "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
+   "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+   "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
   ]
  },
  {
@@ -30,17 +65,39 @@
   "topic": "AI Threads",
   "commons": "File:QWERTY keyboard.jpg",
   "parts": [
-    "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?\n\n고객 이름·전화번호가 든 파일은\n그대로 올리지 말고, 가리는 방법만 AI에게 물어보세요.\n데이터는 안 보내도 수식은 받아요.\n\n저장해 두고 써 보세요.",
-    "복붙용 프롬프트 👇\n\n엑셀 B열에 이름, C열에 전화번호가 있어.\n원본은 그대로 두고 새 열에\n- 이름은 '고객1, 고객2…'로\n- 전화번호는 뒤 4자리만 남기고 *로\n바꾸는 수식을 알려줘.\n\n※ 실제 데이터는 붙이지 않아요. 회사 보안 규정도 먼저 확인하세요."
+   "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?\n\n고객 이름·전화번호가 든 파일은\n그대로 올리지 말고, 가리는 방법만 AI에게 물어보세요.\n데이터는 안 보내도 수식은 받아요.\n\n저장해 두고 써 보세요.",
+   "복붙용 프롬프트 👇\n\n엑셀 B열에 이름, C열에 전화번호가 있어.\n원본은 그대로 두고 새 열에\n- 이름은 '고객1, 고객2…'로\n- 전화번호는 뒤 4자리만 남기고 *로\n바꾸는 수식을 알려줘.\n\n※ 실제 데이터는 붙이지 않아요. 회사 보안 규정도 먼저 확인하세요."
   ],
   "slides": [
-    {"kind": "cover", "tag": "Copy Prompt", "title": "AI에 올리기 전\n==이름부터== 가리기", "sub": "데이터 없이 수식만 받는 법"},
-    {"kind": "list", "label": "복붙 프롬프트", "title": "이렇게 시켜요", "items": [
-      {"h": "열 위치와 가릴 항목만 설명", "d": "실제 값은 붙이지 않아요"},
-      {"h": "새 열에 가린 값 만들기", "d": "원본은 그대로 남겨요"},
-      {"h": "가린 열만 복사해 AI에 올리기", "d": "붙여넣기는 값으로"},
-      {"h": "회사 보안 규정 먼저 확인", "d": "허용 범위가 다를 수 있어요"}
-    ]}
+   {
+    "kind": "cover",
+    "tag": "Copy Prompt",
+    "title": "AI에 올리기 전\n==이름부터== 가리기",
+    "sub": "데이터 없이 수식만 받는 법"
+   },
+   {
+    "kind": "list",
+    "label": "복붙 프롬프트",
+    "title": "이렇게 시켜요",
+    "items": [
+     {
+      "h": "열 위치와 가릴 항목만 설명",
+      "d": "실제 값은 붙이지 않아요"
+     },
+     {
+      "h": "새 열에 가린 값 만들기",
+      "d": "원본은 그대로 남겨요"
+     },
+     {
+      "h": "가린 열만 복사해 AI에 올리기",
+      "d": "붙여넣기는 값으로"
+     },
+     {
+      "h": "회사 보안 규정 먼저 확인",
+      "d": "허용 범위가 다를 수 있어요"
+     }
+    ]
+   }
   ],
   "sources": []
  }
