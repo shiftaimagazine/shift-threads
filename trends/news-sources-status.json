@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T12:41:16.675Z",
+ "updated": "2026-11-10T12:36:55.208Z",
  "sources": [
   {
    "name": "AI타임스",
@@ -22,7 +22,7 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 100,
-   "fresh": 0,
+   "fresh": 1,
    "note": ""
   },
   {
@@ -30,7 +30,7 @@
    "url": "https://research.google/blog/rss/",
    "ok": true,
    "items": 100,
-   "fresh": 0,
+   "fresh": 1,
    "note": ""
   },
   {
@@ -38,7 +38,7 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 900,
-   "fresh": 1,
+   "fresh": 2,
    "note": ""
   },
   {
@@ -62,7 +62,7 @@
    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
    "ok": true,
    "items": 10,
-   "fresh": 0,
+   "fresh": 3,
    "note": ""
   },
   {
@@ -77,8 +77,8 @@
    "name": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1368,
-   "fresh": 0,
+   "items": 1374,
+   "fresh": 6,
    "note": ""
   },
   {
@@ -86,7 +86,7 @@
    "url": "https://news.hada.io/rss/news",
    "ok": true,
    "items": 20,
-   "fresh": 5,
+   "fresh": 12,
    "note": ""
   },
   {
@@ -94,7 +94,7 @@
    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
    "ok": true,
    "items": 10,
-   "fresh": 7,
+   "fresh": 10,
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "url": "https://byline.network/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 3,
+   "fresh": 10,
    "note": ""
   },
   {
@@ -118,7 +118,7 @@
    "url": "https://arstechnica.com/ai/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 0,
+   "fresh": 3,
    "note": ""
   },
   {
@@ -126,23 +126,23 @@
    "url": "https://www.wired.com/feed/tag/ai/latest/rss",
    "ok": true,
    "items": 10,
-   "fresh": 4,
+   "fresh": 8,
    "note": ""
   },
   {
    "name": "전자신문 SW·AI",
    "url": "https://rss.etnews.com/Section902.xml",
-   "ok": true,
-   "items": 30,
-   "fresh": 13,
-   "note": ""
+   "ok": false,
+   "items": 0,
+   "fresh": 0,
+   "note": "fetch failed"
   },
   {
    "name": "테크크런치 AI",
    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 4,
+   "fresh": 14,
    "note": ""
   },
   {
@@ -150,7 +150,7 @@
    "url": "https://hnrss.org/newest?q=AI&points=100",
    "ok": true,
    "items": 20,
-   "fresh": 3,
+   "fresh": 5,
    "note": ""
   }
  ]
