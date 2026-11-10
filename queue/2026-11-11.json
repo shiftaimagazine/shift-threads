@@ -1,0 +1,95 @@
+[
+ {
+  "id": "2026-11-11-0734-howto",
+  "at": "2026-11-11T07:34:00+09:00",
+  "format": "howto",
+  "type": "carousel",
+  "topic": "AI Threads",
+  "photoFrom": [
+   "https://github.com/GoogleChromeLabs/squoosh"
+  ],
+  "photoCredit": "Google Chrome Labs",
+  "parts": [
+   "메일 첨부가 커서 튕겼던 적 있으세요?\n\n사진·스크린샷은 용량부터 줄이세요.\nSquoosh는 구글 크롬 팀이 공개한 도구예요.\n브라우저에서 이미지를 끌어다 놓고\n품질 바를 조절하면 끝이에요.\n\n저장해 두고 써 보세요.",
+   "순서 👇\n1. 이미지를 화면에 끌어다 놓기\n2. 오른쪽에서 형식 고르기 (사진은 JPEG)\n3. 품질 바를 내리며 왼쪽 원본과 비교\n4. 용량이 줄면 다운로드\n\n※ 중요한 원본은 따로 보관해 두세요.\n출처: Google Chrome Labs https://github.com/GoogleChromeLabs/squoosh"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "Free Tool",
+    "title": "메일 첨부\n==용량 줄이기==",
+    "sub": "Squoosh로 이미지 다이어트"
+   },
+   {
+    "kind": "list",
+    "label": "따라 하기",
+    "title": "4단계면 끝나요",
+    "items": [
+     {
+      "h": "이미지를 끌어다 놓기",
+      "d": "사진·스크린샷 모두 가능"
+     },
+     {
+      "h": "오른쪽에서 형식 고르기",
+      "d": "사진은 JPEG가 무난해요"
+     },
+     {
+      "h": "품질 바 내리며 비교",
+      "d": "왼쪽 원본과 눈으로 확인"
+     },
+     {
+      "h": "용량 줄면 다운로드",
+      "d": "원본은 따로 보관"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://github.com/GoogleChromeLabs/squoosh"
+  ]
+ },
+ {
+  "id": "2026-11-11-1136-howto",
+  "at": "2026-11-11T11:36:00+09:00",
+  "format": "howto",
+  "type": "carousel",
+  "topic": "AI Threads",
+  "commons": "File:QWERTY keyboard.jpg",
+  "parts": [
+   "거절 메일, 쓰다가 한 시간 지나셨나요?\n\n거절할 이유만 메모처럼 적고\nAI에게 \"정중하지만 분명하게\" 다듬게 하세요.\n\n세 가지 버전을 받아 하나 고르면 돼요.\n\n저장해 두고 써 보세요.",
+   "복붙용 프롬프트 👇\n\n아래 메일에 거절 답장을 써줘.\n- 상대: (거래처/동료/상사)\n- 거절 이유: (한 줄)\n- 대안: (있으면 한 줄)\n톤은 정중하지만 분명하게, 5문장 이내로\n짧은 버전·보통 버전·부드러운 버전 3개.\n\n※ 이름·금액 등 민감 정보는 빼고 붙이세요."
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "tag": "Copy Prompt",
+    "title": "거절 메일\n==3버전==으로 받기",
+    "sub": "이유만 적으면 AI가 다듬어요"
+   },
+   {
+    "kind": "list",
+    "label": "복붙 프롬프트",
+    "title": "이렇게 시켜요",
+    "items": [
+     {
+      "h": "상대와 거절 이유 한 줄",
+      "d": "길게 쓰지 않아도 돼요"
+     },
+     {
+      "h": "대안이 있으면 같이 적기",
+      "d": "관계가 부드러워져요"
+     },
+     {
+      "h": "톤과 길이 지정하기",
+      "d": "정중하지만 분명하게, 5문장"
+     },
+     {
+      "h": "3개 버전 중 하나 고르기",
+      "d": "보내기 전 한 번 더 읽기"
+     }
+    ]
+   }
+  ],
+  "sources": []
+ }
+]
