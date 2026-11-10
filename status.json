@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:22:28.906Z",
+ "updated": "2026-11-10T23:17:16.943Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -81,8 +81,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "메일 첨부가 커서 튕겼던 적 있으세요? 사진·스크린샷은 용량부터 줄이세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DflEOqCFMg1",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-11-0734-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-11-0734-howto/02.png"
@@ -376,18 +376,18 @@
   {
    "date": "2026-11-11",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-11T07:34:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
