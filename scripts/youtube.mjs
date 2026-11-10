@@ -14,7 +14,8 @@ const DRY = /^(1|true)$/.test(process.env.DRY_RUN || '');
 const FOLDER = process.env.DRIVE_FOLDER || '1WnuEK-eqTYdfi5BItoWKRqlO81oMxVaQ';   // SHIFT-autopilot
 const KEY = process.env.DRIVE_API_KEY;
 const MAX_PER_RUN = +(process.env.MAX_PER_RUN || 4);
-const FOOTER = '\n\n🔔 검색 말고 SHIFT — 오늘의 AI, 내 일에 쓰는 법까지. 구독해 두세요!\n#Shorts #AI #SHIFTAI';
+// 2026-11-10 사용자: 유튜브 설명은 릴스 캡션을 그대로 씀(따로 만든 끝 문구 없음)
+const FOOTER = '\n\n#Shorts #AI #SHIFTAI';
 const postedFile = path.join(ROOT, 'youtube', 'posted.json');
 const statusFile = path.join(ROOT, 'youtube', 'status.json');
 fs.mkdirSync(path.join(ROOT, 'youtube'), { recursive: true });
