@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T01:46:51.888Z",
+ "updated": "2026-11-10T02:35:35.672Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -141,8 +141,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요? 고객 이름·전화번호가 든 파일은",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-10-1134-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-10-1134-howto/02.png"
@@ -345,11 +345,11 @@
   {
    "date": "2026-11-10",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -362,7 +362,7 @@
     {
      "at": "2026-11-10T11:34:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
