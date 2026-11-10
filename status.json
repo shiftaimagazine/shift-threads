@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T20:27:58.724Z",
+ "updated": "2026-11-10T21:19:42.322Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -65,6 +65,10 @@
   },
   {
    "date": "2026-11-10",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-11",
    "followers": 76
   }
  ],
@@ -420,8 +424,17 @@
    "at": "2026-11-04T23:25:34+0000"
   },
   {
+   "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
+   "views": 164,
+   "likes": 1,
+   "replies": 2,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4",
+   "at": "2026-11-10T02:35:18+0000"
+  },
+  {
    "hook": "챗GPT가 이제 움직이는 GIF도 만들어 줘요.",
-   "views": 143,
+   "views": 145,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
@@ -430,7 +443,7 @@
   },
   {
    "hook": "월요일 아침, 할 일이 뒤죽박죽이신가요?",
-   "views": 135,
+   "views": 136,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -445,15 +458,6 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",
    "at": "2026-11-07T03:29:26+0000"
-  },
-  {
-   "hook": "엑셀 수식, 검색하다 30분 날리셨죠?",
-   "views": 75,
-   "likes": 1,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfWEyE0EdnX",
-   "at": "2026-11-05T03:33:13+0000"
   }
  ]
 }
