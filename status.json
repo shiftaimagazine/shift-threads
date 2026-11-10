@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T12:34:55.220Z",
+ "updated": "2026-11-10T12:40:00.217Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -311,9 +311,16 @@
   "reels": []
  },
  "comments": {
-  "pending": 0,
-  "items": [],
-  "updated": "2026-11-10T03:32:03.380Z"
+  "pending": 1,
+  "items": [
+   {
+    "user": "s2s2s2__sy",
+    "text": "가짜 예시 데이터로 수식 먼저 물어보는 방법도 있겠다!",
+    "at": "2026-11-10T03:41:49+0000",
+    "post": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4"
+   }
+  ],
+  "updated": "2026-11-10T12:40:00.159Z"
  },
  "replies": {
   "sent": [
