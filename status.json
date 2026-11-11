@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T02:29:55.646Z",
+ "updated": "2026-11-11T03:26:57.533Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -139,7 +139,7 @@
     "format": "howto",
     "type": "carousel",
     "hook": "거절 메일, 쓰다가 한 시간 지나셨나요? 거절할 이유만 메모처럼 적고",
-    "status": "scheduled",
+    "status": "waiting",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-11-1136-howto/01.png",
@@ -210,6 +210,10 @@
  "replies": {
   "sent": [
    {
+    "text": "맞아요, 가짜 예시 데이터로 수식부터 만들어 두면 실제 고객 파일은 올릴 필요가 없어요. 열 이름과 형식만 같게 만든 샘플이면 충분하더라고요.",
+    "at": "2026-11-11T03:26:49.482Z"
+   },
+   {
     "text": "안녕하세요, 반가워요! 오늘도 쓸 만한 AI 소식으로 찾아올게요.",
     "at": "2026-11-03T03:26:59.447Z"
    },
@@ -220,13 +224,9 @@
    {
     "text": "짚어 주셔서 고마워요. 맞아요, 유튜브는 자막 텍스트를 가져오는 방식이라 화면 속 표·그림은 빠져요. 슬라이드가 중요한 강의라면 강의 자료 PDF를 같이 올려 두면 빈 곳이 줄어요.",
     "at": "2026-11-03T03:26:20.398Z"
-   },
-   {
-    "text": "실습 강의엔 그게 진짜 유용하죠. 프롬프트 끝에 \"단계마다 영상 시작 시간도 같이 적어 줘\"를 붙여 보세요. 시간은 영상에서 한 번 눌러 확인해 두면 더 확실해요.",
-    "at": "2026-11-01T12:26:11.993Z"
    }
   ],
-  "total": 8
+  "total": 9
  },
  "days": [
   {
@@ -379,8 +379,8 @@
    "ok": 1,
    "failed": 0,
    "expired": 0,
-   "waiting": 0,
-   "scheduled": 1,
+   "waiting": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -393,7 +393,7 @@
     {
      "at": "2026-11-11T11:36:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "waiting",
      "cards": 2
     }
    ],
