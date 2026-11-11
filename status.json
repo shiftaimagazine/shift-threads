@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T22:35:59.801Z",
+ "updated": "2026-11-11T23:32:25.151Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -85,8 +85,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요? AI에게 \"내가 할 일\"만 뽑아 달라고 하세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-12-0738-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-12-0738-howto/02.png"
@@ -369,18 +369,18 @@
   {
    "date": "2026-11-12",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-12T07:38:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
@@ -407,15 +407,6 @@
   }
  ],
  "top": [
-  {
-   "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요.",
-   "views": 199,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfVocXpnQSI",
-   "at": "2026-11-04T23:25:34+0000"
-  },
   {
    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
    "views": 172,
@@ -451,6 +442,15 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",
    "at": "2026-11-07T03:29:26+0000"
+  },
+  {
+   "hook": "메일 첨부가 커서 튕겼던 적 있으세요?",
+   "views": 110,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 1,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DflEOqCFMg1",
+   "at": "2026-11-10T23:16:59+0000"
   }
  ]
 }
