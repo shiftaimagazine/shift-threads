@@ -1,0 +1,26 @@
+name: 채널 성과 장부
+on:
+  schedule:
+    - cron: '50 20 * * *'    # 매일 05:50 (한국) — 쓰레드 성과 수집(05:35) 뒤. 유튜브 두 채널 공개 수치 + 스레드 요약을 ledger/ 에 적는다
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: { group: ledger, cancel-in-progress: false }
+jobs:
+  ledger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 24 }
+      - run: node scripts/ledger.mjs
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "shift-threads-bot"; git config user.email "actions@users.noreply.github.com"
+          git add ledger; git diff --cached --quiet && exit 0
+          git commit -m "성과 장부"
+          for i in 1 2 3; do git pull --rebase && git push && break || sleep 7; done
