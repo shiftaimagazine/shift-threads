@@ -1,0 +1,619 @@
+{
+ "updated": "2026-11-11T01:59:23.745Z",
+ "date": "2026-11-11",
+ "channels": {
+  "ai": {
+   "key": "ai",
+   "name": "시프트 AI",
+   "id": "UCWzwTQoe0q2IdwZV6BuopVw",
+   "subs": 10,
+   "totalViews": 28145,
+   "videoCount": 44,
+   "videos": [
+    {
+     "id": "pziTj7bH1uo",
+     "title": "고객 번호 AI에 올리기 전 개인정보 가리기 🔒",
+     "at": "2026-11-11T00:00:29Z",
+     "date": "2026-11-11",
+     "sec": 23,
+     "views": 48,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "mtv-GhkQhik",
+     "title": "AI 보고서 숫자, 근거 없으면 지우게 시키는 한 줄 📝",
+     "at": "2026-11-08T09:00:07Z",
+     "date": "2026-11-08",
+     "sec": 37,
+     "views": 998,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "-aTJCZiNehQ",
+     "title": "셀카 한 장이 90년대 영화로 📸 Gemini 직접 해 봄",
+     "at": "2026-11-08T00:00:33Z",
+     "date": "2026-11-08",
+     "sec": 26,
+     "views": 166,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "wynZFGZ-1cw",
+     "title": "무료 중국 AI가 해킹 코드를 짠다 GLM-5.3 😨",
+     "at": "2026-11-07T09:00:10Z",
+     "date": "2026-11-07",
+     "sec": 38,
+     "views": 60,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "jknM-2ggtn0",
+     "title": "AI 답에서 인사말 빼는 스킬 하나 ✂️",
+     "at": "2026-11-07T00:00:17Z",
+     "date": "2026-11-07",
+     "sec": 43,
+     "views": 153,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "l2-SiGpkhFs",
+     "title": "Claude Code 마케팅 스킬 53개 한 줄 설치 📌",
+     "at": "2026-11-06T09:00:51Z",
+     "date": "2026-11-06",
+     "sec": 31,
+     "views": 159,
+     "likes": 3,
+     "comments": 0
+    },
+    {
+     "id": "RLIQRITqaOY",
+     "title": "포토샵 구독료 안 내는 법, Photopea 💸",
+     "at": "2026-11-06T00:00:06Z",
+     "date": "2026-11-06",
+     "sec": 32,
+     "views": 452,
+     "likes": 3,
+     "comments": 0
+    },
+    {
+     "id": "qYr6qCQrL4c",
+     "title": "Claude 무료로 엑셀 파일 만드는 설정 하나 📊",
+     "at": "2026-11-05T09:00:18Z",
+     "date": "2026-11-05",
+     "sec": 31,
+     "views": 794,
+     "likes": 6,
+     "comments": 0
+    },
+    {
+     "id": "3-FasOlJSY4",
+     "title": "AI로 누구나 게임 만든다? Konami 사장의 답 🎮",
+     "at": "2026-11-05T03:30:19Z",
+     "date": "2026-11-05",
+     "sec": 49,
+     "views": 178,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "xY6yvC1hPrU",
+     "title": "낫싱 화면 없는 AI 기기 예고 👀",
+     "at": "2026-11-05T00:00:16Z",
+     "date": "2026-11-05",
+     "sec": 32,
+     "views": 71,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "DL1hc-jZono",
+     "title": "엑셀 수식 검색 그만, Claude에 말로 주문 ✍️",
+     "at": "2026-11-04T09:00:22Z",
+     "date": "2026-11-04",
+     "sec": 27,
+     "views": 121,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "T6AKA_lKRoA",
+     "title": "\"기계와 합쳐라\" 머스크 발언, 원본 확인해 봤어요 🤖",
+     "at": "2026-11-04T03:30:09Z",
+     "date": "2026-11-04",
+     "sec": 44,
+     "views": 52,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "42nYgw7PLAM",
+     "title": "글 말고 그림으로, Archify 무료 도구 🖼️",
+     "at": "2026-11-04T00:00:13Z",
+     "date": "2026-11-04",
+     "sec": 34,
+     "views": 92,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "yua2zzSgUO0",
+     "title": "반려동물 AI 앱 400개에 숨은 딥페이크 기능 😨",
+     "at": "2026-11-03T09:00:38Z",
+     "date": "2026-11-03",
+     "sec": 40,
+     "views": 87,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "n7rfuXdY-Yc",
+     "title": "AI 4명이 27시간 만에 마인크래프트 엔딩 🐉",
+     "at": "2026-11-03T03:30:06Z",
+     "date": "2026-11-03",
+     "sec": 54,
+     "views": 111,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "OQCXzXyxRfY",
+     "title": "GPT-6.1 Terra 값은 절반, 점수는 2배 🚀",
+     "at": "2026-11-03T00:00:07Z",
+     "date": "2026-11-03",
+     "sec": 26,
+     "views": 1071,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "X_tNmaTvN4g",
+     "title": "중국 AI Kimi K3.1 Pro, Claude와 0.7점 차 👀",
+     "at": "2026-11-02T09:00:28Z",
+     "date": "2026-11-02",
+     "sec": 43,
+     "views": 558,
+     "likes": 2,
+     "comments": 1
+    },
+    {
+     "id": "FZKnVzq8Yjc",
+     "title": "WhatsApp 도움말 속 AI만 읽는 숨은 글 102개 👀",
+     "at": "2026-11-02T03:30:11Z",
+     "date": "2026-11-02",
+     "sec": 40,
+     "views": 254,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "NBmuSP47tuI",
+     "title": "Claude Code가 게임 복제를 막았다 🎮",
+     "at": "2026-11-02T00:00:38Z",
+     "date": "2026-11-02",
+     "sec": 38,
+     "views": 1261,
+     "likes": 7,
+     "comments": 2
+    },
+    {
+     "id": "UZRJMJfe6Bc",
+     "title": "이번 주 AI 딱 3개, 악성 Claude Code까지 👀",
+     "at": "2026-11-01T09:00:30Z",
+     "date": "2026-11-01",
+     "sec": 40,
+     "views": 953,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "VBuzzmptr2E",
+     "title": "이게 되네? Kling 4.0 감독 꿀팁 3개 🎬",
+     "at": "2026-11-01T03:30:12Z",
+     "date": "2026-11-01",
+     "sec": 18,
+     "views": 250,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "-SLWX9k_UCE",
+     "title": "회의 끝나면 Claude에 슬라이드 시키기 ⏱",
+     "at": "2026-11-01T01:00:08Z",
+     "date": "2026-11-01",
+     "sec": 43,
+     "views": 277,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "fQXfBnxG3Pg",
+     "title": "2020 미국 대선 승자 물으니 구글 AI 딴소리 🤔",
+     "at": "2026-10-31T09:00:23Z",
+     "date": "2026-10-31",
+     "sec": 36,
+     "views": 403,
+     "likes": 0,
+     "comments": 2
+    },
+    {
+     "id": "nrwBvz4bSmA",
+     "title": "수학 천재도 채점 포기, 버클리 AI 숙제 😮",
+     "at": "2026-10-31T03:30:15Z",
+     "date": "2026-10-31",
+     "sec": 20,
+     "views": 1175,
+     "likes": 2,
+     "comments": 0
+    },
+    {
+     "id": "UhlF6BJDatM",
+     "title": "교황이 AI를 무장 해제? 🙏 레오 14세 연설",
+     "at": "2026-10-31T00:00:28Z",
+     "date": "2026-10-31",
+     "sec": 41,
+     "views": 1227,
+     "likes": 5,
+     "comments": 0
+    },
+    {
+     "id": "PTsJpKJmIBQ",
+     "title": "OpenAI GPT-5.6 Sol, 시험 중 Hugging Face 해킹 😳",
+     "at": "2026-10-30T09:00:21Z",
+     "date": "2026-10-30",
+     "sec": 41,
+     "views": 1046,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "DOh-M1V9qns",
+     "title": "AI 에이전트 만들면 $50, 대학생 대외활동 🎓",
+     "at": "2026-10-30T03:30:06Z",
+     "date": "2026-10-30",
+     "sec": 44,
+     "views": 749,
+     "likes": 5,
+     "comments": 0
+    },
+    {
+     "id": "I2nPs5p41y8",
+     "title": "AI가 쓴 메일 티 안 나게 고치는 법 (Claude) ✉️",
+     "at": "2026-10-30T00:00:20Z",
+     "date": "2026-10-30",
+     "sec": 41,
+     "views": 1290,
+     "likes": 6,
+     "comments": 0
+    },
+    {
+     "id": "FMEQHXCh9jQ",
+     "title": "삼성·LG TV 속 AI Copilot, 곧 꺼집니다 📺",
+     "at": "2026-10-29T09:05:05Z",
+     "date": "2026-10-29",
+     "sec": 37,
+     "views": 785,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "3LlRQ2R_STE",
+     "title": "AI 비용 10분의 1, Claude Haiku 5.5 💸",
+     "at": "2026-10-29T03:30:05Z",
+     "date": "2026-10-29",
+     "sec": 50,
+     "views": 242,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "8EYIdVM5elM",
+     "title": "사진 한 장으로 AI 광고 영상 만들기 📸",
+     "at": "2026-10-29T00:03:37Z",
+     "date": "2026-10-29",
+     "sec": 42,
+     "views": 183,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "Cr6fFzxC3KU",
+     "title": "직접 만든 크롬 실시간 번역기 무료 배포 🎧 4개 국어 → 한국어 자막",
+     "at": "2026-10-29T00:00:08Z",
+     "date": "2026-10-29",
+     "sec": 25,
+     "views": 454,
+     "likes": 3,
+     "comments": 0
+    },
+    {
+     "id": "M-h2zYU_Ljo",
+     "title": "새 ChatGPT 모델 GPT-6.1 Terra, 뭐가 바뀌나 👀",
+     "at": "2026-10-28T09:00:17Z",
+     "date": "2026-10-28",
+     "sec": 38,
+     "views": 311,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "xYJ2lxGW8b0",
+     "title": "Claude Fable 5.5·GPT 신모델, 같은 주에 유출 👀",
+     "at": "2026-10-28T03:30:02Z",
+     "date": "2026-10-28",
+     "sec": 54,
+     "views": 643,
+     "likes": 3,
+     "comments": 0
+    },
+    {
+     "id": "XrHBiaU6N7A",
+     "title": "로봇 좀비 영화, 전부 AI가 찍었다 🧟",
+     "at": "2026-10-28T00:00:16Z",
+     "date": "2026-10-28",
+     "sec": 40,
+     "views": 1569,
+     "likes": 9,
+     "comments": 0
+    },
+    {
+     "id": "Wy2EgFjPxEM",
+     "title": "AI 사용료 최대 80% 인하, 오픈AI·클로드 다 내렸다 💸",
+     "at": "2026-10-27T09:00:12Z",
+     "date": "2026-10-27",
+     "sec": 24,
+     "views": 1182,
+     "likes": 3,
+     "comments": 0
+    },
+    {
+     "id": "-nDLdLU4b50",
+     "title": "경고해도 안 멈춘 AI, Claude Mythos 5 사건 😨",
+     "at": "2026-10-27T03:30:05Z",
+     "date": "2026-10-27",
+     "sec": 35,
+     "views": 1043,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "uxFx13_WLk4",
+     "title": "기자 3명이 전부 AI? 언론사에 기사 제안하는 AI 👀",
+     "at": "2026-10-27T00:00:26Z",
+     "date": "2026-10-27",
+     "sec": 22,
+     "views": 1188,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "p9nLR5KWaqI",
+     "title": "AI 포스터 글자 안 깨진다? Canva 첫 이미지 AI 🎨",
+     "at": "2026-10-26T11:30:39Z",
+     "date": "2026-10-26",
+     "sec": 34,
+     "views": 143,
+     "likes": 2,
+     "comments": 0
+    },
+    {
+     "id": "KBXpZ1h7rHc",
+     "title": "영상 편집 Claude가 했다? 따라 하는 3단계 🎬",
+     "at": "2026-10-26T09:00:17Z",
+     "date": "2026-10-26",
+     "sec": 20,
+     "views": 1612,
+     "likes": 6,
+     "comments": 0
+    },
+    {
+     "id": "YTIeq727oEw",
+     "title": "ChatGPT 무료인데 광고가? 89개국 확대 📢",
+     "at": "2026-10-26T03:30:06Z",
+     "date": "2026-10-26",
+     "sec": 37,
+     "views": 1291,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "id": "XaJiKU89CqY",
+     "title": "노래만 넣었더니 AI 뮤비 완성 Freebeat 🎬",
+     "at": "2026-10-26T01:00:34Z",
+     "date": "2026-10-26",
+     "sec": 19,
+     "views": 666,
+     "likes": 3,
+     "comments": 0
+    },
+    {
+     "id": "XKX5qaIUVog",
+     "title": "로판 여주가 드레스 입고 마라탕 먹는 AI 드라마 수준 😱",
+     "at": "2026-10-25T09:00:37Z",
+     "date": "2026-10-25",
+     "sec": 39,
+     "views": 1637,
+     "likes": 2,
+     "comments": 0
+    },
+    {
+     "id": "0EleftNHpds",
+     "title": "운전하며 Gemini한테 말로 물어요",
+     "at": "2026-10-25T01:00:24Z",
+     "date": "2026-10-25",
+     "sec": 38,
+     "views": 1295,
+     "likes": 4,
+     "comments": 0
+    }
+   ],
+   "summary": {
+    "settledN": 15,
+    "settledMedian": 153,
+    "beforeN": 22,
+    "beforeMedian": 767,
+    "uploads7": 10,
+    "lastDate": "2026-11-11",
+    "quietDays": 0
+   }
+  },
+  "play": {
+   "key": "play",
+   "name": "시프트 플레이",
+   "id": "UCjZ398yiclS8zPeJ-kbEWYg",
+   "subs": 0,
+   "totalViews": 3997,
+   "videoCount": 6,
+   "videos": [
+    {
+     "id": "aHeF91XM6-s",
+     "title": "동물의 숲 너굴 대출 다 갚으면… 최저시급 월급 약 6.6개월 🦝🏠",
+     "at": "2026-11-10T09:00:18Z",
+     "date": "2026-11-10",
+     "sec": 27,
+     "views": 834,
+     "likes": 2,
+     "comments": 0
+    },
+    {
+     "id": "2XWGe5bzrBg",
+     "title": "롤 스킨 1,999개 전부 사면… 최저시급 알바 11개월 💸",
+     "at": "2026-11-10T04:34:51Z",
+     "date": "2026-11-10",
+     "sec": 28,
+     "views": 1328,
+     "likes": 5,
+     "comments": 0
+    },
+    {
+     "id": "8Z-rdSo0rJA",
+     "title": "KTX 2시간 17분, 소닉은 20분? 서울→부산 음속으로 달리면 🦔💨",
+     "at": "2026-11-09T09:00:34Z",
+     "date": "2026-11-09",
+     "sec": 37,
+     "views": 542,
+     "likes": 4,
+     "comments": 0
+    },
+    {
+     "id": "PdJKcI1ioKg",
+     "title": "피카츄 100만 볼트 한 방, 전기요금 얼마? ⚡",
+     "at": "2026-11-09T03:00:21Z",
+     "date": "2026-11-09",
+     "sec": 29,
+     "views": 1380,
+     "likes": 5,
+     "comments": 0
+    },
+    {
+     "id": "40gxvKyAaN0",
+     "title": "강남역에서 크리퍼가 터지면 어떻게 될까? 💥🚇",
+     "at": "2026-11-08T10:02:42Z",
+     "date": "2026-11-08",
+     "sec": 34,
+     "views": 1325,
+     "likes": 6,
+     "comments": 0
+    },
+    {
+     "id": "EY3MbAxX_lA",
+     "title": "치이카와가 서울 아파트 사려면… 풀 뽑기 78년 🌿🏠",
+     "at": "2026-11-08T07:07:28Z",
+     "date": "2026-11-08",
+     "sec": 53,
+     "views": 1209,
+     "likes": 6,
+     "comments": 0
+    }
+   ],
+   "summary": {
+    "settledN": 4,
+    "settledMedian": 1267,
+    "beforeN": 0,
+    "beforeMedian": null,
+    "uploads7": 6,
+    "lastDate": "2026-11-10",
+    "quietDays": 1
+   }
+  }
+ },
+ "errors": [],
+ "threads": {
+  "followers": 76,
+  "updated": "2026-11-10T21:19:42.266Z",
+  "views7": 1004,
+  "posts7": 11,
+  "medianByFormat14": {
+   "howto": {
+    "n": 13,
+    "median": 131
+   },
+   "briefing": {
+    "n": 10,
+    "median": 57
+   },
+   "기타": {
+    "n": 5,
+    "median": 23
+   },
+   "compare": {
+    "n": 2,
+    "median": 89
+   },
+   "deep": {
+    "n": 2,
+    "median": 33
+   },
+   "question": {
+    "n": 2,
+    "median": 27
+   }
+  },
+  "tips": [
+   {
+    "id": "2026-11-02-1140-howto",
+    "date": "2026-11-02",
+    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
+    "views": 772,
+    "likes": 6,
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5"
+   },
+   {
+    "id": "2026-10-31-1140-howto",
+    "date": "2026-10-31",
+    "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
+    "views": 469,
+    "likes": 3,
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfJL9A7FT9a"
+   },
+   {
+    "id": "2026-10-30-1140-howto",
+    "date": "2026-10-30",
+    "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
+    "views": 458,
+    "likes": 1,
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7"
+   },
+   {
+    "id": "2026-10-29-1140-howto",
+    "date": "2026-10-29",
+    "hook": "회의 메모 → 할 일 표, 한 문장이면 돼요.",
+    "views": 223,
+    "likes": 0,
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfECY-_lFQP"
+   },
+   {
+    "id": "2026-11-10-1134-howto",
+    "date": "2026-11-10",
+    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
+    "views": 164,
+    "likes": 1,
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4"
+   }
+  ]
+ }
+}
