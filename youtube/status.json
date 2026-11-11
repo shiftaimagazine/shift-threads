@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-11T21:42:17+09:00",
- "message": "보류 2026-11-11 — 올리지 않음",
+ "updated": "2026-11-11T21:43:45+09:00",
+ "message": "올릴 쇼츠 없음",
  "limit": {
   "hit": false,
   "at": null,
@@ -8,11 +8,16 @@
  },
  "backlogLeft": 0,
  "via": "youtube-api",
- "items": [],
- "held": [
+ "items": [
   {
    "date": "2026-11-11",
-   "by": "youtube/hold.json"
+   "at": "2026-11-11T09:00:00+09:00",
+   "slot": "09:00",
+   "kind": "new",
+   "title": "고객 번호 AI에 올리기 전 개인정보 가리기 🔒",
+   "status": "scheduled",
+   "videoId": "pziTj7bH1uo",
+   "note": null
   }
  ]
 }
