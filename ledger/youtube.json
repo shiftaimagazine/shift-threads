@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-11T01:59:23.745Z",
- "date": "2026-11-11",
+ "updated": "2026-11-11T21:58:17.931Z",
+ "date": "2026-11-12",
  "channels": {
   "ai": {
    "key": "ai",
    "name": "시프트 AI",
    "id": "UCWzwTQoe0q2IdwZV6BuopVw",
    "subs": 10,
-   "totalViews": 28145,
+   "totalViews": 28404,
    "videoCount": 44,
    "videos": [
     {
@@ -16,7 +16,7 @@
      "at": "2026-11-11T00:00:29Z",
      "date": "2026-11-11",
      "sec": 23,
-     "views": 48,
+     "views": 97,
      "likes": 0,
      "comments": 0
     },
@@ -26,7 +26,7 @@
      "at": "2026-11-08T09:00:07Z",
      "date": "2026-11-08",
      "sec": 37,
-     "views": 998,
+     "views": 999,
      "likes": 1,
      "comments": 0
     },
@@ -36,7 +36,7 @@
      "at": "2026-11-08T00:00:33Z",
      "date": "2026-11-08",
      "sec": 26,
-     "views": 166,
+     "views": 168,
      "likes": 0,
      "comments": 0
     },
@@ -46,7 +46,7 @@
      "at": "2026-11-07T09:00:10Z",
      "date": "2026-11-07",
      "sec": 38,
-     "views": 60,
+     "views": 62,
      "likes": 1,
      "comments": 0
     },
@@ -56,7 +56,7 @@
      "at": "2026-11-07T00:00:17Z",
      "date": "2026-11-07",
      "sec": 43,
-     "views": 153,
+     "views": 154,
      "likes": 0,
      "comments": 0
     },
@@ -66,7 +66,7 @@
      "at": "2026-11-06T09:00:51Z",
      "date": "2026-11-06",
      "sec": 31,
-     "views": 159,
+     "views": 165,
      "likes": 3,
      "comments": 0
     },
@@ -76,7 +76,7 @@
      "at": "2026-11-06T00:00:06Z",
      "date": "2026-11-06",
      "sec": 32,
-     "views": 452,
+     "views": 454,
      "likes": 3,
      "comments": 0
     },
@@ -86,7 +86,7 @@
      "at": "2026-11-05T09:00:18Z",
      "date": "2026-11-05",
      "sec": 31,
-     "views": 794,
+     "views": 797,
      "likes": 6,
      "comments": 0
     },
@@ -96,7 +96,7 @@
      "at": "2026-11-05T03:30:19Z",
      "date": "2026-11-05",
      "sec": 49,
-     "views": 178,
+     "views": 188,
      "likes": 1,
      "comments": 0
     },
@@ -106,7 +106,7 @@
      "at": "2026-11-05T00:00:16Z",
      "date": "2026-11-05",
      "sec": 32,
-     "views": 71,
+     "views": 72,
      "likes": 0,
      "comments": 0
     },
@@ -176,7 +176,7 @@
      "at": "2026-11-02T09:00:28Z",
      "date": "2026-11-02",
      "sec": 43,
-     "views": 558,
+     "views": 559,
      "likes": 2,
      "comments": 1
     },
@@ -216,7 +216,7 @@
      "at": "2026-11-01T03:30:12Z",
      "date": "2026-11-01",
      "sec": 18,
-     "views": 250,
+     "views": 251,
      "likes": 1,
      "comments": 0
     },
@@ -246,7 +246,7 @@
      "at": "2026-10-31T03:30:15Z",
      "date": "2026-10-31",
      "sec": 20,
-     "views": 1175,
+     "views": 1178,
      "likes": 2,
      "comments": 0
     },
@@ -256,7 +256,7 @@
      "at": "2026-10-31T00:00:28Z",
      "date": "2026-10-31",
      "sec": 41,
-     "views": 1227,
+     "views": 1228,
      "likes": 5,
      "comments": 0
     },
@@ -276,7 +276,7 @@
      "at": "2026-10-30T03:30:06Z",
      "date": "2026-10-30",
      "sec": 44,
-     "views": 749,
+     "views": 750,
      "likes": 5,
      "comments": 0
     },
@@ -326,7 +326,7 @@
      "at": "2026-10-29T00:00:08Z",
      "date": "2026-10-29",
      "sec": 25,
-     "views": 454,
+     "views": 456,
      "likes": 3,
      "comments": 0
     },
@@ -336,7 +336,7 @@
      "at": "2026-10-28T09:00:17Z",
      "date": "2026-10-28",
      "sec": 38,
-     "views": 311,
+     "views": 316,
      "likes": 0,
      "comments": 0
     },
@@ -346,7 +346,7 @@
      "at": "2026-10-28T03:30:02Z",
      "date": "2026-10-28",
      "sec": 54,
-     "views": 643,
+     "views": 649,
      "likes": 3,
      "comments": 0
     },
@@ -356,7 +356,7 @@
      "at": "2026-10-28T00:00:16Z",
      "date": "2026-10-28",
      "sec": 40,
-     "views": 1569,
+     "views": 1573,
      "likes": 9,
      "comments": 0
     },
@@ -406,7 +406,7 @@
      "at": "2026-10-26T09:00:17Z",
      "date": "2026-10-26",
      "sec": 20,
-     "views": 1612,
+     "views": 1615,
      "likes": 6,
      "comments": 0
     },
@@ -416,7 +416,7 @@
      "at": "2026-10-26T03:30:06Z",
      "date": "2026-10-26",
      "sec": 37,
-     "views": 1291,
+     "views": 1293,
      "likes": 1,
      "comments": 0
     },
@@ -426,7 +426,7 @@
      "at": "2026-10-26T01:00:34Z",
      "date": "2026-10-26",
      "sec": 19,
-     "views": 666,
+     "views": 689,
      "likes": 3,
      "comments": 0
     },
@@ -436,7 +436,7 @@
      "at": "2026-10-25T09:00:37Z",
      "date": "2026-10-25",
      "sec": 39,
-     "views": 1637,
+     "views": 1643,
      "likes": 2,
      "comments": 0
     },
@@ -452,13 +452,13 @@
     }
    ],
    "summary": {
-    "settledN": 15,
-    "settledMedian": 153,
+    "settledN": 12,
+    "settledMedian": 160,
     "beforeN": 22,
-    "beforeMedian": 767,
-    "uploads7": 10,
+    "beforeMedian": 604,
+    "uploads7": 7,
     "lastDate": "2026-11-11",
-    "quietDays": 0
+    "quietDays": 1
    }
   },
   "play": {
@@ -466,7 +466,7 @@
    "name": "시프트 플레이",
    "id": "UCjZ398yiclS8zPeJ-kbEWYg",
    "subs": 0,
-   "totalViews": 3997,
+   "totalViews": 6830,
    "videoCount": 6,
    "videos": [
     {
@@ -475,8 +475,8 @@
      "at": "2026-11-10T09:00:18Z",
      "date": "2026-11-10",
      "sec": 27,
-     "views": 834,
-     "likes": 2,
+     "views": 1144,
+     "likes": 5,
      "comments": 0
     },
     {
@@ -485,7 +485,7 @@
      "at": "2026-11-10T04:34:51Z",
      "date": "2026-11-10",
      "sec": 28,
-     "views": 1328,
+     "views": 1402,
      "likes": 5,
      "comments": 0
     },
@@ -495,7 +495,7 @@
      "at": "2026-11-09T09:00:34Z",
      "date": "2026-11-09",
      "sec": 37,
-     "views": 542,
+     "views": 567,
      "likes": 4,
      "comments": 0
     },
@@ -505,7 +505,7 @@
      "at": "2026-11-09T03:00:21Z",
      "date": "2026-11-09",
      "sec": 29,
-     "views": 1380,
+     "views": 1414,
      "likes": 5,
      "comments": 0
     },
@@ -515,7 +515,7 @@
      "at": "2026-11-08T10:02:42Z",
      "date": "2026-11-08",
      "sec": 34,
-     "views": 1325,
+     "views": 1326,
      "likes": 6,
      "comments": 0
     },
@@ -531,46 +531,46 @@
     }
    ],
    "summary": {
-    "settledN": 4,
-    "settledMedian": 1267,
+    "settledN": 6,
+    "settledMedian": 1268,
     "beforeN": 0,
     "beforeMedian": null,
     "uploads7": 6,
     "lastDate": "2026-11-10",
-    "quietDays": 1
+    "quietDays": 2
    }
   }
  },
  "errors": [],
  "threads": {
   "followers": 76,
-  "updated": "2026-11-10T21:19:42.266Z",
-  "views7": 1004,
-  "posts7": 11,
+  "updated": "2026-11-11T21:56:57.400Z",
+  "views7": 1225,
+  "posts7": 13,
   "medianByFormat14": {
    "howto": {
-    "n": 13,
-    "median": 131
+    "n": 14,
+    "median": 121
    },
    "briefing": {
     "n": 10,
     "median": 57
    },
    "기타": {
-    "n": 5,
+    "n": 1,
     "median": 23
    },
    "compare": {
-    "n": 2,
-    "median": 89
+    "n": 1,
+    "median": 100
    },
    "deep": {
-    "n": 2,
-    "median": 33
+    "n": 1,
+    "median": 45
    },
    "question": {
-    "n": 2,
-    "median": 27
+    "n": 1,
+    "median": 37
    }
   },
   "tips": [
@@ -578,7 +578,7 @@
     "id": "2026-11-02-1140-howto",
     "date": "2026-11-02",
     "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
-    "views": 772,
+    "views": 774,
     "likes": 6,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5"
    },
@@ -594,7 +594,7 @@
     "id": "2026-10-30-1140-howto",
     "date": "2026-10-30",
     "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
-    "views": 458,
+    "views": 459,
     "likes": 1,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7"
    },
@@ -610,7 +610,7 @@
     "id": "2026-11-10-1134-howto",
     "date": "2026-11-10",
     "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
-    "views": 164,
+    "views": 172,
     "likes": 1,
     "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4"
    }
