@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T03:26:57.533Z",
+ "updated": "2026-11-11T03:34:11.573Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -139,8 +139,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "거절 메일, 쓰다가 한 시간 지나셨나요? 거절할 이유만 메모처럼 적고",
-    "status": "waiting",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DflhoiXjdPw",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-11-1136-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-11-1136-howto/02.png"
@@ -376,10 +376,10 @@
   {
    "date": "2026-11-11",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
-   "waiting": 1,
+   "waiting": 0,
    "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
@@ -393,7 +393,7 @@
     {
      "at": "2026-11-11T11:36:00+09:00",
      "format": "howto",
-     "status": "waiting",
+     "status": "ok",
      "cards": 2
     }
    ],
