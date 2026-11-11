@@ -80,10 +80,18 @@ const today = kstDate(), tomorrow = kstDate(new Date(Date.now() + 864e5));
 const days = process.env.DAYS === '2' ? [today, tomorrow] : [today];
 const rootFiles = await driveList(FOLDER);
 const items = [];
+// 보류(2026-11-11): 품질 때문에 올리지 않을 날은 자동 업로드를 건너뜀. 둘 중 하나면 보류 —
+//   ① 그 날짜 폴더(E:\\SHIFT-autopilot\\<날짜>)에 이름이 '보류'나 'hold'로 시작하는 파일(빈 메모장 파일이면 됨)  ② youtube/hold.json 의 dates 에 그 날짜
+//   표시를 지우면 다음 실행(04:47·07:35 또는 손으로 실행) 때 올라가고, 공개 시각이 지났으면 1시간 뒤로 다시 잡힘.
+const holdFile = path.join(ROOT, 'youtube', 'hold.json');
+const hold = fs.existsSync(holdFile) ? JSON.parse(fs.readFileSync(holdFile, 'utf8')) : {};
+const held = [];
 for (const d of days) {
   const dir = rootFiles.find(f => f.name === d && f.mimeType === 'application/vnd.google-apps.folder');
   if (!dir) continue;
   const files = await driveList(dir.id);
+  const heldBy = (hold.dates || []).includes(d) ? 'youtube/hold.json' : (files.find(f => /^(보류|hold)/i.test(f.name))?.name || null);
+  if (heldBy) { console.log(`보류: ${d} (${heldBy}) — 올리지 않음`); held.push({ date: d, by: heldBy }); continue; }
   const byName = Object.fromEntries(files.map(f => [f.name, f]));
   let list = [];
   if (byName['youtube.json']) {
@@ -117,7 +125,7 @@ if (MODE === 'check') {
   console.log(`유튜브 채널: ${j.items?.[0]?.snippet?.title || JSON.stringify(j).slice(0, 200)}`);
   writeStatus(`연결 확인 ${kstIso()}`); process.exit(0);
 }
-if (!todo.length) { writeStatus('올릴 쇼츠 없음'); console.log('올릴 쇼츠 없음 · 유튜브 API 호출 생략'); process.exit(0); }
+if (!todo.length) { writeStatus(held.length ? `보류 ${held.map(h => h.date).join('·')} — 올리지 않음` : '올릴 쇼츠 없음', held.length ? { held } : {}); console.log('올릴 쇼츠 없음 · 유튜브 API 호출 생략'); process.exit(0); }
 
 // 밀린 예약 시각 다시 잡기: 40분 안이거나 지났으면, 지금+60분 이후 가장 가까운 :00/:30 중 다른 항목과 1시간 이상 떨어진 시각
 const taken = items.map(it => Date.parse(posted[it.key]?.publishAt || it.publishAt));
