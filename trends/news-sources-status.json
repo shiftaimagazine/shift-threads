@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T12:36:55.208Z",
+ "updated": "2026-11-11T12:40:59.735Z",
  "sources": [
   {
    "name": "AI타임스",
@@ -14,7 +14,7 @@
    "url": "https://blog.google/technology/ai/rss/",
    "ok": true,
    "items": 20,
-   "fresh": 0,
+   "fresh": 4,
    "note": ""
   },
   {
@@ -22,7 +22,7 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 100,
-   "fresh": 1,
+   "fresh": 3,
    "note": ""
   },
   {
@@ -37,8 +37,8 @@
    "name": "Hugging Face",
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
-   "items": 900,
-   "fresh": 2,
+   "items": 903,
+   "fresh": 4,
    "note": ""
   },
   {
@@ -46,7 +46,7 @@
    "url": "https://about.fb.com/news/feed/",
    "ok": true,
    "items": 10,
-   "fresh": 1,
+   "fresh": 0,
    "note": ""
   },
   {
@@ -70,15 +70,15 @@
    "url": "https://blogs.nvidia.com/feed/",
    "ok": true,
    "items": 18,
-   "fresh": 5,
+   "fresh": 2,
    "note": ""
   },
   {
    "name": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1374,
-   "fresh": 6,
+   "items": 1380,
+   "fresh": 10,
    "note": ""
   },
   {
@@ -86,7 +86,7 @@
    "url": "https://news.hada.io/rss/news",
    "ok": true,
    "items": 20,
-   "fresh": 12,
+   "fresh": 9,
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "url": "https://byline.network/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 10,
+   "fresh": 9,
    "note": ""
   },
   {
@@ -118,7 +118,7 @@
    "url": "https://arstechnica.com/ai/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 3,
+   "fresh": 7,
    "note": ""
   },
   {
@@ -142,7 +142,7 @@
    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 14,
+   "fresh": 20,
    "note": ""
   },
   {
@@ -150,7 +150,7 @@
    "url": "https://hnrss.org/newest?q=AI&points=100",
    "ok": true,
    "items": 20,
-   "fresh": 5,
+   "fresh": 6,
    "note": ""
   }
  ]
