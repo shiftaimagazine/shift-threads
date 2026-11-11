@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T21:08:30.119Z",
+ "updated": "2026-11-11T21:56:57.455Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -69,6 +69,10 @@
   },
   {
    "date": "2026-11-11",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-12",
    "followers": 76
   }
  ],
@@ -405,7 +409,7 @@
  "top": [
   {
    "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요.",
-   "views": 198,
+   "views": 199,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -414,9 +418,9 @@
   },
   {
    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
-   "views": 164,
+   "views": 172,
    "likes": 1,
-   "replies": 2,
+   "replies": 3,
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4",
    "at": "2026-11-10T02:35:18+0000"
@@ -432,7 +436,7 @@
   },
   {
    "hook": "월요일 아침, 할 일이 뒤죽박죽이신가요?",
-   "views": 136,
+   "views": 139,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
