@@ -1,7 +1,37 @@
 {
- "updated": "2026-11-11T21:56:57.400Z",
+ "updated": "2026-11-12T21:25:29.399Z",
  "followers": 76,
  "posts": [
+  {
+   "at": "2026-11-12T03:32:11+0000",
+   "id": "2026-11-12-1142-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "AI 답이 엉뚱하게 나올 땐, 질문이 짧아서일 때가 많아요.",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfoGP6Olhrn",
+   "views": 48,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 63
+  },
+  {
+   "at": "2026-11-11T23:32:06+0000",
+   "id": "2026-11-12-0738-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk",
+   "views": 221,
+   "likes": 2,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 23
+  },
   {
    "at": "2026-11-11T03:33:56+0000",
    "id": "2026-11-11-1136-howto",
@@ -9,13 +39,13 @@
    "type": "carousel",
    "hook": "거절 메일, 쓰다가 한 시간 지나셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DflhoiXjdPw",
-   "views": 91,
+   "views": 98,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 33
+   "score": 31
   },
   {
    "at": "2026-11-10T23:16:59+0000",
@@ -24,13 +54,13 @@
    "type": "carousel",
    "hook": "메일 첨부가 커서 튕겼던 적 있으세요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DflEOqCFMg1",
-   "views": 110,
+   "views": 114,
    "likes": 0,
    "replies": 1,
    "reposts": 1,
    "quotes": 0,
    "shares": 0,
-   "score": 64
+   "score": 61
   },
   {
    "at": "2026-11-10T02:35:18+0000",
@@ -39,13 +69,13 @@
    "type": "carousel",
    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4",
-   "views": 172,
+   "views": 174,
    "likes": 1,
    "replies": 3,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 58
+   "score": 57
   },
   {
    "at": "2026-11-09T23:22:50+0000",
@@ -346,81 +376,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 54
-  },
-  {
-   "at": "2026-10-29T13:43:11+0000",
-   "id": "2026-10-29-2140-compare",
-   "format": "compare",
-   "type": "carousel",
-   "hook": "웹페이지 새로고침, 이제 AI가 대신 해 줘요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfFJBeBEaTP",
-   "views": 100,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 30
-  },
-  {
-   "at": "2026-10-29T10:28:35+0000",
-   "id": "2026-10-29-1840-deep",
-   "format": "deep",
-   "type": "carousel",
-   "hook": "글 한 줄로 가상 세계가 생기고, 소리까지 나요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfEywL4Fijk",
-   "views": 45,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 67
-  },
-  {
-   "at": "2026-10-29T06:21:38+0000",
-   "id": "2026-10-29-1440-question",
-   "format": "question",
-   "type": "image",
-   "hook": "AI가 써 준 생일 축하 메시지, 받으면 서운할까요?",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfEWfg_FPo_",
-   "views": 37,
-   "likes": 0,
-   "replies": 0,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 0
-  },
-  {
-   "at": "2026-10-29T03:25:58+0000",
-   "id": "2026-10-29-1140-howto",
-   "format": "howto",
-   "type": "carousel",
-   "hook": "회의 메모 → 할 일 표, 한 문장이면 돼요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfECY-_lFQP",
-   "views": 223,
-   "likes": 0,
-   "replies": 0,
-   "reposts": 1,
-   "quotes": 0,
-   "shares": 0,
-   "score": 18
-  },
-  {
-   "at": "2026-10-28T23:17:22+0000",
-   "id": "2026-10-29-0740-briefing",
-   "format": "briefing",
-   "type": "carousel",
-   "hook": "AI도 잠을 자야 기억한대요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfDl9BjDvfd",
-   "views": 29,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 103
   }
  ]
 }

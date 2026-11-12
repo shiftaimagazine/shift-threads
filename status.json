@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T20:30:03.759Z",
+ "updated": "2026-11-12T21:25:29.455Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -73,6 +73,10 @@
   },
   {
    "date": "2026-11-12",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-13",
    "followers": 76
   }
  ],
@@ -406,8 +410,17 @@
  ],
  "top": [
   {
+   "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
+   "views": 221,
+   "likes": 2,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk",
+   "at": "2026-11-11T23:32:06+0000"
+  },
+  {
    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
-   "views": 172,
+   "views": 174,
    "likes": 1,
    "replies": 3,
    "reposts": 0,
@@ -440,15 +453,6 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",
    "at": "2026-11-07T03:29:26+0000"
-  },
-  {
-   "hook": "메일 첨부가 커서 튕겼던 적 있으세요?",
-   "views": 110,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 1,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DflEOqCFMg1",
-   "at": "2026-11-10T23:16:59+0000"
   }
  ]
 }
