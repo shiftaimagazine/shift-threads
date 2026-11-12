@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:37:30.557Z",
+ "updated": "2026-11-12T12:26:46.147Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -192,7 +192,108 @@
  },
  "tomorrow": {
   "date": "2026-11-13",
-  "posts": [],
+  "posts": [
+   {
+    "id": "2026-11-13-0735-howto",
+    "at": "2026-11-13T07:35:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "AI가 준 숫자, 그대로 보고서에 넣으셨나요? AI는 틀려도 자신 있게 말해요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-13-0735-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-13-0735-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "AI가 준 숫자, 그대로 보고서에 넣으셨나요?\n\nAI는 틀려도 자신 있게 말해요.\n답을 받은 직후, 아래 한 문장으로 되물어 보세요.\n확실한 부분과 아닌 부분이 갈려서 나와요.\n\n저장해 두고 써 보세요.",
+     "복붙용 프롬프트 👇\n\n방금 답변을 다시 점검해 줘.\n1. 확실한 내용\n2. 추측이 섞인 내용\n3. 내가 직접 출처를 확인해야 할 숫자·날짜·이름\n이 세 가지로 나눠서 표시해 줘.\n\n※ 점검 결과도 AI의 답이에요. 중요한 숫자는 원문으로 꼭 확인하세요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Copy Prompt",
+      "title": "AI 답변\n==검산== 시키기",
+      "sub": "방금 한 말을 다시 점검하는 한 문장"
+     },
+     {
+      "kind": "list",
+      "label": "복붙 프롬프트",
+      "title": "이렇게 되물어요",
+      "items": [
+       {
+        "h": "확실한 내용",
+        "d": "그대로 써도 되는 부분"
+       },
+       {
+        "h": "추측이 섞인 내용",
+        "d": "표현을 조심해야 하는 부분"
+       },
+       {
+        "h": "직접 확인할 것",
+        "d": "숫자·날짜·이름은 원문으로"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   },
+   {
+    "id": "2026-11-13-1137-howto",
+    "at": "2026-11-13T11:37:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "AI한테 매번 내 소개부터 다시 하시나요? 역할·독자·말투, 이 세 줄만 만들어 두세요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-13-1137-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-13-1137-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "AI한테 매번 내 소개부터 다시 하시나요?\n\n역할·독자·말투, 이 세 줄만 만들어 두세요.\n대화 맨 앞에 붙이면 답이 훨씬 내 일에 맞게 나와요.\n개인화·맞춤 설정 칸이 있는 AI라면 거기에 넣어 두면 더 편해요.\n\n저장해 두고 써 보세요.",
+     "내 소개 템플릿 👇\n\n나는 [직무]이고, 글은 [읽는 사람]에게 보내.\n말투는 [정중하게/짧게] 써 줘.\n모르는 건 지어내지 말고 모른다고 해 줘.\n\n※ 회사 기밀·개인정보는 적지 마세요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Setup Tip",
+      "title": "AI 소개 한 번만\n==세 줄==로",
+      "sub": "매번 설명하지 않는 설정법"
+     },
+     {
+      "kind": "list",
+      "label": "세 줄 템플릿",
+      "title": "이 세 가지만 적어요",
+      "items": [
+       {
+        "h": "나는 누구인지",
+        "d": "직무와 하는 일 한 줄"
+       },
+       {
+        "h": "누가 읽는지",
+        "d": "상사·고객·팀원 중 누구에게"
+       },
+       {
+        "h": "말투와 금지 사항",
+        "d": "모르면 지어내지 않기"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   }
+  ],
   "reels": []
  },
  "comments": {
@@ -394,15 +495,28 @@
   },
   {
    "date": "2026-11-13",
-   "total": 0,
+   "total": 2,
    "ok": 0,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
+   "scheduled": 2,
+   "needCards": 2,
+   "cardsReady": 2,
+   "times": [
+    {
+     "at": "2026-11-13T07:35:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    },
+    {
+     "at": "2026-11-13T11:37:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    }
+   ],
    "reels": []
   }
  ],
