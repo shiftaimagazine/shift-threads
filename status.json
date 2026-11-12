@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T01:57:52.666Z",
+ "updated": "2026-11-12T03:32:25.922Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -139,8 +139,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "AI 답이 엉뚱하게 나올 땐, 질문이 짧아서일 때가 많아요. 일을 시키기 전에 한 줄만 먼저 붙여 보세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfoGP6Olhrn",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-12-1142-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-12-1142-howto/02.png"
@@ -369,11 +369,11 @@
   {
    "date": "2026-11-12",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -386,7 +386,7 @@
     {
      "at": "2026-11-12T11:42:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
