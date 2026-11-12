@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T08:20:16+09:00",
- "message": "보류 2026-11-12 — 올리지 않음",
+ "updated": "2026-11-13T05:28:41+09:00",
+ "message": "올릴 쇼츠 없음",
  "limit": {
   "hit": false,
   "at": null,
@@ -8,11 +8,5 @@
  },
  "backlogLeft": 0,
  "via": "youtube-api",
- "items": [],
- "held": [
-  {
-   "date": "2026-11-12",
-   "by": "youtube/hold.json"
-  }
- ]
+ "items": []
 }
