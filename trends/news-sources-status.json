@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T12:40:59.735Z",
+ "updated": "2026-11-12T12:40:56.987Z",
  "sources": [
   {
    "name": "AI타임스",
@@ -14,7 +14,7 @@
    "url": "https://blog.google/technology/ai/rss/",
    "ok": true,
    "items": 20,
-   "fresh": 4,
+   "fresh": 6,
    "note": ""
   },
   {
@@ -22,7 +22,7 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 100,
-   "fresh": 3,
+   "fresh": 2,
    "note": ""
   },
   {
@@ -37,8 +37,8 @@
    "name": "Hugging Face",
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
-   "items": 903,
-   "fresh": 4,
+   "items": 904,
+   "fresh": 2,
    "note": ""
   },
   {
@@ -62,7 +62,7 @@
    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
    "ok": true,
    "items": 10,
-   "fresh": 3,
+   "fresh": 0,
    "note": ""
   },
   {
@@ -77,8 +77,8 @@
    "name": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1380,
-   "fresh": 10,
+   "items": 1383,
+   "fresh": 5,
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "url": "https://byline.network/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 9,
+   "fresh": 8,
    "note": ""
   },
   {
@@ -132,10 +132,10 @@
   {
    "name": "전자신문 SW·AI",
    "url": "https://rss.etnews.com/Section902.xml",
-   "ok": false,
-   "items": 0,
-   "fresh": 0,
-   "note": "fetch failed"
+   "ok": true,
+   "items": 30,
+   "fresh": 21,
+   "note": ""
   },
   {
    "name": "테크크런치 AI",
@@ -150,7 +150,7 @@
    "url": "https://hnrss.org/newest?q=AI&points=100",
    "ok": true,
    "items": 20,
-   "fresh": 6,
+   "fresh": 5,
    "note": ""
   }
  ]
