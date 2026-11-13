@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13T08:13:58+09:00",
- "message": "올릴 쇼츠 없음",
+ "updated": "2026-11-14T05:33:11+09:00",
+ "message": "11-14T05:33 쇼츠 1편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -8,5 +8,16 @@
  },
  "backlogLeft": 0,
  "via": "youtube-api",
- "items": []
+ "items": [
+  {
+   "date": "2026-11-14",
+   "at": "2026-11-14T09:00:00+09:00",
+   "slot": "09:00",
+   "kind": "new",
+   "title": "긴 PDF 2분 한국어 오디오로 듣기 🎧",
+   "status": "scheduled",
+   "videoId": "bV2qTnC_u9E",
+   "note": null
+  }
+ ]
 }
