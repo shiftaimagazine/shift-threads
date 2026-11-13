@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-12T21:29:35.028Z",
+ "updated": "2026-11-13T21:31:15.073Z",
  "note": "스레드 최근 14일 실용 팁 조회 상위 5개 — 릴스·쇼츠(T 형식) 주제 후보",
  "tips": [
   {
    "id": "2026-11-02-1140-howto",
    "date": "2026-11-02",
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
-   "views": 774,
+   "views": 777,
    "likes": 6,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5"
   },
@@ -19,18 +19,10 @@
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfJL9A7FT9a"
   },
   {
-   "id": "2026-10-30-1140-howto",
-   "date": "2026-10-30",
-   "hook": "AI한테 한 말, 학습에 쓰일 수 있어요.",
-   "views": 459,
-   "likes": 1,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfGnJHrEaD7"
-  },
-  {
    "id": "2026-11-12-0738-howto",
    "date": "2026-11-12",
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-   "views": 221,
+   "views": 232,
    "likes": 2,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk"
   },
@@ -38,9 +30,17 @@
    "id": "2026-11-10-1134-howto",
    "date": "2026-11-10",
    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
-   "views": 174,
+   "views": 175,
    "likes": 1,
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4"
+  },
+  {
+   "id": "2026-11-09-1137-howto",
+   "date": "2026-11-09",
+   "hook": "월요일 아침, 할 일이 뒤죽박죽이신가요?",
+   "views": 139,
+   "likes": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfgYUZslZUM"
   }
  ]
 }
