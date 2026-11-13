@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T11:35:59.252Z",
+ "updated": "2026-11-13T12:26:16.101Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -188,7 +188,114 @@
  },
  "tomorrow": {
   "date": "2026-11-14",
-  "posts": [],
+  "posts": [
+   {
+    "id": "2026-11-14-0738-howto",
+    "at": "2026-11-14T07:38:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요? 가입 없이 바로 쓰는 무료 화이트보드가 있어요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-14-0738-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-14-0738-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://plus.excalidraw.com/how-to-start"
+    ],
+    "topic": "AI Threads",
+    "parts": [
+     "업무 흐름도, 그리다가 한 시간 쓰셨나요?\n\n가입 없이 바로 쓰는 무료 화이트보드가 있어요.\nexcalidraw.com 을 열고 네모·화살표만 이어 보세요.\n손으로 그린 듯한 도식이 금방 나와요.\n\n저장해 두고 써 보세요.",
+     "출처: Excalidraw 공식 https://plus.excalidraw.com/how-to-start\n공식 안내 기준 무료, 계정 불필요. 그림은 내 기기 브라우저에 저장돼서, 중요한 건 따로 보관해 두세요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Free Tool",
+      "title": "흐름도는\n==가입 없이== 그려요",
+      "sub": "무료 화이트보드 Excalidraw"
+     },
+     {
+      "kind": "list",
+      "label": "이렇게 써요",
+      "title": "3단계면 끝나요",
+      "items": [
+       {
+        "h": "excalidraw.com 접속",
+        "d": "가입·로그인 없이 바로 열려요"
+       },
+       {
+        "h": "네모와 화살표로 흐름 잇기",
+        "d": "단계 이름만 적어도 충분해요"
+       },
+       {
+        "h": "기기에 저장되니 따로 보관",
+        "d": "브라우저에만 남아요. 중요한 건 백업"
+       }
+      ]
+     }
+    ],
+    "photoFrom": [
+     "https://plus.excalidraw.com/how-to-start"
+    ]
+   },
+   {
+    "id": "2026-11-14-1136-howto",
+    "at": "2026-11-14T11:36:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠? 오류 난 수식만 복사해서 AI에게 이유부터 물어보세요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-14-1136-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-14-1136-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://plus.excalidraw.com/how-to-start"
+    ],
+    "topic": "AI Threads",
+    "parts": [
+     "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?\n\n오류 난 수식만 복사해서 AI에게 이유부터 물어보세요.\n고치는 법과 원인을 같이 받으면 다음엔 혼자 잡아요.\n\n저장해 두고 써 보세요.",
+     "복붙용 프롬프트 👇\n\n엑셀에서 아래 수식이 #REF! 오류가 나.\n=SUM(B2:B10)/C5\n1) 오류가 나는 이유를 쉬운 말로\n2) 고친 수식\n3) 다음에 막는 습관 한 가지\n이 순서로 알려줘.\n\n※ 수식만 붙이고, 고객 정보가 든 실제 데이터는 붙이지 않아요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Copy Prompt",
+      "title": "엑셀 오류,\n==수식만== 붙여 물어요",
+      "sub": "원인·해결·예방을 한 번에"
+     },
+     {
+      "kind": "list",
+      "label": "복붙 프롬프트",
+      "title": "이렇게 시켜요",
+      "items": [
+       {
+        "h": "오류 코드와 수식만 붙이기",
+        "d": "실제 데이터는 붙이지 않아요"
+       },
+       {
+        "h": "이유를 쉬운 말로 요청",
+        "d": "원인을 알아야 다음에 혼자 고쳐요"
+       },
+       {
+        "h": "고친 수식 + 예방 습관",
+        "d": "세 가지를 번호로 받아요"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   }
+  ],
   "reels": []
  },
  "comments": {
@@ -396,15 +503,28 @@
   },
   {
    "date": "2026-11-14",
-   "total": 0,
+   "total": 2,
    "ok": 0,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
+   "scheduled": 2,
+   "needCards": 2,
+   "cardsReady": 2,
+   "times": [
+    {
+     "at": "2026-11-14T07:38:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    },
+    {
+     "at": "2026-11-14T11:36:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    }
+   ],
    "reels": []
   }
  ],
