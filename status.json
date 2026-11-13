@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:26:25.120Z",
+ "updated": "2026-11-13T23:24:20.160Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -93,8 +93,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요? 가입 없이 바로 쓰는 무료 화이트보드가 있어요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-14-0738-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-14-0738-howto/02.png"
@@ -381,18 +381,18 @@
   {
    "date": "2026-11-14",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-14T07:38:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
@@ -438,15 +438,6 @@
    "at": "2026-11-10T02:35:18+0000"
   },
   {
-   "hook": "챗GPT가 이제 움직이는 GIF도 만들어 줘요.",
-   "views": 145,
-   "likes": 1,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/Dfaxo6yox1P",
-   "at": "2026-11-06T23:22:10+0000"
-  },
-  {
    "hook": "월요일 아침, 할 일이 뒤죽박죽이신가요?",
    "views": 139,
    "likes": 0,
@@ -463,6 +454,15 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",
    "at": "2026-11-07T03:29:26+0000"
+  },
+  {
+   "hook": "메일 첨부가 커서 튕겼던 적 있으세요?",
+   "views": 115,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 1,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DflEOqCFMg1",
+   "at": "2026-11-10T23:16:59+0000"
   }
  ]
 }
