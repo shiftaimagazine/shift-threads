@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T20:34:23.237Z",
+ "updated": "2026-11-13T21:24:57.417Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -77,6 +77,10 @@
   },
   {
    "date": "2026-11-13",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-14",
    "followers": 76
   }
  ],
@@ -417,7 +421,7 @@
  "top": [
   {
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-   "views": 221,
+   "views": 232,
    "likes": 2,
    "replies": 1,
    "reposts": 0,
@@ -426,7 +430,7 @@
   },
   {
    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
-   "views": 174,
+   "views": 175,
    "likes": 1,
    "replies": 3,
    "reposts": 0,
