@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:16:19.445Z",
+ "updated": "2026-11-14T23:16:10.893Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -97,7 +97,7 @@
     "format": "howto",
     "type": "carousel",
     "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요? 받은 피드백을 그대로 붙여 넣고",
-    "status": "scheduled",
+    "status": "waiting",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-15-0738-howto/01.png",
@@ -393,15 +393,15 @@
    "ok": 0,
    "failed": 0,
    "expired": 0,
-   "waiting": 0,
-   "scheduled": 2,
+   "waiting": 1,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-15T07:38:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "waiting",
      "cards": 2
     },
     {
