@@ -1,46 +1,46 @@
 {
- "updated": "2026-11-13T21:31:15.073Z",
+ "updated": "2026-11-14T21:19:55.040Z",
  "note": "스레드 최근 14일 실용 팁 조회 상위 5개 — 릴스·쇼츠(T 형식) 주제 후보",
  "tips": [
   {
    "id": "2026-11-02-1140-howto",
    "date": "2026-11-02",
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
-   "views": 777,
+   "views": 778,
    "likes": 6,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5"
   },
   {
-   "id": "2026-10-31-1140-howto",
-   "date": "2026-10-31",
-   "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
-   "views": 469,
-   "likes": 3,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfJL9A7FT9a"
+   "id": "2026-11-14-0738-howto",
+   "date": "2026-11-14",
+   "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
+   "views": 371,
+   "likes": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP"
   },
   {
    "id": "2026-11-12-0738-howto",
    "date": "2026-11-12",
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-   "views": 232,
+   "views": 233,
    "likes": 2,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk"
+  },
+  {
+   "id": "2026-11-14-1136-howto",
+   "date": "2026-11-14",
+   "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
+   "views": 195,
+   "likes": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-"
   },
   {
    "id": "2026-11-10-1134-howto",
    "date": "2026-11-10",
    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
-   "views": 175,
+   "views": 177,
    "likes": 1,
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4"
-  },
-  {
-   "id": "2026-11-09-1137-howto",
-   "date": "2026-11-09",
-   "hook": "월요일 아침, 할 일이 뒤죽박죽이신가요?",
-   "views": 139,
-   "likes": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfgYUZslZUM"
   }
  ]
 }
