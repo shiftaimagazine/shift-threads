@@ -1,5 +1,30 @@
 {
- "updated": "2026-11-13T12:43:24.147Z",
- "count": 0,
- "items": []
+ "updated": "2026-11-14T03:31:29.549Z",
+ "count": 2,
+ "items": [
+  {
+   "id": "18097973588694193",
+   "user": "goodtek.xyz",
+   "text": "보고서 쓰기 전에 이 문장부터 붙여넣어야겠네요 ㅎㅎ",
+   "at": "2026-11-13T14:05:41+0000",
+   "to": "post",
+   "post": {
+    "id": "18350895430287507",
+    "hook": "AI가 준 숫자, 그대로 보고서에 넣으셨나요?  AI는 틀려도 자신 있게 말해요.",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfqOo0CFGpN"
+   }
+  },
+  {
+   "id": "18102680141545302",
+   "user": "orke_kr",
+   "text": "수치에 계산 조건과 원자료를 함께 붙이면, 나중에 검토할 때 어디서 달라졌는지도 찾기 쉬워.",
+   "at": "2026-11-13T14:08:18+0000",
+   "to": "post",
+   "post": {
+    "id": "18350895430287507",
+    "hook": "AI가 준 숫자, 그대로 보고서에 넣으셨나요?  AI는 틀려도 자신 있게 말해요.",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfqOo0CFGpN"
+   }
+  }
+ ]
 }

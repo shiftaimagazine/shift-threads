@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T03:30:34.454Z",
+ "updated": "2026-11-14T03:31:29.607Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -202,9 +202,22 @@
   "reels": []
  },
  "comments": {
-  "pending": 0,
-  "items": [],
-  "updated": "2026-11-13T12:43:24.147Z"
+  "pending": 2,
+  "items": [
+   {
+    "user": "goodtek.xyz",
+    "text": "보고서 쓰기 전에 이 문장부터 붙여넣어야겠네요 ㅎㅎ",
+    "at": "2026-11-13T14:05:41+0000",
+    "post": "https://www.threads.com/@shift_ai_magazine/post/DfqOo0CFGpN"
+   },
+   {
+    "user": "orke_kr",
+    "text": "수치에 계산 조건과 원자료를 함께 붙이면, 나중에 검토할 때 어디서 달라졌는지도 찾기 쉬워.",
+    "at": "2026-11-13T14:08:18+0000",
+    "post": "https://www.threads.com/@shift_ai_magazine/post/DfqOo0CFGpN"
+   }
+  ],
+  "updated": "2026-11-14T03:31:29.549Z"
  },
  "replies": {
   "sent": [
