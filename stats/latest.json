@@ -1,7 +1,37 @@
 {
- "updated": "2026-11-13T21:24:57.283Z",
+ "updated": "2026-11-14T21:14:45.776Z",
  "followers": 76,
  "posts": [
+  {
+   "at": "2026-11-14T03:30:19+0000",
+   "id": "2026-11-14-1136-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-",
+   "views": 195,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 15
+  },
+  {
+   "at": "2026-11-13T23:24:01+0000",
+   "id": "2026-11-14-0738-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP",
+   "views": 371,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 1,
+   "score": 16
+  },
   {
    "at": "2026-11-13T03:33:20+0000",
    "id": "2026-11-13-1137-howto",
@@ -24,13 +54,13 @@
    "type": "carousel",
    "hook": "AI가 준 숫자, 그대로 보고서에 넣으셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfqOo0CFGpN",
-   "views": 68,
+   "views": 71,
    "likes": 0,
-   "replies": 3,
+   "replies": 5,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 132
+   "score": 211
   },
   {
    "at": "2026-11-12T03:32:11+0000",
@@ -39,13 +69,13 @@
    "type": "carousel",
    "hook": "AI 답이 엉뚱하게 나올 땐, 질문이 짧아서일 때가 많아요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfoGP6Olhrn",
-   "views": 50,
+   "views": 51,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 60
+   "score": 59
   },
   {
    "at": "2026-11-11T23:32:06+0000",
@@ -54,13 +84,13 @@
    "type": "carousel",
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk",
-   "views": 232,
+   "views": 233,
    "likes": 2,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 22
+   "score": 21
   },
   {
    "at": "2026-11-11T03:33:56+0000",
@@ -99,13 +129,13 @@
    "type": "carousel",
    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4",
-   "views": 175,
+   "views": 177,
    "likes": 1,
    "replies": 3,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 57
+   "score": 56
   },
   {
    "at": "2026-11-09T23:22:50+0000",
@@ -294,7 +324,7 @@
    "type": "carousel",
    "hook": "긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5",
-   "views": 777,
+   "views": 778,
    "likes": 6,
    "replies": 6,
    "reposts": 0,
@@ -346,36 +376,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 21
-  },
-  {
-   "at": "2026-10-31T03:25:45+0000",
-   "id": "2026-10-31-1140-howto",
-   "format": "howto",
-   "type": "carousel",
-   "hook": "PDF·엑셀 파일, 채팅창에서 바로 받아요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfJL9A7FT9a",
-   "views": 469,
-   "likes": 3,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 1,
-   "score": 19
-  },
-  {
-   "at": "2026-10-30T23:14:58+0000",
-   "id": "2026-10-31-0740-briefing",
-   "format": "briefing",
-   "type": "carousel",
-   "hook": "1조 파라미터 AI, 이제 누구나 내려받아요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfIvQOKmi7I",
-   "views": 16,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 188
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T20:16:55.182Z",
+ "updated": "2026-11-14T21:14:45.833Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -81,6 +81,10 @@
   },
   {
    "date": "2026-11-14",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-15",
    "followers": 76
   }
  ],
@@ -425,8 +429,17 @@
  ],
  "top": [
   {
+   "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
+   "views": 371,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP",
+   "at": "2026-11-13T23:24:01+0000"
+  },
+  {
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-   "views": 232,
+   "views": 233,
    "likes": 2,
    "replies": 1,
    "reposts": 0,
@@ -434,8 +447,17 @@
    "at": "2026-11-11T23:32:06+0000"
   },
   {
+   "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
+   "views": 195,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-",
+   "at": "2026-11-14T03:30:19+0000"
+  },
+  {
    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
-   "views": 175,
+   "views": 177,
    "likes": 1,
    "replies": 3,
    "reposts": 0,
@@ -450,24 +472,6 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfgYUZslZUM",
    "at": "2026-11-09T03:36:20+0000"
-  },
-  {
-   "hook": "메일 첨부가 커서 튕겼던 적 있으세요?",
-   "views": 115,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 1,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DflEOqCFMg1",
-   "at": "2026-11-10T23:16:59+0000"
-  },
-  {
-   "hook": "거절 메일, 쓰다가 한 시간 지나셨나요?",
-   "views": 99,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DflhoiXjdPw",
-   "at": "2026-11-11T03:33:56+0000"
   }
  ]
 }
