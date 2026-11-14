@@ -1,9 +1,79 @@
 {
- "updated": "2026-11-13T12:40:43.005Z",
- "kstDate": "2026-11-13",
+ "updated": "2026-11-14T12:21:09.035Z",
+ "kstDate": "2026-11-14",
  "windowHours": 48,
  "note": "글쓰기 작업용 뉴스 후보. 쓰기로 한 소식은 반드시 link 원문을 열어 숫자·날짜를 확인할 것. summary 는 피드 요약이라 사실 확인 근거로 쓰지 않음.",
  "items": [
+  {
+   "source": "Google Research",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Advancing science & engineering with Antigravity’s /teamwork",
+   "link": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "published": "2026-11-13T20:47:18.000Z",
+   "summary": "Education Innovation"
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+   "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "published": "2026-11-13T18:00:39.000Z",
+   "summary": ""
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "XYBench: Helping with the problem behind the question",
+   "link": "https://huggingface.co/blog/allenai/xybench",
+   "published": "2026-11-13T17:02:35.000Z",
+   "summary": ""
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Introducing ChatGPT Wallet",
+   "link": "https://openai.com/index/introducing-chatgpt-wallet",
+   "published": "2026-11-13T15:00:00.000Z",
+   "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "published": "2026-11-13T14:05:22.000Z",
+   "summary": ""
+  },
+  {
+   "source": "NVIDIA 블로그",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+   "link": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+   "published": "2026-11-13T13:00:42.000Z",
+   "summary": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians s"
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "link": "https://openai.com/business/customer-stories/shield",
+   "published": "2026-11-13T08:00:00.000Z",
+   "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment."
+  },
   {
    "source": "OpenAI",
    "kind": "official",
@@ -65,104 +135,194 @@
    "summary": "Results are widespread. Value at scale is not, and that gap is what this year’s research from IDC, commissioned by Microsoft, set out to explain. In our fourth year commissioning IDC, more than 5,200 senior IT and business leaders across 28 industries shared what it takes to maximize value as AI scales. The clearest le"
   },
   {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Gondola doubles revenue as its team builds more with Codex",
-   "link": "https://openai.com/business/customer-stories/gondola",
-   "published": "2026-11-12T12:00:00.000Z",
-   "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Holiday Extras is rethinking what it can build with Codex",
-   "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
-   "published": "2026-11-12T09:30:00.000Z",
-   "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Supporting research on AI and children’s safety",
-   "link": "https://openai.com/index/children-first-declaration",
-   "published": "2026-11-12T00:00:00.000Z",
-   "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Gilbert + Tobin rethinks the business of law with AI",
-   "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
-   "published": "2026-11-12T00:00:00.000Z",
-   "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin."
-  },
-  {
-   "source": "Hugging Face",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-   "link": "https://huggingface.co/blog/3d-lora-finetuning",
-   "published": "2026-11-12T00:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "source": "Google Research",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
-   "link": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
-   "published": "2026-11-11T19:54:00.000Z",
-   "summary": "Health & Bioscience"
-  },
-  {
-   "source": "Google AI 블로그",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-   "published": "2026-11-11T18:00:00.000Z",
-   "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions."
-  },
-  {
-   "source": "Google AI 블로그",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-   "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-   "published": "2026-11-11T16:00:00.000Z",
-   "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp\">Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist."
-  },
-  {
-   "source": "Google DeepMind",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-   "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-   "published": "2026-11-11T15:00:15.000Z",
-   "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease."
-  },
-  {
    "source": "AI타임스",
    "kind": "media",
    "lang": "ko",
    "official": false,
-   "title": "MS 365 전 세계 장애…정부·기업 업무 차질에 챗GPT·클로드도 영향",
-   "link": "https://www.aitimes.com/news/articleView.html?idxno=217394",
-   "published": "2026-11-13T18:44:26.000Z",
-   "summary": "마이크로소프트(MS)의 기업용 서비스에서 대규모 장애가 발생해 전 세계 정부 기관과 기업들이 업무에 차질을 빚었다. 이메일과 협업 도구뿐 아니라 '챗GPT'와 '클로드'의 업무 연동 기능까지 영향받았으며, MS가 복구 작업을 진행하고 있지만 일부 서비스의 장애는 하루 가까이 이어지고 있다.로이터와 AP 등에 따르면 12일(현지시간) MS의 이메일 서비스 아웃룩과 협업 도구 팀즈, AI 비서 코파일럿 등 MS 365의 여러 서비스에서 접속 장애가 발생했다. 미국에서 시작된 장애는 13일 아시아태평양 지역의 업무 시간까지 이어졌다.서비"
+   "title": "아마존, 전 세계 상품 정보 통합 추진…AI 쇼핑 주도권 지킨다",
+   "link": "https://www.aitimes.com/news/articleView.html?idxno=217412",
+   "published": "2026-11-14T19:19:23.000Z",
+   "summary": "아마존이 자사에서 판매하지 않는 제품까지 전 세계 상품 정보를 모으는 방안을 검토하고 있다. 소비자가 제품을 비교하기 위해 다른 사이트로 이동하는 일을 줄이고, 구매를 대신하는 외부 AI 에이전트도 아마존을 찾도록 하려는 구상이다.로이터는 13일(현지시간) 내부 문서와 관계자들을 인용해 아마존이 ‘월드 프로덕트 그래프(World Product Graph)’라는 프로젝트를 추진하고 있다고 보도했다.브랜드에서 제공받는 정보와 다른 유통 사이트에서 수집한 데이터를 결합해 상품 간 차이와 관계를 파악하는 것이 목표다. 이용자가 최신 모델을"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+   "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+   "published": "2026-11-14T12:00:00.000Z",
+   "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+   "link": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+   "published": "2026-11-14T11:00:00.000Z",
+   "summary": "Normally, aviation is slow to embrace new technology—but AI has come for the skies."
+  },
+  {
+   "source": "긱뉴스",
+   "kind": "community",
+   "lang": "ko",
+   "official": false,
+   "title": "Show HN: Isometric SF - 샌프란시스코 베이 지역의 픽셀 아트 지도",
+   "link": "https://news.hada.io/topic?id=37151&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+   "published": "2026-11-14T07:32:32.000Z",
+   "summary": "Isometric SF 는 샌프란시스코 베이 지역을 아이소메트릭 픽셀 아트로 보여주는 지도임 골든게이트부터 산호세까지 베이 지역 전체를 담음 지도를 확대/축소 하며 살펴볼 수 있음 검색과 공유 기능을 지원함 모든 지도 타일은 Google Maps 3D 캡처 를 바탕으로 AI 모델 이 그렸음 지도 범위와 제작 방식 Isometric SF 는 골든게이트부터 산호세까지 베이 지역 전체를 담은 아이소메트릭 픽셀 아트 지도로, 확대/축소와 검색, 공유가 가능함 모든 타일 을 AI 모델이 Google Maps의 3D 캡처를 바탕으로 그리는 방식으로 제작함"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Amazon has a plan to index the world’s online shopping data",
+   "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+   "published": "2026-11-13T23:49:11.000Z",
+   "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do thei"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+   "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+   "published": "2026-11-13T22:43:00.000Z",
+   "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+   "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+   "published": "2026-11-13T21:20:47.000Z",
+   "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+   "published": "2026-11-13T20:45:10.000Z",
+   "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After a"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "AI agent startup LangChain hits $3B valuation",
+   "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+   "published": "2026-11-13T19:37:57.000Z",
+   "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+   "link": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+   "published": "2026-11-13T19:08:57.000Z",
+   "summary": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+   "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "published": "2026-11-13T18:40:30.000Z",
+   "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+   "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+   "published": "2026-11-13T17:25:45.000Z",
+   "summary": "Researcher traces a path from AI reward hacking to potential human extinction."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+   "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+   "published": "2026-11-13T16:00:12.000Z",
+   "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Jensen Huang and the End of the Founder Fairy Tale",
+   "link": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
+   "published": "2026-11-13T16:00:00.000Z",
+   "summary": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "published": "2026-11-13T15:58:00.000Z",
+   "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "What’s really at stake in the Jensen Huang saga",
+   "link": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+   "published": "2026-11-13T14:47:16.000Z",
+   "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness […]"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+   "link": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+   "published": "2026-11-13T14:44:48.000Z",
+   "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+   "published": "2026-11-13T14:00:00.000Z",
+   "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple […]"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+   "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+   "published": "2026-11-13T12:52:19.000Z",
+   "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure."
   },
   {
    "source": "테크크런치 AI",
@@ -175,14 +335,14 @@
    "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer."
   },
   {
-   "source": "전자신문 SW·AI",
+   "source": "더버지 AI",
    "kind": "media",
-   "lang": "ko",
+   "lang": "en",
    "official": false,
-   "title": "AI 검색 시대 창작자 보상 어떻게…“직접 보상·기여 인정 필요”",
-   "link": "https://www.etnews.com/20261113000305",
-   "published": "2026-11-13T11:49:29.000Z",
-   "summary": "지속 가능한 인공지능(AI) 검색 생태계를 위해서는 콘텐츠 활용에 대한 보상과 창작자의 기여를 인정하는 체계가 필요하다는 제언이 나왔다. 네이버의 창작자 지원 프로그램 '네이버 메이트'가 이 같은 보상 모델의 사례로 제시됐다. 한국미디어경영학회가 13일 서울 종로구 HJ비즈니스센터에서 'AI 플랫폼과 지속 가능한 콘텐츠 생태계' 특별세미나에서 전문가들은 이 같이 제언했다. 정윤혁 고려대 교수 연구팀은 창작자 100명, 이용자 200명을 대상으로"
+   "title": "Let’s talk about Jensen Huang’s many affairs!",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+   "published": "2026-11-13T12:00:00.000Z",
+   "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]"
   },
   {
    "source": "와이어드 AI",
@@ -195,96 +355,6 @@
    "summary": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out."
   },
   {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-   "link": "https://status.claude.com/incidents/nn11wk485zfn",
-   "published": "2026-11-13T10:18:13.000Z",
-   "summary": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 269 # Comments: 209"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "이스트소프트, 3분기 매출액 273억원…영업손실 56.8% 감소",
-   "link": "https://www.etnews.com/20261113000301",
-   "published": "2026-11-13T09:27:37.000Z",
-   "summary": "이스트소프트는 연결재무제표 기준 올해 3분기 매출 약 273억원, 영업손실 약 19억원을 기록했다고 13일 공시했다. 매출은 전년 동기 대비 9.5% 증가하며 역대 3분기 중 최대치를 달성했고, 영업손실은 56.8% 줄었다. 매출 성장은 AI·SW와 게임 사업이 이끌었다. 3분기 AI·SW 사업 매출은 약 157억원으로 전년 동기 대비 19.2% 증가했고, 게임 부문 매출은 약 75억원으로 40.0% 늘었다. AI·SW 성장은 실시간 AI 아바"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "영림원소프트랩, 3Q 매출·영업익 동반 성장…AI 기반 생산성 개선 추진",
-   "link": "https://www.etnews.com/20261113000300",
-   "published": "2026-11-13T09:24:23.000Z",
-   "summary": "영림원소프트랩은 3분기 연결 기준 매출 217억2000만원, 영업이익 14억원을 기록했다고 13일 밝혔다. 이는 전년 동기 대비 각각 5.6%, 8.6% 증가한 수치다. 3분기 누적 매출은 631억2000만원으로 전년 동기 대비 12.2% 증가했으나, 누적 영업이익은 15억7000만원으로 40.3% 감소했다. 대형 ERP 프로젝트 증가에 따른 외주용역비 등 사업 수행 비용이 일시적으로 늘어난 영향이다. 회사는 프로젝트별 비용 관리를 강화해 수익"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "코난테크놀로지, 국방 AI 참모 '아르고엑스' 첫 공개…“팔란티어 고담에 도전”",
-   "link": "https://www.etnews.com/20261113000299",
-   "published": "2026-11-13T09:21:19.000Z",
-   "summary": "코난테크놀로지가 국방 분야 여러 출처의 정보를 융합해 분석하는 플랫폼 '코난 아르고엑스(Konan ARGO-X)'를 선보이며 국방 인텔리전스 시장 공략을 본격화한다. 김영섬 코난테크놀로지 대표는 13일 서울 용산 나인트리 로카우스에서 열린 '제5회 코난테크놀로지 국방 AI 서밋 2026'에서 “지난 20년간 실제 군 전력체계에 적용해 온 기술과 경험을 바탕으로 글로벌 미래 신안보 시대를 선도하는 국방 AI 기업으로 도약하겠다”며 “전출처 정보융"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "'모두의 창업' 참여 AI기업 해킹…창업자 818명 개인정보 유출",
-   "link": "https://www.etnews.com/20261113000295",
-   "published": "2026-11-13T09:15:53.000Z",
-   "summary": "중소벤처기업부의 창업 지원사업인 '모두의 창업'에서 또다시 개인정보 유출 사고가 발생했다. 지난 1차 사업에서 참가자 약 5000명의 정보가 유출된 데 이어 2차 사업에서도 참가자 818명의 개인정보가 외부로 빠져나갔다. 다만 이번 사고는 모두의 창업 플랫폼 자체가 아닌 별도 민간 인공지능(AI) 솔루션 공급기업에서 발생했으며, 해당 기업이 자체 점검 과정에서 해킹 정황을 발견해 대응에 나섰다. 13일 중기부에 따르면 2차 모두의 창업 AI 솔"
-  },
-  {
-   "source": "긱뉴스",
-   "kind": "community",
-   "lang": "ko",
-   "official": false,
-   "title": "비개발자가 AI에게 일을 맡기며 여기서 물어본 세 가지, 받은 답을 정리했습니다",
-   "link": "https://news.hada.io/topic?id=37105&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-   "published": "2026-11-13T09:09:40.000Z",
-   "summary": "영업 일을 하는 비개발자입니다. 그동안 Ask에 몇 번 질문을 올렸는데, 답이 너무 좋아서 세 개를 골라 제 말로 정리해 봤습니다. AI가 쓴 메일이 딱 봐도 AI 같을 때 AI가 확인했다고 해 놓고 실제로는 안 봤을 때 맡긴 일의 기록을 어디에 남길지 정리하고 보니 방법은 다 달랐는데, 다들 마지막엔 직접 읽고 다시 열어 보고 계셨어요. 기록 다섯 칸 중 \"아직 확인하지 못한 것\" 칸은 바로 따라 해 보고 있습니다. 답해 주신 분들께 감사드립니다. 닉네임은 빼고 적었습니다."
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "삼성·구글·젠틀몬스터 AI 안경, 1차 예판 완판…체험예약도 마감",
-   "link": "https://www.etnews.com/20261113000294",
-   "published": "2026-11-13T09:08:16.000Z",
-   "summary": "삼성전자와 구글, 젠틀몬스터가 협업한 인공지능(AI) 안경 '인텔리전트 아이웨어'가 정식 출시 전부터 초기 반응을 끌어내고 있다. 사전예약을 시작한 지 수 시간 만에 주요 제품이 품절됐고, 미국 뉴욕에서 진행하는 일반 공개 행사도 예약이 모두 찬 것으로 파악됐다. 13일 업계에 따르면 젠틀몬스터는 전날 한국과 미국에서 인텔리전트 아이웨어 컬렉션 사전예약을 시작했다. 예약 개시 이후 수 시간 만에 주요 제품이 품절됐다. 현재 공식 온라인 스토어를"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "KT, AI 기반 통신시설 안전관리로 총리상 수상",
-   "link": "https://www.etnews.com/20261113000291",
-   "published": "2026-11-13T08:51:05.000Z",
-   "summary": "KT가 인공지능(AI)·데이터 기반의 통신시설 안전관리 혁신 성과를 인정받아 '제21회 대한민국 인터넷대상' 인터넷비즈니스 부문 국무총리상을 수상했다. 대한민국 인터넷대상은 인터넷 산업 발전과 디지털 혁신에 기여한 기업과 기관을 선정해 시상하는 정부 포상이다. KT는 초고속 인터넷망을 활용해 전국 자사 빌딩에 ICT 기반 설비관리와 24시간 3중 원격관제·모바일 안전관리 체계를 구축하고, 이를 화재예방 인터넷 비즈니스로 발전시킨 성과를 인정받았"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "젠슨 황 사임에도 韓 GPU 26만장 공급 유지…정부 점검회의서 재확인",
-   "link": "https://www.etnews.com/20261113000289",
-   "published": "2026-11-13T08:49:13.000Z",
-   "summary": "엔비디아가 젠슨 황 최고경영자(CEO) 사임 이후에도 한국에 첨단 그래픽처리장치(GPU) 26만장을 공급을 기존 계획대로 추진한다. 황 CEO가 갑작스럽게 사임하면서 국내 인공지능(AI) 인프라 협력 사업이 차질을 빚을 수 있다는 우려가 나오자 정부가 직접 점검에 나섰다. 배경훈 부총리 겸 과학기술정보통신부 장관은 13일 사회관계망서비스(SNS)를 통해 “오늘 오전 과기정통부 제2차관 주재로 엔비디아 측과 현안점검회의를 열었다”며 “첨단 GPU"
-  },
-  {
    "source": "바이라인네트워크",
    "kind": "media",
    "lang": "ko",
@@ -293,86 +363,6 @@
    "link": "https://byline.network/2026/11/1113-10/",
    "published": "2026-11-13T08:45:47.000Z",
    "summary": "KMS랩이 자체 개발한 온프레미스 AI 풀스택으로 포스코의 차세대 전사 포털 시스템 구축 사업을 수주하고 1차 시스템 오픈을 완료했다. 26년간 축적한 데이터 처리 기술과 정부의 GPU 지원을 바탕으로 AI 솔루션을 개발·고도화했으며, 7개월간의 기술 검증을 거쳐 대규모 기업 환경에 적용했다. CES 2027 AI 부문 혁신상을 수상한 AI 지식 플랫폼을 앞세워 피지컬 AI와 글로벌 B2B 시장으로 사업을 확대할 계획이다."
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "젠슨 황이 떠날 때 노렸나…美 개미들, '폭락' 엔비디아 30분 만에 '1500억' 줍줍",
-   "link": "https://www.etnews.com/20261113000286",
-   "published": "2026-11-13T08:30:12.000Z",
-   "summary": "젠슨 황의 전격 사임으로 엔비디아 주가가 급락하자 미국 개인투자자들이 오히려 매수에 나섰다. 레버리지 상장지수펀드(ETF)와 단기 콜옵션까지 활용해 주가 반등에 베팅하는 공격적인 투자도 이어졌다. 12일(현지시간) 월스트리트저널(WSJ)에 따르면 개인투자자들은 이날 뉴욕증시 개장 후 30분 동안 엔비디아 주식 1억1100만달러(약 1480억원)어치를 순매수했다. 개장 후 30분 기준 역대 최대 규모다. 엔비디아 주가는 이날 전 거래일보다 13."
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "제타큐브, '2026 ISACA Korea IT 거버넌스 상' 수상… AI 인프라·디지털 신뢰 기술력 인정",
-   "link": "https://www.etnews.com/20261113000283",
-   "published": "2026-11-13T08:13:43.000Z",
-   "summary": "AI 인프라 솔루션 전문기업 제타큐브(대표 조정현)가 '2026 ISACA Korea IT 거버넌스 상'을 수상하며 AI 인프라 기술력과 디지털 신뢰 확보 성과를 인정받았다. 제타큐브는 13일 서울 연세대학교 경영관 용재홀에서 열린 '2026 추계 공동학술대회 및 ISACA Korea 콘퍼런스'에서 IT Governance Award를 수상했다고 밝혔다. 이번 행사는 한국정보시스템감사통제협회(ISACA Korea) 등이 참여한 가운데 'AI G"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "[옴니사 원 도쿄 2026] 랑가라잔 옴니사 CPO “韓 금융권서 가상 데스크톱 '호라이즌' 역할 커질 것”",
-   "link": "https://www.etnews.com/20261113000273",
-   "published": "2026-11-13T08:00:00.000Z",
-   "summary": "바라트 랑가라잔 옴니사 최고제품책임자(CPO)는 망분리 규제가 완화돼도 국내 금융권에서 가상 데스크톱 '호라이즌'의 역할은 더욱 커질 것이라고 강조했다. 규제 대응용 가상데스크톱인프라(VDI)를 넘어, 금융사가 AI 에이전트를 안전하게 가동하는 '격리 작업공간'으로 쓰임새를 넓히겠다는 복안이다. 랑가라잔 CPO는 13일 도쿄에서 열린 '옴니사 원 도쿄 2026'에서 전자신문과 만나 “호라이즌은 사람과 AI 에이전트가 나란히 일할 수 있는 안전하"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "삼성메디슨, 홍천공장 500억원 투자 증설…“글로벌 초음파 시장 톱3 도약”",
-   "link": "https://www.etnews.com/20261113000271",
-   "published": "2026-11-13T08:00:00.000Z",
-   "summary": "삼성메디슨이 강원도 홍천에 500억원을 투자해 초음파 진단기기 생산능력을 2030년까지 2배로 확대하고 글로벌 초음파 시장 톱3 진입에 속도를 낸다. 삼성전자에 인수된 이후 최대 규모의 생산시설 확장으로 인공지능(AI)을 접목한 프리미엄 제품 비중을 확대한다. 삼성메디슨은 13일 강원특별자치도 홍천사업장에서 신규 초음파 진단기기 제조동 준공식을 열고 이 같은 비전을 제시했다. 행사에는 우상호 강원특별자치도지사, 유상범 국민의힘 국회의원, 신영재"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "中 스파이 의혹에도 젠슨 황 챙긴 트럼프…사임 직전 전화 걸어 “끝까지 싸워 자리 지켜라”",
-   "link": "https://www.etnews.com/20261113000281",
-   "published": "2026-11-13T07:55:29.000Z",
-   "summary": "도널드 트럼프 미국 대통령이 중국 정보기관 연계 의혹과 혼외 관계 논란으로 사임 위기에 놓인 젠슨 황 엔비디아 전 최고경영자(CEO)에게 직접 전화해 끝까지 자리를 지키기 위해 싸우라고 독려했던 것으로 전해졌다. 황 전 CEO의 퇴진이 미국 증시와 경제에 미칠 충격을 우려했기 때문이라는 분석이다. 뉴욕타임스(NYT)는 12일(현지시간) 통화 내용을 전달받은 소식통 2명을 인용해 트럼프 대통령이 지난 10일 황 전 CEO에게 전화해 사임에 맞서"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "KISTI 주관 '넷프라스트 2026' 개최…AI 시대 보안 거버넌스 논의",
-   "link": "https://www.etnews.com/20261113000280",
-   "published": "2026-11-13T07:51:22.000Z",
-   "summary": "한국과학기술정보연구원(KISTI) 네트워크미래기술연구본부가 주관하는 '넷프라스트(N³etFraST) 2026'이 11일부터 13일까지 사흘간 대구 북구 인터불고 엑스코 호텔에서 열렸다. 올해로 2회를 맞은 이번 행사는 '연결을 넘어, 함께 여는 인공지능 전환(AX) 미래: WITH 국가 전략 인프라·서비스·기술'을 주제로, 국가과학기술연구망(KREONET) 회원 기관과 과학기술정보보호협의회, 양자통신 연구자 커뮤니티 등 산·학·연 관계자 400"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "NC AI, 게임 개발자 AI 창작 협력 '판교 빌더스' 밋업 성료",
-   "link": "https://www.etnews.com/20261113000279",
-   "published": "2026-11-13T07:48:07.000Z",
-   "summary": "NC AI가 게임 개발자들과 인공지능(AI) 창작 노하우를 공유하는 커뮤니티 운영에 나섰다. NC AI는 게임 개발자 커뮤니티 '판교 빌더스' 첫 행사인 '빌더스 나잇'을 개최했다고 13일 밝혔다. 행사에는 게임 개발자와 업계 관계자 70여명이 참석했다. 판교 빌더스는 생성형 AI 활용 사례를 공유하고 협력 기회를 모색하기 위해 마련됐다. 소속 기업이나 직군과 관계없이 게임 개발자와 창작자들이 교류할 수 있다. 행사는 'AI로 게임 빌드하기'를"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "코어라인소프트, 3분기 역대 최대 매출…해외 비중 3년 연속 상승",
-   "link": "https://www.etnews.com/20261113000278",
-   "published": "2026-11-13T07:47:04.000Z",
-   "summary": "코어라인소프트가 해외 의료 인공지능(AI) 시장에서 사업을 확대하며 올 3분기 역대 최대 분기 매출을 기록했다. 해외 매출 비중도 3년 연속 상승해 전체 매출의 절반을 넘어섰다. 글로벌 의료기관 공급 확대가 실제 매출 증가와 영업손실 축소로 이어지고 있다. 코어라인소프트는 13일 올 3분기 별도 기준 매출이 23억3000만원으로 전년 동기 대비 139% 증가했다고 밝혔다. 분기 기준 역대 최대 실적이다. 같은 기간 영업손실은 35억9000만원에"
   },
   {
    "source": "바이라인네트워크",
@@ -445,16 +435,6 @@
    "summary": "구글이 효율형 AI 모델인 플래시 시리즈의 최신 버전 ‘제미나이 4 하이드로젠(Hydrogen)’을 공개했다. 프런티어급 에디션인 카본과 아르곤 공개에 이어 하이드로젠을 출시하면서 제미나이 모델 포트폴리오를 최신 버전으로 재정비하고 있다."
   },
   {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-   "link": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-   "published": "2026-11-12T23:06:17.000Z",
-   "summary": "Article URL: https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer Comments URL: https://news.ycombinator.com/item?id=50475713 Points: 280 # Comments: 82"
-  },
-  {
    "source": "테크크런치 AI",
    "kind": "media",
    "lang": "en",
@@ -473,16 +453,6 @@
    "link": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
    "published": "2026-11-12T22:29:43.000Z",
    "summary": "Nvidia employees and tech insiders never thought the chip king would lose his job. Despite his sudden resignation, many of them are still in denial."
-  },
-  {
-   "source": "아스테크니카 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-   "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-   "published": "2026-11-12T22:28:47.000Z",
-   "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved."
   },
   {
    "source": "테크크런치 AI",
@@ -505,16 +475,6 @@
    "summary": "In a special episode of “Uncanny Valley,” we break down Jensen Huang’s resignation from Nvidia, what comes next for the company, and where the AI industry goes from here."
   },
   {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-   "link": "https://unemploymentlabs.com/checkpoint-forensics",
-   "published": "2026-11-12T21:56:11.000Z",
-   "summary": "Article URL: https://unemploymentlabs.com/checkpoint-forensics Comments URL: https://news.ycombinator.com/item?id=50474883 Points: 309 # Comments: 115"
-  },
-  {
    "source": "더버지 AI",
    "kind": "media",
    "lang": "en",
@@ -529,30 +489,10 @@
    "kind": "media",
    "lang": "en",
    "official": false,
-   "title": "The unfolding Jensen Huang scandal: a timeline",
-   "link": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "published": "2026-11-12T21:35:00.000Z",
-   "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
    "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
    "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
    "published": "2026-11-12T21:27:10.000Z",
    "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "AI is turning Apple's app review process into a nightmare for synth developers",
-   "link": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
-   "published": "2026-11-12T21:09:49.000Z",
-   "summary": "Article URL: https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html Comments URL: https://news.ycombinator.com/item?id=50474311 Points: 181 # Comments: 205"
   },
   {
    "source": "와이어드 AI",
@@ -745,26 +685,6 @@
    "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos."
   },
   {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "AI chatbots are recommending fake retail websites, study finds",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
-   "published": "2026-11-12T17:00:00.000Z",
-   "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questi"
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "More game developers are starting to use generative AI",
-   "link": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
-   "published": "2026-11-12T17:00:00.000Z",
-   "summary": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025. Usage was higher with game developers t"
-  },
-  {
    "source": "테크크런치 AI",
    "kind": "media",
    "lang": "en",
@@ -773,86 +693,6 @@
    "link": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
    "published": "2026-11-12T16:36:37.000Z",
    "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-   "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-   "published": "2026-11-12T16:32:33.000Z",
-   "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways."
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Jensen Huang is out. What did China want from him?",
-   "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
-   "published": "2026-11-12T16:30:00.000Z",
-   "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to en"
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
-   "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-   "published": "2026-11-12T16:12:44.000Z",
-   "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook."
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
-   "published": "2026-11-12T15:48:12.000Z",
-   "summary": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news o"
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-   "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-   "published": "2026-11-12T15:37:29.000Z",
-   "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Norwest pushes deeper into AI with new $4B fund",
-   "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-   "published": "2026-11-12T15:18:14.000Z",
-   "summary": "This is the investment firm's largest fund to date."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-   "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-   "published": "2026-11-12T15:02:28.000Z",
-   "summary": "This is Fireworks' second data breach in as many months."
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-   "published": "2026-11-12T15:01:31.000Z",
-   "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who"
   },
   {
    "source": "아스테크니카 AI",
@@ -873,156 +713,6 @@
    "link": "https://byline.network/2026/11/huang/",
    "published": "2026-11-12T14:46:55.000Z",
    "summary": "젠슨 황 엔비디아 창업자가 12일(현지시간) 최고경영자(CEO)에서 물러났다. 중국 정보기관과 연계됐다는 의혹을 받는 중국 국적 기업인과의 불륜에 이어, 직속 여성 임원과도 관계를 맺었다는 보도가 나오면서 이사회가 해임을 논의한 지 하루 만이다."
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Meet Colette Kress, Nvidia’s New Interim CEO",
-   "link": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
-   "published": "2026-11-12T14:14:33.000Z",
-   "summary": "Nvidia’s longtime chief financial officer helped transform the company into an AI powerhouse. Now she’s taking the reins following Jensen Huang’s resignation on Thursday."
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "I reviewed the Apple HomeView, ask me anything",
-   "link": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
-   "published": "2026-11-12T14:10:00.000Z",
-   "summary": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop and wall-mounted versions through their paces, on my kitchen counter, bedside table, in my office, and"
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Jensen Huang Resigns as Nvidia CEO",
-   "link": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
-   "published": "2026-11-12T13:58:06.000Z",
-   "summary": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
-   "link": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
-   "published": "2026-11-12T13:26:25.000Z",
-   "summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "“CVE·패치 나오기 전 악용되는 AI 취약점 공격, ‘런타임 보안’으로 막는다” – 레이븐, 한국 진출",
-   "link": "https://byline.network/2026/11/12-683/",
-   "published": "2026-11-12T11:17:14.000Z",
-   "summary": "“레이븐은 코드가 실행되는 모든 라이브러리에 설치된 CCTV와 같은 역할을 한다. 실행 중인 라이브러리를 식별하고, 실제 취약점 악용 공격이 발생할 경우 CVE나 보안패치가 없더라도 코드 실행은 물론 네트워크나 파일에 접근하지 못하게 하는 즉각 조치를 수행한다.” PHP2Shell, Node2Shell, Log4Shell 2.0 취약점 공개, AI 허깅페이스 침해와 국내 금융사 해킹 등과 같은 공포스러운 보안 사건 사고가 연일 이어지는 가운데 레이븐이 한국 시장 진출을 알렸다."
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Alex Karp Said He’s a ‘Progressive.’ OK! Here’s Some Other Stuff He’s Said Recently",
-   "link": "https://www.wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently/",
-   "published": "2026-11-12T10:30:00.000Z",
-   "summary": "The Palantir CEO touted his “progressive” worldview in a recent interview. Let’s see how that lines up with his comments during the company’s earnings call two weeks ago."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "네이버클라우드 “사이버 팬데믹, 보안 특화 AI가 살길”",
-   "link": "https://byline.network/2026/11/12-680/",
-   "published": "2026-11-12T09:06:16.000Z",
-   "summary": "“저희도 지금 이 순간에 저희 망이 안전한지 모르겠어요. 확신할 수 없고요.” 김진휘 네이버클라우드 전무는 12일 서울 여의도 콘래드서울에서 열린 금융정보보호 컨퍼런스 ‘FISCON 2026’ 특별강연에서 최근의 보안 위협을 ‘사이버 팬데믹’에 비유하며 이렇게 말했다. AI를 활용한 공격이 빨라지면서 네이버도 기존 방어 방식만으로는 안전을 확신하기 어렵다는 설명이다. 네이버클라우드가 보안 특화 인공지능(AI) 파운데이션 모델(보안 특파모) 개발에 나선 배경에도 이러한 위기감이 있다. 김 전무는 “보안을 잘 아는 자체 모델을 만들어야 네이버 그룹을 지킬 수 있다고 판단"
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "한컴, 3분기 영업이익 97억원…AI 매출 비중 30.7%",
-   "link": "https://byline.network/2026/11/1112-10/",
-   "published": "2026-11-12T08:53:33.000Z",
-   "summary": "한글과컴퓨터(대표 김연수)는 올 3분기 별도 기준 영업이익 97억원을 기록했다고 12일 밝혔다. 전년 동기 대비 9.6% 증가한 수치다. 영업이익률은 20.1%로 집계됐다. 연결 기준 영업이익은 92억원, 영업이익률은 10.0%다."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "김태수 마이크로소프트 부사장 “AI 공격 빨라지는데, 대응 절차가 병목”",
-   "link": "https://byline.network/2026/11/12-670/",
-   "published": "2026-11-12T06:30:44.000Z",
-   "summary": "“AI가 취약점을 찾아 공격하는 시간은 점점 더 짧아지고 있습니다. 그런데 방어는 여전히 사람이 판단하고 승인하기를 기다립니다. 대응 절차도 이 속도에 맞게 바뀌어야 합니다.” 김태수 마이크로소프트(MS) 보안 연구 부사장 겸 조지아공과대학교 교수는 12일 서울 여의도 콘래드서울에서 열린 금융정보보호 컨퍼런스 ‘피스콘(FISCON) 2026’ 기조연설에서 이렇게 강조했다. AI가 취약점을 찾아 공격에 활용하는 시간은 짧아지는데, 방어 조직이 영향 분석과 조치 승인에 시간을 쓰면 공격의 속도를 따라잡기 어렵다는 것이다."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-   "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-   "published": "2026-11-11T21:24:35.000Z",
-   "summary": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 673 # Comments: 697"
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Retirement Savings Are Fueling the AI Bubble",
-   "link": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
-   "published": "2026-11-11T19:06:43.000Z",
-   "summary": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 165 # Comments: 195"
-  },
-  {
-   "source": "아스테크니카 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-   "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-   "published": "2026-11-11T18:16:40.000Z",
-   "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles."
-  },
-  {
-   "source": "아스테크니카 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
-   "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
-   "published": "2026-11-11T17:37:32.000Z",
-   "summary": "Any amount of AI coding is too much for many Independent Games Festival judges."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "AI, activity, and outcomes in software engineering",
-   "link": "https://cabird.com/talks/shipping-faster/",
-   "published": "2026-11-11T16:33:28.000Z",
-   "summary": "https://www.youtube.com/watch?v=0wumMeZsNsI Comments URL: https://news.ycombinator.com/item?id=50455332 Points: 128 # Comments: 112"
-  },
-  {
-   "source": "아스테크니카 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Google DeepMind just mathematically verified key parts of Signal",
-   "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-   "published": "2026-11-11T14:08:57.000Z",
-   "summary": "The four-week project hints that AI could make formal verification far more practical."
   }
  ]
 }
