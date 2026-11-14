@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T02:31:04.997Z",
+ "updated": "2026-11-14T03:30:34.454Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -147,8 +147,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠? 오류 난 수식만 복사해서 AI에게 이유부터 물어보세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-14-1136-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-14-1136-howto/02.png"
@@ -381,11 +381,11 @@
   {
    "date": "2026-11-14",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -398,7 +398,7 @@
     {
      "at": "2026-11-14T11:36:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
@@ -447,15 +447,6 @@
    "at": "2026-11-09T03:36:20+0000"
   },
   {
-   "hook": "회의 메모, 정리하다 30분 쓰셨죠?",
-   "views": 131,
-   "likes": 1,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfbN8D9FlMC",
-   "at": "2026-11-07T03:29:26+0000"
-  },
-  {
    "hook": "메일 첨부가 커서 튕겼던 적 있으세요?",
    "views": 115,
    "likes": 0,
@@ -463,6 +454,15 @@
    "reposts": 1,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DflEOqCFMg1",
    "at": "2026-11-10T23:16:59+0000"
+  },
+  {
+   "hook": "거절 메일, 쓰다가 한 시간 지나셨나요?",
+   "views": 99,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DflhoiXjdPw",
+   "at": "2026-11-11T03:33:56+0000"
   }
  ]
 }
