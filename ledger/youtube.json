@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-14T21:19:55.040Z",
- "date": "2026-11-15",
+ "updated": "2026-11-15T21:21:23.742Z",
+ "date": "2026-11-16",
  "channels": {
   "ai": {
    "key": "ai",
    "name": "시프트 AI",
    "id": "UCWzwTQoe0q2IdwZV6BuopVw",
    "subs": 10,
-   "totalViews": 28740,
+   "totalViews": 28845,
    "videoCount": 45,
    "videos": [
     {
@@ -46,7 +46,7 @@
      "at": "2026-11-08T00:00:33Z",
      "date": "2026-11-08",
      "sec": 26,
-     "views": 172,
+     "views": 173,
      "likes": 0,
      "comments": 0
     },
@@ -56,7 +56,7 @@
      "at": "2026-11-07T09:00:10Z",
      "date": "2026-11-07",
      "sec": 38,
-     "views": 75,
+     "views": 77,
      "likes": 1,
      "comments": 0
     },
@@ -76,7 +76,7 @@
      "at": "2026-11-06T09:00:51Z",
      "date": "2026-11-06",
      "sec": 31,
-     "views": 176,
+     "views": 181,
      "likes": 3,
      "comments": 0
     },
@@ -96,7 +96,7 @@
      "at": "2026-11-05T09:00:18Z",
      "date": "2026-11-05",
      "sec": 31,
-     "views": 804,
+     "views": 806,
      "likes": 6,
      "comments": 0
     },
@@ -116,7 +116,7 @@
      "at": "2026-11-05T00:00:16Z",
      "date": "2026-11-05",
      "sec": 32,
-     "views": 89,
+     "views": 92,
      "likes": 0,
      "comments": 0
     },
@@ -156,7 +156,7 @@
      "at": "2026-11-03T09:00:38Z",
      "date": "2026-11-03",
      "sec": 40,
-     "views": 88,
+     "views": 89,
      "likes": 0,
      "comments": 0
     },
@@ -176,7 +176,7 @@
      "at": "2026-11-03T00:00:07Z",
      "date": "2026-11-03",
      "sec": 26,
-     "views": 1073,
+     "views": 1074,
      "likes": 0,
      "comments": 0
     },
@@ -186,7 +186,7 @@
      "at": "2026-11-02T09:00:28Z",
      "date": "2026-11-02",
      "sec": 43,
-     "views": 568,
+     "views": 569,
      "likes": 2,
      "comments": 1
     },
@@ -206,7 +206,7 @@
      "at": "2026-11-02T00:00:38Z",
      "date": "2026-11-02",
      "sec": 38,
-     "views": 1263,
+     "views": 1267,
      "likes": 7,
      "comments": 2
     },
@@ -226,7 +226,7 @@
      "at": "2026-11-01T03:30:12Z",
      "date": "2026-11-01",
      "sec": 18,
-     "views": 269,
+     "views": 271,
      "likes": 1,
      "comments": 0
     },
@@ -336,7 +336,7 @@
      "at": "2026-10-29T00:00:08Z",
      "date": "2026-10-29",
      "sec": 25,
-     "views": 482,
+     "views": 485,
      "likes": 4,
      "comments": 0
     },
@@ -346,7 +346,7 @@
      "at": "2026-10-28T09:00:17Z",
      "date": "2026-10-28",
      "sec": 38,
-     "views": 317,
+     "views": 319,
      "likes": 0,
      "comments": 0
     },
@@ -356,7 +356,7 @@
      "at": "2026-10-28T03:30:02Z",
      "date": "2026-10-28",
      "sec": 54,
-     "views": 654,
+     "views": 658,
      "likes": 3,
      "comments": 0
     },
@@ -366,7 +366,7 @@
      "at": "2026-10-28T00:00:16Z",
      "date": "2026-10-28",
      "sec": 40,
-     "views": 1592,
+     "views": 1600,
      "likes": 9,
      "comments": 0
     },
@@ -416,7 +416,7 @@
      "at": "2026-10-26T09:00:17Z",
      "date": "2026-10-26",
      "sec": 20,
-     "views": 1625,
+     "views": 1629,
      "likes": 6,
      "comments": 0
     },
@@ -436,7 +436,7 @@
      "at": "2026-10-26T01:00:34Z",
      "date": "2026-10-26",
      "sec": 19,
-     "views": 752,
+     "views": 780,
      "likes": 3,
      "comments": 0
     },
@@ -446,7 +446,7 @@
      "at": "2026-10-25T09:00:37Z",
      "date": "2026-10-25",
      "sec": 39,
-     "views": 1654,
+     "views": 1658,
      "likes": 2,
      "comments": 0
     },
@@ -462,13 +462,13 @@
     }
    ],
    "summary": {
-    "settledN": 5,
-    "settledMedian": 158,
-    "beforeN": 20,
-    "beforeMedian": 273,
+    "settledN": 4,
+    "settledMedian": 146,
+    "beforeN": 19,
+    "beforeMedian": 191,
     "uploads7": 2,
     "lastDate": "2026-11-14",
-    "quietDays": 1
+    "quietDays": 2
    }
   },
   "play": {
@@ -476,7 +476,7 @@
    "name": "시프트 플레이",
    "id": "UCjZ398yiclS8zPeJ-kbEWYg",
    "subs": 0,
-   "totalViews": 7169,
+   "totalViews": 7176,
    "videoCount": 6,
    "videos": [
     {
@@ -485,7 +485,7 @@
      "at": "2026-11-10T09:00:18Z",
      "date": "2026-11-10",
      "sec": 27,
-     "views": 1174,
+     "views": 1178,
      "likes": 5,
      "comments": 0
     },
@@ -515,7 +515,7 @@
      "at": "2026-11-09T03:00:21Z",
      "date": "2026-11-09",
      "sec": 29,
-     "views": 1419,
+     "views": 1421,
      "likes": 5,
      "comments": 0
     },
@@ -545,26 +545,26 @@
     "settledMedian": 1268,
     "beforeN": 0,
     "beforeMedian": null,
-    "uploads7": 4,
+    "uploads7": 2,
     "lastDate": "2026-11-10",
-    "quietDays": 5
+    "quietDays": 6
    }
   }
  },
  "errors": [],
  "threads": {
   "followers": 76,
-  "updated": "2026-11-14T21:14:45.776Z",
-  "views7": 1532,
-  "posts7": 13,
+  "updated": "2026-11-15T21:15:32.831Z",
+  "views7": 1901,
+  "posts7": 14,
   "medianByFormat14": {
    "howto": {
-    "n": 17,
-    "median": 99
+    "n": 18,
+    "median": 107
    },
    "briefing": {
-    "n": 7,
-    "median": 84
+    "n": 6,
+    "median": 55
    },
    "기타": {
     "n": 1,
@@ -584,9 +584,17 @@
     "id": "2026-11-14-0738-howto",
     "date": "2026-11-14",
     "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
-    "views": 371,
+    "views": 375,
     "likes": 0,
     "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP"
+   },
+   {
+    "id": "2026-11-15-0738-howto",
+    "date": "2026-11-15",
+    "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
+    "views": 358,
+    "likes": 0,
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd"
    },
    {
     "id": "2026-11-12-0738-howto",
@@ -600,17 +608,9 @@
     "id": "2026-11-14-1136-howto",
     "date": "2026-11-14",
     "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
-    "views": 195,
+    "views": 203,
     "likes": 0,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-"
-   },
-   {
-    "id": "2026-11-10-1134-howto",
-    "date": "2026-11-10",
-    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
-    "views": 177,
-    "likes": 1,
-    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4"
    }
   ]
  }
