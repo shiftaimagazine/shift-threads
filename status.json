@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T20:18:57.901Z",
+ "updated": "2026-11-15T21:15:32.897Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -85,6 +85,10 @@
   },
   {
    "date": "2026-11-15",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-16",
    "followers": 76
   }
  ],
@@ -417,12 +421,21 @@
  "top": [
   {
    "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
-   "views": 371,
+   "views": 375,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP",
    "at": "2026-11-13T23:24:01+0000"
+  },
+  {
+   "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
+   "views": 358,
+   "likes": 0,
+   "replies": 2,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd",
+   "at": "2026-11-15T00:17:13+0000"
   },
   {
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
@@ -435,7 +448,7 @@
   },
   {
    "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
-   "views": 195,
+   "views": 203,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -450,15 +463,6 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4",
    "at": "2026-11-10T02:35:18+0000"
-  },
-  {
-   "hook": "월요일 아침, 할 일이 뒤죽박죽이신가요?",
-   "views": 139,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfgYUZslZUM",
-   "at": "2026-11-09T03:36:20+0000"
   }
  ]
 }

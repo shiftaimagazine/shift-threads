@@ -1,7 +1,37 @@
 {
- "updated": "2026-11-14T21:14:45.776Z",
+ "updated": "2026-11-15T21:15:32.831Z",
  "followers": 76,
  "posts": [
+  {
+   "at": "2026-11-15T03:34:03+0000",
+   "id": "2026-11-15-1141-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "AI가 쓴 글, 읽어 보면 어딘가 어색하셨죠?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Dfv00--kaz-",
+   "views": 30,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 100
+  },
+  {
+   "at": "2026-11-15T00:17:13+0000",
+   "id": "2026-11-15-0738-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd",
+   "views": 358,
+   "likes": 0,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 17
+  },
   {
    "at": "2026-11-14T03:30:19+0000",
    "id": "2026-11-14-1136-howto",
@@ -9,7 +39,7 @@
    "type": "carousel",
    "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-",
-   "views": 195,
+   "views": 203,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -24,7 +54,7 @@
    "type": "carousel",
    "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP",
-   "views": 371,
+   "views": 375,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -346,36 +376,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 1056
-  },
-  {
-   "at": "2026-11-01T03:29:55+0000",
-   "id": "2026-11-01-1140-howto",
-   "format": "howto",
-   "type": "carousel",
-   "hook": "1시간짜리 유튜브 강의, 3줄이면 충분할 때 있죠.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfLxOjVjSxk",
-   "views": 68,
-   "likes": 2,
-   "replies": 3,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 162
-  },
-  {
-   "at": "2026-10-31T23:14:28+0000",
-   "id": "2026-11-01-0740-briefing",
-   "format": "briefing",
-   "type": "carousel",
-   "hook": "우주에 띄운 AI가 시를 써서 보냈어요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfLT_iuHe6o",
-   "views": 238,
-   "likes": 2,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 21
   }
  ]
 }
