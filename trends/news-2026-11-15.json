@@ -1,0 +1,368 @@
+{
+ "updated": "2026-11-15T12:21:51.689Z",
+ "kstDate": "2026-11-15",
+ "windowHours": 48,
+ "note": "글쓰기 작업용 뉴스 후보. 쓰기로 한 소식은 반드시 link 원문을 열어 숫자·날짜를 확인할 것. summary 는 피드 요약이라 사실 확인 근거로 쓰지 않음.",
+ "items": [
+  {
+   "source": "Google Research",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Advancing science & engineering with Antigravity’s /teamwork",
+   "link": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "published": "2026-11-13T20:47:18.000Z",
+   "summary": "Education Innovation"
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+   "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "published": "2026-11-13T18:00:39.000Z",
+   "summary": ""
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "XYBench: Helping with the problem behind the question",
+   "link": "https://huggingface.co/blog/allenai/xybench",
+   "published": "2026-11-13T17:02:35.000Z",
+   "summary": ""
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Introducing ChatGPT Wallet",
+   "link": "https://openai.com/index/introducing-chatgpt-wallet",
+   "published": "2026-11-13T15:00:00.000Z",
+   "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "published": "2026-11-13T14:05:22.000Z",
+   "summary": ""
+  },
+  {
+   "source": "NVIDIA 블로그",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+   "link": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+   "published": "2026-11-13T13:00:42.000Z",
+   "summary": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians s"
+  },
+  {
+   "source": "AI타임스",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[기고] 채점이 편한 시험은 AI에도 편하다",
+   "link": "https://www.aitimes.com/news/articleView.html?idxno=217423",
+   "published": "2026-11-15T18:59:15.000Z",
+   "summary": "몇 년을 준비해도 붙기 어려운 시험이 있다. 올해 제63회 세무사 1차 시험에서 세법학개론을 본 1만 6856명은 평균 30.18점을 받았다.이 과목 만점자이자 수석 합격자인 A씨가 2026년 11월15일 부정행위를 자백하고, 경찰에 자수했다.자백에 따르면 초소형 카메라가 시험 문제를 찍었고, 생성 AI가 답을 만들었으며, A씨는 스마트폰으로 그 답을 확인했다.수험생만의 일이 아니다. 시험은 누구나 치른다. 학생은 내신과 수능을, 직장인은 자격시험을 본다. 시험을 보지 않는 사람도 시험으로 자격을 얻은 세무사와 의사, 변호사에게 일"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "AI DJs Completely Kill My Groove",
+   "link": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+   "published": "2026-11-15T12:00:00.000Z",
+   "summary": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "아이에스시, 인천 송도에 AI 반도체 검사 연구·생산 새 거점 구축",
+   "link": "https://www.etnews.com/20261115000179",
+   "published": "2026-11-15T11:35:22.000Z",
+   "summary": "반도체 검사 부품 업체 아이에스시(ISC)가 인천 송도에 2028년 가동을 목표로 새 공장을 짓는다. 15일 인천경제자유구역청에 따르면 아이에스시는 지난 12일 송도 지식정보산업단지에서 신공장 착공식을 열었다. 행사에는 김정렬 아이에스시 대표와 김종철 인천경제자유구역청장 등 100여명이 참석했다. 신공장에는 차세대 인공지능(AI) 반도체 검사 기술을 개발하는 연구시설과 테스트 소켓 생산시설이 들어선다. 테스트 소켓은 반도체 칩과 검사 장비를 연"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "정부, 올해 국가자격시험 전수조사 실시…세무사 시험 부정행위자는 5년간 응시 제한",
+   "link": "https://www.etnews.com/20261115000178",
+   "published": "2026-11-15T11:24:10.000Z",
+   "summary": "정부가 올해 치러진 국가자격시험을 대상으로 인공지능(AI) 활용 부정행위 전수조사에 나선다. 제63회 세무사 시험 부정행위자는 합격 취소와 함께 5년간 응시가 제한된다. 고용노동부는 15일 권창준 노동부 차관 주재로 비상대책회의를 열고 제63회 세무사 시험 AI 활용 부정행위에 대한 후속대책을 이같이 마련했다고 밝혔다. 같은 날 하준경 청와대 정책실장 주재로 열린 'AI 활용 부정시험 확산방지 긴급대책회의'에 이은 후속 회의다. 노동부는 이번"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+   "link": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+   "published": "2026-11-15T11:00:00.000Z",
+   "summary": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits."
+  },
+  {
+   "source": "긱뉴스",
+   "kind": "community",
+   "lang": "ko",
+   "official": false,
+   "title": "Show GN: agent-otel-kit - Claude Code·Codex·Gemini CLI 사용량, 비용, 도구 호출을 한 대시보드로",
+   "link": "https://news.hada.io/topic?id=37198&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+   "published": "2026-11-15T09:02:02.000Z",
+   "summary": "직접 만든 오픈소스입니다. 코딩 에이전트를 여러 개 같이 쓰다 보니 /usage 같은 에이전트별 화면으로는 셋을 나란히, 기간별로 보기 어려워서 만들었습니다. /usage를 대체하려는 것은 아니고, 에이전트를 여러 개 쓰는 개인이나 팀을 위한 도구입니다. 로컬에서 docker compose up 한 번으로 OpenTelemetry Collector, Prometheus, Loki, Tempo와 Grafana·Perses 대시보드 3개가 뜹니다. 작은 Go CLI( agent-otel-kit setup claude|codex|gemini|all )가 각 에이전트 설정을"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Where was Nvidia’s security team?",
+   "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+   "published": "2026-11-15T00:08:07.000Z",
+   "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate secur"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+   "published": "2026-11-14T21:41:22.000Z",
+   "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "published": "2026-11-14T17:30:00.000Z",
+   "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+   "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+   "published": "2026-11-14T16:34:15.000Z",
+   "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+   "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+   "published": "2026-11-14T15:00:00.000Z",
+   "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Beware the New AI-Fueled Ransomware Boom",
+   "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+   "published": "2026-11-14T13:00:00.000Z",
+   "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+   "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+   "published": "2026-11-14T12:00:00.000Z",
+   "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+   "link": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+   "published": "2026-11-14T11:00:00.000Z",
+   "summary": "Normally, aviation is slow to embrace new technology—but AI has come for the skies."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Amazon has a plan to index the world’s online shopping data",
+   "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+   "published": "2026-11-13T23:49:11.000Z",
+   "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do thei"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+   "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+   "published": "2026-11-13T22:43:00.000Z",
+   "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+   "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+   "published": "2026-11-13T21:20:47.000Z",
+   "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+   "published": "2026-11-13T20:45:10.000Z",
+   "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After a"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "AI agent startup LangChain hits $3B valuation",
+   "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+   "published": "2026-11-13T19:37:57.000Z",
+   "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+   "link": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+   "published": "2026-11-13T19:08:57.000Z",
+   "summary": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+   "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "published": "2026-11-13T18:40:30.000Z",
+   "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+   "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+   "published": "2026-11-13T17:25:45.000Z",
+   "summary": "Researcher traces a path from AI reward hacking to potential human extinction."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+   "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+   "published": "2026-11-13T16:00:12.000Z",
+   "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Jensen Huang and the End of the Founder Fairy Tale",
+   "link": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
+   "published": "2026-11-13T16:00:00.000Z",
+   "summary": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "published": "2026-11-13T15:58:00.000Z",
+   "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "What’s really at stake in the Jensen Huang saga",
+   "link": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+   "published": "2026-11-13T14:47:16.000Z",
+   "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness […]"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+   "link": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+   "published": "2026-11-13T14:44:48.000Z",
+   "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+   "published": "2026-11-13T14:00:00.000Z",
+   "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple […]"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+   "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+   "published": "2026-11-13T12:52:19.000Z",
+   "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Jensen Huang didn’t show confidence in his successor, report says",
+   "link": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+   "published": "2026-11-13T12:28:23.000Z",
+   "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer."
+  }
+ ]
+}
