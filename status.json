@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T01:50:27.098Z",
+ "updated": "2026-11-15T03:34:18.922Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -147,8 +147,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "AI가 쓴 글, 읽어 보면 어딘가 어색하셨죠? '고쳐 줘' 대신 어디가 어색한지 먼저 짚게 하세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfv00--kaz-",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-15-1141-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-15-1141-howto/02.png"
@@ -390,11 +390,11 @@
   {
    "date": "2026-11-15",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -407,7 +407,7 @@
     {
      "at": "2026-11-15T11:41:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
