@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:24:38.183Z",
+ "updated": "2026-11-15T12:26:07.737Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -196,7 +196,108 @@
  },
  "tomorrow": {
   "date": "2026-11-16",
-  "posts": [],
+  "posts": [
+   {
+    "id": "2026-11-16-0739-howto",
+    "at": "2026-11-16T07:39:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "월요일 회의 끝나고 '그래서 누가 뭘 하기로 했지?' 하신 적 있으세요? 회의 메모를 AI에 붙이고",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-16-0739-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-16-0739-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "월요일 회의 끝나고 '그래서 누가 뭘 하기로 했지?' 하신 적 있으세요?\n\n회의 메모를 AI에 붙이고\n결정·담당·기한 표로 뽑게 하세요.\n후속 메일 쓰기가 5분이면 끝나요.\n\n저장해 두고 써 보세요.",
+     "복붙용 프롬프트 👇\n\n아래는 회의 메모야.\n1) 결정된 것만 표로: 결정 / 담당 / 기한\n2) 담당이나 기한이 빠진 항목은 따로 모으기\n3) 참석자에게 보낼 후속 메일 초안 5줄\n\n[메모 붙여넣기]\n\n※ 회사 기밀·개인정보는 지우고 붙여요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Copy Prompt",
+      "title": "회의 메모를\n==표 하나==로",
+      "sub": "결정·담당·기한만 뽑는 법"
+     },
+     {
+      "kind": "list",
+      "label": "복붙 프롬프트",
+      "title": "이렇게 시켜요",
+      "items": [
+       {
+        "h": "결정 / 담당 / 기한 표로",
+        "d": "잡담은 빼고 결정된 것만 받아요"
+       },
+       {
+        "h": "빠진 항목 따로 모으기",
+        "d": "담당·기한 없는 건 다시 확인해요"
+       },
+       {
+        "h": "후속 메일 초안까지",
+        "d": "5줄 안쪽으로 달라고 해요"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   },
+   {
+    "id": "2026-11-16-1143-howto",
+    "at": "2026-11-16T11:43:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "긴 문서를 AI에 넣었는데 요약이 겉핥기였나요? 통째로 '요약해 줘' 대신 두 단계로 나눠 보세요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-16-1143-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-16-1143-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "긴 문서를 AI에 넣었는데 요약이 겉핥기였나요?\n\n통째로 '요약해 줘' 대신 두 단계로 나눠 보세요.\n먼저 핵심 질문 5개를 뽑게 하고,\n그 질문에 하나씩 답하게 하면 빠뜨림이 줄어요.\n\n저장해 두고 써 보세요.",
+     "복붙용 프롬프트 👇\n\n[1단계] 아래 문서를 읽고\n독자가 꼭 알아야 할 질문 5개만 뽑아 줘.\n\n[2단계] 각 질문에 문서 속 근거 문장을 붙여 두 줄로 답해 줘.\n문서에 없는 내용은 '문서에 없음'이라고 써 줘.\n\n[문서 붙여넣기]\n\n※ 회사 기밀·개인정보는 지우고 붙여요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Copy Prompt",
+      "title": "긴 문서 요약\n==두 단계==로",
+      "sub": "질문 먼저, 답은 그다음"
+     },
+     {
+      "kind": "list",
+      "label": "복붙 프롬프트",
+      "title": "나눠서 시켜요",
+      "items": [
+       {
+        "h": "핵심 질문 5개 먼저",
+        "d": "무엇이 중요한지 AI가 먼저 정해요"
+       },
+       {
+        "h": "질문마다 근거 문장 붙이기",
+        "d": "어디서 나온 말인지 확인돼요"
+       },
+       {
+        "h": "없는 내용은 '없음'",
+        "d": "지어내는 답을 막아 줘요"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   }
+  ],
   "reels": []
  },
  "comments": {
@@ -402,15 +503,28 @@
   },
   {
    "date": "2026-11-16",
-   "total": 0,
+   "total": 2,
    "ok": 0,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
+   "scheduled": 2,
+   "needCards": 2,
+   "cardsReady": 2,
+   "times": [
+    {
+     "at": "2026-11-16T07:39:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    },
+    {
+     "at": "2026-11-16T11:43:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    }
+   ],
    "reels": []
   }
  ],
