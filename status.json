@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:18:42.617Z",
+ "updated": "2026-11-15T23:20:41.293Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -101,7 +101,7 @@
     "format": "howto",
     "type": "carousel",
     "hook": "월요일 회의 끝나고 '그래서 누가 뭘 하기로 했지?' 하신 적 있으세요? 회의 메모를 AI에 붙이고",
-    "status": "scheduled",
+    "status": "waiting",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-16-0739-howto/01.png",
@@ -384,15 +384,15 @@
    "ok": 0,
    "failed": 0,
    "expired": 0,
-   "waiting": 0,
-   "scheduled": 2,
+   "waiting": 1,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-16T07:39:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "waiting",
      "cards": 2
     },
     {
