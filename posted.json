@@ -546,5 +546,16 @@
   "type": "carousel",
   "topic": "AI Threads"
  },
- "_tries_2026-11-15-0738-howto": 1
+ "_tries_2026-11-15-0738-howto": 1,
+ "2026-11-15-0738-howto": {
+  "status": "ok",
+  "at": "2026-11-15T00:17:29.467Z",
+  "ids": [
+   "18144254527714924",
+   "18265995625307794"
+  ],
+  "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd",
+  "type": "carousel",
+  "topic": "AI Threads"
+ }
 }
