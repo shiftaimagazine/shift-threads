@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:30:08.371Z",
+ "updated": "2026-11-16T21:26:07.957Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -89,6 +89,10 @@
   },
   {
    "date": "2026-11-16",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-17",
    "followers": 76
   }
  ],
@@ -416,8 +420,17 @@
  ],
  "top": [
   {
+   "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
+   "views": 378,
+   "likes": 0,
+   "replies": 3,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd",
+   "at": "2026-11-15T00:17:13+0000"
+  },
+  {
    "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
-   "views": 375,
+   "views": 377,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -425,17 +438,8 @@
    "at": "2026-11-13T23:24:01+0000"
   },
   {
-   "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
-   "views": 358,
-   "likes": 0,
-   "replies": 2,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd",
-   "at": "2026-11-15T00:17:13+0000"
-  },
-  {
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-   "views": 233,
+   "views": 234,
    "likes": 2,
    "replies": 1,
    "reposts": 0,
@@ -444,7 +448,7 @@
   },
   {
    "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
-   "views": 203,
+   "views": 205,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -453,7 +457,7 @@
   },
   {
    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
-   "views": 177,
+   "views": 179,
    "likes": 1,
    "replies": 3,
    "reposts": 0,
