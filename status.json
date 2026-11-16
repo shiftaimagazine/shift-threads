@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T12:26:48.267Z",
+ "updated": "2026-11-16T14:15:07.993Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -305,26 +305,15 @@
   "reels": []
  },
  "comments": {
-  "pending": 1,
-  "items": [
-   {
-    "user": "youngsbe9",
-    "text": "피드백을 그대로 붙여넣고 체크리스트로 바꾸는 방식이 실용적이네요. 다만 항목이 많아지면 우선순위가 흐려질 수 있는데, 그럴 땐 어떤 기준으로 먼저 고칠 항목을 정하시나요?",
-    "at": "2026-11-15T14:21:30+0000",
-    "post": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd"
-   }
-  ],
-  "updated": "2026-11-16T03:49:53.600Z"
+  "pending": 0,
+  "items": [],
+  "updated": "2026-11-16T14:15:07.952Z"
  },
  "replies": {
   "sent": [
    {
     "text": "맞아요, 가짜 예시 데이터로 수식부터 만들어 두면 실제 고객 파일은 올릴 필요가 없어요. 열 이름과 형식만 같게 만든 샘플이면 충분하더라고요.",
     "at": "2026-11-11T03:26:49.482Z"
-   },
-   {
-    "text": "안녕하세요, 반가워요! 오늘도 쓸 만한 AI 소식으로 찾아올게요.",
-    "at": "2026-11-03T03:26:59.447Z"
    }
   ],
   "total": 9
