@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T02:09:36.393Z",
+ "updated": "2026-11-16T03:46:17.463Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -151,8 +151,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "긴 문서를 AI에 넣었는데 요약이 겉핥기였나요? 통째로 '요약해 줘' 대신 두 단계로 나눠 보세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfya_fnjQM0",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-16-1143-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-16-1143-howto/02.png"
@@ -381,11 +381,11 @@
   {
    "date": "2026-11-16",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 1,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -398,7 +398,7 @@
     {
      "at": "2026-11-16T11:43:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
