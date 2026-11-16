@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:28:45.763Z",
+ "updated": "2026-11-16T23:26:36.274Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -105,8 +105,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "보고서 첫 문단이 배경 설명으로 시작하나요? 읽는 사람은 결론부터 찾아요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Df0iEQ5EULp",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-17-0740-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-17-0740-howto/02.png"
@@ -381,18 +381,18 @@
   {
    "date": "2026-11-17",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-17T07:37:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
