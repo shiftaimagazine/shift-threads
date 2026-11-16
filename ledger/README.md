@@ -1,22 +1,22 @@
-# 채널 성과 장부 (2026-11-16)
+# 채널 성과 장부 (2026-11-17)
 
 매일 05:50쯤 자동으로 다시 써져요. 유튜브는 공개 수치, 스레드는 성과 수집 값이에요. 인스타그램은 아직 여기에 없어요.
 
 ## 유튜브 시프트 AI
 
-- 구독자 10 · 채널 누적 조회 28,845 · 공개 영상 45편
-- 올린 지 2~8일 된 편: 4편, 조회 중앙값 146 (그 전 주 9~15일: 19편, 중앙값 191)
-- 최근 7일 업로드 2편 · 마지막 업로드 2026-11-14 (**2일째 새 편 없음**)
+- 구독자 10 · 채널 누적 조회 28,925 · 공개 영상 46편
+- 올린 지 2~8일 된 편: 2편, 조회 중앙값 101 (그 전 주 9~15일: 18편, 중앙값 178)
+- 최근 7일 업로드 2편 · 마지막 업로드 2026-11-14 (**3일째 새 편 없음**)
 
 | 올린 날 | 조회 | 좋아요 | 댓글 | 길이(초) | 제목 |
 | --- | ---: | ---: | ---: | ---: | --- |
 | 2026-11-14 | 81 | 0 | 0 | 35 | [긴 PDF 2분 한국어 오디오로 듣기 🎧](https://youtube.com/shorts/bV2qTnC_u9E) |
-| 2026-11-11 | 118 | 1 | 0 | 23 | [고객 번호 AI에 올리기 전 개인정보 가리기 🔒](https://youtube.com/shorts/pziTj7bH1uo) |
+| 2026-11-11 | 120 | 1 | 0 | 23 | [고객 번호 AI에 올리기 전 개인정보 가리기 🔒](https://youtube.com/shorts/pziTj7bH1uo) |
 | 2026-11-08 | 1,004 | 1 | 0 | 37 | [AI 보고서 숫자, 근거 없으면 지우게 시키는 한 줄 📝](https://youtube.com/shorts/mtv-GhkQhik) |
 | 2026-11-08 | 173 | 0 | 0 | 26 | [셀카 한 장이 90년대 영화로 📸 Gemini 직접 해 봄](https://youtube.com/shorts/-aTJCZiNehQ) |
-| 2026-11-07 | 77 | 1 | 0 | 38 | [무료 중국 AI가 해킹 코드를 짠다 GLM-5.3 😨](https://youtube.com/shorts/wynZFGZ-1cw) |
-| 2026-11-07 | 158 | 0 | 0 | 43 | [AI 답에서 인사말 빼는 스킬 하나 ✂️](https://youtube.com/shorts/jknM-2ggtn0) |
-| 2026-11-06 | 181 | 3 | 0 | 31 | [Claude Code 마케팅 스킬 53개 한 줄 설치 📌](https://youtube.com/shorts/l2-SiGpkhFs) |
+| 2026-11-07 | 81 | 1 | 0 | 38 | [무료 중국 AI가 해킹 코드를 짠다 GLM-5.3 😨](https://youtube.com/shorts/wynZFGZ-1cw) |
+| 2026-11-07 | 159 | 0 | 0 | 43 | [AI 답에서 인사말 빼는 스킬 하나 ✂️](https://youtube.com/shorts/jknM-2ggtn0) |
+| 2026-11-06 | 182 | 3 | 0 | 31 | [Claude Code 마케팅 스킬 53개 한 줄 설치 📌](https://youtube.com/shorts/l2-SiGpkhFs) |
 | 2026-11-06 | 459 | 3 | 0 | 32 | [포토샵 구독료 안 내는 법, Photopea 💸](https://youtube.com/shorts/RLIQRITqaOY) |
 | 2026-11-05 | 806 | 6 | 0 | 31 | [Claude 무료로 엑셀 파일 만드는 설정 하나 📊](https://youtube.com/shorts/qYr6qCQrL4c) |
 | 2026-11-05 | 191 | 1 | 0 | 49 | [AI로 누구나 게임 만든다? Konami 사장의 답 🎮](https://youtube.com/shorts/3-FasOlJSY4) |
@@ -28,28 +28,32 @@
 
 ## 유튜브 시프트 플레이
 
-- 구독자 0 · 채널 누적 조회 7,176 · 공개 영상 6편
-- 올린 지 2~8일 된 편: 6편, 조회 중앙값 1268 (그 전 주 9~15일: 0편, 중앙값 -)
-- 최근 7일 업로드 2편 · 마지막 업로드 2026-11-10 (**6일째 새 편 없음**)
+- 구독자 1 · 채널 누적 조회 7,181 · 공개 영상 10편
+- 올린 지 2~8일 된 편: 4편, 조회 중앙값 1315 (그 전 주 9~15일: 2편, 중앙값 1273)
+- 최근 7일 업로드 4편 · 마지막 업로드 2026-11-16
 
 | 올린 날 | 조회 | 좋아요 | 댓글 | 길이(초) | 제목 |
 | --- | ---: | ---: | ---: | ---: | --- |
-| 2026-11-10 | 1,178 | 5 | 0 | 27 | [동물의 숲 너굴 대출 다 갚으면… 최저시급 월급 약 6.6개월 🦝🏠](https://youtube.com/shorts/aHeF91XM6-s) |
-| 2026-11-10 | 1,469 | 5 | 0 | 28 | [롤 스킨 1,999개 전부 사면… 최저시급 알바 11개월 💸](https://youtube.com/shorts/2XWGe5bzrBg) |
-| 2026-11-09 | 576 | 4 | 0 | 37 | [KTX 2시간 17분, 소닉은 20분? 서울→부산 음속으로 달리면 🦔💨](https://youtube.com/shorts/8Z-rdSo0rJA) |
-| 2026-11-09 | 1,421 | 5 | 0 | 29 | [피카츄 100만 볼트 한 방, 전기요금 얼마? ⚡](https://youtube.com/shorts/PdJKcI1ioKg) |
-| 2026-11-08 | 1,327 | 6 | 0 | 34 | [강남역에서 크리퍼가 터지면 어떻게 될까? 💥🚇](https://youtube.com/shorts/40gxvKyAaN0) |
-| 2026-11-08 | 1,209 | 6 | 0 | 53 | [치이카와가 서울 아파트 사려면… 풀 뽑기 78년 🌿🏠](https://youtube.com/shorts/EY3MbAxX_lA) |
+| 2026-11-16 | 1,200 | 4 | 0 | 23 | [슈퍼마리오 파이어플라워 불꽃 100발 쏘면… 서울 도시가스비로 약 6원 🔥🧾](https://youtube.com/shorts/P7MjM0qKsgc) |
+| 2026-11-16 | 1,322 | 3 | 1 | 27 | [마인크래프트 스티브 인벤토리를 돌로 꽉 채우면… 아반떼 4,900대를 들고 편의점 가는 중 🧱🚗](https://youtube.com/shorts/chmLFCXkqmk) |
+| 2026-11-16 | 1,241 | 2 | 2 | 22 | [젤다 링크 하트 한 칸 회복… 현실 병원비로 치면 78만 원, 구운 사과 6개면 중환자실 퇴원 🍎🏥](https://youtube.com/shorts/Haop3WIycr8) |
+| 2026-11-16 | 1,730 | 10 | 2 | 29 | [포켓몬 배지 8개 상금 다 모아도… 최저시급 알바 38시간치 🏅⏰](https://youtube.com/shorts/8pV9cmgjg4g) |
+| 2026-11-10 | 1,185 | 5 | 0 | 27 | [동물의 숲 너굴 대출 다 갚으면… 최저시급 월급 약 6.6개월 🦝🏠](https://youtube.com/shorts/aHeF91XM6-s) |
+| 2026-11-10 | 1,495 | 5 | 0 | 28 | [롤 스킨 1,999개 전부 사면… 최저시급 알바 11개월 💸](https://youtube.com/shorts/2XWGe5bzrBg) |
+| 2026-11-09 | 580 | 4 | 0 | 37 | [KTX 2시간 17분, 소닉은 20분? 서울→부산 음속으로 달리면 🦔💨](https://youtube.com/shorts/8Z-rdSo0rJA) |
+| 2026-11-09 | 1,444 | 5 | 0 | 29 | [피카츄 100만 볼트 한 방, 전기요금 얼마? ⚡](https://youtube.com/shorts/PdJKcI1ioKg) |
+| 2026-11-08 | 1,332 | 6 | 0 | 34 | [강남역에서 크리퍼가 터지면 어떻게 될까? 💥🚇](https://youtube.com/shorts/40gxvKyAaN0) |
+| 2026-11-08 | 1,213 | 6 | 0 | 53 | [치이카와가 서울 아파트 사려면… 풀 뽑기 78년 🌿🏠](https://youtube.com/shorts/EY3MbAxX_lA) |
 
 ## 스레드
 
-- 팔로워 76 · 최근 7일 글 14개, 조회 1,901
-- 최근 14일 형식별 조회 중앙값: howto 107(18개) · briefing 55(6개) · 기타 23(1개)
+- 팔로워 76 · 최근 7일 글 13개, 조회 1,910
+- 최근 14일 형식별 조회 중앙값: howto 108(18개) · briefing 84(5개) · 기타 23(1개)
 
 조회 상위 실용 팁(릴스·쇼츠 주제 후보):
 
-1. 778회 · 2026-11-02 · [긴 PDF, 2분짜리 한국어 오디오로 들을 수 있어요.](https://www.threads.com/@shift_ai_magazine/post/DfOWZ-fFCh5)
-2. 375회 · 2026-11-14 · [업무 흐름도, 그리다가 한 시간 쓰셨나요?](https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP)
-3. 358회 · 2026-11-15 · [상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?](https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd)
-4. 233회 · 2026-11-12 · [답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?](https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk)
-5. 203회 · 2026-11-14 · [엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?](https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-)
+1. 378회 · 2026-11-15 · [상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?](https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd)
+2. 377회 · 2026-11-14 · [업무 흐름도, 그리다가 한 시간 쓰셨나요?](https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP)
+3. 234회 · 2026-11-12 · [답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?](https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk)
+4. 205회 · 2026-11-14 · [엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?](https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-)
+5. 179회 · 2026-11-10 · [회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?](https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4)
