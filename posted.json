@@ -569,5 +569,10 @@
   "type": "carousel",
   "topic": "AI Threads"
  },
- "_tries_2026-11-16-0739-howto": 2
+ "_tries_2026-11-16-0739-howto": 2,
+ "2026-11-16-0739-howto": {
+  "status": "failed",
+  "at": "2026-11-16T02:09:36.330Z",
+  "error": "POST /29086145244357670/threads 실패: The media could not be fetched from this URI: https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-16-0739-howto/01.png.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating"
+ }
 }
