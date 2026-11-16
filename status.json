@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T11:49:43.044Z",
+ "updated": "2026-11-16T12:26:48.267Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -200,7 +200,108 @@
  },
  "tomorrow": {
   "date": "2026-11-17",
-  "posts": [],
+  "posts": [
+   {
+    "id": "2026-11-17-0740-howto",
+    "at": "2026-11-17T07:37:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "보고서 첫 문단이 배경 설명으로 시작하나요? 읽는 사람은 결론부터 찾아요.",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-17-0740-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-17-0740-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "보고서 첫 문단이 배경 설명으로 시작하나요?\n\n읽는 사람은 결론부터 찾아요.\n초안을 붙여 넣고 두괄식으로 바꿔 달라고 하세요.\n\n저장해 두고 써 보세요.",
+     "복붙용 프롬프트 👇\n\n아래 보고서 초안을 두괄식으로 고쳐 줘.\n1) 맨 위에 결론 한 문장\n2) 근거는 3개 이내, 한 줄씩\n3) 부탁할 일이 있으면 마지막 줄에 따로\n내용은 바꾸지 말고 순서와 문장만 다듬어 줘.\n\n[초안 붙여넣기]\n\n※ 회사 기밀·개인정보는 지우고 붙여요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Copy Prompt",
+      "title": "보고서를\n==결론부터==",
+      "sub": "두괄식으로 바꾸는 복붙 프롬프트"
+     },
+     {
+      "kind": "list",
+      "label": "복붙 프롬프트",
+      "title": "이렇게 시켜요",
+      "items": [
+       {
+        "h": "맨 위에 결론 한 문장",
+        "d": "읽는 사람이 바로 판단해요"
+       },
+       {
+        "h": "근거는 3개 이내",
+        "d": "한 줄씩만 남겨 달라고 해요"
+       },
+       {
+        "h": "내용은 바꾸지 않기",
+        "d": "순서와 문장만 다듬게 해요"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   },
+   {
+    "id": "2026-11-17-1140-howto",
+    "at": "2026-11-17T11:38:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "AI와 대화가 길어질수록 답이 딴소리로 새나요? 그럴 땐 새 대화를 열기 전에",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-17-1140-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-17-1140-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "AI와 대화가 길어질수록 답이 딴소리로 새나요?\n\n그럴 땐 새 대화를 열기 전에\n지금까지를 요약해 달라고 하세요.\n그 요약을 새 대화 첫 줄에 붙이면 이어서 일할 수 있어요.\n\n저장해 두고 써 보세요.",
+     "복붙용 프롬프트 👇\n\n지금까지 대화를 새 대화에 붙일 수 있게 정리해 줘.\n1) 내가 하려는 일 한 줄\n2) 이미 정한 것\n3) 아직 못 정한 것\n4) 다음에 할 일\n각각 짧게, 새 대화에서 바로 이어갈 수 있게 써 줘.\n\n※ 회사 기밀·개인정보는 지우고 붙여요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Copy Prompt",
+      "title": "대화가 길어지면\n==요약==부터",
+      "sub": "새 대화로 이어서 일하는 법"
+     },
+     {
+      "kind": "list",
+      "label": "복붙 프롬프트",
+      "title": "이렇게 시켜요",
+      "items": [
+       {
+        "h": "하려는 일 한 줄",
+        "d": "목표를 먼저 고정해요"
+       },
+       {
+        "h": "정한 것 · 못 정한 것",
+        "d": "남은 숙제가 한눈에 보여요"
+       },
+       {
+        "h": "다음에 할 일",
+        "d": "새 대화 첫 줄에 그대로 붙여요"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   }
+  ],
   "reels": []
  },
  "comments": {
@@ -413,15 +514,28 @@
   },
   {
    "date": "2026-11-17",
-   "total": 0,
+   "total": 2,
    "ok": 0,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
+   "scheduled": 2,
+   "needCards": 2,
+   "cardsReady": 2,
+   "times": [
+    {
+     "at": "2026-11-17T07:37:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    },
+    {
+     "at": "2026-11-17T11:38:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    }
+   ],
    "reels": []
   }
  ],
