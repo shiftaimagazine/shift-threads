@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-16T08:06:25+09:00",
- "message": "11-16T08:06 쇼츠 1편 예약",
+ "updated": "2026-11-17T05:29:26+09:00",
+ "message": "11-17T05:29 쇼츠 1편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -10,13 +10,13 @@
  "via": "youtube-api",
  "items": [
   {
-   "date": "2026-11-16",
-   "at": "2026-11-17T07:30:00+09:00",
+   "date": "2026-11-17",
+   "at": "2026-11-18T07:30:00+09:00",
    "slot": "07:30",
    "kind": "new",
-   "title": "이 사진 AI가 만든 걸까? Gemini로 확인 🔍",
+   "title": "🔒 Gemini 대화 사람이 읽는다? 끄는 법",
    "status": "scheduled",
-   "videoId": "ejf9MwH4Bpk",
+   "videoId": "BcLW4RF6_Ts",
    "note": null
   }
  ]
