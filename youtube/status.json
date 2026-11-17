@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17T08:14:38+09:00",
- "message": "올릴 쇼츠 없음",
+ "updated": "2026-11-18T05:29:25+09:00",
+ "message": "11-18T05:29 쇼츠 1편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -10,13 +10,13 @@
  "via": "youtube-api",
  "items": [
   {
-   "date": "2026-11-17",
-   "at": "2026-11-18T07:30:00+09:00",
-   "slot": "07:30",
+   "date": "2026-11-18",
+   "at": "2026-11-18T09:00:00+09:00",
+   "slot": "09:00",
    "kind": "new",
-   "title": "🔒 Gemini 대화 사람이 읽는다? 끄는 법",
+   "title": "AI 영상툴 없이 애니 쇼츠 만들기 🎬",
    "status": "scheduled",
-   "videoId": "BcLW4RF6_Ts",
+   "videoId": "MTLwEzaRU7A",
    "note": null
   }
  ]
