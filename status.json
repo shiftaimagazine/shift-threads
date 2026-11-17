@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:35:55.868Z",
+ "updated": "2026-11-17T23:33:36.660Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -109,8 +109,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "메일 초안, 타자 치다가 20분 쓰셨나요? 구글 문서에는 말하면 글자로 적히는 음성 입력이 있어요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Df3Hqj8moFn",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-18-0740-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-18-0740-howto/02.png"
@@ -387,18 +387,18 @@
   {
    "date": "2026-11-18",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-18T07:36:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
