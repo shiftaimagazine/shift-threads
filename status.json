@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:33:47.750Z",
+ "updated": "2026-11-17T21:27:45.142Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -93,6 +93,10 @@
   },
   {
    "date": "2026-11-17",
+   "followers": 76
+  },
+  {
+   "date": "2026-11-18",
    "followers": 76
   }
  ],
@@ -423,7 +427,7 @@
  "top": [
   {
    "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
-   "views": 378,
+   "views": 379,
    "likes": 0,
    "replies": 3,
    "reposts": 0,
@@ -432,7 +436,7 @@
   },
   {
    "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
-   "views": 377,
+   "views": 378,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -441,7 +445,7 @@
   },
   {
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-   "views": 234,
+   "views": 235,
    "likes": 2,
    "replies": 1,
    "reposts": 0,
@@ -450,7 +454,7 @@
   },
   {
    "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
-   "views": 205,
+   "views": 206,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -459,7 +463,7 @@
   },
   {
    "hook": "긴 문서를 AI에 넣었는데 요약이 겉핥기였나요?",
-   "views": 133,
+   "views": 150,
    "likes": 0,
    "replies": 1,
    "reposts": 1,

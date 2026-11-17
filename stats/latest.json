@@ -1,7 +1,37 @@
 {
- "updated": "2026-11-16T21:26:07.908Z",
+ "updated": "2026-11-17T21:27:45.103Z",
  "followers": 76,
  "posts": [
+  {
+   "at": "2026-11-17T03:33:06+0000",
+   "id": "2026-11-17-1140-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "AI와 대화가 길어질수록 답이 딴소리로 새나요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df0-TremzOj",
+   "views": 74,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 41
+  },
+  {
+   "at": "2026-11-16T23:26:19+0000",
+   "id": "2026-11-17-0740-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "보고서 첫 문단이 배경 설명으로 시작하나요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df0iEQ5EULp",
+   "views": 29,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 103
+  },
   {
    "at": "2026-11-16T03:46:00+0000",
    "id": "2026-11-16-1143-howto",
@@ -9,13 +39,13 @@
    "type": "carousel",
    "hook": "긴 문서를 AI에 넣었는데 요약이 겉핥기였나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfya_fnjQM0",
-   "views": 133,
+   "views": 150,
    "likes": 0,
    "replies": 1,
    "reposts": 1,
    "quotes": 0,
    "shares": 0,
-   "score": 53
+   "score": 47
   },
   {
    "at": "2026-11-15T03:34:03+0000",
@@ -24,13 +54,13 @@
    "type": "carousel",
    "hook": "AI가 쓴 글, 읽어 보면 어딘가 어색하셨죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfv00--kaz-",
-   "views": 35,
+   "views": 36,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 86
+   "score": 83
   },
   {
    "at": "2026-11-15T00:17:13+0000",
@@ -39,7 +69,7 @@
    "type": "carousel",
    "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd",
-   "views": 378,
+   "views": 379,
    "likes": 0,
    "replies": 3,
    "reposts": 0,
@@ -54,7 +84,7 @@
    "type": "carousel",
    "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-",
-   "views": 205,
+   "views": 206,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -69,7 +99,7 @@
    "type": "carousel",
    "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP",
-   "views": 377,
+   "views": 378,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -84,13 +114,13 @@
    "type": "carousel",
    "hook": "AI한테 매번 내 소개부터 다시 하시나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfqrJ-4DURd",
-   "views": 6,
+   "views": 7,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 500
+   "score": 429
   },
   {
    "at": "2026-11-12T23:24:08+0000",
@@ -99,13 +129,13 @@
    "type": "carousel",
    "hook": "AI가 준 숫자, 그대로 보고서에 넣으셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfqOo0CFGpN",
-   "views": 73,
+   "views": 75,
    "likes": 0,
    "replies": 7,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 288
+   "score": 280
   },
   {
    "at": "2026-11-12T03:32:11+0000",
@@ -114,13 +144,13 @@
    "type": "carousel",
    "hook": "AI 답이 엉뚱하게 나올 땐, 질문이 짧아서일 때가 많아요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfoGP6Olhrn",
-   "views": 52,
+   "views": 53,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 58
+   "score": 57
   },
   {
    "at": "2026-11-11T23:32:06+0000",
@@ -129,7 +159,7 @@
    "type": "carousel",
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk",
-   "views": 234,
+   "views": 235,
    "likes": 2,
    "replies": 1,
    "reposts": 0,
@@ -144,7 +174,7 @@
    "type": "carousel",
    "hook": "거절 메일, 쓰다가 한 시간 지나셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DflhoiXjdPw",
-   "views": 100,
+   "views": 101,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -159,7 +189,7 @@
    "type": "carousel",
    "hook": "메일 첨부가 커서 튕겼던 적 있으세요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DflEOqCFMg1",
-   "views": 116,
+   "views": 117,
    "likes": 0,
    "replies": 1,
    "reposts": 1,
@@ -331,36 +361,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 15
-  },
-  {
-   "at": "2026-11-03T03:31:47+0000",
-   "id": "2026-11-03-1140-howto",
-   "format": "howto",
-   "type": "carousel",
-   "hook": "거절 메일, 쓰다 지우다 반복하셨죠?",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfQ7B9XlPux",
-   "views": 5,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 600
-  },
-  {
-   "at": "2026-11-02T23:21:54+0000",
-   "id": "2026-11-03-0740-briefing",
-   "format": "briefing",
-   "type": "carousel",
-   "hook": "삼성 AI 안경, 12월 한국 판매 보도가 나왔어요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfQebnYGZkd",
-   "views": 84,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 36
   }
  ]
 }
