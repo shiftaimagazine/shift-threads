@@ -1,22 +1,32 @@
 {
- "updated": "2026-11-16T21:32:23.314Z",
- "date": "2026-11-17",
+ "updated": "2026-11-17T21:35:51.671Z",
+ "date": "2026-11-18",
  "channels": {
   "ai": {
    "key": "ai",
    "name": "시프트 AI",
    "id": "UCWzwTQoe0q2IdwZV6BuopVw",
    "subs": 10,
-   "totalViews": 28925,
-   "videoCount": 45,
+   "totalViews": 29141,
+   "videoCount": 46,
    "videos": [
+    {
+     "id": "ejf9MwH4Bpk",
+     "title": "이 사진 AI가 만든 걸까? Gemini로 확인 🔍",
+     "at": "2026-11-16T22:30:29Z",
+     "date": "2026-11-17",
+     "sec": 33,
+     "views": 151,
+     "likes": 0,
+     "comments": 0
+    },
     {
      "id": "bV2qTnC_u9E",
      "title": "긴 PDF 2분 한국어 오디오로 듣기 🎧",
      "at": "2026-11-14T00:00:19Z",
      "date": "2026-11-14",
      "sec": 35,
-     "views": 81,
+     "views": 80,
      "likes": 0,
      "comments": 0
     },
@@ -76,7 +86,7 @@
      "at": "2026-11-06T09:00:51Z",
      "date": "2026-11-06",
      "sec": 31,
-     "views": 182,
+     "views": 188,
      "likes": 3,
      "comments": 0
     },
@@ -86,7 +96,7 @@
      "at": "2026-11-06T00:00:06Z",
      "date": "2026-11-06",
      "sec": 32,
-     "views": 459,
+     "views": 460,
      "likes": 3,
      "comments": 0
     },
@@ -156,7 +166,7 @@
      "at": "2026-11-03T09:00:38Z",
      "date": "2026-11-03",
      "sec": 40,
-     "views": 89,
+     "views": 90,
      "likes": 0,
      "comments": 0
     },
@@ -206,7 +216,7 @@
      "at": "2026-11-02T00:00:38Z",
      "date": "2026-11-02",
      "sec": 38,
-     "views": 1267,
+     "views": 1268,
      "likes": 7,
      "comments": 2
     },
@@ -226,7 +236,7 @@
      "at": "2026-11-01T03:30:12Z",
      "date": "2026-11-01",
      "sec": 18,
-     "views": 273,
+     "views": 279,
      "likes": 1,
      "comments": 0
     },
@@ -256,7 +266,7 @@
      "at": "2026-10-31T03:30:15Z",
      "date": "2026-10-31",
      "sec": 20,
-     "views": 1187,
+     "views": 1188,
      "likes": 2,
      "comments": 0
     },
@@ -276,7 +286,7 @@
      "at": "2026-10-30T09:00:21Z",
      "date": "2026-10-30",
      "sec": 41,
-     "views": 1046,
+     "views": 1050,
      "likes": 1,
      "comments": 0
     },
@@ -336,7 +346,7 @@
      "at": "2026-10-29T00:00:08Z",
      "date": "2026-10-29",
      "sec": 25,
-     "views": 494,
+     "views": 505,
      "likes": 4,
      "comments": 0
     },
@@ -356,7 +366,7 @@
      "at": "2026-10-28T03:30:02Z",
      "date": "2026-10-28",
      "sec": 54,
-     "views": 659,
+     "views": 664,
      "likes": 3,
      "comments": 0
     },
@@ -366,7 +376,7 @@
      "at": "2026-10-28T00:00:16Z",
      "date": "2026-10-28",
      "sec": 40,
-     "views": 1607,
+     "views": 1615,
      "likes": 9,
      "comments": 0
     },
@@ -396,7 +406,7 @@
      "at": "2026-10-27T00:00:26Z",
      "date": "2026-10-27",
      "sec": 22,
-     "views": 1192,
+     "views": 1193,
      "likes": 1,
      "comments": 0
     },
@@ -436,7 +446,7 @@
      "at": "2026-10-26T01:00:34Z",
      "date": "2026-10-26",
      "sec": 19,
-     "views": 800,
+     "views": 816,
      "likes": 3,
      "comments": 0
     },
@@ -446,7 +456,17 @@
      "at": "2026-10-25T09:00:37Z",
      "date": "2026-10-25",
      "sec": 39,
-     "views": 1662,
+     "views": 1664,
+     "likes": 2,
+     "comments": 0
+    },
+    {
+     "id": "XKX5qaIUVog",
+     "title": "로판 여주가 드레스 입고 마라탕 먹는 AI 드라마 수준 😱",
+     "at": "2026-10-25T09:00:37Z",
+     "date": "2026-10-25",
+     "sec": 39,
+     "views": 1664,
      "likes": 2,
      "comments": 0
     },
@@ -456,7 +476,7 @@
      "at": "2026-10-25T01:00:24Z",
      "date": "2026-10-25",
      "sec": 38,
-     "views": 1301,
+     "views": 1303,
      "likes": 4,
      "comments": 0
     },
@@ -466,38 +486,78 @@
      "at": "2026-10-25T01:00:24Z",
      "date": "2026-10-25",
      "sec": 38,
-     "views": 1301,
+     "views": 1303,
      "likes": 4,
      "comments": 0
     }
    ],
    "summary": {
     "settledN": 2,
-    "settledMedian": 101,
-    "beforeN": 18,
-    "beforeMedian": 178,
+    "settledMedian": 100,
+    "beforeN": 15,
+    "beforeMedian": 159,
     "uploads7": 2,
-    "lastDate": "2026-11-14",
-    "quietDays": 3
+    "lastDate": "2026-11-17",
+    "quietDays": 1
    }
   },
   "play": {
    "key": "play",
    "name": "시프트 플레이",
    "id": "UCjZ398yiclS8zPeJ-kbEWYg",
-   "subs": 1,
-   "totalViews": 7181,
-   "videoCount": 10,
+   "subs": 2,
+   "totalViews": 16756,
+   "videoCount": 14,
    "videos": [
+    {
+     "id": "9Hz9KO0NLSk",
+     "title": "포켓몬 잠만보 460kg이 우리 집 거실에 누워 자면… 바닥 설계 기준의 약 70% 🛋️",
+     "at": "2026-11-17T09:00:26Z",
+     "date": "2026-11-17",
+     "sec": 28,
+     "views": 1203,
+     "likes": 8,
+     "comments": 0
+    },
+    {
+     "id": "L42UaDLbcVk",
+     "title": "레이싱 게임인데, 엔진이 방귀예요 💨 Fart Together",
+     "at": "2026-11-17T06:00:00Z",
+     "date": "2026-11-17",
+     "sec": 23,
+     "views": 1267,
+     "likes": 6,
+     "comments": 0
+    },
+    {
+     "id": "57q3v-IGjeg",
+     "title": "마인크래프트 금 블록 딱 한 개, 현실 금값으로 팔면… 서울 아파트 약 2,370채 🏢",
+     "at": "2026-11-17T03:00:07Z",
+     "date": "2026-11-17",
+     "sec": 26,
+     "views": 1264,
+     "likes": 9,
+     "comments": 0
+    },
+    {
+     "id": "4KeMxDQwoEc",
+     "title": "북극 한복판인데, 집은 고물차 한 대 ❄️🚙",
+     "at": "2026-11-17T00:00:29Z",
+     "date": "2026-11-17",
+     "sec": 26,
+     "views": 1320,
+     "likes": 2,
+     "comments": 1
+    },
     {
      "id": "P7MjM0qKsgc",
      "title": "슈퍼마리오 파이어플라워 불꽃 100발 쏘면… 서울 도시가스비로 약 6원 🔥🧾",
      "at": "2026-11-16T09:00:39Z",
      "date": "2026-11-16",
      "sec": 23,
-     "views": 1200,
+     "views": 1275,
      "likes": 4,
-     "comments": 0
+     "comments": 1
     },
     {
      "id": "chmLFCXkqmk",
@@ -505,7 +565,7 @@
      "at": "2026-11-16T06:00:20Z",
      "date": "2026-11-16",
      "sec": 27,
-     "views": 1322,
+     "views": 1346,
      "likes": 3,
      "comments": 1
     },
@@ -515,7 +575,7 @@
      "at": "2026-11-16T03:00:18Z",
      "date": "2026-11-16",
      "sec": 22,
-     "views": 1241,
+     "views": 1244,
      "likes": 2,
      "comments": 2
     },
@@ -525,8 +585,8 @@
      "at": "2026-11-16T00:00:10Z",
      "date": "2026-11-16",
      "sec": 29,
-     "views": 1730,
-     "likes": 10,
+     "views": 1909,
+     "likes": 11,
      "comments": 2
     },
     {
@@ -535,7 +595,7 @@
      "at": "2026-11-10T09:00:18Z",
      "date": "2026-11-10",
      "sec": 27,
-     "views": 1185,
+     "views": 1187,
      "likes": 5,
      "comments": 0
     },
@@ -545,7 +605,7 @@
      "at": "2026-11-10T04:34:51Z",
      "date": "2026-11-10",
      "sec": 28,
-     "views": 1495,
+     "views": 1507,
      "likes": 5,
      "comments": 0
     },
@@ -575,7 +635,7 @@
      "at": "2026-11-08T10:02:42Z",
      "date": "2026-11-08",
      "sec": 34,
-     "views": 1332,
+     "views": 1333,
      "likes": 6,
      "comments": 0
     },
@@ -585,18 +645,18 @@
      "at": "2026-11-08T07:07:28Z",
      "date": "2026-11-08",
      "sec": 53,
-     "views": 1213,
+     "views": 1214,
      "likes": 6,
      "comments": 0
     }
    ],
    "summary": {
-    "settledN": 4,
-    "settledMedian": 1315,
-    "beforeN": 2,
-    "beforeMedian": 1273,
-    "uploads7": 4,
-    "lastDate": "2026-11-16",
+    "settledN": 6,
+    "settledMedian": 1311,
+    "beforeN": 4,
+    "beforeMedian": 1274,
+    "uploads7": 8,
+    "lastDate": "2026-11-17",
     "quietDays": 1
    }
   }
@@ -604,17 +664,17 @@
  "errors": [],
  "threads": {
   "followers": 76,
-  "updated": "2026-11-16T21:26:07.908Z",
-  "views7": 1910,
+  "updated": "2026-11-17T21:27:45.103Z",
+  "views7": 1840,
   "posts7": 13,
   "medianByFormat14": {
    "howto": {
-    "n": 18,
-    "median": 108
+    "n": 19,
+    "median": 101
    },
    "briefing": {
-    "n": 5,
-    "median": 84
+    "n": 4,
+    "median": 85
    },
    "기타": {
     "n": 1,
@@ -626,7 +686,7 @@
     "id": "2026-11-15-0738-howto",
     "date": "2026-11-15",
     "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
-    "views": 378,
+    "views": 379,
     "likes": 0,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd"
    },
@@ -634,7 +694,7 @@
     "id": "2026-11-14-0738-howto",
     "date": "2026-11-14",
     "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
-    "views": 377,
+    "views": 378,
     "likes": 0,
     "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP"
    },
@@ -642,7 +702,7 @@
     "id": "2026-11-12-0738-howto",
     "date": "2026-11-12",
     "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-    "views": 234,
+    "views": 235,
     "likes": 2,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk"
    },
@@ -650,7 +710,7 @@
     "id": "2026-11-14-1136-howto",
     "date": "2026-11-14",
     "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
-    "views": 205,
+    "views": 206,
     "likes": 0,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-"
    },
