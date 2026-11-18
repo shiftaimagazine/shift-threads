@@ -1,7 +1,37 @@
 {
- "updated": "2026-11-17T21:27:45.103Z",
- "followers": 76,
+ "updated": "2026-11-18T21:28:21.934Z",
+ "followers": 77,
  "posts": [
+  {
+   "at": "2026-11-18T03:36:54+0000",
+   "id": "2026-11-18-1140-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "부탁 메일 보냈는데 답이 안 오시나요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df3jiaYAJx-",
+   "views": 161,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 19
+  },
+  {
+   "at": "2026-11-17T23:33:20+0000",
+   "id": "2026-11-18-0740-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "메일 초안, 타자 치다가 20분 쓰셨나요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df3Hqj8moFn",
+   "views": 470,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 1,
+   "score": 13
+  },
   {
    "at": "2026-11-17T03:33:06+0000",
    "id": "2026-11-17-1140-howto",
@@ -9,13 +39,13 @@
    "type": "carousel",
    "hook": "AI와 대화가 길어질수록 답이 딴소리로 새나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Df0-TremzOj",
-   "views": 74,
+   "views": 78,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 41
+   "score": 38
   },
   {
    "at": "2026-11-16T23:26:19+0000",
@@ -24,13 +54,13 @@
    "type": "carousel",
    "hook": "보고서 첫 문단이 배경 설명으로 시작하나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Df0iEQ5EULp",
-   "views": 29,
+   "views": 35,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 103
+   "score": 86
   },
   {
    "at": "2026-11-16T03:46:00+0000",
@@ -39,13 +69,13 @@
    "type": "carousel",
    "hook": "긴 문서를 AI에 넣었는데 요약이 겉핥기였나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfya_fnjQM0",
-   "views": 150,
+   "views": 151,
    "likes": 0,
    "replies": 1,
    "reposts": 1,
    "quotes": 0,
    "shares": 0,
-   "score": 47
+   "score": 46
   },
   {
    "at": "2026-11-15T03:34:03+0000",
@@ -69,7 +99,7 @@
    "type": "carousel",
    "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd",
-   "views": 379,
+   "views": 380,
    "likes": 0,
    "replies": 3,
    "reposts": 0,
@@ -129,13 +159,13 @@
    "type": "carousel",
    "hook": "AI가 준 숫자, 그대로 보고서에 넣으셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfqOo0CFGpN",
-   "views": 75,
+   "views": 76,
    "likes": 0,
    "replies": 7,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 280
+   "score": 276
   },
   {
    "at": "2026-11-12T03:32:11+0000",
@@ -159,7 +189,7 @@
    "type": "carousel",
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk",
-   "views": 235,
+   "views": 236,
    "likes": 2,
    "replies": 1,
    "reposts": 0,
@@ -324,13 +354,13 @@
    "type": "carousel",
    "hook": "보고 들어가기 전에, 상사 질문부터 뽑아 보세요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfYpb38EW7H",
-   "views": 64,
+   "views": 65,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 2,
-   "score": 141
+   "score": 138
   },
   {
    "at": "2026-11-05T03:33:13+0000",

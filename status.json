@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-18T20:36:05.270Z",
+ "updated": "2026-11-18T21:28:21.999Z",
  "repo": "shiftaimagazine/shift-threads",
- "followers": 76,
+ "followers": 77,
  "followersHistory": [
   {
    "date": "2026-10-26",
@@ -98,6 +98,10 @@
   {
    "date": "2026-11-18",
    "followers": 76
+  },
+  {
+   "date": "2026-11-19",
+   "followers": 77
   }
  ],
  "today": {
@@ -434,8 +438,17 @@
  ],
  "top": [
   {
+   "hook": "메일 초안, 타자 치다가 20분 쓰셨나요?",
+   "views": 470,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df3Hqj8moFn",
+   "at": "2026-11-17T23:33:20+0000"
+  },
+  {
    "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
-   "views": 379,
+   "views": 380,
    "likes": 0,
    "replies": 3,
    "reposts": 0,
@@ -453,7 +466,7 @@
   },
   {
    "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-   "views": 235,
+   "views": 236,
    "likes": 2,
    "replies": 1,
    "reposts": 0,
@@ -468,15 +481,6 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-",
    "at": "2026-11-14T03:30:19+0000"
-  },
-  {
-   "hook": "긴 문서를 AI에 넣었는데 요약이 겉핥기였나요?",
-   "views": 150,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 1,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/Dfya_fnjQM0",
-   "at": "2026-11-16T03:46:00+0000"
   }
  ]
 }
