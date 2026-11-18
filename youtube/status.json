@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:21:36+09:00",
+ "updated": "2026-11-19T05:34:17+09:00",
  "message": "올릴 쇼츠 없음",
  "limit": {
   "hit": false,
@@ -8,16 +8,5 @@
  },
  "backlogLeft": 0,
  "via": "youtube-api",
- "items": [
-  {
-   "date": "2026-11-18",
-   "at": "2026-11-18T09:00:00+09:00",
-   "slot": "09:00",
-   "kind": "new",
-   "title": "AI 영상툴 없이 애니 쇼츠 만들기 🎬",
-   "status": "scheduled",
-   "videoId": "MTLwEzaRU7A",
-   "note": null
-  }
- ]
+ "items": []
 }
