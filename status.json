@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T22:35:07.158Z",
+ "updated": "2026-11-18T23:33:11.801Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -113,8 +113,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "거절 메시지, 쓰다가 몇 번 지우셨나요? 거절은 길게 쓸수록 변명처럼 읽혀요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Df5sZ5RowzV",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-19-0738-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-19-0738-howto/02.png"
@@ -399,18 +399,18 @@
   {
    "date": "2026-11-19",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-19T07:38:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
@@ -465,15 +465,6 @@
    "at": "2026-11-13T23:24:01+0000"
   },
   {
-   "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-   "views": 236,
-   "likes": 2,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk",
-   "at": "2026-11-11T23:32:06+0000"
-  },
-  {
    "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
    "views": 206,
    "likes": 0,
@@ -481,6 +472,15 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-",
    "at": "2026-11-14T03:30:19+0000"
+  },
+  {
+   "hook": "부탁 메일 보냈는데 답이 안 오시나요?",
+   "views": 161,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df3jiaYAJx-",
+   "at": "2026-11-18T03:36:54+0000"
   }
  ]
 }
