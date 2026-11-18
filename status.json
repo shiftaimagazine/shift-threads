@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T01:58:51.308Z",
+ "updated": "2026-11-18T03:37:11.568Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 76,
  "followersHistory": [
@@ -161,8 +161,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "부탁 메일 보냈는데 답이 안 오시나요? 대개 '언제까지, 뭘 해 달라는지'가 빠져서예요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Df3jiaYAJx-",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-18-1140-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-18-1140-howto/02.png"
@@ -387,11 +387,11 @@
   {
    "date": "2026-11-18",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -404,7 +404,7 @@
     {
      "at": "2026-11-18T11:39:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
