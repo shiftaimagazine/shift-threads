@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T12:38:06.511Z",
+ "updated": "2026-11-18T12:41:36.558Z",
  "sources": [
   {
    "name": "AI타임스",
@@ -14,7 +14,7 @@
    "url": "https://blog.google/technology/ai/rss/",
    "ok": true,
    "items": 20,
-   "fresh": 1,
+   "fresh": 2,
    "note": ""
   },
   {
@@ -38,7 +38,7 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 908,
-   "fresh": 1,
+   "fresh": 0,
    "note": ""
   },
   {
@@ -62,7 +62,7 @@
    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
    "ok": true,
    "items": 10,
-   "fresh": 3,
+   "fresh": 5,
    "note": ""
   },
   {
@@ -77,8 +77,8 @@
    "name": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1400,
-   "fresh": 13,
+   "items": 1407,
+   "fresh": 8,
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "url": "https://byline.network/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 11,
+   "fresh": 14,
    "note": ""
   },
   {
@@ -118,7 +118,7 @@
    "url": "https://arstechnica.com/ai/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 3,
+   "fresh": 8,
    "note": ""
   },
   {
@@ -126,7 +126,7 @@
    "url": "https://www.wired.com/feed/tag/ai/latest/rss",
    "ok": true,
    "items": 10,
-   "fresh": 5,
+   "fresh": 7,
    "note": ""
   },
   {
@@ -134,7 +134,7 @@
    "url": "https://rss.etnews.com/Section902.xml",
    "ok": true,
    "items": 30,
-   "fresh": 2,
+   "fresh": 4,
    "note": ""
   },
   {
@@ -142,7 +142,7 @@
    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
    "ok": true,
    "items": 20,
-   "fresh": 17,
+   "fresh": 20,
    "note": ""
   },
   {
@@ -150,7 +150,7 @@
    "url": "https://hnrss.org/newest?q=AI&points=100",
    "ok": true,
    "items": 20,
-   "fresh": 1,
+   "fresh": 4,
    "note": ""
   }
  ]
