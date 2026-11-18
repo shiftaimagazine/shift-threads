@@ -1,22 +1,42 @@
 {
- "updated": "2026-11-17T21:35:51.671Z",
- "date": "2026-11-18",
+ "updated": "2026-11-18T21:38:23.156Z",
+ "date": "2026-11-19",
  "channels": {
   "ai": {
    "key": "ai",
    "name": "시프트 AI",
    "id": "UCWzwTQoe0q2IdwZV6BuopVw",
    "subs": 10,
-   "totalViews": 29141,
-   "videoCount": 46,
+   "totalViews": 29178,
+   "videoCount": 48,
    "videos": [
+    {
+     "id": "MTLwEzaRU7A",
+     "title": "AI 영상툴 없이 애니 쇼츠 만들기 🎬",
+     "at": "2026-11-18T00:00:22Z",
+     "date": "2026-11-18",
+     "sec": 27,
+     "views": 296,
+     "likes": 2,
+     "comments": 0
+    },
+    {
+     "id": "BcLW4RF6_Ts",
+     "title": "🔒 Gemini 대화 사람이 읽는다? 끄는 법",
+     "at": "2026-11-17T22:30:28Z",
+     "date": "2026-11-18",
+     "sec": 25,
+     "views": 91,
+     "likes": 0,
+     "comments": 0
+    },
     {
      "id": "ejf9MwH4Bpk",
      "title": "이 사진 AI가 만든 걸까? Gemini로 확인 🔍",
      "at": "2026-11-16T22:30:29Z",
      "date": "2026-11-17",
      "sec": 33,
-     "views": 151,
+     "views": 164,
      "likes": 0,
      "comments": 0
     },
@@ -26,7 +46,7 @@
      "at": "2026-11-14T00:00:19Z",
      "date": "2026-11-14",
      "sec": 35,
-     "views": 80,
+     "views": 81,
      "likes": 0,
      "comments": 0
     },
@@ -66,7 +86,7 @@
      "at": "2026-11-07T09:00:10Z",
      "date": "2026-11-07",
      "sec": 38,
-     "views": 81,
+     "views": 82,
      "likes": 1,
      "comments": 0
     },
@@ -86,7 +106,7 @@
      "at": "2026-11-06T09:00:51Z",
      "date": "2026-11-06",
      "sec": 31,
-     "views": 188,
+     "views": 190,
      "likes": 3,
      "comments": 0
     },
@@ -106,7 +126,7 @@
      "at": "2026-11-05T09:00:18Z",
      "date": "2026-11-05",
      "sec": 31,
-     "views": 806,
+     "views": 808,
      "likes": 6,
      "comments": 0
     },
@@ -156,7 +176,7 @@
      "at": "2026-11-04T00:00:13Z",
      "date": "2026-11-04",
      "sec": 34,
-     "views": 96,
+     "views": 98,
      "likes": 0,
      "comments": 0
     },
@@ -166,7 +186,7 @@
      "at": "2026-11-03T09:00:38Z",
      "date": "2026-11-03",
      "sec": 40,
-     "views": 90,
+     "views": 93,
      "likes": 0,
      "comments": 0
     },
@@ -186,7 +206,7 @@
      "at": "2026-11-03T00:00:07Z",
      "date": "2026-11-03",
      "sec": 26,
-     "views": 1075,
+     "views": 1076,
      "likes": 0,
      "comments": 0
     },
@@ -266,7 +286,7 @@
      "at": "2026-10-31T03:30:15Z",
      "date": "2026-10-31",
      "sec": 20,
-     "views": 1188,
+     "views": 1192,
      "likes": 2,
      "comments": 0
     },
@@ -286,7 +306,7 @@
      "at": "2026-10-30T09:00:21Z",
      "date": "2026-10-30",
      "sec": 41,
-     "views": 1050,
+     "views": 1051,
      "likes": 1,
      "comments": 0
     },
@@ -336,7 +356,7 @@
      "at": "2026-10-29T00:03:37Z",
      "date": "2026-10-29",
      "sec": 42,
-     "views": 184,
+     "views": 186,
      "likes": 1,
      "comments": 0
     },
@@ -346,7 +366,7 @@
      "at": "2026-10-29T00:00:08Z",
      "date": "2026-10-29",
      "sec": 25,
-     "views": 505,
+     "views": 509,
      "likes": 4,
      "comments": 0
     },
@@ -356,7 +376,7 @@
      "at": "2026-10-28T09:00:17Z",
      "date": "2026-10-28",
      "sec": 38,
-     "views": 322,
+     "views": 323,
      "likes": 0,
      "comments": 0
     },
@@ -376,7 +396,7 @@
      "at": "2026-10-28T00:00:16Z",
      "date": "2026-10-28",
      "sec": 40,
-     "views": 1615,
+     "views": 1616,
      "likes": 9,
      "comments": 0
     },
@@ -386,7 +406,7 @@
      "at": "2026-10-27T09:00:12Z",
      "date": "2026-10-27",
      "sec": 24,
-     "views": 1182,
+     "views": 1183,
      "likes": 3,
      "comments": 0
     },
@@ -396,7 +416,7 @@
      "at": "2026-10-27T03:30:05Z",
      "date": "2026-10-27",
      "sec": 35,
-     "views": 1043,
+     "views": 1044,
      "likes": 1,
      "comments": 0
     },
@@ -416,7 +436,7 @@
      "at": "2026-10-26T11:30:39Z",
      "date": "2026-10-26",
      "sec": 34,
-     "views": 143,
+     "views": 144,
      "likes": 2,
      "comments": 0
     },
@@ -426,7 +446,7 @@
      "at": "2026-10-26T09:00:17Z",
      "date": "2026-10-26",
      "sec": 20,
-     "views": 1631,
+     "views": 1633,
      "likes": 6,
      "comments": 0
     },
@@ -436,7 +456,7 @@
      "at": "2026-10-26T03:30:06Z",
      "date": "2026-10-26",
      "sec": 37,
-     "views": 1295,
+     "views": 1297,
      "likes": 1,
      "comments": 0
     },
@@ -446,7 +466,7 @@
      "at": "2026-10-26T01:00:34Z",
      "date": "2026-10-26",
      "sec": 19,
-     "views": 816,
+     "views": 833,
      "likes": 3,
      "comments": 0
     },
@@ -456,7 +476,7 @@
      "at": "2026-10-25T09:00:37Z",
      "date": "2026-10-25",
      "sec": 39,
-     "views": 1664,
+     "views": 1668,
      "likes": 2,
      "comments": 0
     },
@@ -466,7 +486,7 @@
      "at": "2026-10-25T09:00:37Z",
      "date": "2026-10-25",
      "sec": 39,
-     "views": 1664,
+     "views": 1668,
      "likes": 2,
      "comments": 0
     },
@@ -492,12 +512,12 @@
     }
    ],
    "summary": {
-    "settledN": 2,
-    "settledMedian": 100,
-    "beforeN": 15,
-    "beforeMedian": 159,
-    "uploads7": 2,
-    "lastDate": "2026-11-17",
+    "settledN": 3,
+    "settledMedian": 120,
+    "beforeN": 12,
+    "beforeMedian": 166,
+    "uploads7": 4,
+    "lastDate": "2026-11-18",
     "quietDays": 1
    }
   },
@@ -506,17 +526,37 @@
    "name": "시프트 플레이",
    "id": "UCjZ398yiclS8zPeJ-kbEWYg",
    "subs": 2,
-   "totalViews": 16756,
-   "videoCount": 14,
+   "totalViews": 18119,
+   "videoCount": 16,
    "videos": [
+    {
+     "id": "CzT99vgX_uk",
+     "title": "버거집 알바인데, 마스코트가 사람을 사냥해요 🍔 Happy's Humble Burger Cult",
+     "at": "2026-11-18T06:00:12Z",
+     "date": "2026-11-18",
+     "sec": 26,
+     "views": 1308,
+     "likes": 4,
+     "comments": 0
+    },
+    {
+     "id": "3Sy69cXqeis",
+     "title": "동물의 숲 너굴 대출 전부 갚아도… 서울 아파트 월세로는 약 8.8달치 🦝🏠",
+     "at": "2026-11-18T00:00:14Z",
+     "date": "2026-11-18",
+     "sec": 28,
+     "views": 374,
+     "likes": 0,
+     "comments": 0
+    },
     {
      "id": "9Hz9KO0NLSk",
      "title": "포켓몬 잠만보 460kg이 우리 집 거실에 누워 자면… 바닥 설계 기준의 약 70% 🛋️",
      "at": "2026-11-17T09:00:26Z",
      "date": "2026-11-17",
      "sec": 28,
-     "views": 1203,
-     "likes": 8,
+     "views": 1334,
+     "likes": 9,
      "comments": 0
     },
     {
@@ -525,7 +565,7 @@
      "at": "2026-11-17T06:00:00Z",
      "date": "2026-11-17",
      "sec": 23,
-     "views": 1267,
+     "views": 1298,
      "likes": 6,
      "comments": 0
     },
@@ -535,8 +575,8 @@
      "at": "2026-11-17T03:00:07Z",
      "date": "2026-11-17",
      "sec": 26,
-     "views": 1264,
-     "likes": 9,
+     "views": 1359,
+     "likes": 10,
      "comments": 0
     },
     {
@@ -545,7 +585,7 @@
      "at": "2026-11-17T00:00:29Z",
      "date": "2026-11-17",
      "sec": 26,
-     "views": 1320,
+     "views": 1331,
      "likes": 2,
      "comments": 1
     },
@@ -555,7 +595,7 @@
      "at": "2026-11-16T09:00:39Z",
      "date": "2026-11-16",
      "sec": 23,
-     "views": 1275,
+     "views": 1277,
      "likes": 4,
      "comments": 1
     },
@@ -565,7 +605,7 @@
      "at": "2026-11-16T06:00:20Z",
      "date": "2026-11-16",
      "sec": 27,
-     "views": 1346,
+     "views": 1370,
      "likes": 3,
      "comments": 1
     },
@@ -585,7 +625,7 @@
      "at": "2026-11-16T00:00:10Z",
      "date": "2026-11-16",
      "sec": 29,
-     "views": 1909,
+     "views": 1949,
      "likes": 11,
      "comments": 2
     },
@@ -595,7 +635,7 @@
      "at": "2026-11-10T09:00:18Z",
      "date": "2026-11-10",
      "sec": 27,
-     "views": 1187,
+     "views": 1188,
      "likes": 5,
      "comments": 0
     },
@@ -615,7 +655,7 @@
      "at": "2026-11-09T09:00:34Z",
      "date": "2026-11-09",
      "sec": 37,
-     "views": 580,
+     "views": 581,
      "likes": 4,
      "comments": 0
     },
@@ -635,7 +675,7 @@
      "at": "2026-11-08T10:02:42Z",
      "date": "2026-11-08",
      "sec": 34,
-     "views": 1333,
+     "views": 1334,
      "likes": 6,
      "comments": 0
     },
@@ -651,26 +691,26 @@
     }
    ],
    "summary": {
-    "settledN": 6,
-    "settledMedian": 1311,
-    "beforeN": 4,
+    "settledN": 8,
+    "settledMedian": 1333,
+    "beforeN": 6,
     "beforeMedian": 1274,
-    "uploads7": 8,
-    "lastDate": "2026-11-17",
+    "uploads7": 10,
+    "lastDate": "2026-11-18",
     "quietDays": 1
    }
   }
  },
  "errors": [],
  "threads": {
-  "followers": 76,
-  "updated": "2026-11-17T21:27:45.103Z",
-  "views7": 1840,
+  "followers": 77,
+  "updated": "2026-11-18T21:28:21.934Z",
+  "views7": 2267,
   "posts7": 13,
   "medianByFormat14": {
    "howto": {
-    "n": 19,
-    "median": 101
+    "n": 21,
+    "median": 117
    },
    "briefing": {
     "n": 4,
@@ -683,10 +723,18 @@
   },
   "tips": [
    {
+    "id": "2026-11-18-0740-howto",
+    "date": "2026-11-18",
+    "hook": "메일 초안, 타자 치다가 20분 쓰셨나요?",
+    "views": 470,
+    "likes": 0,
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Df3Hqj8moFn"
+   },
+   {
     "id": "2026-11-15-0738-howto",
     "date": "2026-11-15",
     "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
-    "views": 379,
+    "views": 380,
     "likes": 0,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd"
    },
@@ -702,7 +750,7 @@
     "id": "2026-11-12-0738-howto",
     "date": "2026-11-12",
     "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-    "views": 235,
+    "views": 236,
     "likes": 2,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk"
    },
@@ -713,14 +761,6 @@
     "views": 206,
     "likes": 0,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-"
-   },
-   {
-    "id": "2026-11-10-1134-howto",
-    "date": "2026-11-10",
-    "hook": "회사 엑셀, AI에 올리기 전에 이름부터 가리셨나요?",
-    "views": 179,
-    "likes": 1,
-    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfi2ITooAp4"
    }
   ]
  }
