@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T12:30:53.787Z",
+ "updated": "2026-11-19T12:39:46.384Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -231,7 +231,10 @@
     "hook": "보고 들어가기 전, 임원 질문 대비하셨나요? 보고서를 AI에 붙이고",
     "status": "scheduled",
     "link": null,
-    "cards": [],
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-20-0740-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-20-0740-howto/02.png"
+    ],
     "views": null,
     "likes": null,
     "replies": null,
@@ -282,7 +285,10 @@
     "hook": "AI 답이 엉뚱하게 나올 때, 질문이 짧았던 건 아닐까요? 요청 끝에 한 줄만 붙여 보세요.",
     "status": "scheduled",
     "link": null,
-    "cards": [],
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-20-1140-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-20-1140-howto/02.png"
+    ],
     "views": null,
     "likes": null,
     "replies": null,
@@ -549,19 +555,19 @@
    "waiting": 0,
    "scheduled": 2,
    "needCards": 2,
-   "cardsReady": 0,
+   "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-20T07:38:00+09:00",
      "format": "howto",
      "status": "scheduled",
-     "cards": 0
+     "cards": 2
     },
     {
      "at": "2026-11-20T11:38:00+09:00",
      "format": "howto",
      "status": "scheduled",
-     "cards": 0
+     "cards": 2
     }
    ],
    "reels": []
