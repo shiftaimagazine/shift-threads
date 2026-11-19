@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-18T21:38:23.156Z",
+ "updated": "2026-11-19T21:34:51.214Z",
  "note": "스레드 최근 14일 실용 팁 조회 상위 5개 — 릴스·쇼츠(T 형식) 주제 후보",
  "tips": [
   {
    "id": "2026-11-18-0740-howto",
    "date": "2026-11-18",
    "hook": "메일 초안, 타자 치다가 20분 쓰셨나요?",
-   "views": 470,
+   "views": 474,
    "likes": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/Df3Hqj8moFn"
   },
@@ -14,7 +14,7 @@
    "id": "2026-11-15-0738-howto",
    "date": "2026-11-15",
    "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
-   "views": 380,
+   "views": 382,
    "likes": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd"
   },
@@ -22,9 +22,17 @@
    "id": "2026-11-14-0738-howto",
    "date": "2026-11-14",
    "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
-   "views": 378,
+   "views": 379,
    "likes": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP"
+  },
+  {
+   "id": "2026-11-19-0738-howto",
+   "date": "2026-11-19",
+   "hook": "거절 메시지, 쓰다가 몇 번 지우셨나요?",
+   "views": 239,
+   "likes": 1,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df5sZ5RowzV"
   },
   {
    "id": "2026-11-12-0738-howto",
@@ -33,14 +41,6 @@
    "views": 236,
    "likes": 2,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk"
-  },
-  {
-   "id": "2026-11-14-1136-howto",
-   "date": "2026-11-14",
-   "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
-   "views": 206,
-   "likes": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-"
   }
  ]
 }
