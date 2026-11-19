@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:36:35.571Z",
+ "updated": "2026-11-19T21:25:56.507Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -101,6 +101,10 @@
   },
   {
    "date": "2026-11-19",
+   "followers": 77
+  },
+  {
+   "date": "2026-11-20",
    "followers": 77
   }
  ],
@@ -445,7 +449,7 @@
  "top": [
   {
    "hook": "메일 초안, 타자 치다가 20분 쓰셨나요?",
-   "views": 470,
+   "views": 474,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -454,16 +458,16 @@
   },
   {
    "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
-   "views": 380,
+   "views": 382,
    "likes": 0,
-   "replies": 3,
+   "replies": 4,
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd",
    "at": "2026-11-15T00:17:13+0000"
   },
   {
    "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
-   "views": 378,
+   "views": 379,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -471,22 +475,22 @@
    "at": "2026-11-13T23:24:01+0000"
   },
   {
-   "hook": "엑셀에 #REF! 뜨면 일단 닫고 싶으시죠?",
-   "views": 206,
-   "likes": 0,
-   "replies": 1,
+   "hook": "거절 메시지, 쓰다가 몇 번 지우셨나요?",
+   "views": 239,
+   "likes": 1,
+   "replies": 3,
    "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DftPmx3oKD-",
-   "at": "2026-11-14T03:30:19+0000"
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df5sZ5RowzV",
+   "at": "2026-11-18T23:32:52+0000"
   },
   {
-   "hook": "부탁 메일 보냈는데 답이 안 오시나요?",
-   "views": 161,
+   "hook": "회의 끝나고 자리 와서 메모, 다시 타자로 치고 계신가요?",
+   "views": 222,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/Df3jiaYAJx-",
-   "at": "2026-11-18T03:36:54+0000"
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df6IZZoFb-6",
+   "at": "2026-11-19T03:37:27+0000"
   }
  ]
 }

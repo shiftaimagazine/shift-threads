@@ -1,7 +1,37 @@
 {
- "updated": "2026-11-18T21:28:21.934Z",
+ "updated": "2026-11-19T21:25:56.448Z",
  "followers": 77,
  "posts": [
+  {
+   "at": "2026-11-19T03:37:27+0000",
+   "id": "2026-11-19-1136-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "회의 끝나고 자리 와서 메모, 다시 타자로 치고 계신가요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df6IZZoFb-6",
+   "views": 222,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 14
+  },
+  {
+   "at": "2026-11-18T23:32:52+0000",
+   "id": "2026-11-19-0738-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "거절 메시지, 쓰다가 몇 번 지우셨나요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df5sZ5RowzV",
+   "views": 239,
+   "likes": 1,
+   "replies": 3,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 42
+  },
   {
    "at": "2026-11-18T03:36:54+0000",
    "id": "2026-11-18-1140-howto",
@@ -9,13 +39,13 @@
    "type": "carousel",
    "hook": "부탁 메일 보냈는데 답이 안 오시나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Df3jiaYAJx-",
-   "views": 161,
+   "views": 179,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 19
+   "score": 17
   },
   {
    "at": "2026-11-17T23:33:20+0000",
@@ -24,7 +54,7 @@
    "type": "carousel",
    "hook": "메일 초안, 타자 치다가 20분 쓰셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Df3Hqj8moFn",
-   "views": 470,
+   "views": 474,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -39,13 +69,13 @@
    "type": "carousel",
    "hook": "AI와 대화가 길어질수록 답이 딴소리로 새나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Df0-TremzOj",
-   "views": 78,
+   "views": 81,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 38
+   "score": 37
   },
   {
    "at": "2026-11-16T23:26:19+0000",
@@ -99,13 +129,13 @@
    "type": "carousel",
    "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd",
-   "views": 380,
+   "views": 382,
    "likes": 0,
-   "replies": 3,
+   "replies": 4,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 24
+   "score": 31
   },
   {
    "at": "2026-11-14T03:30:19+0000",
@@ -129,7 +159,7 @@
    "type": "carousel",
    "hook": "업무 흐름도, 그리다가 한 시간 쓰셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/Dfsza0CEayP",
-   "views": 378,
+   "views": 379,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -161,11 +191,11 @@
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfqOo0CFGpN",
    "views": 76,
    "likes": 0,
-   "replies": 7,
+   "replies": 9,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 276
+   "score": 355
   },
   {
    "at": "2026-11-12T03:32:11+0000",
@@ -249,13 +279,13 @@
    "type": "carousel",
    "hook": "오픈AI 몸값이 1.25조 달러로 거론돼요.",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfigGjjDmed",
-   "views": 22,
+   "views": 23,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 136
+   "score": 130
   },
   {
    "at": "2026-11-09T03:36:20+0000",
@@ -361,36 +391,6 @@
    "quotes": 0,
    "shares": 2,
    "score": 138
-  },
-  {
-   "at": "2026-11-05T03:33:13+0000",
-   "id": "2026-11-05-1140-howto",
-   "format": "howto",
-   "type": "carousel",
-   "hook": "엑셀 수식, 검색하다 30분 날리셨죠?",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfWEyE0EdnX",
-   "views": 75,
-   "likes": 1,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 53
-  },
-  {
-   "at": "2026-11-04T23:25:34+0000",
-   "id": "2026-11-05-0740-briefing",
-   "format": "briefing",
-   "type": "carousel",
-   "hook": "챗GPT 화면, 곧 이렇게 바뀔 수 있어요.",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfVocXpnQSI",
-   "views": 199,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 15
   }
  ]
 }
