@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:31:47.733Z",
+ "updated": "2026-11-19T23:27:12.587Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 77,
  "followersHistory": [
@@ -117,8 +117,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "보고 들어가기 전, 임원 질문 대비하셨나요? 보고서를 AI에 붙이고",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Df8QhnKFuid",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-20-0740-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-20-0740-howto/02.png"
@@ -409,18 +409,18 @@
   {
    "date": "2026-11-20",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-20T07:38:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
