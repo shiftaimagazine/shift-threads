@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T08:21:06+09:00",
- "message": "11-19T08:21 쇼츠 1편 예약",
+ "updated": "2026-11-20T05:32:28+09:00",
+ "message": "올릴 쇼츠 없음",
  "limit": {
   "hit": false,
   "at": null,
@@ -8,16 +8,5 @@
  },
  "backlogLeft": 0,
  "via": "youtube-api",
- "items": [
-  {
-   "date": "2026-11-19",
-   "at": "2026-11-20T07:30:00+09:00",
-   "slot": "07:30",
-   "kind": "new",
-   "title": "프롬프트 빈칸만 채우면 끝 ✍️",
-   "status": "scheduled",
-   "videoId": "k2jAZggxSh4",
-   "note": null
-  }
- ]
+ "items": []
 }
