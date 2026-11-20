@@ -1,0 +1,16 @@
+[
+{"id":"2026-11-21-0739-howto","at":"2026-11-21T07:39:00+09:00","format":"howto","type":"carousel","topic":"AI Threads",
+ "commons":"File:QWERTY keyboard.jpg",
+ "parts":["엑셀 시트 두 개, 눈으로 대조하고 계신가요?\n\n목록 두 개에서 빠진 사람·품목 찾기는\nAI에게 수식만 물어보면 1분이에요.\n실제 데이터는 붙이지 않아도 돼요.\n\n저장해 두고 써 보세요.",
+ "복붙용 프롬프트 👇\n\n엑셀 시트1 A열과 시트2 A열에 사번이 있어.\n시트1에는 있는데 시트2에는 없는 사번에\n시트1 B열에 '누락'이라고 표시하는 수식을 알려줘.\n그 수식이 어떻게 동작하는지도 한 줄로 설명해 줘.\n\n※ 회사 데이터는 보안 규정을 먼저 확인하세요."],
+ "slides":[{"kind":"cover","tag":"Copy Prompt","title":"시트 두 개\n==빠진 것== 찾기","sub":"수식만 받는 복붙 프롬프트"},
+ {"kind":"list","label":"복붙 프롬프트","title":"이렇게 시켜요","items":[{"h":"어느 시트·열에 뭐가 있는지 설명","d":"예: 시트1 A열 = 사번"},{"h":"찾고 싶은 것 한 문장으로","d":"A에는 있고 B에는 없는 것"},{"h":"표시할 위치와 글자 지정","d":"B열에 '누락'"},{"h":"수식 설명도 한 줄 요청","d":"나중에 고치기 쉬워요"}]}],
+ "sources":[]},
+{"id":"2026-11-21-1141-howto","at":"2026-11-21T11:41:00+09:00","format":"howto","type":"carousel","topic":"AI Threads",
+ "shot":{"url":"https://support.google.com/notebooklm/answer/16213268","credit":"support.google.com"},
+ "parts":["자료 50개를 올려 두고, 그 안에서만 답하게 할 수 있어요.\n\n구글 Gemini Notebook(노트북LM)은\n내가 올린 PDF·문서·웹페이지만 근거로 답해요.\n무료 플랜은 노트북 100개, 노트북당 소스 50개까지예요.\n\n업무 자료 정리용으로 저장해 두세요.",
+ "출처: Google 공식 도움말 https://support.google.com/notebooklm/answer/16213268\n※ 한도는 바뀔 수 있어요. 회사 자료는 보안 규정을 먼저 확인하세요."],
+ "slides":[{"kind":"cover","tag":"Free Tool","title":"내 자료 안에서만\n==답하는== AI","sub":"Gemini Notebook(노트북LM) 무료 플랜"},
+ {"kind":"list","label":"무료 플랜 한도","title":"이만큼 담아요","items":[{"h":"노트북 100개","d":"프로젝트별로 나눠 쓰기"},{"h":"노트북당 소스 50개","d":"노트 제외, 공식 도움말 기준"},{"h":"올린 자료만 근거로 답변","d":"자료 밖 이야기는 줄어요"}]}],
+ "sources":["https://support.google.com/notebooklm/answer/16213268"]}
+]
