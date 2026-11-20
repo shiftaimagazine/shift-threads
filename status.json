@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-20T20:28:50.323Z",
+ "updated": "2026-11-20T21:25:15.530Z",
  "repo": "shiftaimagazine/shift-threads",
- "followers": 77,
+ "followers": 78,
  "followersHistory": [
   {
    "date": "2026-10-26",
@@ -106,6 +106,10 @@
   {
    "date": "2026-11-20",
    "followers": 77
+  },
+  {
+   "date": "2026-11-21",
+   "followers": 78
   }
  ],
  "today": {
@@ -450,6 +454,15 @@
  ],
  "top": [
   {
+   "hook": "보고 들어가기 전, 임원 질문 대비하셨나요?",
+   "views": 513,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/Df8QhnKFuid",
+   "at": "2026-11-19T23:26:57+0000"
+  },
+  {
    "hook": "메일 초안, 타자 치다가 20분 쓰셨나요?",
    "views": 474,
    "likes": 0,
@@ -460,7 +473,7 @@
   },
   {
    "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
-   "views": 382,
+   "views": 383,
    "likes": 0,
    "replies": 4,
    "reposts": 0,
@@ -477,17 +490,8 @@
    "at": "2026-11-13T23:24:01+0000"
   },
   {
-   "hook": "거절 메시지, 쓰다가 몇 번 지우셨나요?",
-   "views": 239,
-   "likes": 1,
-   "replies": 3,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/Df5sZ5RowzV",
-   "at": "2026-11-18T23:32:52+0000"
-  },
-  {
    "hook": "회의 끝나고 자리 와서 메모, 다시 타자로 치고 계신가요?",
-   "views": 222,
+   "views": 254,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
