@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:20:26.757Z",
+ "updated": "2026-11-21T23:20:40.919Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 80,
  "followersHistory": [
@@ -125,8 +125,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "퇴근 전, 내일 할 일 순서 고민하다 10분 쓰셨나요? 할 일을 그냥 나열해 AI에 붙여 넣으면",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DgBZXLdGBzZ",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-22-0741-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-22-0741-howto/02.png"
@@ -423,18 +423,18 @@
   {
    "date": "2026-11-22",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-22T07:41:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
