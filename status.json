@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T11:27:40.766Z",
+ "updated": "2026-11-21T12:26:24.214Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 78,
  "followersHistory": [
@@ -226,7 +226,115 @@
  },
  "tomorrow": {
   "date": "2026-11-22",
-  "posts": [],
+  "posts": [
+   {
+    "id": "2026-11-22-0741-howto",
+    "at": "2026-11-22T07:41:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "퇴근 전, 내일 할 일 순서 고민하다 10분 쓰셨나요? 할 일을 그냥 나열해 AI에 붙여 넣으면",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-22-0741-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-22-0741-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [],
+    "topic": "AI Threads",
+    "parts": [
+     "퇴근 전, 내일 할 일 순서 고민하다 10분 쓰셨나요?\n\n할 일을 그냥 나열해 AI에 붙여 넣으면\n우선순위와 시간표까지 만들어 줘요.\n실제 고객명·금액은 빼고 요약만 쓰세요.\n\n저장해 두고 써 보세요.",
+     "복붙용 프롬프트 👇\n\n내일 할 일이야. 급한 순서·중요한 순서로 나눠서\n오전/오후 시간표로 짜 줘.\n각 일에 예상 시간도 적어 줘.\n미루면 안 되는 일 1개에는 별표를 붙여 줘.\n\n(할 일 목록을 여기에 붙여 넣기)\n\n※ 회사 정보는 보안 규정을 먼저 확인하세요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Copy Prompt",
+      "title": "내일 할 일\n==순서== 정하기",
+      "sub": "퇴근 전 3분 복붙 프롬프트"
+     },
+     {
+      "kind": "list",
+      "label": "복붙 프롬프트",
+      "title": "이렇게 시켜요",
+      "items": [
+       {
+        "h": "할 일을 있는 대로 나열",
+        "d": "정리 안 해도 괜찮아요"
+       },
+       {
+        "h": "급함·중요함으로 나누기",
+        "d": "무엇부터 할지 보여요"
+       },
+       {
+        "h": "오전/오후 시간표 요청",
+        "d": "예상 시간도 같이"
+       },
+       {
+        "h": "미루면 안 되는 일 1개 표시",
+        "d": "별표로 눈에 띄게"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   },
+   {
+    "id": "2026-11-22-1139-howto",
+    "at": "2026-11-22T11:39:00+09:00",
+    "format": "howto",
+    "type": "carousel",
+    "hook": "민감한 내용 물어볼 땐, 임시 채팅부터 켜세요. ChatGPT는 새 채팅에서 '임시(Temporary)'를,",
+    "status": "scheduled",
+    "link": null,
+    "cards": [
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-22-1139-howto/01.png",
+     "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-22-1139-howto/02.png"
+    ],
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "sources": [
+     "https://help.openai.com/en/articles/8914046-temporary-chat-in-chatgpt",
+     "https://support.claude.com/en/articles/12260368-use-incognito-chats"
+    ],
+    "topic": "AI Threads",
+    "parts": [
+     "민감한 내용 물어볼 땐, 임시 채팅부터 켜세요.\n\nChatGPT는 새 채팅에서 '임시(Temporary)'를,\n클로드는 우측 상단 유령 아이콘(시크릿 채팅)을 누르면\n대화가 기록에 남지 않고 메모리에도 저장되지 않아요.\n\n설정 위치 저장해 두세요.",
+     "출처: OpenAI 도움말 https://help.openai.com/en/articles/8914046-temporary-chat-in-chatgpt\nAnthropic 도움말 https://support.claude.com/en/articles/12260368-use-incognito-chats\n※ 안전 목적으로 최대 30일 보관될 수 있어요. 회사 기밀은 규정을 먼저 확인하세요."
+    ],
+    "slides": [
+     {
+      "kind": "cover",
+      "tag": "Setting",
+      "title": "기록 안 남기는\n==임시 채팅==",
+      "sub": "ChatGPT · 클로드 켜는 법"
+     },
+     {
+      "kind": "list",
+      "label": "켜는 법",
+      "title": "이렇게 켜요",
+      "items": [
+       {
+        "h": "ChatGPT: 새 채팅에서 Temporary",
+        "d": "기록·메모리에 남지 않아요"
+       },
+       {
+        "h": "클로드: 우측 상단 유령 아이콘",
+        "d": "프로젝트 밖 새 채팅에서"
+       },
+       {
+        "h": "둘 다 안전 목적 30일 보관 가능",
+        "d": "기밀 입력은 여전히 주의"
+       }
+      ]
+     }
+    ],
+    "photoFrom": null
+   }
+  ],
   "reels": []
  },
  "comments": {
@@ -440,15 +548,28 @@
   },
   {
    "date": "2026-11-22",
-   "total": 0,
+   "total": 2,
    "ok": 0,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
+   "scheduled": 2,
+   "needCards": 2,
+   "cardsReady": 2,
+   "times": [
+    {
+     "at": "2026-11-22T07:41:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    },
+    {
+     "at": "2026-11-22T11:39:00+09:00",
+     "format": "howto",
+     "status": "scheduled",
+     "cards": 2
+    }
+   ],
    "reels": []
   }
  ],
