@@ -1,9 +1,79 @@
 {
- "updated": "2026-11-20T12:42:27.988Z",
- "kstDate": "2026-11-20",
+ "updated": "2026-11-21T12:28:06.072Z",
+ "kstDate": "2026-11-21",
  "windowHours": 48,
  "note": "글쓰기 작업용 뉴스 후보. 쓰기로 한 소식은 반드시 link 원문을 열어 숫자·날짜를 확인할 것. summary 는 피드 요약이라 사실 확인 근거로 쓰지 않음.",
  "items": [
+  {
+   "source": "Google Research",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+   "link": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+   "published": "2026-11-20T23:30:30.000Z",
+   "summary": "Generative AI"
+  },
+  {
+   "source": "Meta 뉴스룸",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Advancing Science Together: Highlights From the Open Source AI For Science Summit",
+   "link": "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/",
+   "published": "2026-11-20T18:30:45.000Z",
+   "summary": "We brought researchers from universities, hospitals, and industry together for the Open Source AI for Science Summit, an event built around using open source AI to accelerate scientific discovery. The post Advancing Science Together: Highlights From the Open Source AI For Science Summit appeared first on Meta Newsroom "
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Combatting adversarial distillation",
+   "link": "https://openai.com/index/combatting-adversarial-distillation",
+   "published": "2026-11-20T10:00:00.000Z",
+   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction."
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "link": "https://openai.com/business/customer-stories/hebbia",
+   "published": "2026-11-20T00:00:00.000Z",
+   "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality."
+  },
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "link": "https://openai.com/index/introducing-medchembench",
+   "published": "2026-11-20T00:00:00.000Z",
+   "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery."
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+   "link": "https://huggingface.co/blog/inkling2mini",
+   "published": "2026-11-20T00:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "published": "2026-11-20T00:00:00.000Z",
+   "summary": ""
+  },
   {
    "source": "Google Research",
    "kind": "official",
@@ -45,134 +115,284 @@
    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp\">Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode."
   },
   {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-   "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-   "published": "2026-11-19T08:00:00.000Z",
-   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Deploying Daybreak Red",
-   "link": "https://openai.com/business/learn/deploying-daybreak-red",
-   "published": "2026-11-19T00:00:00.000Z",
-   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "See PR scans in action",
-   "link": "https://openai.com/business/learn/pr-scans-demo",
-   "published": "2026-11-19T00:00:00.000Z",
-   "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Explore the Codex Security Plugin",
-   "link": "https://openai.com/business/learn/codex-security-plugin-demo",
-   "published": "2026-11-19T00:00:00.000Z",
-   "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
-  },
-  {
-   "source": "OpenAI",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Get started with Daybreak Blue",
-   "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-   "published": "2026-11-19T00:00:00.000Z",
-   "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started."
-  },
-  {
-   "source": "Google DeepMind",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Introducing Gemini 4 Neon",
-   "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-   "published": "2026-11-18T21:35:43.000Z",
-   "summary": ""
-  },
-  {
-   "source": "Hugging Face",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-   "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-   "published": "2026-11-18T19:54:56.000Z",
-   "summary": ""
-  },
-  {
-   "source": "Hugging Face",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Why your fine-tuning job takes longer than the FLOPs say",
-   "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-   "published": "2026-11-18T18:53:43.000Z",
-   "summary": ""
-  },
-  {
-   "source": "Google DeepMind",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Genie 4 is now available",
-   "link": "https://deepmind.google/blog/genie-4-is-now-available/",
-   "published": "2026-11-18T18:13:42.000Z",
-   "summary": ""
-  },
-  {
-   "source": "Google AI 블로그",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "The Gemini app is now available on lower-memory Android devices.",
-   "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-   "published": "2026-11-18T17:00:00.000Z",
-   "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp\">The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today."
-  },
-  {
-   "source": "Hugging Face",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-   "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-   "published": "2026-11-18T15:00:23.000Z",
-   "summary": ""
-  },
-  {
-   "source": "NVIDIA 블로그",
-   "kind": "official",
-   "lang": "en",
-   "official": true,
-   "title": "NVIDIA RTX Spark Compact Desktops Out Now",
-   "link": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
-   "published": "2026-11-18T14:00:31.000Z",
-   "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-ac"
-  },
-  {
    "source": "AI타임스",
    "kind": "media",
    "lang": "ko",
    "official": false,
-   "title": "구글, AI 모델 이름에 원소 주기율표 활용...다음은 '헬륨'?",
-   "link": "https://www.aitimes.com/news/articleView.html?idxno=217633",
-   "published": "2026-11-20T17:45:00.000Z",
-   "summary": "구글이 '제미나이 4'에 화학 원소 이름을 붙이면서 독특한 작명법이 화제가 되고 있다. 신형 모델이 나올 때마다 이용자들이 다음 원소를 예상하는 가운데, 구글도 주기율표를 활용한 모델 선택 기능과 영상을 선보이며 이러한 관심을 즐기는 모습이다.구글 딥마인드의 개발자 경험 총괄인 오마르 산세비에로는 19일(현지시간) X에 \"출시는 계속될 것(Shipping will continue)\"이라는 짧은 글을 올렸다. 구글이 최근 '제미나이 4 네온'까지 잇달아 출시한 상황에서 추가 모델의 등장을 예고한 것으로 받아들여졌다.구글은 최근 '아르"
+   "title": "머스크의 우주 데이터센터, 첫 금융 장벽…채권단 \"GPU 반입 제한\"",
+   "link": "https://www.aitimes.com/news/articleView.html?idxno=217650",
+   "published": "2026-11-21T18:55:59.000Z",
+   "summary": "일론 머스크 CEO의 우주 AI 데이터센터 구상이 자금 조달 과정에서 장애물을 만났다. 스페이스X에 수백억달러 규모의 GPU 구매 자금을 제공하는 채권단이 담보 회수가 어렵다는 이유로 반도체의 우주 반입을 제한하려 한 것으로 알려져, 우주 데이터센터의 경제성을 확보하는 데 금융 문제가 새로운 과제로 떠올랐다.파이낸셜타임스(FT)는 20일(현지시간) 소식통을 인용, 스페이스X의 대규모 GPU 금융 거래에 참여한 채권단이 담보로 제공된 엔비디아 반도체를 우주 궤도로 발사하지 못하도록 계약상 제한을 요구했다고 보도했다.채권단이 문제 삼은"
+  },
+  {
+   "source": "긱뉴스",
+   "kind": "community",
+   "lang": "ko",
+   "official": false,
+   "title": "Ask HN: 미국에서 경력 15년인데 2년째 실업 상태입니다. 어떻게 해야 할까요?",
+   "link": "https://news.hada.io/topic?id=37571&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+   "published": "2026-11-21T10:36:04.000Z",
+   "summary": "미국 DMV 지역의 경력 15년 선임 소프트웨어 엔지니어 로, Fortune 50+ 기업과 여러 중견기업에서 일했지만 2년째 개발 일자리를 구하지 못한 상황임. 모아 둔 저축을 거의 소진해 가계를 유지할 여력이 4~5개월 정도 남았으며, 현재 수학 과외를 하고 피자 가게 관리자로 일하는 것도 곧 시작할 가능성이 있음 직원 1,000명 이상인 보험 기술 기업에서 약 4년간 근무하다 정리해고 예정이라는 귀띔을 듣고 2025년 1월 자진 퇴사 했으며, 실제로 정리해고가 진행됨. 이후 개발직을 구하지 못했고, C#/.NET/AWS로 여전히 코딩할 수 있고 AI도 배웠지만 채"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "울산 SK AI데이터센터 찾은 李…“韓 AX는 AI 고속도로가 열 것”",
+   "link": "https://www.etnews.com/20261121000052",
+   "published": "2026-11-21T09:08:24.000Z",
+   "summary": "이재명 대통령이 울산에서 메가프로젝트 일환으로 추진 중인 SK AI데이터센터를 찾아 지방 균형 발전과 추가 투자 유치에 대한 기대감을 드러냈다. 아울러 속도전을 위한 지원도 약속했다. 이 대통령은 21일 울산 SK AI데이터센터 건설 현장을 방문했다. 이번 방문은 울산 지역 메가프로젝트 추진 상황을 점검하기 위해 이뤄졌다. 특히 이곳은 이 대통령이 취임 이후 첫 지방 일정으로 참석했던 장소다. 울산 SK AI데이터센터는 2027년 말 운영을 개"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[ET시선] 공공 클라우드 전환, 보안·개방 해법 찾아야",
+   "link": "https://www.etnews.com/20261120000265",
+   "published": "2026-11-21T08:00:00.000Z",
+   "summary": "지난해 국가정보자원관리원(국정자원) 대전센터 화재는 공공 정보시스템 운영 체계의 취약성을 드러냈다. 정부는 이를 계기로 공공 정보화 체계 재설계 작업에 착수했다. 핵심은 정부가 직접 구축하고 운영하는 폐쇄적 인프라에서 벗어나 민간의 클라우드 기술과 자원을 적극 활용하는 것이다. 공공 정보시스템의 안정성과 복원력을 높이는 동시에 인공지능(AI) 도입에 필요한 유연한 인프라를 확보하겠다는 구상이다. 정부의 정책 방향은 분명하다. 국가AI전략위원회는"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[포토] AI 데이터센터 건설현장 찾은 이재명 대통령",
+   "link": "https://www.etnews.com/20261121000050",
+   "published": "2026-11-21T07:58:37.000Z",
+   "summary": "이재명 대통령이 21일 울산 SK AI 데이터센터 건설현장을 방문해 둘러보고 있다. 〈연합뉴스〉"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[포토] 이재명 대통령, AI 데이터센터 건설현장 방문",
+   "link": "https://www.etnews.com/20261121000049",
+   "published": "2026-11-21T07:58:32.000Z",
+   "summary": "이재명 대통령이 21일 울산 SK AI 데이터센터 건설현장을 방문해 둘러보고 있다. 〈연합뉴스〉"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "AI 커닝 안걸렸다고 끝?…“수능장 와이파이·블루투스는 당신이 한 일을 기억하고 있다”",
+   "link": "https://www.etnews.com/20261121000039",
+   "published": "2026-11-21T07:50:00.000Z",
+   "summary": "2027학년도 대학수학능력시험(수능)이 끝났지만 부정행위에 대한 정부의 추적은 계속된다. 시험 당일 적발되지 않은 사례도 무선통신 신호 기록과 온라인 제보 등을 통해 확인하고, 의심 사례는 수사기관에 넘기겠다는 방침이다. 한성숙 국무총리는 20일 정부서울청사에서 열린 '수능 부정행위 대응 태스크포스(TF)' 1차 회의에서 “시험 현장에서 적발되지 않았던 부정행위도 끝까지 찾아내겠다”고 밝혔다. 정부는 시험 당일 감독관들이 기록·저장한 와이파이와"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "스마트안경 낄 틈 없게…인천시교육청, 중등교사 임용시험에 탐지기 배치",
+   "link": "https://www.etnews.com/20261121000044",
+   "published": "2026-11-21T06:19:28.000Z",
+   "summary": "인천시교육청이 중등교사 임용시험장 5곳에 전담인력 10명과 탐지기를 배치해 첨단 전자기기를 이용한 부정행위를 막는다. 21일 시교육청에 따르면 오는 28일 치러지는 2027학년도 공립 중등교사 등 임용시험 1차 시험에서 스마트안경과 초소형 카메라, 무선 이어폰 등 전자기기 소지 여부를 집중 점검한다. 시교육청은 지난 20일 누리집에 시험 장소와 응시자 유의사항을 공고했다. 시험장에는 인공지능(AI) 기기를 이용한 부정행위에 대응할 전담인력을 각"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[소부장 테크페어]ST “GaN 공급망 수직계열화…AI·전장 전력반도체 공략”",
+   "link": "https://www.etnews.com/20261120000239",
+   "published": "2026-11-21T03:00:00.000Z",
+   "summary": "ST마이크로일렉트로닉스가 질화갈륨(GaN) 전력반도체 공급망 수직계열화와 제품군 확대로 인공지능(AI)·전장 시장을 공략한다. 에피택시부터 소자 제조까지 연결하는 생산체계를 구축하고, 전력 소자와 구동회로·패키지·시스템 설계를 결합해 차세대 전력 반도체 시장에 대응한다. 장제트 ST 매니저는 20일 한국산업기술기획평가원과 전자신문이 개최한 '2026 글로벌 소부장 테크페어'에서 이 같은 GaN 사업 전략과 기술 로드맵을 제시했다. 모바일 급속충"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[소부장 테크페어] PI첨단소재, AI·HBM 겨냥 폴리이미드 기술 고도화",
+   "link": "https://www.etnews.com/20261120000115",
+   "published": "2026-11-21T03:00:00.000Z",
+   "summary": "PI첨단소재가 인공지능(AI) 데이터센터와 고대역폭메모리(HBM) 등 첨단 반도체 시장을 겨냥해 폴리이미드(PI) 소재 기술을 고도화하고 있다. 원동영 PI첨단소재 R&D 1본부장은 20일 열린 '2026 글로벌 소부장 테크페어'에서 '폴리이미드 최신 개발 동향'을 주제로 저유전 필름부터 첨단 반도체 패키징에 활용되는 소재 등 개발 중인 12종 제품군을 소개했다. 원 본부장은 “AI 데이터센터의 데이터 처리량이 폭증하면서 칩과 보드 간 데이터"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[소부장 테크페어]아이큐랩, 초고주파 GaN 소자 국산화 속도…“측정·인증 인프라 시급”",
+   "link": "https://www.etnews.com/20261120000114",
+   "published": "2026-11-21T03:00:00.000Z",
+   "summary": "98%를 해외에 의존하는 군사용 질화갈륨(GaN) 무선주파수(RF) 반도체 시장에서 아이큐랩 자체 연구 개발한 76GHz급 소자 성능을 입증하며 기술 자립의 교두보를 마련했다. 이와 함께 3.3kV 이상 초고압 탄화규소(SiC) 시대에 대비해 국내 고전압 측정·인증 인프라 확충을 서둘러야 한다는 현장 제언을 내놨다. 김상기 아이큐랩 부사장은 20일 '2026 글로벌 소재·부품·장비 테크페어'에서 “AI 시대에 D램과 고대역폭메모리(HBM) 기술"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "안랩 AI 플러스 섹옵스, '개방형 플랫폼'으로…보안업체 간 장벽 허문다",
+   "link": "https://www.etnews.com/20261113000213",
+   "published": "2026-11-21T03:00:00.000Z",
+   "summary": "안랩이 다음 달 출시하는 '안랩 AI 플러스 섹옵스(SecOps)'를 개방형 보안 운영 플랫폼으로 선보인다. 타사 보안 솔루션의 데이터와 대응 기능까지 연동해 고객이 기존 보안제품을 모두 교체하지 않고도 인공지능(AI) 기반 보안 운영체계를 구축할 수 있도록 지원한다. 김창희 안랩 제품기획본부장은 최근 본지와의 인터뷰에서 “고객들은 이미 다양한 보안제품에 상당한 투자를 해왔다”며 “기존 제품의 데이터를 모아 공격 맥락을 분석하고 대응 기능까지"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+   "link": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
+   "published": "2026-11-20T23:24:02.000Z",
+   "summary": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Google rolls out new search homepage with AI chat history and no search button",
+   "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+   "published": "2026-11-20T21:58:29.000Z",
+   "summary": "Google search is making it even easier to access AI tools on the search page."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+   "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+   "published": "2026-11-20T21:47:10.000Z",
+   "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?"
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+   "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "published": "2026-11-20T20:59:08.000Z",
+   "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+   "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+   "published": "2026-11-20T19:53:41.000Z",
+   "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+   "link": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+   "published": "2026-11-20T19:52:21.000Z",
+   "summary": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+   "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+   "published": "2026-11-20T19:32:08.000Z",
+   "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+   "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+   "published": "2026-11-20T18:50:19.000Z",
+   "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at "
+  },
+  {
+   "source": "MIT 테크놀로지 리뷰",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The most misunderstood graph in AI just got a major update",
+   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "published": "2026-11-20T18:15:15.000Z",
+   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Chips can survive the space environment — can their financing?",
+   "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+   "published": "2026-11-20T17:40:01.000Z",
+   "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?"
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Google workers tell their employer not to punish schools that don't want AI",
+   "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+   "published": "2026-11-20T16:59:27.000Z",
+   "summary": "Article URL: https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/ Comments URL: https://news.ycombinator.com/item?id=50577901 Points: 277 # Comments: 214"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+   "published": "2026-11-20T16:34:13.000Z",
+   "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI i"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+   "link": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "published": "2026-11-20T14:55:44.000Z",
+   "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The week everything fell apart",
+   "link": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+   "published": "2026-11-20T14:06:59.000Z",
+   "summary": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of something even bigger. On"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Six AI-powered gadgets that could make your home office smarter",
+   "link": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+   "published": "2026-11-20T14:00:00.000Z",
+   "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+   "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "published": "2026-11-20T13:29:59.000Z",
+   "summary": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 345 # Comments: 631"
   },
   {
    "source": "더버지 AI",
@@ -205,16 +425,6 @@
    "summary": "The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers."
   },
   {
-   "source": "긱뉴스",
-   "kind": "community",
-   "lang": "ko",
-   "official": false,
-   "title": "Show GN: night-port - 고전 DOS 게임 어쩐지 저녁 Native/WASM/Pocket 포트",
-   "link": "https://news.hada.io/topic?id=37518&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-   "published": "2026-11-20T10:39:26.000Z",
-   "summary": "고전 DOS 게임 \"어쩐지 좋은 일이 생길 것 같은 저녁\"을 Analogue Pocket에서 플레이하고 싶어서 SDL로 포팅하였습니다. Pocket 포팅이 끝나고 나서 WASM을 사용해 웹으로 포팅할 수도 있을 것 같아 시도해 봤는데 꽤 괜찮은 결과물이 나왔습니다.(모바일에서도 잘 작동합니다.) 개발에는 로컬 LLM만을 사용하였습니다.(Qwen3.8-27B, Qwen3.8-Flash-Next 주력) WASM 포트: https://really.iamghost.kr/night-port/"
-  },
-  {
    "source": "해커뉴스 (AI, 100점↑)",
    "kind": "community",
    "lang": "en",
@@ -222,27 +432,17 @@
    "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "link": "https://architectlabs.com/blog/frostbite",
    "published": "2026-11-20T10:01:41.000Z",
-   "summary": "Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 184 # Comments: 115"
+   "summary": "Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 651 # Comments: 335"
   },
   {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
    "official": false,
-   "title": "클라우데라, 데이터 주권 지키는 '애니웨어 클라우드' 전략 제시",
-   "link": "https://www.etnews.com/20261120000323",
-   "published": "2026-11-20T09:30:53.000Z",
-   "summary": "클라우데라가 데이터 주권과 보안을 유지하면서 퍼블릭 클라우드부터 프라이빗·소버린·엣지 환경까지 인공지능(AI)을 자유롭게 구현하는 AI·데이터 전략을 제시했다. 에이전틱 AI 확산에 대응해 데이터 관리부터 AI 개발·운영까지 아우르는 통합 플랫폼 경쟁력을 강화한다는 구상이다. 클라우데라는 최근 서울 강남구 조선 팰리스 서울 강남에서 열린 '이볼브 포럼 서울'에서 이 같은 내용의 '클라우데라 애니웨어 클라우드' 비전과 2027년을 향한 데이터·A"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "성안당, 일잘러 되는 실무용 '코덱스 바이브 코딩' 출간",
-   "link": "https://www.etnews.com/20261120000317",
-   "published": "2026-11-20T08:49:29.000Z",
-   "summary": "도서출판 성안당은 코딩 경험이 전혀 없어도 오픈AI의 인공지능(AI) 코딩 에이전트 '코덱스(Codex)'로 말(프롬프트나 명령어)로 지시하는 것만으로 필요한 도구를 만들 수 있는 바이브 코딩 실무서 '코덱스 바이브 코딩'을 출간했다. 특히 직장인들이라면 누구나 꼭 필요로 하는 점심 메뉴 추천 앱과 아파트 실거래가 앱, 주식 시세 대시보드 앱 등 생활 감각 있는 예제를 바이브 코딩으로 만들어 흥미를 끈다. 이 책에서는 채팅 창에서 코드를 받아도"
+   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+   "link": "https://signal.org/blog/protecting-your-privacy/",
+   "published": "2026-11-20T09:42:16.000Z",
+   "summary": "Article URL: https://signal.org/blog/protecting-your-privacy/ Comments URL: https://news.ycombinator.com/item?id=50572348 Points: 556 # Comments: 325"
   },
   {
    "source": "바이라인네트워크",
@@ -255,16 +455,6 @@
    "summary": "기업이 인공지능(AI) 에이전트를 도입할 때는 어떤 모델과 도구를 사용하는지를 알아야 한다. 만약 기업이 보유한 서버와 소프트웨어조차 정확히 파악하지 못한다면 AI 에이전트의 위험을 관리하기는 더 어려워진다. 어떤 시스템에 문제가 있는지 알아야 취약점을 찾아 대응할 수 있기 때문이다. 융합 보안 전문기업 쿤텍은 AI 에이전트 보안에서도 ‘자산 가시화’를 출발점으로 삼아야 한다고 짚었다. 기업의 하드웨어와 소프트웨어, AI 모델과 에이전트를 식별하고 실제 실행 과정에서 발생하는 위협을 탐지·차단하는 체계를 구축해야 한다는 것이다."
   },
   {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "다시 열린 대학원 진학의 문...태재대, 청년인재 수업료 50% 장학 지원",
-   "link": "https://www.etnews.com/20261120000314",
-   "published": "2026-11-20T08:24:43.000Z",
-   "summary": "대학원 진학을 고민하다 지원 시기를 놓쳤거나 학비 부담으로 망설였던 이들에게 다시 문이 열린다. 태재대학교 AI·미래전략대학원이 내년 3월 입학 석사과정 신입생을 16일부터 12월 20일까지 모집한다. 모집 전공은 AI융합전략전공과 미래거버넌스전략전공이다. 이번 모집에서 눈여겨볼 제도는 청년인재 장학금이다. 입학일 기준 만 34세 이하인 학생에게 수업료 50%를 수업연한 내 매 학기 지원한다. 해당 장학금의 사전감면을 받으려면 원서접수 기간 내"
-  },
-  {
    "source": "바이라인네트워크",
    "kind": "media",
    "lang": "ko",
@@ -273,36 +463,6 @@
    "link": "https://byline.network/2026/11/1120-8/",
    "published": "2026-11-20T08:21:47.000Z",
    "summary": "과학기술정보통신부는 20일 인공지능 데이터센터(AIDC) 신속 구축을 위한 「인공지능 데이터센터 산업 진흥에 관한 특별법」 하위법령 제정안을 입법예고했다. AIDC 인정 기준과 신고 절차를 마련하고 인허가 일괄처리 기한, 전력계통영향평가 면제 기준, 비수도권 특구 지정 요건 등을 구체화했다. 입법예고 기간은 20일부터 다음달 30일까지 40일간이다."
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "애플 “AI 시대에도 아이디어는 사람의 몫…중요한 건 문제 해결 능력”",
-   "link": "https://www.etnews.com/20261120000304",
-   "published": "2026-11-20T08:00:00.000Z",
-   "summary": "“인공지능(AI)이 개발 과정에 도움을 줄 수 있지만, 아이디어를 만들어내는 것은 결국 사람입니다.” 고든 슈크윗 애플 글로벌 디벨로퍼 아카데미 총괄 디렉터는 지난 18일 서울에서 열린 '애플 디벨로퍼 아카데미 5주년 기념 패널 토크'에서 “생성형 AI 발전에 따른 개발자 교육의 변화”를 묻는 질의에 이같이 답했다. AI가 코딩과 앱 개발 전반에 활용되고 있지만, 해결해야 할 문제를 찾고 새로운 아이디어를 만드는 것은 여전히 개발자의 몫이라는"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "투비유니콘, 산림청 신속대응 R&D 착수…AI 기반 이동형 암행감찰 시스템 개발",
-   "link": "https://www.etnews.com/20261120000302",
-   "published": "2026-11-20T07:45:14.000Z",
-   "summary": "산불로 황폐해진 산림을 복원하는 과정에 인공지능(AI)이 감시자로 나선다. 드론과 열화상, 라이다(LiDAR) 등 첨단 기술을 활용해 산불 피해지 복구사업이 당초 설계대로 이행됐는지 현장에서 직접 확인하는 AI 기반 감찰 시스템이 개발된다. 사람의 눈과 행정력에 의존해온 산림사업 관리·감독 방식에 변화가 예상된다. 재난안전 AI 전문기업 투비유니콘(대표 윤진욱·김재수)은 20일 서울에서 산림청 신속대응 연구개발 과제인 '산불 피해지 복구사업 이"
-  },
-  {
-   "source": "전자신문 SW·AI",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "고압 전선에 착륙해 충전까지…'송전선 감시 드론'",
-   "link": "https://www.etnews.com/20261119000451",
-   "published": "2026-11-20T07:40:00.000Z",
-   "summary": "독일 로봇 기업 노마딕이 개발한 '노마드(NOMAD)'는 전기가 흐르는 송전선에 착륙한 뒤 전선 주변의 자기장을 이용해 배터리를 충전하는 드론입니다. 무게는 약 4kg으로 전력 공급을 중단하지 않고도 몇 분 안에 송전선에 설치할 수 있습니다. 착륙 후에는 송전선에 매달린 상태로 충전하면서 전선의 상태를 측정해 이상 징후를 감지합니다. 드론 한 대가 약 25km의 송전선을 담당하며 영하 25도의 환경과 최대 42만 볼트의 고압 송전선에서도 작동"
   },
   {
    "source": "와이어드 AI",
@@ -319,7 +479,7 @@
    "kind": "media",
    "lang": "ko",
    "official": false,
-   "title": "카카오 김범수 ‘SM엔터 시세조종’ 2심도 무죄…”카카오 미래에 힘 보탤 것”",
+   "title": "카카오 김범수 ‘SM엔터 시세조종’ 2심도 무죄…“카카오 미래에 힘 보탤 것”",
    "link": "https://byline.network/2026/11/20_21827373/",
    "published": "2026-11-20T06:48:34.000Z",
    "summary": "SM엔터테인먼트 인수 과정에서 시세조종에 공모한 혐의로 기소된 김범수 카카오 창업자가 항소심에서도 무죄를 선고받았다. 김 창업자의 법적 리스크가 소폭 해소되면서, 그가 인공지능(AI) 신사업과 인적 분할을 앞둔 카카오의 향후 전략에 힘을 보탤 가능성이 높아졌다는 시각이 나온다."
@@ -362,7 +522,7 @@
    "title": "Apple is hiring engineers to build its own AI agent",
    "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
    "published": "2026-11-19T22:31:41.000Z",
-   "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. […]"
+   "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which said Apple is looking for an engineer to lead the creation of an agentic AI […]"
   },
   {
    "source": "바이라인네트워크",
@@ -482,7 +642,7 @@
    "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
    "link": "https://www.youtube.com/watch?v=lwfewYL7X0o",
    "published": "2026-11-19T18:47:16.000Z",
-   "summary": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 109 # Comments: 221"
+   "summary": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 114 # Comments: 246"
   },
   {
    "source": "더버지 AI",
@@ -552,7 +712,7 @@
    "title": "Chrome AI features wasting much bandwidth",
    "link": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
    "published": "2026-11-19T16:54:25.000Z",
-   "summary": "Article URL: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/ Comments URL: https://news.ycombinator.com/item?id=50562636 Points: 130 # Comments: 49"
+   "summary": "Article URL: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/ Comments URL: https://news.ycombinator.com/item?id=50562636 Points: 133 # Comments: 51"
   },
   {
    "source": "더버지 AI",
@@ -572,7 +732,7 @@
    "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
    "link": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
    "published": "2026-11-19T16:45:50.000Z",
-   "summary": "Article URL: https://restofworld.org/2026/ai-jobs-skills-gig-work/ Comments URL: https://news.ycombinator.com/item?id=50562500 Points: 139 # Comments: 69"
+   "summary": "Article URL: https://restofworld.org/2026/ai-jobs-skills-gig-work/ Comments URL: https://news.ycombinator.com/item?id=50562500 Points: 146 # Comments: 82"
   },
   {
    "source": "해커뉴스 (AI, 100점↑)",
@@ -582,7 +742,7 @@
    "title": "Fuck Your AI Safeguards",
    "link": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
    "published": "2026-11-19T16:30:18.000Z",
-   "summary": "Article URL: https://ounapuu.ee/posts/2026/11/19/unsafeguards/ Comments URL: https://news.ycombinator.com/item?id=50562262 Points: 565 # Comments: 227"
+   "summary": "Article URL: https://ounapuu.ee/posts/2026/11/19/unsafeguards/ Comments URL: https://news.ycombinator.com/item?id=50562262 Points: 609 # Comments: 249"
   },
   {
    "source": "테크크런치 AI",
@@ -602,17 +762,7 @@
    "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
    "link": "https://thedataexchange.media/pete-warden-moonshine/",
    "published": "2026-11-19T15:38:12.000Z",
-   "summary": "Article URL: https://thedataexchange.media/pete-warden-moonshine/ Comments URL: https://news.ycombinator.com/item?id=50561508 Points: 260 # Comments: 227"
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-   "published": "2026-11-19T15:16:45.000Z",
-   "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can t"
+   "summary": "Article URL: https://thedataexchange.media/pete-warden-moonshine/ Comments URL: https://news.ycombinator.com/item?id=50561508 Points: 270 # Comments: 247"
   },
   {
    "source": "테크크런치 AI",
@@ -623,16 +773,6 @@
    "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
    "published": "2026-11-19T14:54:39.000Z",
    "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead."
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-   "published": "2026-11-19T14:25:37.000Z",
-   "summary": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized sa"
   },
   {
    "source": "테크크런치 AI",
@@ -653,246 +793,6 @@
    "link": "https://byline.network/2026/11/19-689/",
    "published": "2026-11-19T13:20:05.000Z",
    "summary": "인공지능(AI) 에이전트가 가게 주인을 대신해 물건을 주문하고 대금까지 지급하려면 무엇이 필요할까. 수호아이오는 재고·발주·물류·결제 서비스를 연결하고, 에이전트가 주인의 권한 안에서 거래했는지 확인할 수 있어야 한다고 말했다. 박지수 수호아이오 대표는 19일 서울 서초구에서 바이라인네트워크가 개최한 ‘스테이블코인 이슈 브리핑 2026’에서 “은행의 애플리케이션 프로그래밍 인터페이스(API)가 공통 플랫폼으로 묶인 것처럼, 실행 영역에서도 에이전트가 웹 서비스를 쉽게 끌어다 쓸 수 있는 통합 환경이 필요하다”며 “소상공인이 쓰는 포스기 결제와 배달 서비스, 금융 데이"
-  },
-  {
-   "source": "더버지 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "I let Apple’s always-listening AI summarize my life for two weeks",
-   "link": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
-   "published": "2026-11-19T13:00:00.000Z",
-   "summary": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can […]"
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "The AI Superintelligence Debate Has Serious Flaws",
-   "link": "https://spectrum.ieee.org/ai-superintelligence-debate",
-   "published": "2026-11-19T12:17:10.000Z",
-   "summary": "Article URL: https://spectrum.ieee.org/ai-superintelligence-debate Comments URL: https://news.ycombinator.com/item?id=50559140 Points: 103 # Comments: 160"
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
-   "link": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
-   "published": "2026-11-19T12:00:00.000Z",
-   "summary": "Investors betting a barnstorming $107 billion will weigh whether the company’s AI safety strategy and growing public anger toward data centers could impact its growth."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "‘디지털 직원’ 시대, 기업의 새 설계도",
-   "link": "https://byline.network/2026/11/19-680/",
-   "published": "2026-11-19T07:07:12.000Z",
-   "summary": "AI 직원에게도 이메일과 캘린더가 생겼다. 구글 클라우드는 지난달 8일 AI 동료가 별도의 업무 계정을 갖고 기업 디렉터리에 등록돼 사람과 함께 일하는 기능을 공개했다. 서비스나우와 마이크로소프트는 AI 에이전트를 역할과 권한이 지정된 ‘디지털 직원’으로 조직도에 표시하는 구조를 제시했다. AI가 조직 안에서 업무를 맡는 새로운 주체로 등장하고 있다."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "“이러다가 한국인끼리 달러 결제”…해시드 김서준 대표가 경고한 AI 시대",
-   "link": "https://byline.network/2026/11/19_29182773/",
-   "published": "2026-11-19T06:54:22.000Z",
-   "summary": "“지금 환경에서 한국 사람들은 디지털 공간에서 원화를 쓰고 있습니다. 그런데 스테이블코인 인프라가 B2B 무역 결제뿐만 아니라 한국인들이 쓰는 컨슈머 디지털 공간까지도 침투하는 동시에 원화 스테이블코인 채택(adoption)이 늦어지면, 네트워크 효과와 쏠림 현상이 생겨 한국 사람들끼리 거래할 때도 그냥 (달러) 스테이블 인을 쓸 수도 있습니다.”"
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "안랩 “AI 에이전트, 목표 달성해도 실행 과정이 안전해야”",
-   "link": "https://byline.network/2026/11/18-656/",
-   "published": "2026-11-19T06:31:52.000Z",
-   "summary": "인공지능(AI) 에이전트가 주어진 목표를 달성했다고 해서 안전하게 업무를 수행했다고 확신할 수는 없다. AI는 업무를 처리하는 과정에서 예상하지 못한 도구를 사용하거나 허용된 범위를 벗어난 시스템에 접근할 수 있다. 결과에 문제가 없더라도 과정에서 보안 문제가 발생할 수 있다는 의미다. 안랩은 AI 에이전트 보안에서 개별 행동의 허용 여부뿐 아니라 전체 업무 수행 과정의 안전성을 확보해야 한다고 강조했다. 에이전트가 어떤 권한으로 데이터에 접근하고 도구를 실행했는지 확인해야 한다는 것이다."
-  },
-  {
-   "source": "바이라인네트워크",
-   "kind": "media",
-   "lang": "ko",
-   "official": false,
-   "title": "로봇에게도 ‘학교’가 필요하다…마음AI가 데이터팩토리를 연 이유",
-   "link": "https://byline.network/2026/11/8934802984092834023/",
-   "published": "2026-11-19T02:25:01.000Z",
-   "summary": "[2026 피지컬AI 데이터를 모으는 사람들 ①마음AI] 피지컬AI 데이터 협력의 중심에 서다 로봇에게도 일을 배울 ‘학교’가 필요하다. 마음AI는 이런 생각으로 지난 3월 판교 본사에 피지컬AI 데이터팩토리를 열었다. 이 회사는 한 로봇이 쌓은 경험을 다른 로봇도 쓸 수 있도록 로봇 학습 데이터의 기록 방식을 통일해야 한다고 생각한다."
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "AI will not make you rich (2025)",
-   "link": "https://colossus.com/article/ai-will-not-make-you-rich/",
-   "published": "2026-11-19T01:51:28.000Z",
-   "summary": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 107 # Comments: 68"
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "Black high school students sue after AI mistakes Doritos bag for gun",
-   "link": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
-   "published": "2026-11-19T00:57:20.000Z",
-   "summary": "Article URL: https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/ Comments URL: https://news.ycombinator.com/item?id=50554641 Points: 117 # Comments: 90"
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-   "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-   "published": "2026-11-19T00:42:56.000Z",
-   "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-   "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-   "published": "2026-11-18T23:45:00.000Z",
-   "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
-   "link": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
-   "published": "2026-11-18T23:25:17.000Z",
-   "summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-   "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-   "published": "2026-11-18T23:17:28.000Z",
-   "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-   "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
-   "published": "2026-11-18T22:58:11.000Z",
-   "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers."
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
-   "link": "https://www.wired.com/story/guys-really-we-got-this/",
-   "published": "2026-11-18T22:16:23.000Z",
-   "summary": "WIRED is tallying up how many times Nvidia’s interim CEO has assured everyone that the company has everything under control."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Anthropic prices IPO at $83 a share, above projected range",
-   "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-   "published": "2026-11-18T22:11:15.000Z",
-   "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis."
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
-   "link": "https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/",
-   "published": "2026-11-18T22:00:00.000Z",
-   "summary": "Fallout from the Nvidia scandal has made any negotiations around AI difficult, officials say."
-  },
-  {
-   "source": "테크크런치 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
-   "link": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
-   "published": "2026-11-18T21:57:40.000Z",
-   "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks."
-  },
-  {
-   "source": "와이어드 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
-   "link": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
-   "published": "2026-11-18T21:15:00.000Z",
-   "summary": "The Trump administration announced plans to clamp down on China’s access to AI chips. Apparently, the cheating scandal of the century was the motivation they were missing."
-  },
-  {
-   "source": "아스테크니카 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-   "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-   "published": "2026-11-18T19:19:33.000Z",
-   "summary": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says."
-  },
-  {
-   "source": "아스테크니카 AI",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "Will Wright's next simulation will use AI to mine content from your memories",
-   "link": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
-   "published": "2026-11-18T18:10:33.000Z",
-   "summary": "With MyMems , Wright says he wants to \"turn the simulation inward.\""
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
-   "link": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
-   "published": "2026-11-18T16:41:22.000Z",
-   "summary": "Article URL: https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO Comments URL: https://news.ycombinator.com/item?id=50548485 Points: 147 # Comments: 79"
-  },
-  {
-   "source": "해커뉴스 (AI, 100점↑)",
-   "kind": "community",
-   "lang": "en",
-   "official": false,
-   "title": "AI agents ask better questions than KPMG accountants in audit trial",
-   "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "published": "2026-11-18T15:49:34.000Z",
-   "summary": "Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/ Comments URL: https://news.ycombinator.com/item?id=50547777 Points: 492 # Comments: 260"
-  },
-  {
-   "source": "MIT 테크놀로지 리뷰",
-   "kind": "media",
-   "lang": "en",
-   "official": false,
-   "title": "The AI Hype Index: AI is everywhere",
-   "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-   "published": "2026-11-18T14:42:44.000Z",
-   "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, an"
   }
  ]
 }
