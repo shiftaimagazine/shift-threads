@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:30:29.410Z",
+ "updated": "2026-11-21T12:31:42.312Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 78,
  "followersHistory": [
@@ -338,9 +338,16 @@
   "reels": []
  },
  "comments": {
-  "pending": 0,
-  "items": [],
-  "updated": "2026-11-21T03:36:55.371Z"
+  "pending": 1,
+  "items": [
+   {
+    "user": "caltoe_fairy",
+    "text": "AI 없이도 두 줄이면 끝납니다. 시트1 B2에 =IF(COUNTIF(시트2!A:A,A2)=0,\"누락\",\"\") 을 넣고 아래로 채우면, 시트1에는 있는데 시트2에 없는 항목만 남아요. 반대 방향으로도 한 번 돌리면 양쪽 누락이 다 잡힙니다.\n사번처럼 숫자면 =XLOOKUP(A2,시트2!A:A,시트2!B:B,\"누락\") 처럼 네 번째 칸에 \"누락\"을 넣는 방법이 더 짧습니다.\n결과 열에 조건부 서식을 걸어두면 다음 달에도 같은 파일에서 바로 확인돼요.",
+    "at": "2026-11-21T03:51:46+0000",
+    "post": "https://www.threads.com/@shift_ai_magazine/post/Df-1jQqltAo"
+   }
+  ],
+  "updated": "2026-11-21T12:31:42.265Z"
  },
  "replies": {
   "sent": [
