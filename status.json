@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:52:49.570Z",
+ "updated": "2026-11-22T03:34:58.133Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 80,
  "followersHistory": [
@@ -179,8 +179,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "민감한 내용 물어볼 땐, 임시 채팅부터 켜세요. ChatGPT는 새 채팅에서 '임시(Temporary)'를,",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DgB2dj7EW6X",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-22-1139-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-22-1139-howto/02.png"
@@ -423,11 +423,11 @@
   {
    "date": "2026-11-22",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -440,7 +440,7 @@
     {
      "at": "2026-11-22T11:39:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
