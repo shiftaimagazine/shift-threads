@@ -1,5 +1,18 @@
 {
- "updated": "2026-11-22T03:38:19.664Z",
- "count": 0,
- "items": []
+ "updated": "2026-11-22T12:30:59.795Z",
+ "count": 1,
+ "items": [
+  {
+   "id": "18104797037067943",
+   "user": "dadada_love_happy",
+   "text": "자료 밖 이야기 안 하는 게 제일 마음에 드네요ㅋㅋ",
+   "at": "2026-11-22T05:08:53+0000",
+   "to": "post",
+   "post": {
+    "id": "18088406657711700",
+    "hook": "자료 50개를 올려 두고, 그 안에서만 답하게 할 수 있어요.  구글 Gemini Notebook(노트북LM)은",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/Df_RgeTG0hx"
+   }
+  }
+ ]
 }
