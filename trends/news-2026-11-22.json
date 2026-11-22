@@ -1,0 +1,418 @@
+{
+ "updated": "2026-11-22T12:27:35.485Z",
+ "kstDate": "2026-11-22",
+ "windowHours": 48,
+ "note": "글쓰기 작업용 뉴스 후보. 쓰기로 한 소식은 반드시 link 원문을 열어 숫자·날짜를 확인할 것. summary 는 피드 요약이라 사실 확인 근거로 쓰지 않음.",
+ "items": [
+  {
+   "source": "Google Research",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+   "link": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+   "published": "2026-11-20T23:30:30.000Z",
+   "summary": "Generative AI"
+  },
+  {
+   "source": "Meta 뉴스룸",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Advancing Science Together: Highlights From the Open Source AI For Science Summit",
+   "link": "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/",
+   "published": "2026-11-20T18:30:45.000Z",
+   "summary": "We brought researchers from universities, hospitals, and industry together for the Open Source AI for Science Summit, an event built around using open source AI to accelerate scientific discovery. The post Advancing Science Together: Highlights From the Open Source AI For Science Summit appeared first on Meta Newsroom "
+  },
+  {
+   "source": "AI타임스",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "알트먼, 메타의 딥페이크 영상에 등장…메타 \"정책 위반 아니다\"",
+   "link": "https://www.aitimes.com/news/articleView.html?idxno=217664",
+   "published": "2026-11-22T18:30:43.000Z",
+   "summary": "메타의 최고AI책임자(CAIO)가 경쟁사 오픈AI의 샘 알트먼 CEO를 등장시킨 AI 딥페이크 영상을 소셜미디어에 게시해 눈길을 끌고 있다. 메타의 AI 에이전트를 홍보하면서 경쟁사 수장을 희화화한 것으로, 메타는 해당 영상이 AI 생성 콘텐츠임을 표시했기 때문에 자사 정책에 어긋나지 않는다고 밝혔다.더 버지는 최근 알렉산더 왕 메타 CAIO가 이달 초 인스타그램에 게시한 영상이 경쟁사 CEO의 모습을 AI로 합성한 콘텐츠라는 점에 주목했다. 왕 CAO는 메타의 소비자용 AI 에이전트 '뮤즈(Muse)'를 홍보하기 위해 제작된 이"
+  },
+  {
+   "source": "긱뉴스",
+   "kind": "community",
+   "lang": "ko",
+   "official": false,
+   "title": "나스닥, 2026년 상승분 모두 반납",
+   "link": "https://news.hada.io/topic?id=37629&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+   "published": "2026-11-22T11:56:14.000Z",
+   "summary": "나스닥 종합지수 가 11월 20일 하루 5.28% 급락하며 연초 대비 2.7% 하락으로 돌아섬. Anthropic IPO와 Nvidia 실적이 AI 투자 열기를 되살리지 못했고, 투자자들은 차익 실현에 나섬 S&P 500과 다우지수 는 종가 기준 역대 최고치보다 10% 낮아지며 조정 국면에 진입함. Nasdaq-100은 장중 최근 고점 대비 20% 하락해 약세장 기준에 도달함 Anthropic 은 상장 첫날 17% 상승한 뒤 다음 날 8.5% 하락했고, 반도체주 도 급락함. Nvidia와 Micron은 약 14%, AMD는 13% 넘게 떨어짐 AI 인프라 투자 둔화와"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Banks Have Had It Up to Here With Your AI Agent",
+   "link": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+   "published": "2026-11-22T11:00:00.000Z",
+   "summary": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[카카오 리부트]〈상〉브라이언이 돌아왔다…사법 족쇄 벗고 재도약 시동",
+   "link": "https://www.etnews.com/20261120000270",
+   "published": "2026-11-22T09:00:00.000Z",
+   "summary": "〈편집자 주〉 카카오 창업자인 김범수 카카오 미래이니셔티브센터장이 SM엔터테인먼트 시세조종 의혹 2심에서도 무죄를 선고받았다. 지난 3년간 체질 개선과 인공지능(AI) 전환에 대비해온 카카오에도 새로운 분기점이다. 전자신문은 복귀를 앞둔 김 센터장의 역할과 향후 과제를 2회에 걸쳐 조명한다. 카카오 창업자인 김범수 미래이니셔티브센터장이 SM엔터테인먼트 시세조종 의혹 2심에서도 무죄를 선고받으면서 향후 본격적인 경영 활동에 나설 것으로 예상된다."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[IP 리더를 만나다](10) 김동규 법무법인 해광 대표변호사 “지식재산권, 기업 미래가치 좌우하는 핵심 경영자산”",
+   "link": "https://www.etnews.com/20261118000115",
+   "published": "2026-11-22T08:00:00.000Z",
+   "summary": "인공지능(AI), 반도체, 바이오 등 첨단산업 경쟁이 심화하면서 지식재산권(IP) 중요성이 기업 경영 핵심 의제로 부상하고 있다. 기술과 아이디어를 얼마나 먼저 개발하느냐를 넘어 이를 얼마나 강력한 권리로 확보하고 사업적 가치로 연결하느냐가 기업의 경쟁력을 좌우하는 시대다. 특히 생성형 AI 확산에 따른 저작권·특허권 귀속 문제와 글로벌 특허분쟁, 기술 유출 등 새로운 법률적 쟁점도 빠르게 늘고 있다. 김동규 법무법인(유한) 해광 대표변호사·변"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "건설연, AI·신소재로 '도로노면 위험' 선제 대응 나서",
+   "link": "https://www.etnews.com/20261122000091",
+   "published": "2026-11-22T07:12:27.000Z",
+   "summary": "한국건설기술연구원(원장 박선규)이 국민 체감형 도로안전 기술을 개발하는 성과를 거뒀다고 22일 밝혔다. 도로 위험요소 방지·저감 기술 통합 테스트베드도 구축했다. 건설연 도로교통연구본부 연구팀(팀장 양성린)은 도로노면 위험요소를 사전에 진단하고 결빙 발생을 지연·저감하며, 실제 도로환경에서 기술의 적용성을 검증하는 전주기 연구를 추진하고 있다. 이번 연구는 단일 기술 개발에 그치지 않고, 도로노면 상태를 상시 파악해 위험요소를 선제적으로 관리하"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "SKT 에이닷을 '모두의 AI'로 전환…'에이닷올' 내달 출시",
+   "link": "https://www.etnews.com/20261120000272",
+   "published": "2026-11-22T07:00:00.000Z",
+   "summary": "SK텔레콤이 자사 인공지능(AI) 에이전트 에이닷을 확대 개편해 정부 정책에 맞춘 '모두의 AI' 서비스로 전환한다. 별도 플랫폼을 새로 개발하는 대신 1000만이 넘는 가입자 기반을 흡수해 시장 연착륙과 초기 수요 선점을 노린다. 22일 업계에 따르면 SK텔레콤은 다음달 에이닷을 모두의 AI 사업 방향에 맞춰 새롭게 개편한다. 이에 따라 에이닷 브랜드명은 '에이닷올(A.LL)'로 변경된다. SK텔레콤 관계자는 “에이닷올은 기존 에이닷을 한 단"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[김태형의 혁신의기술] 〈64〉AI 시대의 사고전환, AI 네이티브 싱킹〈중〉",
+   "link": "https://www.etnews.com/20261120000228",
+   "published": "2026-11-22T07:00:00.000Z",
+   "summary": "'쓸모없는 정보가 넘쳐나는 세상에서 명료함은 힘이다.' 역사학자 유발 하라리의 2018년 저서 '21세기를 위한 21가지 제언' 첫 문장이다. 8년이 지난 지금 넘쳐나는 것은 정보 만이 아니다. 인공지능(AI)은 수십개의 대안을 제시하고 스스로 계획하고 실행한다. 선택지가 많아질수록 사람은 판단을 어려워하거나 AI의 추천을 그대로 받아들인다. 답은 많아졌지만 무엇이 중요한지 판단하기는 오히려 어려워졌다. AI 네이티브 싱킹(AI-Native T"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "보행로봇부터 수술실 CT까지…'CES 2027'가는 韓 헬스케어",
+   "link": "https://www.etnews.com/20261120000222",
+   "published": "2026-11-22T07:00:00.000Z",
+   "summary": "국내 헬스케어 기업들이 세계 최대 전자·정보기술(IT) 전시회 'CES 2027'에서 병원과 제약사를 겨냥한 기술을 선보인다. 수술 중 암 조직을 확인하는 소형 컴퓨터단층촬영(CT) 장비부터 인공지능(AI) 기반 의료영상 기술, 신약 임상시험 설계 소프트웨어까지 출품 분야도 다양하다. 고령자 건강관리와 재활 분야에서는 최고혁신상 수상 기업이 잇따라 나왔다. 내년 1월 6일부터 9일까지 미국 라스베이거스에서 열리는 CES 2027에 110곳 이상"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "전당포도 AI 시대…에일릿, 싱가포르서 무인 전당포 선보여",
+   "link": "https://www.etnews.com/20261122000089",
+   "published": "2026-11-22T06:57:00.000Z",
+   "summary": "싱가포르 핀테크 페스티벌(SFF 2026) 전시장에 노란색 무인 전당포가 등장했다. 금이나 명품시계를 맡기면 인공지능(AI)이 감정을 돕고, 대출 계약까지 비대면으로 진행할 수 있는 키오스크다. 전당포 직원과 얼굴을 마주하지 않고도 돈을 빌릴 수 있는 서비스다. 국내 핀테크 기업 에일릿이 선보인 무인 전당포 '에이프루'다. 지난 18일부터 20일까지 싱가포르 엑스포에서 열린 SFF 2026에서 에일릿은 금과 명품시계를 감정하고 담보대출로 연결하"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[단독] 원티드랩, 美 샌프란시스코 진출…한·미·일 인재 잇는다",
+   "link": "https://www.etnews.com/20261120000273",
+   "published": "2026-11-22T06:00:00.000Z",
+   "summary": "원티드랩이 일본에 첫 해외 법인을 세운지 10년만에 미국에 2번째 해외 법인을 세우고 한국과 미국, 일본을 잇는 글로벌 인재 채용사업을 본격화했다. 동시에 미국 인공지능 전환(AX) 시장에 출사표를 던졌다. 22일 업계에 따르면 원티드랩은 지난 4월 미국 캘리포니아주 샌프란시스코에 미국 법인 '원티드랩 USA'를 설립했다. 미국 법인 최고경영자(CEO)는 이복기 원티드랩 대표가 맡았다. 현재 법인 설립 초기 단계로, 사업 개발을 이끌 첫 현지"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+   "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+   "published": "2026-11-21T21:37:10.000Z",
+   "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "A tale of two Nvidias",
+   "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+   "published": "2026-11-21T21:07:42.000Z",
+   "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Pandex – Official European Law for AI Agents, over MCP",
+   "link": "https://www.pandex.io",
+   "published": "2026-11-21T20:47:41.000Z",
+   "summary": "Article URL: https://www.pandex.io Comments URL: https://news.ycombinator.com/item?id=50593481 Points: 103 # Comments: 26"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The UN fails to agree on rules regulating ‘killer robots’",
+   "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+   "published": "2026-11-21T20:03:37.000Z",
+   "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to N"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Here are the top AI agents that can live in your text messages",
+   "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+   "published": "2026-11-21T17:00:00.000Z",
+   "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+   "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+   "published": "2026-11-21T16:00:00.000Z",
+   "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Can Anthropic afford to put safety first?",
+   "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+   "published": "2026-11-21T15:00:00.000Z",
+   "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+   "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+   "published": "2026-11-21T14:00:00.000Z",
+   "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic "
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The Outages Are Just Getting Started",
+   "link": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+   "published": "2026-11-21T13:00:00.000Z",
+   "summary": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "ClawDOS – An AI coding agent for DOS",
+   "link": "http://ricapar.net/ClawDOS/",
+   "published": "2026-11-21T05:38:01.000Z",
+   "summary": "Article URL: http://ricapar.net/ClawDOS/ Comments URL: https://news.ycombinator.com/item?id=50586292 Points: 166 # Comments: 52"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+   "link": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
+   "published": "2026-11-20T23:24:02.000Z",
+   "summary": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Google rolls out new search homepage with AI chat history and no search button",
+   "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+   "published": "2026-11-20T21:58:29.000Z",
+   "summary": "Google search is making it even easier to access AI tools on the search page."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+   "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+   "published": "2026-11-20T21:47:10.000Z",
+   "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?"
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+   "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "published": "2026-11-20T20:59:08.000Z",
+   "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+   "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+   "published": "2026-11-20T19:53:41.000Z",
+   "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+   "link": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+   "published": "2026-11-20T19:52:21.000Z",
+   "summary": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+   "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+   "published": "2026-11-20T19:32:08.000Z",
+   "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+   "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+   "published": "2026-11-20T18:50:19.000Z",
+   "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at "
+  },
+  {
+   "source": "MIT 테크놀로지 리뷰",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The most misunderstood graph in AI just got a major update",
+   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "published": "2026-11-20T18:15:15.000Z",
+   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Chips can survive the space environment — can their financing?",
+   "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+   "published": "2026-11-20T17:40:01.000Z",
+   "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?"
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Google workers tell their employer not to punish schools that don't want AI",
+   "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+   "published": "2026-11-20T16:59:27.000Z",
+   "summary": "Article URL: https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/ Comments URL: https://news.ycombinator.com/item?id=50577901 Points: 282 # Comments: 229"
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "AI is giving everyone the same advice",
+   "link": "https://a90.com/experiments/same-advice/",
+   "published": "2026-11-20T16:58:05.000Z",
+   "summary": "Article URL: https://a90.com/experiments/same-advice/ Comments URL: https://news.ycombinator.com/item?id=50577872 Points: 124 # Comments: 52"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+   "published": "2026-11-20T16:34:13.000Z",
+   "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI i"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+   "link": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "published": "2026-11-20T14:55:44.000Z",
+   "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The week everything fell apart",
+   "link": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+   "published": "2026-11-20T14:06:59.000Z",
+   "summary": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of something even bigger. On"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Six AI-powered gadgets that could make your home office smarter",
+   "link": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+   "published": "2026-11-20T14:00:00.000Z",
+   "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+   "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "published": "2026-11-20T13:29:59.000Z",
+   "summary": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 514 # Comments: 897"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+   "published": "2026-11-20T12:30:47.000Z",
+   "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to in"
+  }
+ ]
+}
