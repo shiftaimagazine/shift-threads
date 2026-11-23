@@ -1,0 +1,388 @@
+{
+ "updated": "2026-11-23T12:46:12.144Z",
+ "kstDate": "2026-11-23",
+ "windowHours": 48,
+ "note": "글쓰기 작업용 뉴스 후보. 쓰기로 한 소식은 반드시 link 원문을 열어 숫자·날짜를 확인할 것. summary 는 피드 요약이라 사실 확인 근거로 쓰지 않음.",
+ "items": [
+  {
+   "source": "OpenAI",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Perplexity and Intelligence",
+   "link": "https://openai.com/index/perplexity-and-intelligence",
+   "published": "2026-11-22T00:00:00.000Z",
+   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities."
+  },
+  {
+   "source": "AI타임스",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "'네온'이 3주 만에 '카본'을 추월한 이유…구글 \"3개 세대 동시 개발\"",
+   "link": "https://www.aitimes.com/news/articleView.html?idxno=217693",
+   "published": "2026-11-23T17:40:00.000Z",
+   "summary": "구글이 대형 모델을 출시한 지 불과 3주 만에 최고 성능에서 이를 앞서는 중형급 모델을 선보이는 등 AI 개발 속도를 높이고 있다. 현재 모델과 차기·차차기 모델을 동시에 개발하고, 성능 평가와 학습을 반복하는 방식으로 새로운 모델을 잇달아 선보이고 있다는 설명이다.구글은 9월 말 '제미나이 4 아르곤'을 시작으로 10월 말 '카본', 이달 들어 '하이드로젠'과 '네온'을 연이어 출시했다. 특히 지난 18일 공개된 중형급 모델 네온은 아티피셜 애널리시스의 지능지수(AAII)에서 61점을 기록해, 10월28일 출시된 대형 모델 카본의"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
+   "link": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+   "published": "2026-11-23T12:00:00.000Z",
+   "summary": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered."
+  },
+  {
+   "source": "아스테크니카 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+   "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+   "published": "2026-11-23T12:00:00.000Z",
+   "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents."
+  },
+  {
+   "source": "긱뉴스",
+   "kind": "community",
+   "lang": "ko",
+   "official": false,
+   "title": "그렇다, Lean 코드 1,700만 줄은 정말 많다",
+   "link": "https://news.hada.io/topic?id=37710&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+   "published": "2026-11-23T11:32:15.000Z",
+   "summary": "최근 리만 가설 증명에 붙은 Lean 코드 1,700만 줄 이라는 수치가 얼마나 큰지 살펴보기 위해, 온라인의 두 Lean 코드 모음을 비교함 Mathlib의 유명 정리 모음 에서 Lean 코드가 연결된 259개는 모두 사람이 작성했으며, 어느 것도 1,700만 줄에 근접하지 않음 Reservoir 에 등록된 패키지 중 GitHub에 Lean 코드가 있는 938개를 살펴보면, AI 보조 증명까지 포함돼 1,600만 줄을 넘는 사례도 있음 대규모 사례에는 진행 중인 AI 증명 , 데이터베이스 수치를 하나씩 확인하는 생성 코드, AI 에이전트가 작성한 완성된 증명이 섞여"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Meta Muse can do your Black Friday shopping at Walmart",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+   "published": "2026-11-23T11:00:00.000Z",
+   "summary": "Walmart will let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. Tomorrow, on Tuesday November 24th, the retail giant will roll out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products for you with"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "States Sue SpaceX Over Grok Deepfakes",
+   "link": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+   "published": "2026-11-23T11:00:00.000Z",
+   "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Goodbye, World: The End of Programmers",
+   "link": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+   "published": "2026-11-23T10:00:00.000Z",
+   "summary": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "애니파이브, 'AI 인텔리전스 센터' 개소…지식재산·R&D·제조 AI 통합 플랫폼 구축",
+   "link": "https://www.etnews.com/20261123000508",
+   "published": "2026-11-23T09:45:48.000Z",
+   "summary": "AI 기반 지식재산(IP)·연구개발(R&D) 서비스 전문기업 애니파이브가 인공지능(AI) 기술을 중심으로 지식재산 관리부터 연구개발, 제조, 사업화까지 연결하는 통합 서비스 체계 구축에 나섰다. 애니파이브는 23일 서울 서초구 강남메인타워에서 'AI 인텔리전스 센터(AI Intelligence Center)' 개소식을 개최하고 AI 에이전트 기반 차세대 서비스 플랫폼 구축 전략과 신규 서비스 출시 계획을 발표했다. 이번에 문을 연 AI 인텔리전"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "무아베모션, 현대건설과 AI 안전교육 콘텐츠 개발 협력",
+   "link": "https://www.etnews.com/20261123000506",
+   "published": "2026-11-23T09:43:58.000Z",
+   "summary": "무아베모션은 현대건설과 안전교육 콘텐츠 개발을 위한 업무협약(MOU)을 체결했다고 23일 밝혔다. 양사는 생성형 인공지능(AI)과 인터랙션 기술을 활용해 안전보건교육 콘텐츠와 건설장비 사용법, 작업 절차 등을 담은 체험형 디지털 매뉴얼을 공동 개발할 계획이다. 기존 교육 자료를 사용자가 조작할 수 있는 실습형 콘텐츠 '플레이어블'로 전환한다. 앱 설치 없이 스마트폰으로 화면 속 안전장비를 조작하고 사고 상황별 대응 절차를 연습하는 방식이다. 향"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "이노베이션아카데미, AI·SW 인재양성 성과 26일 공유한다",
+   "link": "https://www.etnews.com/20261123000505",
+   "published": "2026-11-23T09:43:07.000Z",
+   "summary": "이노베이션아카데미가 2026 성과 공유 컨퍼런스 '코디세이 AI인재 웨이브'를 26일 서울 양재동 엘타워에서 개최한다. AX 인재 양성 플랫폼 '코디세이' 운영 성과를 공유하고 인공지능(AI)·소프트웨어(SW) 인재 양성에 관심 있는 기업·기관과 소통·교류하는 자리로 마련된다. 1부는 개회식과 김두현 이노베이션아카데미 학장 코디세이 발전 방향 선포로 문을 연다. 우수 교육생에 대한 부총리 겸 과학기술정보통신부 장관상 등 시상식이 진행된다. 2부"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "코닉글로리, AI 시험 부정행위 차단 나선다…무선 보안기술 활용",
+   "link": "https://www.etnews.com/20261123000502",
+   "published": "2026-11-23T09:15:45.000Z",
+   "summary": "유무선 네트워크 보안 전문기업 코닉글로리가 스마트안경과 초소형 카메라 등 인공지능(AI) 기술을 악용한 시험 부정행위에 대응하기 위해 무선침입방지시스템(WIPS)을 활용한 상시 감시체계 구축 방안을 제시했다. 코닉글로리는 최근 문제가 되고 있는 부정행위가 무선통신을 활용한다는 점에 주목, 시험실마다 WIPS 센서를 설치해 무선 신호를 상시 감시하는 방식을 제안했다. 문제 촬영 장비는 주로 와이파이(Wi-Fi)를 이용하고 음성 수신이나 장비 제어"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "천재교육 T셀파, 현직 교사 바이브코딩 원데이 클래스 성료",
+   "link": "https://www.etnews.com/20261123000500",
+   "published": "2026-11-23T08:58:00.000Z",
+   "summary": "천재교육·천재교과서 올인원 교수학습 지원 서비스 T셀파가 현직 교사 대상 '바이브코딩 원데이 클래스'를 개최했다. 생성형 인공지능(AI)을 활용한 바이브코딩에 대한 교육 현장 관심이 높아지는 가운데, 교사들이 별도 코딩 전문 지식 없이도 학교 업무와 교과 수업에 필요한 앱을 직접 제작했다. T셀파와 에듀테크 교사 연구회가 기획부터 운영까지 함께한 이번 프로그램은 총 3차시로 구성됐다. 초·중·고 현직 교사들이 강사진으로 참여했다. 참가자들은 구"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "상시 신고조치제로 통신·금융 등 보안취약점 202건 발견됐다",
+   "link": "https://www.etnews.com/20261123000499",
+   "published": "2026-11-23T08:47:13.000Z",
+   "summary": "국내 최초 시행된 '보안취약점 상시 신고조치제' 시범사업으로 화이트해커 약 700명이 4주간 기업·기관 유효 보안취약점 202건을 발견했다. 취약점은 모두 조치되며 사이버 침해 가능성을 줄였다. 국가인공지능전략위원회는 과학기술정보통신부·국가정보원·한국인터넷진흥원(KISA)과 23일 서울 엘리에나 호텔에서 보안취약점 신고·조치·공개(CVD/VDP) 제도 시범사업 성과공유회와 시상식을 열고 이같은 성과를 발표했다. 사업은 지난해 잇따른 대형 보안사"
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "[RE: 자사몰] ‘트라넥삼산 10%’ 모르는 고객은?…오가니시티가 자사몰에 AI를 넣은 이유",
+   "link": "https://byline.network/2026/11/23_291827734-2/",
+   "published": "2026-11-23T08:41:23.000Z",
+   "summary": "‘트라넥삼산 10%’, ‘나이아신아마이드 10%’. 주요 성분과 함량을 제품명에 내세운 스킨케어 브랜드 오가니시티가 인공지능(AI)을 활용해 자사몰을 키우고 있습니다. 성분을 잘 모르는 소비자도 피부 고민에 맞는 제품을 찾고, 조합과 사용법까지 안내받도록 한 겁니다. 네이버 스마트스토어에서 축적한 약 6만 건의 리뷰·상담 데이터를 AI에 활용하고, 고객의 요구를 신상품 개발로 연결하는 실험도 이어가고 있습니다."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "“용접 소음도 뚫고 통역한다”…오픈AI 음성 AI 입은 하이워커",
+   "link": "https://byline.network/2026/11/1123-4/",
+   "published": "2026-11-23T08:22:21.000Z",
+   "summary": "하이로컬이 오픈AI의 음성 AI 모델을 적용한 산업 현장 특화 통·번역 솔루션 ‘하이워커’를 국내외 1500개 산업 현장에 보급했다. 하이워커는 별도 앱 설치 없이 외국인 근로자에게 모국어 음성과 자막으로 작업 지시와 안전교육 내용을 전달하며, 현장 소음과 전문용어에 대응하는 기능을 갖췄다. 하이로컬은 헬멧 부착형 웨어러블 장비와의 연동, 음성 인식 성능 개선 등을 통해 작업 중 소통 지원과 해외 시장 확대를 추진할 계획이다."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "래블업, 美 기업 인사이트에 AI 인프라 플랫폼 공급한다",
+   "link": "https://www.etnews.com/20261123000488",
+   "published": "2026-11-23T08:21:45.000Z",
+   "summary": "래블업이 미국 정보기술(IT) 기업 인사이트와 손잡고 기업용 인공지능(AI) 인프라 시장 공략에 나선다. 래블업 미국 자회사인 래블업 USA는 인사이트와 AI 인프라 운영 플랫폼 '백엔드닷에이아이'의 미국 엔터프라이즈 시장 공급 계약을 체결했다고 23일 밝혔다. 인사이트는 IT 시스템 구축·운영을 지원하는 글로벌 솔루션 통합(SI) 기업이다. 양사는 백엔드닷에이아이와 인사이트의 시스템 구축·운영 역량을 결합해 기업의 AI 인프라 평가부터 도입·"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "강정현 아라소프트 대표 '2026 중소기업융합대전'서 국무총리 표창 수상",
+   "link": "https://www.etnews.com/20261123000486",
+   "published": "2026-11-23T08:15:51.000Z",
+   "summary": "강정현 아라소프트 대표가 23일 경기 수원컨벤션센터에서 열린 '2026 중소기업융합대전'에서 국무총리 표창을 수상했다. 올해로 13회째를 맞은 중소기업융합대상은 다양한 업종의 중소기업 간 교류와 협업 성과를 공유하는 행사다. 올해는 '융합과 혁신을 넘어 인공지능(AI) 전환으로 도약하는 중소기업'을 주제로 24일까지 열린다. 개막식에서는 기업 간 협업과 기술 융합을 통해 산업 발전에 기여한 유공자 15명에 대해 정부 포상을 수여했다. 아라소프트"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+   "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+   "published": "2026-11-23T01:25:53.000Z",
+   "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "We haven’t seen the last of the major tech outages",
+   "link": "https://www.theverge.com/tech/1039851/major-tech-outages",
+   "published": "2026-11-22T22:48:02.000Z",
+   "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be "
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+   "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+   "published": "2026-11-22T21:14:07.000Z",
+   "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "published": "2026-11-22T21:01:16.000Z",
+   "summary": "Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth Comments URL: https://news.ycombinator.com/item?id=50603845 Points: 572 # Comments: 238"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Why data centers are at the center of the Big Tech backlash",
+   "link": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+   "published": "2026-11-22T18:08:43.000Z",
+   "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\""
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+   "link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+   "published": "2026-11-22T17:25:20.000Z",
+   "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata tha"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The vibe-coding revolution is coming to all the gadgets",
+   "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+   "published": "2026-11-22T13:00:00.000Z",
+   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]"
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "AI is becoming a disaster for the climate",
+   "link": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+   "published": "2026-11-22T12:19:46.000Z",
+   "summary": "Article URL: https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the Comments URL: https://news.ycombinator.com/item?id=50598961 Points: 127 # Comments: 55"
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Banks Have Had It Up to Here With Your AI Agent",
+   "link": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+   "published": "2026-11-22T11:00:00.000Z",
+   "summary": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "AI Supply Chain Security: What Canary Tokens Found",
+   "link": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+   "published": "2026-11-22T05:11:43.000Z",
+   "summary": "Article URL: https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens Comments URL: https://news.ycombinator.com/item?id=50596511 Points: 103 # Comments: 22"
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "The Mythology of Conscious AI",
+   "link": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+   "published": "2026-11-22T02:10:02.000Z",
+   "summary": "Article URL: https://www.noemamag.com/the-mythology-of-conscious-ai/ Comments URL: https://news.ycombinator.com/item?id=50595537 Points: 177 # Comments: 523"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+   "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+   "published": "2026-11-21T21:37:10.000Z",
+   "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "A tale of two Nvidias",
+   "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+   "published": "2026-11-21T21:07:42.000Z",
+   "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Pandex – Official European Law for AI Agents, over MCP",
+   "link": "https://www.pandex.io",
+   "published": "2026-11-21T20:47:41.000Z",
+   "summary": "Article URL: https://www.pandex.io Comments URL: https://news.ycombinator.com/item?id=50593481 Points: 140 # Comments: 33"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The UN fails to agree on rules regulating ‘killer robots’",
+   "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+   "published": "2026-11-21T20:03:37.000Z",
+   "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to N"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Here are the top AI agents that can live in your text messages",
+   "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+   "published": "2026-11-21T17:00:00.000Z",
+   "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+   "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+   "published": "2026-11-21T16:00:00.000Z",
+   "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Can Anthropic afford to put safety first?",
+   "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+   "published": "2026-11-21T15:00:00.000Z",
+   "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+   "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+   "published": "2026-11-21T14:00:00.000Z",
+   "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic "
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "The Outages Are Just Getting Started",
+   "link": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+   "published": "2026-11-21T13:00:00.000Z",
+   "summary": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell."
+  }
+ ]
+}
