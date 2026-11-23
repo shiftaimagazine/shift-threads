@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:05:55.964Z",
+ "updated": "2026-11-23T21:27:16.030Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 82,
  "followersHistory": [
@@ -118,14 +118,13 @@
   {
    "date": "2026-11-23",
    "followers": 82
+  },
+  {
+   "date": "2026-11-24",
+   "followers": 82
   }
  ],
  "today": {
-  "date": "2026-11-23",
-  "posts": [],
-  "reels": []
- },
- "tomorrow": {
   "date": "2026-11-24",
   "posts": [
    {
@@ -235,6 +234,11 @@
   ],
   "reels": []
  },
+ "tomorrow": {
+  "date": "2026-11-25",
+  "posts": [],
+  "reels": []
+ },
  "comments": {
   "pending": 0,
   "items": [],
@@ -258,32 +262,6 @@
   "total": 14
  },
  "days": [
-  {
-   "date": "2026-11-17",
-   "total": 2,
-   "ok": 2,
-   "failed": 0,
-   "expired": 0,
-   "waiting": 0,
-   "scheduled": 0,
-   "needCards": 2,
-   "cardsReady": 2,
-   "times": [
-    {
-     "at": "2026-11-17T07:37:00+09:00",
-     "format": "howto",
-     "status": "ok",
-     "cards": 2
-    },
-    {
-     "at": "2026-11-17T11:38:00+09:00",
-     "format": "howto",
-     "status": "ok",
-     "cards": 2
-    }
-   ],
-   "reels": []
-  },
   {
    "date": "2026-11-18",
    "total": 2,
@@ -415,19 +393,6 @@
    "reels": []
   },
   {
-   "date": "2026-11-23",
-   "total": 0,
-   "ok": 0,
-   "failed": 0,
-   "expired": 0,
-   "waiting": 0,
-   "scheduled": 0,
-   "needCards": 0,
-   "cardsReady": 0,
-   "times": [],
-   "reels": []
-  },
-  {
    "date": "2026-11-24",
    "total": 2,
    "ok": 0,
@@ -452,12 +417,25 @@
     }
    ],
    "reels": []
+  },
+  {
+   "date": "2026-11-25",
+   "total": 0,
+   "ok": 0,
+   "failed": 0,
+   "expired": 0,
+   "waiting": 0,
+   "scheduled": 0,
+   "needCards": 0,
+   "cardsReady": 0,
+   "times": [],
+   "reels": []
   }
  ],
  "top": [
   {
    "hook": "자료 50개를 올려 두고, 그 안에서만 답하게 할 수 있어요.",
-   "views": 3979,
+   "views": 3997,
    "likes": 16,
    "replies": 2,
    "reposts": 3,
@@ -466,7 +444,7 @@
   },
   {
    "hook": "엑셀 시트 두 개, 눈으로 대조하고 계신가요?",
-   "views": 562,
+   "views": 563,
    "likes": 0,
    "replies": 3,
    "reposts": 0,
@@ -475,7 +453,7 @@
   },
   {
    "hook": "보고 들어가기 전, 임원 질문 대비하셨나요?",
-   "views": 538,
+   "views": 540,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
@@ -484,7 +462,7 @@
   },
   {
    "hook": "퇴근 전, 내일 할 일 순서 고민하다 10분 쓰셨나요?",
-   "views": 506,
+   "views": 520,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
