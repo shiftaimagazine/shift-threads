@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:51:22.167Z",
+ "updated": "2026-11-24T12:18:11.396Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 82,
  "followersHistory": [
@@ -187,8 +187,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "AI가 써 준 숫자, 그대로 보고서에 넣으셨나요? 답을 받은 뒤 한 줄만 더 시키세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DgH78PBkbEE",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-24-1140-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-24-1140-howto/02.png"
@@ -395,11 +395,11 @@
   {
    "date": "2026-11-24",
    "total": 2,
-   "ok": 1,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -412,7 +412,7 @@
     {
      "at": "2026-11-24T21:10:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     }
    ],
