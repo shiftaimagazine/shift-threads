@@ -1,0 +1,35 @@
+{
+ "updated": "2026-11-24T18:32:27+09:00",
+ "message": "연결 확인 2026-11-24T18:32:27+09:00 · 올릴 것 3편",
+ "via": "youtube-api",
+ "channel": "UCjZ398yiclS8zPeJ-kbEWYg",
+ "items": [
+  {
+   "key": "2026-11-21/1800",
+   "title": "마크 흙집 공사비, 3,725만 원",
+   "at": "2026-11-21T18:00:00+09:00",
+   "status": "pending",
+   "videoId": null,
+   "playlist": null,
+   "note": null
+  },
+  {
+   "key": "2026-11-24/1800",
+   "title": "용암 양동이 하나, 난방 25일치",
+   "at": "2026-11-24T18:00:00+09:00",
+   "status": "pending",
+   "videoId": null,
+   "playlist": null,
+   "note": null
+  },
+  {
+   "key": "2026-11-25/1800",
+   "title": "링크네 집 사과값, 176만 원",
+   "at": "2026-11-25T18:00:00+09:00",
+   "status": "pending",
+   "videoId": null,
+   "playlist": null,
+   "note": null
+  }
+ ]
+}
