@@ -9,7 +9,7 @@
 //   올리지 않기: 날짜 폴더에 이름이 '보류'·'hold' 로 시작하는 파일 → 그날 전부, '보류 1800' 처럼 시각을 붙이면 그 편만.
 //              youtube/play-hold.json 의 keys 에 '<날짜>/<HHMM>' 을 넣어도 같음.
 //   범위: 공개 시각이 지금 -48시간 ~ +24시간인 편 + youtube/play-extra.json 의 keys(밀린 편 한 번 올리기).
-//   늦은 편: 원래 시각이 지났거나 40분 안이면 12:00·18:00 자리 중 다른 편과 겹치지 않는 가장 가까운 미래 자리로.
+//   늦은 편: 원래 시각이 지났거나 40분 안이면 12:00 자리 중 다른 편(드라이브에 있는 편 포함)과 겹치지 않는 가장 가까운 미래 자리로.
 //   MODE=check : 채널·재생목록·올릴 목록만 확인 / DRY_RUN=1 : 미리보기
 //   기록: youtube/posted-play.json, youtube/status-play.json
 import fs from 'node:fs';
@@ -22,7 +22,7 @@ const PLAY_FOLDER = process.env.PLAY_FOLDER || '1Bm9II_OKifrc2aCfTL6CrGUoQ6Gh9-i
 const PLAY_CHANNEL = 'UCjZ398yiclS8zPeJ-kbEWYg';                                     // 시프트 플레이
 const KEY = process.env.DRIVE_API_KEY;
 const MAX_PER_RUN = +(process.env.MAX_PER_RUN || 3);
-const SLOTS = ['12:00', '18:00'];
+const LATE_SLOTS = ['12:00'];   // 늦은 편은 12:00 자리에만(18:00 은 그날 새 편 자리, 12:00 신작은 11/24부터 쉼)
 const LATE_H = 48, AHEAD_H = 24;
 const FOOT = ['게임 속 숫자를 현실로 계산하는 SHIFT PLAY — 매일 저녁 6시에 올라와요.', '📸 인스타그램 @shift_play_magazine'];
 const PLAYLISTS = [   // 제목·캡션에서 코너 고르기 (기존 재생목록 이름의 앞부분과 맞춤)
@@ -169,19 +169,19 @@ const up = me && (await yt(token, 'channels?part=contentDetails&mine=true')).ite
 const have = new Map(up ? ((await yt(token, `playlistItems?part=snippet&maxResults=50&playlistId=${up}`)).items || []).map(x => [String(x.snippet?.title || '').trim(), x.snippet?.resourceId?.videoId]) : []);
 
 // 자리 잡기: 제시간 편 먼저, 늦은 편은 12:00·18:00 중 비는 가장 가까운 미래 자리
-const taken = Object.values(posted).map(p => Date.parse(p.publishAt || '')).filter(t => t > now);
+const taken = [...Object.values(posted).map(p => Date.parse(p.publishAt || '')), ...items.filter(i => !i.held).map(i => i.publishAt)].filter(t => t > now);
 const free = t => !taken.some(x => Math.abs(x - t) < 3600e3);
 const onTime = todo.filter(it => it.publishAt - now >= 40 * 60e3), late = todo.filter(it => it.publishAt - now < 40 * 60e3);
-for (const it of onTime) { it.at = it.publishAt; taken.push(it.at); }
+for (const it of onTime) it.at = it.publishAt;
 for (const it of late) {
-  for (let d = 0; d < 6 && !it.at; d++) for (const s of SLOTS) {
+  for (let d = 0; d < 8 && !it.at; d++) for (const s of LATE_SLOTS) {
     const t = Date.parse(`${kstDate(new Date(now + d * 864e5))}T${s}:00+09:00`);
     if (t - now >= 40 * 60e3 && free(t)) { it.at = t; taken.push(t); break; }
   }
 }
 
 let n = 0, failed = 0;
-for (const it of [...onTime, ...late].sort((a, b) => a.at - b.at)) {
+for (const it of [...onTime, ...late].filter(i => i.at).sort((a, b) => a.at - b.at)) {
   if (n >= MAX_PER_RUN) break;
   try {
     const cap = it.capId ? await driveGet(it.capId, true) : '';
