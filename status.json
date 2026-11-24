@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:33:50.432Z",
+ "updated": "2026-11-24T22:51:41.210Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 82,
  "followersHistory": [
@@ -133,8 +133,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "엑셀 수식, 검색하다 30분 쓰셨나요? AI에게는 '수식'이 아니라 '표 구조'를 알려 주세요.",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DgJEbEtkd74",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-25-0740-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-25-0740-howto/02.png"
@@ -382,18 +382,18 @@
   {
    "date": "2026-11-25",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-25T07:38:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
