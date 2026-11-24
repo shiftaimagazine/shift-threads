@@ -18,28 +18,45 @@ const postedFile = path.join(ROOT, 'posted.json');
 if (!TOKEN) { console.error('THREADS_TOKEN 비밀값이 없습니다.'); process.exit(1); }
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-async function call(method, url, params = {}) {
+async function call(method, url, params = {}, host = API) {
   const body = new URLSearchParams({ ...params, access_token: TOKEN });
-  const res = method === 'GET' ? await fetch(API + url + '?' + body) : await fetch(API + url, { method: 'POST', body });
+  const res = method === 'GET' ? await fetch(host + url + '?' + body) : await fetch(host + url, { method: 'POST', body });
   const j = await res.json().catch(() => ({}));
   if (!res.ok || j.error) throw new Error(`${method} ${url} 실패: ${j.error?.error_user_msg || j.error?.message || res.status}`);
   return j;
 }
 
-async function waitReady(id) {      // 미디어 처리 완료까지 대기 (최대 2분)
+async function waitReady(id, label = '') {      // 미디어 처리 완료까지 대기 (최대 2분). 2026-11-24: 상태를 기록에 남김
+  let last = '';
   for (let i = 0; i < 12; i++) {
-    const s = await call('GET', `/${id}`, { fields: 'status,error_message' }).catch(() => ({}));
+    const s = await call('GET', `/${id}`, { fields: 'status,error_message' }).catch(e => ({ status: 'GET 실패', error_message: e.message }));
+    const now = `${s.status || '?'}${s.error_message ? ' ' + s.error_message : ''}`;
+    if (now !== last) { console.log(`   컨테이너 ${label || id}: ${now}`); last = now; }
     if (s.status === 'FINISHED') return;
-    if (s.status === 'ERROR') throw new Error('미디어 처리 실패: ' + (s.error_message || ''));
+    if (s.status === 'ERROR' || s.status === 'EXPIRED') throw new Error(`미디어 처리 실패(${label || id}): ${s.error_message || s.status}`);
     await sleep(10000);
   }
+  throw new Error(`미디어 처리가 2분 안에 안 끝남(${label || id}): ${last}`);
 }
-async function publish(params) {
+// 2026-11-24: 11/24 캐러셀이 'The media with id … cannot be found' 로 두 번 실패 → 공식 안내대로 처리 끝난 뒤 조금 기다렸다 올리고,
+//   같은 오류면 20초 뒤 다시 · 그래도 안 되면 graph.threads.com 주소로 한 번 더 (공식 문서가 이 주소로 바뀜)
+const ALT_API = 'https://graph.threads.com/v1.0';
+async function publishId(cid) {
+  const tries = [[API, 0], [API, 20000], [ALT_API, 20000]];
+  let err;
+  for (const [host, wait] of tries) {
+    if (wait) await sleep(wait);
+    try { return (await call('POST', `/${me.id}/threads_publish`, { creation_id: cid }, host)).id; }
+    catch (e) { err = e; console.log(`   올리기 다시 시도(${host.includes('.com') ? 'graph.threads.com' : 'graph.threads.net'}): ${e.message}`); if (!/cannot be found|not found|nonexistent|expired|not ready|try again/i.test(e.message)) break; }
+  }
+  throw err;
+}
+async function publish(params, label = '') {
   let c;
   try { c = await call('POST', `/${me.id}/threads`, params); }
   catch (e) { if (!params.topic_tag || !/topic/i.test(e.message)) throw e; console.log(`주제 태그 거부(${e.message}) → 태그 없이 다시`); const { topic_tag, ...rest } = params; params = rest; c = await call('POST', `/${me.id}/threads`, params); }
-  if (params.media_type === 'TEXT') await sleep(4000); else await waitReady(c.id);
-  return (await call('POST', `/${me.id}/threads_publish`, { creation_id: c.id })).id;
+  if (params.media_type === 'TEXT') await sleep(4000); else { await waitReady(c.id, label || params.media_type); await sleep(5000); }
+  return publishId(c.id);
 }
 const imgUrl = (id, n) => `https://raw.githubusercontent.com/${REPO}/main/media/${id}/${String(n).padStart(2, '0')}.png`;
 const mediaCount = id => { const d = path.join(ROOT, 'media', id); return fs.existsSync(d) ? fs.readdirSync(d).filter(f => f.endsWith('.png')).length : 0; };
@@ -80,10 +97,18 @@ for (const it of todo) {
   try {
     const first = { text: parts[0], ...(TOPIC ? { topic_tag: TOPIC } : {}) };
     if (type === 'carousel') {
-      const kids = [];
-      for (let k = 1; k <= Math.min(n, 20); k++) kids.push((await call('POST', `/${me.id}/threads`, { media_type: 'IMAGE', image_url: imgUrl(it.id, k), is_carousel_item: 'true' })).id);
-      for (const k of kids) await waitReady(k);
-      ids.push(await publish({ media_type: 'CAROUSEL', children: kids.join(','), ...first }));
+      // 2026-11-24: 캐러셀이 Threads 쪽 오류로 안 되면 첫 카드 한 장(IMAGE) → 그래도 안 되면 글만(TEXT)으로 올려 그날 글이 빠지지 않게
+      try {
+        const kids = [];
+        for (let k = 1; k <= Math.min(n, 20); k++) kids.push((await call('POST', `/${me.id}/threads`, { media_type: 'IMAGE', image_url: imgUrl(it.id, k), is_carousel_item: 'true' })).id);
+        for (const [k, kid] of kids.entries()) await waitReady(kid, `카드 ${k + 1}`);
+        ids.push(await publish({ media_type: 'CAROUSEL', children: kids.join(','), ...first }, '캐러셀'));
+      } catch (e) {
+        if (ids.length) throw e;
+        console.log(`   캐러셀 실패 → 첫 카드 한 장으로: ${e.message}`);
+        try { ids.push(await publish({ media_type: 'IMAGE', image_url: imgUrl(it.id, 1), ...first }, '카드 1장')); it._fallback = 'image'; }
+        catch (e2) { if (ids.length) throw e2; console.log(`   이미지도 실패 → 글만: ${e2.message}`); ids.push(await publish({ media_type: 'TEXT', ...first })); it._fallback = 'text'; }
+      }
     } else if (type === 'image') {
       ids.push(await publish({ media_type: 'IMAGE', image_url: imgUrl(it.id, 1), ...first }));
     } else {
@@ -93,7 +118,7 @@ for (const it of todo) {
     for (const p of parts.slice(1)) { await sleep(3000); ids.push(await publish({ media_type: 'TEXT', text: p, reply_to_id: ids.at(-1) })); }
     const info = await call('GET', `/${ids[0]}`, { fields: 'permalink,topic_tag' }).catch(() => ({}));
     const link = info.permalink || '';
-    mark('ok', { ids, link, type, topic: info.topic_tag || null });
+    mark('ok', { ids, link, type: it._fallback || type, topic: info.topic_tag || null, ...(it._fallback ? { fallbackFrom: type } : {}) });
     console.log(`올림: ${link || ids[0]} · 주제 태그: ${info.topic_tag || '없음'}`);
     count++;
   } catch (e) {
