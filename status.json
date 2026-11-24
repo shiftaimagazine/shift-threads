@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:33:00.095Z",
+ "updated": "2026-11-24T09:51:22.167Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 82,
  "followersHistory": [
@@ -133,8 +133,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "답장 20개 달린 메일, 처음부터 다 읽고 계신가요? 스레드를 AI에 붙여 넣고",
-    "status": "waiting",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DgHrJPem9sY",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-24-0740-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-24-0740-howto/02.png"
@@ -395,10 +395,10 @@
   {
    "date": "2026-11-24",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
-   "waiting": 1,
+   "waiting": 0,
    "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
@@ -406,7 +406,7 @@
     {
      "at": "2026-11-24T17:50:00+09:00",
      "format": "howto",
-     "status": "waiting",
+     "status": "ok",
      "cards": 2
     },
     {
