@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T19:01:15+09:00",
- "message": "11-24T19:01 쇼츠 2편 예약 (미리보기)",
+ "updated": "2026-11-24T19:02:59+09:00",
+ "message": "11-24T19:02 쇼츠 2편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -15,8 +15,8 @@
    "slot": "07:30",
    "kind": "new",
    "title": "AI 홍보 영상 장면 150개 공짜, Claude Code로 🎬",
-   "status": "pending",
-   "videoId": null,
+   "status": "scheduled",
+   "videoId": "5t3cTBIQ0HI",
    "note": null
   },
   {
@@ -25,8 +25,8 @@
    "slot": "09:00",
    "kind": "new",
    "title": "유튜브 무료 소스 223개, 수익 OK만 골라 쓰기 🎬",
-   "status": "pending",
-   "videoId": null,
+   "status": "scheduled",
+   "videoId": "XF4rkOxCHTQ",
    "note": null
   }
  ]
