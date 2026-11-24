@@ -76,8 +76,13 @@ async function upload(token, buf, meta) {
 //   2026-11-03 사용자 요청: 실행을 새벽 04:47·07:35 로 옮기고 오늘 폴더만 봄. 내일 폴더를 미리 올려 버리면
 //   그 뒤에 다시 만든 영상이 반영되지 않아서(posted.json 키가 같음), 영상은 공개 당일 새벽에만 확정됩니다.
 //   DAYS=2 로 실행하면 예전처럼 내일 폴더까지 봅니다(손으로 미리 올릴 때).
-const today = kstDate(), tomorrow = kstDate(new Date(Date.now() + 864e5));
+const today = kstDate(), tomorrow = kstDate(new Date(Date.now() + 864e5)), yesterday = kstDate(new Date(Date.now() - 864e5));
 const days = process.env.DAYS === '2' ? [today, tomorrow] : [today];
+// 2026-11-24: PC 에서 --today 로 늦게 만든 편은 youtube.json 이 '만든 날' 폴더에 생기고 공개 시각은 다음 날(07:30)이라
+//   공개 날짜 폴더만 보면 못 찾았음(11/21 pixelfx · 11/24 shotcraft). 전날 폴더도 열어 보되, 공개 시각(publishAt)의
+//   날짜가 위 days 에 드는 항목만 올림 — 전날 폴더의 원래 전날 공개분은 그대로 건너뜀.
+const scanDays = [yesterday, ...days];
+const pubDay = it => { const t = Date.parse(it.publishAt); return Number.isFinite(t) ? kstDate(new Date(t)) : ''; };
 const rootFiles = await driveList(FOLDER);
 const items = [];
 // 보류(2026-11-11): 품질 때문에 올리지 않을 날은 자동 업로드를 건너뜀. 둘 중 하나면 보류 —
@@ -86,7 +91,7 @@ const items = [];
 const holdFile = path.join(ROOT, 'youtube', 'hold.json');
 const hold = fs.existsSync(holdFile) ? JSON.parse(fs.readFileSync(holdFile, 'utf8')) : {};
 const held = [];
-for (const d of days) {
+for (const d of scanDays) {
   const dir = rootFiles.find(f => f.name === d && f.mimeType === 'application/vnd.google-apps.folder');
   if (!dir) continue;
   const files = await driveList(dir.id);
@@ -106,7 +111,7 @@ for (const d of days) {
         description: `${String(it.caption || '').replace(/[<>]/g, '').trim()}${FOOTER}`.slice(0, 4900), aiContent: /화제작|퀴즈|대결/.test(it.format || ''), date: d, key: `${d}/${yt?.name}`, kind: 'new' };
     });
   }
-  for (const it of list) if (it.fileId) items.push(it);
+  for (const it of list) if (it.fileId && (d !== yesterday || days.includes(pubDay(it)))) items.push(it);
 }
 items.sort((a, b) => Date.parse(a.publishAt) - Date.parse(b.publishAt));
 const todo = items.filter(it => !posted[it.key]?.videoId);
