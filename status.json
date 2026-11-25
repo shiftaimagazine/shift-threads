@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:51:59.055Z",
+ "updated": "2026-11-25T03:43:01.668Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 82,
  "followersHistory": [
@@ -122,6 +122,10 @@
   {
    "date": "2026-11-24",
    "followers": 82
+  },
+  {
+   "date": "2026-11-25",
+   "followers": 82
   }
  ],
  "today": {
@@ -139,9 +143,9 @@
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-25-0740-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-25-0740-howto/02.png"
     ],
-    "views": null,
-    "likes": null,
-    "replies": null,
+    "views": 14,
+    "likes": 0,
+    "replies": 1,
     "sources": [],
     "topic": "AI Threads",
     "parts": [
@@ -176,9 +180,9 @@
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-25-1140-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-25-1140-howto/02.png"
     ],
-    "views": null,
-    "likes": null,
-    "replies": null,
+    "views": 46,
+    "likes": 0,
+    "replies": 1,
     "sources": [],
     "topic": "AI Threads",
     "parts": [
@@ -431,7 +435,7 @@
   },
   {
    "hook": "엑셀 시트 두 개, 눈으로 대조하고 계신가요?",
-   "views": 563,
+   "views": 564,
    "likes": 0,
    "replies": 3,
    "reposts": 0,
@@ -449,7 +453,7 @@
   },
   {
    "hook": "퇴근 전, 내일 할 일 순서 고민하다 10분 쓰셨나요?",
-   "views": 520,
+   "views": 521,
    "likes": 1,
    "replies": 1,
    "reposts": 0,
