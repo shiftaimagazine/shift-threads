@@ -1,15 +1,45 @@
 {
- "updated": "2026-11-23T21:34:44.645Z",
- "date": "2026-11-24",
+ "updated": "2026-11-25T03:47:21.040Z",
+ "date": "2026-11-25",
  "channels": {
   "ai": {
    "key": "ai",
    "name": "시프트 AI",
    "id": "UCWzwTQoe0q2IdwZV6BuopVw",
    "subs": 11,
-   "totalViews": 30188,
-   "videoCount": 49,
+   "totalViews": 30256,
+   "videoCount": 52,
    "videos": [
+    {
+     "id": "XF4rkOxCHTQ",
+     "title": "유튜브 무료 소스 223개, 수익 OK만 골라 쓰기 🎬",
+     "at": "2026-11-25T00:00:28Z",
+     "date": "2026-11-25",
+     "sec": 32,
+     "views": 16,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "5t3cTBIQ0HI",
+     "title": "AI 홍보 영상 장면 150개 공짜, Claude Code로 🎬",
+     "at": "2026-11-24T22:30:14Z",
+     "date": "2026-11-25",
+     "sec": 32,
+     "views": 78,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "4bn18wEY6UA",
+     "title": "픽셀 효과 244개 공짜, Claude Code로 주문 🎮",
+     "at": "2026-11-24T09:04:01Z",
+     "date": "2026-11-24",
+     "sec": 35,
+     "views": 39,
+     "likes": 0,
+     "comments": 0
+    },
     {
      "id": "k2jAZggxSh4",
      "title": "프롬프트 빈칸만 채우면 끝 ✍️",
@@ -26,7 +56,7 @@
      "at": "2026-11-18T00:00:22Z",
      "date": "2026-11-18",
      "sec": 27,
-     "views": 432,
+     "views": 434,
      "likes": 2,
      "comments": 0
     },
@@ -36,7 +66,7 @@
      "at": "2026-11-17T22:30:28Z",
      "date": "2026-11-18",
      "sec": 25,
-     "views": 106,
+     "views": 108,
      "likes": 0,
      "comments": 0
     },
@@ -126,7 +156,7 @@
      "at": "2026-11-06T00:00:06Z",
      "date": "2026-11-06",
      "sec": 32,
-     "views": 460,
+     "views": 461,
      "likes": 3,
      "comments": 0
     },
@@ -136,7 +166,7 @@
      "at": "2026-11-05T09:00:18Z",
      "date": "2026-11-05",
      "sec": 31,
-     "views": 822,
+     "views": 825,
      "likes": 6,
      "comments": 0
     },
@@ -186,7 +216,7 @@
      "at": "2026-11-04T00:00:13Z",
      "date": "2026-11-04",
      "sec": 34,
-     "views": 102,
+     "views": 103,
      "likes": 0,
      "comments": 0
     },
@@ -266,7 +296,7 @@
      "at": "2026-11-01T03:30:12Z",
      "date": "2026-11-01",
      "sec": 18,
-     "views": 290,
+     "views": 293,
      "likes": 1,
      "comments": 0
     },
@@ -296,7 +326,7 @@
      "at": "2026-10-31T03:30:15Z",
      "date": "2026-10-31",
      "sec": 20,
-     "views": 1201,
+     "views": 1204,
      "likes": 2,
      "comments": 0
     },
@@ -336,7 +366,7 @@
      "at": "2026-10-30T00:00:20Z",
      "date": "2026-10-30",
      "sec": 41,
-     "views": 1302,
+     "views": 1304,
      "likes": 7,
      "comments": 0
     },
@@ -376,7 +406,7 @@
      "at": "2026-10-29T00:00:08Z",
      "date": "2026-10-29",
      "sec": 25,
-     "views": 568,
+     "views": 573,
      "likes": 4,
      "comments": 0
     },
@@ -396,7 +426,7 @@
      "at": "2026-10-28T03:30:02Z",
      "date": "2026-10-28",
      "sec": 54,
-     "views": 670,
+     "views": 671,
      "likes": 3,
      "comments": 0
     },
@@ -406,7 +436,7 @@
      "at": "2026-10-28T00:00:16Z",
      "date": "2026-10-28",
      "sec": 40,
-     "views": 1651,
+     "views": 1665,
      "likes": 9,
      "comments": 0
     },
@@ -426,7 +456,7 @@
      "at": "2026-10-27T03:30:05Z",
      "date": "2026-10-27",
      "sec": 35,
-     "views": 1044,
+     "views": 1046,
      "likes": 1,
      "comments": 0
     },
@@ -451,12 +481,22 @@
      "comments": 0
     },
     {
+     "id": "p9nLR5KWaqI",
+     "title": "AI 포스터 글자 안 깨진다? Canva 첫 이미지 AI 🎨",
+     "at": "2026-10-26T11:30:39Z",
+     "date": "2026-10-26",
+     "sec": 34,
+     "views": 144,
+     "likes": 2,
+     "comments": 0
+    },
+    {
      "id": "KBXpZ1h7rHc",
      "title": "영상 편집 Claude가 했다? 따라 하는 3단계 🎬",
      "at": "2026-10-26T09:00:17Z",
      "date": "2026-10-26",
      "sec": 20,
-     "views": 1653,
+     "views": 1654,
      "likes": 5,
      "comments": 0
     },
@@ -471,32 +511,12 @@
      "comments": 0
     },
     {
-     "id": "XaJiKU89CqY",
-     "title": "노래만 넣었더니 AI 뮤비 완성 Freebeat 🎬",
-     "at": "2026-10-26T01:00:34Z",
-     "date": "2026-10-26",
-     "sec": 19,
-     "views": 896,
-     "likes": 3,
-     "comments": 0
-    },
-    {
      "id": "XKX5qaIUVog",
      "title": "로판 여주가 드레스 입고 마라탕 먹는 AI 드라마 수준 😱",
      "at": "2026-10-25T09:00:37Z",
      "date": "2026-10-25",
      "sec": 39,
-     "views": 1699,
-     "likes": 2,
-     "comments": 0
-    },
-    {
-     "id": "XKX5qaIUVog",
-     "title": "로판 여주가 드레스 입고 마라탕 먹는 AI 드라마 수준 😱",
-     "at": "2026-10-25T09:00:37Z",
-     "date": "2026-10-25",
-     "sec": 39,
-     "views": 1699,
+     "views": 1705,
      "likes": 2,
      "comments": 0
     },
@@ -506,7 +526,7 @@
      "at": "2026-10-25T01:00:24Z",
      "date": "2026-10-25",
      "sec": 38,
-     "views": 1305,
+     "views": 1310,
      "likes": 4,
      "comments": 0
     }
@@ -516,9 +536,9 @@
     "settledMedian": 144,
     "beforeN": 2,
     "beforeMedian": 101,
-    "uploads7": 3,
-    "lastDate": "2026-11-20",
-    "quietDays": 4
+    "uploads7": 4,
+    "lastDate": "2026-11-25",
+    "quietDays": 0
    }
   },
   "play": {
@@ -526,16 +546,26 @@
    "name": "시프트 플레이",
    "id": "UCjZ398yiclS8zPeJ-kbEWYg",
    "subs": 3,
-   "totalViews": 20901,
-   "videoCount": 16,
+   "totalViews": 20965,
+   "videoCount": 17,
    "videos": [
+    {
+     "id": "8bel_VPeXdo",
+     "title": "마크 흙집 한 채, 현실 공사비로 지으면 3,725만 원 = 최저임금 월급 17달치 🧱",
+     "at": "2026-11-25T03:00:38Z",
+     "date": "2026-11-25",
+     "sec": 26,
+     "views": 14,
+     "likes": 0,
+     "comments": 0
+    },
     {
      "id": "CzT99vgX_uk",
      "title": "버거집 알바인데, 마스코트가 사람을 사냥해요 🍔 Happy's Humble Burger Cult",
      "at": "2026-11-18T06:00:12Z",
      "date": "2026-11-18",
      "sec": 26,
-     "views": 1433,
+     "views": 1435,
      "likes": 4,
      "comments": 0
     },
@@ -545,7 +575,7 @@
      "at": "2026-11-18T00:00:14Z",
      "date": "2026-11-18",
      "sec": 28,
-     "views": 692,
+     "views": 701,
      "likes": 1,
      "comments": 0
     },
@@ -565,7 +595,7 @@
      "at": "2026-11-17T06:00:00Z",
      "date": "2026-11-17",
      "sec": 23,
-     "views": 1408,
+     "views": 1420,
      "likes": 7,
      "comments": 0
     },
@@ -575,7 +605,7 @@
      "at": "2026-11-17T03:00:07Z",
      "date": "2026-11-17",
      "sec": 26,
-     "views": 1428,
+     "views": 1434,
      "likes": 11,
      "comments": 0
     },
@@ -585,7 +615,7 @@
      "at": "2026-11-17T00:00:29Z",
      "date": "2026-11-17",
      "sec": 26,
-     "views": 1392,
+     "views": 1397,
      "likes": 2,
      "comments": 1
     },
@@ -615,7 +645,7 @@
      "at": "2026-11-16T03:00:18Z",
      "date": "2026-11-16",
      "sec": 22,
-     "views": 1249,
+     "views": 1250,
      "likes": 2,
      "comments": 2
     },
@@ -645,7 +675,7 @@
      "at": "2026-11-10T04:34:51Z",
      "date": "2026-11-10",
      "sec": 28,
-     "views": 1521,
+     "views": 1523,
      "likes": 5,
      "comments": 0
     },
@@ -691,30 +721,26 @@
     }
    ],
    "summary": {
-    "settledN": 10,
-    "settledMedian": 1390,
-    "beforeN": 4,
-    "beforeMedian": 1325,
-    "uploads7": 2,
-    "lastDate": "2026-11-18",
-    "quietDays": 6
+    "settledN": 6,
+    "settledMedian": 1409,
+    "beforeN": 6,
+    "beforeMedian": 1337,
+    "uploads7": 1,
+    "lastDate": "2026-11-25",
+    "quietDays": 0
    }
   }
  },
  "errors": [],
  "threads": {
   "followers": 82,
-  "updated": "2026-11-23T21:27:15.984Z",
-  "views7": 6994,
+  "updated": "2026-11-25T03:43:01.613Z",
+  "views7": 6435,
   "posts7": 12,
   "medianByFormat14": {
    "howto": {
-    "n": 24,
-    "median": 180
-   },
-   "briefing": {
-    "n": 1,
-    "median": 23
+    "n": 25,
+    "median": 152
    }
   },
   "tips": [
@@ -730,7 +756,7 @@
     "id": "2026-11-21-0739-howto",
     "date": "2026-11-21",
     "hook": "엑셀 시트 두 개, 눈으로 대조하고 계신가요?",
-    "views": 563,
+    "views": 564,
     "likes": 0,
     "link": "https://www.threads.com/@shift_ai_magazine/post/Df-1jQqltAo"
    },
@@ -746,7 +772,7 @@
     "id": "2026-11-22-0741-howto",
     "date": "2026-11-22",
     "hook": "퇴근 전, 내일 할 일 순서 고민하다 10분 쓰셨나요?",
-    "views": 520,
+    "views": 521,
     "likes": 1,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DgBZXLdGBzZ"
    },
