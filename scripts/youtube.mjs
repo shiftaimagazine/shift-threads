@@ -84,15 +84,18 @@ const days = process.env.DAYS === '2' ? [today, tomorrow] : [today];
 const scanDays = [yesterday, ...days];
 const pubDay = it => { const t = Date.parse(it.publishAt); return Number.isFinite(t) ? kstDate(new Date(t)) : ''; };
 const rootFiles = await driveList(FOLDER);
+// 2026-11-25 완성본 폴더 정리: SHIFT AI 날짜 폴더는 SHIFT-autopilot/SHIFT AI/<날짜>/ 로 옮김. 새 자리를 먼저 보고, 예전 자리(맨 위)도 계속 봄
+const aiDir = rootFiles.find(f => f.name === 'SHIFT AI' && f.mimeType === 'application/vnd.google-apps.folder');
+const dayFolders = [...(aiDir ? await driveList(aiDir.id) : []), ...rootFiles];
 const items = [];
 // 보류(2026-11-11): 품질 때문에 올리지 않을 날은 자동 업로드를 건너뜀. 둘 중 하나면 보류 —
-//   ① 그 날짜 폴더(E:\\SHIFT-autopilot\\<날짜>)에 이름이 '보류'나 'hold'로 시작하는 파일(빈 메모장 파일이면 됨)  ② youtube/hold.json 의 dates 에 그 날짜
+//   ① 그 날짜 폴더(E:\\SHIFT-autopilot\\SHIFT AI\\<날짜>, 예전엔 맨 위)에 이름이 '보류'나 'hold'로 시작하는 파일(빈 메모장 파일이면 됨)  ② youtube/hold.json 의 dates 에 그 날짜
 //   표시를 지우면 다음 실행(04:47·07:35 또는 손으로 실행) 때 올라가고, 공개 시각이 지났으면 1시간 뒤로 다시 잡힘.
 const holdFile = path.join(ROOT, 'youtube', 'hold.json');
 const hold = fs.existsSync(holdFile) ? JSON.parse(fs.readFileSync(holdFile, 'utf8')) : {};
 const held = [];
 for (const d of scanDays) {
-  const dir = rootFiles.find(f => f.name === d && f.mimeType === 'application/vnd.google-apps.folder');
+  const dir = dayFolders.find(f => f.name === d && f.mimeType === 'application/vnd.google-apps.folder');
   if (!dir) continue;
   const files = await driveList(dir.id);
   const heldBy = (hold.dates || []).includes(d) ? 'youtube/hold.json' : (files.find(f => /^(보류|hold)/i.test(f.name))?.name || null);
