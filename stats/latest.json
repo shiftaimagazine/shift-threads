@@ -1,7 +1,22 @@
 {
- "updated": "2026-11-25T03:43:01.613Z",
+ "updated": "2026-11-26T03:03:44.732Z",
  "followers": 82,
  "posts": [
+  {
+   "at": "2026-11-26T00:41:58+0000",
+   "id": "2026-11-26-0739-howto",
+   "format": "howto",
+   "type": "carousel",
+   "hook": "회의 시간 잡는 메일, 답이 세 번 오가셨나요?",
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DgL13qyFHt3",
+   "views": 92,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "shares": 0,
+   "score": 33
+  },
   {
    "at": "2026-11-25T02:51:42+0000",
    "id": "2026-11-25-1140-howto",
@@ -9,13 +24,13 @@
    "type": "carousel",
    "hook": "발표 3분 남았는데 대본이 없나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DgJf66Bjmuo",
-   "views": 46,
+   "views": 82,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 65
+   "score": 37
   },
   {
    "at": "2026-11-24T22:51:25+0000",
@@ -24,13 +39,13 @@
    "type": "carousel",
    "hook": "엑셀 수식, 검색하다 30분 쓰셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DgJEbEtkd74",
-   "views": 14,
+   "views": 19,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 214
+   "score": 158
   },
   {
    "at": "2026-11-24T12:17:54+0000",
@@ -54,13 +69,13 @@
    "type": "carousel",
    "hook": "답장 20개 달린 메일, 처음부터 다 읽고 계신가요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DgHrJPem9sY",
-   "views": 104,
+   "views": 112,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
    "quotes": 0,
    "shares": 0,
-   "score": 29
+   "score": 27
   },
   {
    "at": "2026-11-22T03:34:40+0000",
@@ -279,7 +294,7 @@
    "type": "carousel",
    "hook": "상사 피드백 20줄, 어디부터 고칠지 막막하셨나요?",
    "link": "https://www.threads.com/@shift_ai_magazine/post/DfveTbekeEd",
-   "views": 385,
+   "views": 386,
    "likes": 0,
    "replies": 4,
    "reposts": 0,
@@ -361,21 +376,6 @@
    "quotes": 0,
    "shares": 0,
    "score": 57
-  },
-  {
-   "at": "2026-11-11T23:32:06+0000",
-   "id": "2026-11-12-0738-howto",
-   "format": "howto",
-   "type": "carousel",
-   "hook": "답장 40개 쌓인 메일 스레드, 처음부터 다 읽으셨나요?",
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DfnqwMTDhrk",
-   "views": 239,
-   "likes": 2,
-   "replies": 1,
-   "reposts": 0,
-   "quotes": 0,
-   "shares": 0,
-   "score": 21
   }
  ]
 }
