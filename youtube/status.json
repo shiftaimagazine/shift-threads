@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T23:56:21+09:00",
- "message": "올릴 쇼츠 없음",
+ "updated": "2026-11-26T11:27:24+09:00",
+ "message": "11-26T11:27 쇼츠 1편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -10,23 +10,13 @@
  "via": "youtube-api",
  "items": [
   {
-   "date": "2026-11-24",
-   "at": "2026-11-25T07:30:00+09:00",
+   "date": "2026-11-26",
+   "at": "2026-11-27T07:30:00+09:00",
    "slot": "07:30",
    "kind": "new",
-   "title": "AI 홍보 영상 장면 150개 공짜, Claude Code로 🎬",
+   "title": "게임 무료 에셋 459개 한 사이트 🎮",
    "status": "scheduled",
-   "videoId": "5t3cTBIQ0HI",
-   "note": null
-  },
-  {
-   "date": "2026-11-25",
-   "at": "2026-11-25T09:00:00+09:00",
-   "slot": "09:00",
-   "kind": "new",
-   "title": "유튜브 무료 소스 223개, 수익 OK만 골라 쓰기 🎬",
-   "status": "scheduled",
-   "videoId": "XF4rkOxCHTQ",
+   "videoId": "Wpbne5jXQpE",
    "note": null
   }
  ]
