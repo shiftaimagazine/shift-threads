@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-25T03:47:21.040Z",
- "date": "2026-11-25",
+ "updated": "2026-11-26T03:11:50.509Z",
+ "date": "2026-11-26",
  "channels": {
   "ai": {
    "key": "ai",
    "name": "시프트 AI",
    "id": "UCWzwTQoe0q2IdwZV6BuopVw",
    "subs": 11,
-   "totalViews": 30256,
+   "totalViews": 30551,
    "videoCount": 52,
    "videos": [
     {
@@ -16,7 +16,7 @@
      "at": "2026-11-25T00:00:28Z",
      "date": "2026-11-25",
      "sec": 32,
-     "views": 16,
+     "views": 43,
      "likes": 0,
      "comments": 0
     },
@@ -26,8 +26,8 @@
      "at": "2026-11-24T22:30:14Z",
      "date": "2026-11-25",
      "sec": 32,
-     "views": 78,
-     "likes": 0,
+     "views": 167,
+     "likes": 1,
      "comments": 0
     },
     {
@@ -36,7 +36,7 @@
      "at": "2026-11-24T09:04:01Z",
      "date": "2026-11-24",
      "sec": 35,
-     "views": 39,
+     "views": 45,
      "likes": 0,
      "comments": 0
     },
@@ -46,7 +46,7 @@
      "at": "2026-11-19T22:30:22Z",
      "date": "2026-11-20",
      "sec": 36,
-     "views": 124,
+     "views": 125,
      "likes": 4,
      "comments": 0
     },
@@ -56,7 +56,7 @@
      "at": "2026-11-18T00:00:22Z",
      "date": "2026-11-18",
      "sec": 27,
-     "views": 434,
+     "views": 435,
      "likes": 2,
      "comments": 0
     },
@@ -66,7 +66,7 @@
      "at": "2026-11-17T22:30:28Z",
      "date": "2026-11-18",
      "sec": 25,
-     "views": 108,
+     "views": 110,
      "likes": 0,
      "comments": 0
     },
@@ -136,7 +136,7 @@
      "at": "2026-11-07T00:00:17Z",
      "date": "2026-11-07",
      "sec": 43,
-     "views": 159,
+     "views": 160,
      "likes": 0,
      "comments": 0
     },
@@ -226,7 +226,7 @@
      "at": "2026-11-03T09:00:38Z",
      "date": "2026-11-03",
      "sec": 40,
-     "views": 93,
+     "views": 94,
      "likes": 0,
      "comments": 0
     },
@@ -256,7 +256,7 @@
      "at": "2026-11-02T09:00:28Z",
      "date": "2026-11-02",
      "sec": 43,
-     "views": 582,
+     "views": 583,
      "likes": 2,
      "comments": 1
     },
@@ -276,7 +276,7 @@
      "at": "2026-11-02T00:00:38Z",
      "date": "2026-11-02",
      "sec": 38,
-     "views": 1271,
+     "views": 1274,
      "likes": 7,
      "comments": 2
     },
@@ -296,7 +296,7 @@
      "at": "2026-11-01T03:30:12Z",
      "date": "2026-11-01",
      "sec": 18,
-     "views": 293,
+     "views": 295,
      "likes": 1,
      "comments": 0
     },
@@ -326,7 +326,7 @@
      "at": "2026-10-31T03:30:15Z",
      "date": "2026-10-31",
      "sec": 20,
-     "views": 1204,
+     "views": 1206,
      "likes": 2,
      "comments": 0
     },
@@ -396,7 +396,7 @@
      "at": "2026-10-29T00:03:37Z",
      "date": "2026-10-29",
      "sec": 42,
-     "views": 189,
+     "views": 191,
      "likes": 1,
      "comments": 0
     },
@@ -406,7 +406,7 @@
      "at": "2026-10-29T00:00:08Z",
      "date": "2026-10-29",
      "sec": 25,
-     "views": 573,
+     "views": 577,
      "likes": 4,
      "comments": 0
     },
@@ -436,7 +436,7 @@
      "at": "2026-10-28T00:00:16Z",
      "date": "2026-10-28",
      "sec": 40,
-     "views": 1665,
+     "views": 1670,
      "likes": 9,
      "comments": 0
     },
@@ -448,6 +448,16 @@
      "sec": 24,
      "views": 1187,
      "likes": 3,
+     "comments": 0
+    },
+    {
+     "id": "-nDLdLU4b50",
+     "title": "경고해도 안 멈춘 AI, Claude Mythos 5 사건 😨",
+     "at": "2026-10-27T03:30:05Z",
+     "date": "2026-10-27",
+     "sec": 35,
+     "views": 1046,
+     "likes": 1,
      "comments": 0
     },
     {
@@ -491,22 +501,12 @@
      "comments": 0
     },
     {
-     "id": "KBXpZ1h7rHc",
-     "title": "영상 편집 Claude가 했다? 따라 하는 3단계 🎬",
-     "at": "2026-10-26T09:00:17Z",
-     "date": "2026-10-26",
-     "sec": 20,
-     "views": 1654,
-     "likes": 5,
-     "comments": 0
-    },
-    {
      "id": "YTIeq727oEw",
      "title": "ChatGPT 무료인데 광고가? 89개국 확대 📢",
      "at": "2026-10-26T03:30:06Z",
      "date": "2026-10-26",
      "sec": 37,
-     "views": 1302,
+     "views": 1307,
      "likes": 1,
      "comments": 0
     },
@@ -516,7 +516,7 @@
      "at": "2026-10-25T09:00:37Z",
      "date": "2026-10-25",
      "sec": 39,
-     "views": 1705,
+     "views": 1718,
      "likes": 2,
      "comments": 0
     },
@@ -526,19 +526,19 @@
      "at": "2026-10-25T01:00:24Z",
      "date": "2026-10-25",
      "sec": 38,
-     "views": 1310,
+     "views": 1311,
      "likes": 4,
      "comments": 0
     }
    ],
    "summary": {
     "settledN": 4,
-    "settledMedian": 144,
-    "beforeN": 2,
-    "beforeMedian": 101,
+    "settledMedian": 118,
+    "beforeN": 3,
+    "beforeMedian": 120,
     "uploads7": 4,
     "lastDate": "2026-11-25",
-    "quietDays": 0
+    "quietDays": 1
    }
   },
   "play": {
@@ -546,17 +546,37 @@
    "name": "시프트 플레이",
    "id": "UCjZ398yiclS8zPeJ-kbEWYg",
    "subs": 3,
-   "totalViews": 20965,
-   "videoCount": 17,
+   "totalViews": 22184,
+   "videoCount": 19,
    "videos": [
+    {
+     "id": "meWNGgnxv2o",
+     "title": "마크 용암 양동이 하나로 우리 집 난방하면, 1월 중 25일 버텨요 🔥",
+     "at": "2026-11-26T03:00:17Z",
+     "date": "2026-11-26",
+     "sec": 31,
+     "views": 1,
+     "likes": 0,
+     "comments": 0
+    },
+    {
+     "id": "q6FEka_YqcY",
+     "title": "젤다 링크네 집, 진짜 사과값으로 치면 176만 원 — 서울 원룸 월세 석 달도 못 내요 🍎",
+     "at": "2026-11-25T09:00:06Z",
+     "date": "2026-11-25",
+     "sec": 28,
+     "views": 1035,
+     "likes": 0,
+     "comments": 0
+    },
     {
      "id": "8bel_VPeXdo",
      "title": "마크 흙집 한 채, 현실 공사비로 지으면 3,725만 원 = 최저임금 월급 17달치 🧱",
      "at": "2026-11-25T03:00:38Z",
      "date": "2026-11-25",
      "sec": 26,
-     "views": 14,
-     "likes": 0,
+     "views": 1322,
+     "likes": 4,
      "comments": 0
     },
     {
@@ -565,7 +585,7 @@
      "at": "2026-11-18T06:00:12Z",
      "date": "2026-11-18",
      "sec": 26,
-     "views": 1435,
+     "views": 1441,
      "likes": 4,
      "comments": 0
     },
@@ -575,7 +595,7 @@
      "at": "2026-11-18T00:00:14Z",
      "date": "2026-11-18",
      "sec": 28,
-     "views": 701,
+     "views": 711,
      "likes": 1,
      "comments": 0
     },
@@ -585,7 +605,7 @@
      "at": "2026-11-17T09:00:26Z",
      "date": "2026-11-17",
      "sec": 28,
-     "views": 1388,
+     "views": 1390,
      "likes": 9,
      "comments": 0
     },
@@ -595,7 +615,7 @@
      "at": "2026-11-17T06:00:00Z",
      "date": "2026-11-17",
      "sec": 23,
-     "views": 1420,
+     "views": 1422,
      "likes": 7,
      "comments": 0
     },
@@ -615,7 +635,7 @@
      "at": "2026-11-17T00:00:29Z",
      "date": "2026-11-17",
      "sec": 26,
-     "views": 1397,
+     "views": 1404,
      "likes": 2,
      "comments": 1
     },
@@ -625,7 +645,7 @@
      "at": "2026-11-16T09:00:39Z",
      "date": "2026-11-16",
      "sec": 23,
-     "views": 1288,
+     "views": 1289,
      "likes": 4,
      "comments": 1
     },
@@ -635,7 +655,7 @@
      "at": "2026-11-16T06:00:20Z",
      "date": "2026-11-16",
      "sec": 27,
-     "views": 1385,
+     "views": 1386,
      "likes": 3,
      "comments": 1
     },
@@ -645,7 +665,7 @@
      "at": "2026-11-16T03:00:18Z",
      "date": "2026-11-16",
      "sec": 22,
-     "views": 1250,
+     "views": 1251,
      "likes": 2,
      "comments": 2
     },
@@ -655,7 +675,7 @@
      "at": "2026-11-16T00:00:10Z",
      "date": "2026-11-16",
      "sec": 29,
-     "views": 1965,
+     "views": 1967,
      "likes": 12,
      "comments": 2
     },
@@ -665,7 +685,7 @@
      "at": "2026-11-10T09:00:18Z",
      "date": "2026-11-10",
      "sec": 27,
-     "views": 1196,
+     "views": 1200,
      "likes": 5,
      "comments": 0
     },
@@ -675,7 +695,7 @@
      "at": "2026-11-10T04:34:51Z",
      "date": "2026-11-10",
      "sec": 28,
-     "views": 1523,
+     "views": 1524,
      "likes": 5,
      "comments": 0
     },
@@ -685,7 +705,7 @@
      "at": "2026-11-09T09:00:34Z",
      "date": "2026-11-09",
      "sec": 37,
-     "views": 582,
+     "views": 583,
      "likes": 4,
      "comments": 0
     },
@@ -695,7 +715,7 @@
      "at": "2026-11-09T03:00:21Z",
      "date": "2026-11-09",
      "sec": 29,
-     "views": 1453,
+     "views": 1454,
      "likes": 5,
      "comments": 0
     },
@@ -705,7 +725,7 @@
      "at": "2026-11-08T10:02:42Z",
      "date": "2026-11-08",
      "sec": 34,
-     "views": 1334,
+     "views": 1335,
      "likes": 6,
      "comments": 0
     },
@@ -715,18 +735,18 @@
      "at": "2026-11-08T07:07:28Z",
      "date": "2026-11-08",
      "sec": 53,
-     "views": 1214,
+     "views": 1215,
      "likes": 6,
      "comments": 0
     }
    ],
    "summary": {
-    "settledN": 6,
-    "settledMedian": 1409,
-    "beforeN": 6,
-    "beforeMedian": 1337,
-    "uploads7": 1,
-    "lastDate": "2026-11-25",
+    "settledN": 2,
+    "settledMedian": 1076,
+    "beforeN": 8,
+    "beforeMedian": 1397,
+    "uploads7": 3,
+    "lastDate": "2026-11-26",
     "quietDays": 0
    }
   }
@@ -734,13 +754,13 @@
  "errors": [],
  "threads": {
   "followers": 82,
-  "updated": "2026-11-25T03:43:01.613Z",
-  "views7": 6435,
+  "updated": "2026-11-26T03:03:44.732Z",
+  "views7": 6325,
   "posts7": 12,
   "medianByFormat14": {
    "howto": {
     "n": 25,
-    "median": 152
+    "median": 112
    }
   },
   "tips": [
