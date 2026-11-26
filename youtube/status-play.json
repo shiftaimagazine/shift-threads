@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T19:04:55+09:00",
- "message": "올릴 PLAY 쇼츠 없음",
+ "updated": "2026-11-27T02:55:05+09:00",
+ "message": "11-27T02:55 PLAY 쇼츠 1편 예약",
  "via": "youtube-api",
  "channel": "UCjZ398yiclS8zPeJ-kbEWYg",
  "items": [
@@ -29,6 +29,15 @@
    "status": "scheduled",
    "videoId": "QQCFANzvY2s",
    "playlist": "게임 가계부",
+   "note": null
+  },
+  {
+   "key": "2026-11-27/1800",
+   "title": "마리오 코인 100개가 진짜 순금이면, 1UP 한 번에 24조 원이에요 🪙",
+   "at": "2026-11-27T18:00:00+09:00",
+   "status": "scheduled",
+   "videoId": "jdgGwO7Q2cE",
+   "playlist": null,
    "note": null
   }
  ]
