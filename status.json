@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:03:44.783Z",
+ "updated": "2026-11-26T08:54:59.915Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 82,
  "followersHistory": [
@@ -195,7 +195,7 @@
     "format": "howto",
     "type": "carousel",
     "hook": "AI에게 일을 시키기 전, 한 줄만 먼저 붙여 보세요. '시작하기 전에, 필요한 정보를 3가지만 먼저 물어봐줘.'",
-    "status": "waiting",
+    "status": "expired",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-26-1139-howto/01.png",
@@ -409,8 +409,8 @@
    "total": 2,
    "ok": 1,
    "failed": 0,
-   "expired": 0,
-   "waiting": 1,
+   "expired": 1,
+   "waiting": 0,
    "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
@@ -424,7 +424,7 @@
     {
      "at": "2026-11-26T11:39:00+09:00",
      "format": "howto",
-     "status": "waiting",
+     "status": "expired",
      "cards": 2
     }
    ],
@@ -482,13 +482,13 @@
    "at": "2026-11-21T23:20:23+0000"
   },
   {
-   "hook": "회의 끝나고 자리 와서 메모, 다시 타자로 치고 계신가요?",
-   "views": 258,
+   "hook": "답장 20개 달린 메일, 처음부터 다 읽고 계신가요?",
+   "views": 112,
    "likes": 0,
    "replies": 1,
    "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/Df6IZZoFb-6",
-   "at": "2026-11-19T03:37:27+0000"
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DgHrJPem9sY",
+   "at": "2026-11-24T09:51:06+0000"
   }
  ]
 }
