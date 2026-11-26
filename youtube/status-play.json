@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T11:30:14+09:00",
+ "updated": "2026-11-26T19:04:55+09:00",
  "message": "올릴 PLAY 쇼츠 없음",
  "via": "youtube-api",
  "channel": "UCjZ398yiclS8zPeJ-kbEWYg",
@@ -11,15 +11,6 @@
    "status": "scheduled",
    "videoId": "8bel_VPeXdo",
    "playlist": "게임 가계부",
-   "note": null
-  },
-  {
-   "key": "2026-11-24/1800",
-   "title": "마크 용암 양동이 하나로 우리 집 난방하면, 1월 중 25일 버텨요 🔥",
-   "at": "2026-11-26T12:00:00+09:00",
-   "status": "scheduled",
-   "videoId": "meWNGgnxv2o",
-   "playlist": "게임 물리 검증",
    "note": null
   },
   {
