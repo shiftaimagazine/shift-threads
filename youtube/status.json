@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T13:17:44+09:00",
- "message": "올릴 쇼츠 없음",
+ "updated": "2026-11-27T07:31:25+09:00",
+ "message": "11-27T07:31 쇼츠 1편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -11,12 +11,22 @@
  "items": [
   {
    "date": "2026-11-26",
-   "at": "2026-11-27T07:30:00+09:00",
+   "at": "2026-11-26T20:35:00+09:00",
    "slot": "07:30",
    "kind": "new",
    "title": "게임 무료 에셋 459개 한 사이트 🎮",
    "status": "scheduled",
    "videoId": "Wpbne5jXQpE",
+   "note": null
+  },
+  {
+   "date": "2026-11-27",
+   "at": "2026-11-27T09:00:00+09:00",
+   "slot": "09:00",
+   "kind": "new",
+   "title": "AI 웹사이트, 이거 모르면 큰일 나요 · 무료 스킬 Hallmark 🎨",
+   "status": "scheduled",
+   "videoId": "KA_xLFNHBs8",
    "note": null
   }
  ]
