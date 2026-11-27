@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T23:16:09+09:00",
- "message": "올릴 쇼츠 없음",
+ "updated": "2026-11-28T02:37:06+09:00",
+ "message": "11-28T02:37 쇼츠 1편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -10,23 +10,13 @@
  "via": "youtube-api",
  "items": [
   {
-   "date": "2026-11-26",
-   "at": "2026-11-26T20:35:00+09:00",
-   "slot": "07:30",
-   "kind": "new",
-   "title": "게임 무료 에셋 459개 한 사이트 🎮",
-   "status": "scheduled",
-   "videoId": "Wpbne5jXQpE",
-   "note": null
-  },
-  {
-   "date": "2026-11-27",
-   "at": "2026-11-27T09:00:00+09:00",
+   "date": "2026-11-28",
+   "at": "2026-11-28T09:00:00+09:00",
    "slot": "09:00",
    "kind": "new",
-   "title": "AI 웹사이트, 이거 모르면 큰일 나요 · 무료 스킬 Hallmark 🎨",
+   "title": "ChatGPT 속 맞춤 GPT, 12월 11일에 사라져요 · 옮기는 법 2가지 ⏰",
    "status": "scheduled",
-   "videoId": "KA_xLFNHBs8",
+   "videoId": "Cgih9hCdvAQ",
    "note": null
   }
  ]
