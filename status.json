@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:34:26.220Z",
+ "updated": "2026-11-27T02:25:19.806Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 82,
  "followersHistory": [
@@ -141,8 +141,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "엑셀·워드·PPT 파일, 무료로 AI가 만들어 줘요. Claude는 무료 요금제에서도",
-    "status": "scheduled",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DgOme5NDKtc",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-27-0739-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-27-0739-howto/02.png"
@@ -409,18 +409,18 @@
   {
    "date": "2026-11-27",
    "total": 2,
-   "ok": 0,
+   "ok": 1,
    "failed": 0,
    "expired": 0,
    "waiting": 0,
-   "scheduled": 2,
+   "scheduled": 1,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-27T07:39:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "ok",
      "cards": 2
     },
     {
@@ -466,15 +466,6 @@
    "at": "2026-11-20T23:28:58+0000"
   },
   {
-   "hook": "보고 들어가기 전, 임원 질문 대비하셨나요?",
-   "views": 540,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/Df8QhnKFuid",
-   "at": "2026-11-19T23:26:57+0000"
-  },
-  {
    "hook": "퇴근 전, 내일 할 일 순서 고민하다 10분 쓰셨나요?",
    "views": 521,
    "likes": 1,
@@ -491,6 +482,15 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DgHrJPem9sY",
    "at": "2026-11-24T09:51:06+0000"
+  },
+  {
+   "hook": "회의 시간 잡는 메일, 답이 세 번 오가셨나요?",
+   "views": 92,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DgL13qyFHt3",
+   "at": "2026-11-26T00:41:58+0000"
   }
  ]
 }

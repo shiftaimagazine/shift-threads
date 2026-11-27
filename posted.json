@@ -776,5 +776,16 @@
  "2026-11-26-1139-howto": {
   "status": "expired",
   "at": "2026-11-26T08:54:59.881Z"
+ },
+ "2026-11-27-0739-howto": {
+  "status": "ok",
+  "at": "2026-11-27T02:25:19.767Z",
+  "ids": [
+   "17942759727390745",
+   "18032770412920268"
+  ],
+  "link": "https://www.threads.com/@shift_ai_magazine/post/DgOme5NDKtc",
+  "type": "carousel",
+  "topic": "AI Threads"
  }
 }
