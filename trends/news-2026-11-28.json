@@ -1,0 +1,448 @@
+{
+ "updated": "2026-11-27T20:20:01.294Z",
+ "kstDate": "2026-11-28",
+ "windowHours": 48,
+ "note": "글쓰기 작업용 뉴스 후보. 쓰기로 한 소식은 반드시 link 원문을 열어 숫자·날짜를 확인할 것. summary 는 피드 요약이라 사실 확인 근거로 쓰지 않음.",
+ "items": [
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+   "link": "https://huggingface.co/blog/video-trainium3",
+   "published": "2026-11-27T00:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+   "published": "2026-11-26T11:37:17.000Z",
+   "summary": ""
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+   "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+   "published": "2026-11-26T05:05:36.000Z",
+   "summary": ""
+  },
+  {
+   "source": "Hugging Face",
+   "kind": "official",
+   "lang": "en",
+   "official": true,
+   "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+   "link": "https://huggingface.co/blog/training-swarms",
+   "published": "2026-11-26T00:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "source": "긱뉴스",
+   "kind": "community",
+   "lang": "ko",
+   "official": false,
+   "title": "나는 AI가 두렵다",
+   "link": "https://news.hada.io/topic?id=37968&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+   "published": "2026-11-27T19:38:51.000Z",
+   "summary": "AI에 생각을 맡길 때마다 머리가 나빠지는 듯한 느낌 이 들어 불안함 해킹 증가로 인한 세계 경제 붕괴나 핵전쟁도 두렵지만, 스스로 어쩔 수 없는 위협보다 자기 뇌에 미치는 영향 이 더 직접적인 걱정임 모든 일에 드는 노력이 줄어드는 것은 좋아 보이지만, 그만큼 성취감도 느끼지 못하고 있음 힘든 일을 해냈을 때의 보상이 사라지고, 쓰지 않는 능력을 잃듯 생각하는 능력을 잃어가는 기분 이 듦 비슷한 경험을 하는 사람이 더 있을 것이라 생각하며, 독자들에게 해결 조언과 각자의 생각 을 요청함 편해진 작업과 사라진 성취감 AI에 …"
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "I'm Scared of AI",
+   "link": "https://thesoapbox.email/archive/3",
+   "published": "2026-11-27T17:45:31.000Z",
+   "summary": "Article URL: https://thesoapbox.email/archive/3 Comments URL: https://news.ycombinator.com/item?id=50669561 Points: 186 # Comments: 204"
+  },
+  {
+   "source": "AI타임스",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "\"막을 테면 막아봐!\"...AI 안경 부정행위 차단, 해커톤서 역부족 확인",
+   "link": "https://www.aitimes.com/news/articleView.html?idxno=217874",
+   "published": "2026-11-27T16:02:18.000Z",
+   "summary": "\"해당 시험지의 AI 풀이를 금지합니다.\"시험지 곳곳에 숨겨 둔 경고문은 AI 안경의 공격 앞에 무력화됐다. 시험 부정행위를 막으려고 동원한 방어 기법 상당수가 공격조의 우회 전략에 잇따라 뚫렸다.기자는 커뮤니티 '다스 누미너스'가 26일 서울 영등포구 워크모어 여의도당산에서 개최한 'AI 바이 디폴트' 해커톤을 참관했다. AI 보안 기업 에임인텔리전스와 AI 안경 앱 개발사 사이트스페이스가 협력한 이 대회에는 170여명이 참가했다.해커톤은 부정행위 방어조가 방어 장치를 심은 시험지를 만들면 공격조가 AI 안경으로 푸는 형식으로 진"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "호남대 앵커사업단, '함께늘봄 강사 실전강의' 운영…내년 1월까지 생성형 AI·로봇 실습",
+   "link": "https://www.etnews.com/20261127000359",
+   "published": "2026-11-27T14:16:28.000Z",
+   "summary": "호남대학교 앵커사업단(단장 정제평)은 25일 하나은행 광산지점 2층 하나EZ라운지에서 '함께늘봄 강사 실전강의' 첫 교육을 실시했다. 이번 실전강의는 함께늘봄 프로그램에 참여하는 현장 강사의 전문성을 강화하고, 늘봄교육에 관심 있는 예비·신규 강사들의 실무 역량을 높이기 위해 마련됐다. 이번 교육과정은 11월 25일을 시작으로 12월 16일과 30일, 2027년 1월 6일까지 총 4회에 걸쳐 진행된다. 회차별 20명 내외를 대상으로 늘봄교육 현"
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+   "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+   "published": "2026-11-27T14:00:00.000Z",
+   "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "포시에스, 전자문서에 AI 에이전트 결합…기업 지식 자산화 시장 공략",
+   "link": "https://www.etnews.com/20261127000355",
+   "published": "2026-11-27T12:39:26.000Z",
+   "summary": "포시에스가 30년간 축적한 전자문서 소프트웨어 기술에 인공지능(AI) 에이전트를 결합해 기업 지식 자산화 시장 공략에 나선다. 단순 문서 생성·관리에서 벗어나 기업 내부 데이터를 업무에 활용할 수 있는 지식으로 전환하는 등 사업 영역을 확대한다. 포시에스는 30일 서울 양재동 엘타워에서 열리는 '디지털문서 AX 콘퍼런스 2026'에서 기조강연을 통해 전자문서와 AI 에이전트를 결합한 통합 로드맵을 최초 공개한다고 27일 밝혔다. 전자신문과 한국"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "가죽 벗고 '470만원' 디올 재킷…젠슨 황은 '이 가격'이 겸손?",
+   "link": "https://www.etnews.com/20261127000353",
+   "published": "2026-11-27T11:41:11.000Z",
+   "summary": "젠슨 황 엔비디아 최고경영자(CEO)가 경영 일선에 복귀하면서 20년 넘게 유지해 온 패션 트레이드마크에 변화를 줬다. 검은색 가죽 재킷 대신 남색 면 재킷을 선택한 것이다. 패션업계는 이를 겸손과 반성의 메시지로 해석했지만, 해당 제품이 470만원 상당의 디올 명품이라는 사실이 알려지면서 엇갈린 반응이 나왔다. 26일(현지시간) 영국 가디언에 따르면 황 CEO는 지난 23일 미국 캘리포니아주 샌타클래라 엔비디아 본사에 복귀하면서 짙은 남색 재"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "디노티시아, '씨홀스 AI 스토리지' 공개…내년 2분기 VDPU 어플라이언스 순차 공급",
+   "link": "https://www.etnews.com/20261127000351",
+   "published": "2026-11-27T11:17:44.000Z",
+   "summary": "장기기억 인공지능(AI) 및 반도체 통합 솔루션 기업 디노티시아(대표 정무경)가 기업용 AI 스토리지 신제품을 공개하고 판매 협력사 확보에 나선다. 디노티시아는 27일 서울 강남구 임피리얼 팰리스 서울에서 기업용 IT 업계 관계자를 대상으로 제품 출시 행사를 열고 '씨홀스 AI 스토리지'를 선보였다고 밝혔다. 이날 행사에서는 제품 도입 방식과 사업 로드맵, 파트너 프로그램도 함께 소개했다. 씨홀스 AI 스토리지는 고성능 스토리지 시스템에 벡터"
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "AI on brink of making online security useless, mathematicians fear",
+   "link": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+   "published": "2026-11-27T11:09:04.000Z",
+   "summary": "https://archive.ph/4hRp8 Comments URL: https://news.ycombinator.com/item?id=50665488 Points: 108 # Comments: 142"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "주식 2000만원서 “100억 찍으면 팔겠다”던 95년생…'폭락 직전' SK하닉 팔고 50억 집 샀다",
+   "link": "https://www.etnews.com/20261127000350",
+   "published": "2026-11-27T10:51:26.000Z",
+   "summary": "2000만원으로 주식 투자를 시작한 1995년생 전업투자자가 SK하이닉스 집중 투자로 100억원대 자산을 형성해 화제다. 인공지능(AI) 산업의 성장 가능성을 일찍 포착하고 레버리지를 활용한 투자 전략이 자산 증식의 결정적 계기가 됐다. 26일 유튜브 채널 '터보832TV'에 공개된 영상에 따르면, 투자자 A씨는 2020년 9월 군 복무를 마친 뒤 2000만원으로 주식시장에 뛰어들었다. 그러나 초기 투자 성적은 좋지 않았다. 하루 20차례가량"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "“귀신인 줄 알고 기절할 뻔”…中 병원 고객 푹 숙인 '긴 생머리 여성' 정체는",
+   "link": "https://www.etnews.com/20261127000322",
+   "published": "2026-11-27T10:50:00.000Z",
+   "summary": "중국의 한 병원에서 환자 안내를 위해 설치한 여성형 휴머노이드 로봇이 지나치게 사람과 닮은 외모와 기괴한 자세로 방문객들을 놀라게 해 결국 철거됐다. 26일 중국 상유신문에 따르면 지난 25일 장쑤성 난징시의 한 시민은 사회관계망서비스(SNS)에 “장쑤성인민병원, 당신들 때문에 놀라 까무러칠 뻔했다”며 사진과 글을 올렸다. 글과 함께 첨부된 사진에는 병원 안내센터에 설치된 여성형 로봇의 모습이 담겼다. 로봇은 긴 검은 머리카락에 흰색 의료용 가"
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "NIPA, AI 인재 양성 방향 전환…산업 현장 문제 해결·성과 중심으로",
+   "link": "https://byline.network/2026/11/1126-5/",
+   "published": "2026-11-27T10:04:26.000Z",
+   "summary": "정보통신산업진흥원(NIPA)이 산업 현장에서 AI를 활용해 실질적인 업무 개선과 성과를 낼 수 있도록 인재 양성 정책을 개편한다. 대한제강과 삼양사 등은 재직자 교육을 통해 생산 공정 개선과 비용 절감 성과를 거뒀으며, 충북대는 중소 제조기업과 대학생을 연계한 산학협력 모델을 운영했다. 기업과 학계는 일회성 교육보다 현장 실증과 중장기 지원을 확대하고, 기업의 매출·이익 등 실질적인 성과를 중심으로 정책을 평가해야 한다고 제언했다."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "유럽 최대 SW기업 SAP, 해킹 의심 사고…깃허브 개발망타고 공격",
+   "link": "https://www.etnews.com/20261127000347",
+   "published": "2026-11-27T09:48:48.000Z",
+   "summary": "유럽 최대 소프트웨어 기업 SAP가 사이버 공격으로 의심되는 보안 사고에 노출됐다. 해커들이 인공지능(AI) 에이전트를 활용해 직원의 인증 정보를 탈취하고 소스코드에 접근했을 가능성이 제기됐다. 27일 독일 현지 언론에 따르면 SAP는 최근 사내 개발 환경에서 비정상적인 활동을 포착하고 긴급 보안 대응에 착수했다. 독일 시사주간지 슈피겔에 따르면 SAP는 이번 사건을 내부적으로 '프로젝트 그래나이트(Project Granite)'라는 이름으로"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "둠둠, 드론·로버 연계 배송 기술 고도화…피지컬 AI 기반 라스트마일 혁신",
+   "link": "https://www.etnews.com/20261127000346",
+   "published": "2026-11-27T09:34:00.000Z",
+   "summary": "피지컬 AI 드론 전문기업 둠둠(대표 주청림)이 드론과 지상 자율주행 로봇을 결합한 차세대 배송 기술 고도화에 나섰다. 드론이 공중에서 물품을 운송하고 지상 로버가 최종 목적지까지 배송하는 통합 시스템을 구현해 드론배송의 핵심 과제인 라스트마일 배송 문제 해결에 도전한다. 둠둠은 지난해에 이어 올해도 경북 상주시 컨소시엄에 참여해 국토교통부 '드론 실증도시 구축사업' K-드론배송 상용화 분야 실증을 수행하고 있다. 실증 장소는 경천섬과 상주오토"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "한국리더스인증원, ISO·ESG·AI 인증 통합 지원…중소기업 글로벌 공급망 진입 돕는다",
+   "link": "https://www.etnews.com/20261127000344",
+   "published": "2026-11-27T09:24:46.000Z",
+   "summary": "글로벌 공급망에서 정보보안과 인공지능(AI) 거버넌스, 환경·사회·지배구조(ESG) 관리 역량이 기업 간 거래의 핵심 조건으로 부상하면서 국내 중소·중견기업의 대응 필요성이 커지고 있다. 대기업과 글로벌 바이어들이 협력사 선정 과정에서 정보보안 체계와 AI 활용 관리 수준, ESG 평가 결과 등을 요구하는 사례가 늘면서 관련 국제표준 인증과 공급망 평가 대응이 기업 경쟁력을 좌우하는 요소로 자리 잡고 있다. 한국리더스인증원(대표 윤여현)은 이러"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "박성훈 마이닝오천 대표 “팀워크 기반 AI 오케스트레이션 승부…2027년 'IT 아웃소싱 AI화 원년' 연다”",
+   "link": "https://www.etnews.com/20261127000343",
+   "published": "2026-11-27T09:12:54.000Z",
+   "summary": "기업의 반복적인 데이터 취합과 정산, 보고서 작성부터 복잡한 웹사이트 및 시스템 개발까지 인공지능(AI)으로 대체하는 기술 혁신이 가속화하고 있다. 2023년 4월 설립된 마이닝오천(대표 박성훈)은 로봇프로세스자동화(RPA) 기반 업무 효율화에서 나아가, AI가 스스로 코딩하고 프로젝트를 끝까지 완결하는 'AI 오케스트레이션(Orchestration)' 시장을 정조준하며 기업용 AI 플랫폼과 콘텐츠·챗봇 서비스로 사업 영토를 빠르게 넓히고 있다"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "래블업, 로컬 AI 앱 'AI:GO 2.0' 출시…PC서 에이전트 실행",
+   "link": "https://www.etnews.com/20261127000331",
+   "published": "2026-11-27T08:11:37.000Z",
+   "summary": "래블업은 외부 클라우드 없이 개인용 컴퓨터에서 인공지능(AI) 모델과 에이전트를 실행할 수 있는 앱 '에이아이고(AI:GO)' 2.0 버전을 출시했다고 27일 밝혔다. 에이아이고는 언어·비전·음성 AI 모델을 실행하는 로컬 AI 앱이다. 외부 서버로 데이터를 전송하지 않고 PC에서 AI 모델을 실행해 클라우드 이용 비용과 데이터 유출 부담을 낮췄다. 대화창에서 텍스트 기반 대화, 이미지 생성, 음성 받아쓰기, 실시간 문서 번역 등을 지원한다."
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "더조각ㆍ스페이스뷰티, 명지대와 학술제 공동 개최… 'A.I 퓨처뷰티 & 웰니스' 기술 선보여",
+   "link": "https://www.etnews.com/20261127000330",
+   "published": "2026-11-27T08:11:21.000Z",
+   "summary": "AI 뷰티테크 전문기업 더조각(대표 이승아)이 AI 기반 프리미엄 뷰티ㆍ웰니스 브랜드 스페이스뷰티(SPACE BEAUTY)와 지난 11월 22일 명지대학교 융합헬스케어연구소와 함께 '제4회 명지융합헬스케어 학술 세미나 및 학술제'를 개최하고, 'A.I 퓨처뷰티 & 웰니스' 기술과 데이터 기반 뷰티케어 시스템을 소개했다. 이번 학술제는 대학의 학문적 연구 역량과 뷰티 산업 현장의 기술 및 전문성을 연결하고, AI와 데이터를 기반으로 K-뷰티 산업"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "피지컬 AI '공존의 법제' 모색…“로봇 진흥 규범도 진화해야”",
+   "link": "https://www.etnews.com/20261127000329",
+   "published": "2026-11-27T08:11:08.000Z",
+   "summary": "피지컬 인공지능(AI)과 지능형 로봇 기술을 산업의 새로운 성장 동력으로 활용하는 동시에 현실 세계에서 발생할 물리적 위험과 사회적 영향에 대응할 공존의 법제를 마련해야 한다는 제언이 나왔다. 선지원 한국인터넷윤리학회장(한양대 법학전문대학원 교수)은 27일 서울 중구 한진빌딩에서 열린 학술세미나에서 “피지컬 AI와 로봇이 우리 삶을 편리하게 하지만 윤리적 위험을 해소해야 사회적으로 수용되고 기술 활용도 확대될 수 있다”며 이같이 강조했다. 법무"
+  },
+  {
+   "source": "전자신문 SW·AI",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "반도체공학회 제10대 회장에 김경기 대구대 교수 선임",
+   "link": "https://www.etnews.com/20261127000328",
+   "published": "2026-11-27T08:09:50.000Z",
+   "summary": "반도체공학회는 27일 서울 강남구 그랜드 인터컨티넨탈 서울 파르나스에서 정기총회를 열고 김경기 대구대 전자전기공학부 교수를 제10대 회장으로 선임했다고 밝혔다. 임기는 내년 1월부터 1년이며, 최기영 현 회장(전 과학기술정보통신부 장관)의 뒤를 잇는다. 김 차기 회장은 저전력 디지털 회로와 인공지능(AI)·시스템반도체 설계 분야 전문가다. 미국 노스이스턴대에서 박사학위를 취득한 뒤 썬마이크로시스템즈 연구원과 일리노이공과대 연구교수를 거쳐 20"
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "삼성증권, AI로 고객·영업·업무 전반 혁신…내년 전사 확산 본격화",
+   "link": "https://byline.network/2026/11/1127-6/",
+   "published": "2026-11-27T07:32:16.000Z",
+   "summary": "삼성증권이 인공지능(AI)을 활용해 금융 업무 전반의 혁신을 추진하고 있다. 임직원의 문서 작성과 정보 탐색 등 일상 업무에 AI를 적용하고 AI 에이전트를 활용한 업무 자동화 과제도 발굴하고 있다. 고객 서비스와 영업, 데이터 활용 영역으로 AI 적용 범위를 넓히는 한편 금융사에 필요한 보안과 내부통제 체계도 함께 구축하고 있다."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "윈도우11 대전환, AI에 PC 제어권 넘기며 플랫폼 격리 강화",
+   "link": "https://byline.network/2026/11/27-713/",
+   "published": "2026-11-27T07:05:23.000Z",
+   "summary": "마이크로소프트가 소프트웨어와 서비스의 중심에 AI 에이전트를 두고 새 운영체제(OS)로 격상시키면서, 윈도우11은 AI 에이전트의 활동을 제어하는 상위 OS로 바뀌고 있다. AI 에이전트 시대를 준비하는 윈도우11은 AI 에이전트에게 PC의 제어권을 넘겨주는 대신 전반적인 보안성을 강화하면서 에이전트의 활동을 관리감독한다."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+   "link": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+   "published": "2026-11-27T07:00:00.000Z",
+   "summary": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Group chat where your AI talks behind your back",
+   "link": "https://construct22.com/",
+   "published": "2026-11-27T06:44:34.000Z",
+   "summary": "Article URL: https://construct22.com/ Comments URL: https://news.ycombinator.com/item?id=50663595 Points: 624 # Comments: 264"
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "자율주행차 3000대로 늘리면 한국에서도 웨이모가 탄생할까?",
+   "link": "https://byline.network/2026/11/27_291727374/",
+   "published": "2026-11-27T06:37:31.000Z",
+   "summary": "정부가 내년 광주 등 5~6곳에서 도시 단위 실증을 벌이고 자율주행차 운행 규모를 3000대까지 늘린다. 웨이모·포니AI처럼 해외 기업이 수천대를 굴리며 사업을 키우는 만큼 한국도 상용화를 준비하는 듯하다. 하지만 차를 많이 달리게 하는 것과 사업에 성공하는 건 다른 문제다. 차두원 퓨처링크 대표는 한국 자율주행 산업이 아직 상용화보다 실증 단계에 가깝다고 진단했다. 그는 차량 확대 자체보다 이를 지속 가능한 사업으로 잇는 일이 중요하다며, 상용화가 가능한 수준의 비용·운영 체계를 갖추고 다양한 환경에서 실증해야 한다고 제언했다."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "AI made self-hosting fun again",
+   "link": "https://janlukas.blog/posts/ai-self-hosting",
+   "published": "2026-11-26T21:47:45.000Z",
+   "summary": "Article URL: https://janlukas.blog/posts/ai-self-hosting Comments URL: https://news.ycombinator.com/item?id=50660180 Points: 1030 # Comments: 488"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+   "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "published": "2026-11-26T20:03:54.000Z",
+   "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Tracking Diseases Cured by AI",
+   "link": "https://diseasescuredbyai.com/",
+   "published": "2026-11-26T17:16:41.000Z",
+   "summary": "Article URL: https://diseasescuredbyai.com/ Comments URL: https://news.ycombinator.com/item?id=50657307 Points: 317 # Comments: 192"
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+   "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+   "published": "2026-11-26T16:00:00.000Z",
+   "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time."
+  },
+  {
+   "source": "와이어드 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+   "link": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+   "published": "2026-11-26T10:51:27.000Z",
+   "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+   "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+   "published": "2026-11-26T09:54:40.000Z",
+   "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S."
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+   "link": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "published": "2026-11-26T09:44:23.000Z",
+   "summary": "Article URL: https://techstackups.com/articles/google-workspace-ai-agents-mcp/ Comments URL: https://news.ycombinator.com/item?id=50653477 Points: 416 # Comments: 329"
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "미국, 사이버보안 컨트롤타워 재편…한국도 ‘사이버보안 차르’ 논의",
+   "link": "https://byline.network/2026/11/26-668/",
+   "published": "2026-11-26T09:41:37.000Z",
+   "summary": "미국 정부가 백악관 중심의 사이버보안 대응체계를 재편하고, 사이버 방어 전담인력을 대폭 확충한다. 연방정부와 국가 핵심 인프라를 겨냥한 사이버 위협에 대응하기 위해 부처 간 정책 조정을 강화하고, 인공지능(AI)을 활용한 취약점 탐지와 방어 역량도 확대한다."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "앤트로픽이 메시지 API를 러스트로 바꾼 사연",
+   "link": "https://byline.network/2026/11/26-667/",
+   "published": "2026-11-26T09:32:03.000Z",
+   "summary": "앤트로픽이 핵심 메시지 API를 파이썬에서 러스트로 이전한 과정을 공개했다. 클로드 코드, 코워크 등의 앱이 클로드 모델에 접근하고 답변을 받는 핵심 API가 사용자 증가에 따른 트래픽 폭증을 겪었고, 파이썬의 CPU 오버헤드를 해결하기 위해 러스트로 전면 전환했다는 내용이다. 주목되는 건 러스트로 옮겼다는 것 자체보다 신뢰를 구축하는 전환 방식이다. AI로 코드를 생성하기에 만드는 건 어렵지 않고, 마이그레이션 병목이 검증으로 바뀌었다는 의미다."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "AI 에이전트에게도 ‘신분증’과 ‘위임장’이 필요한 이유",
+   "link": "https://byline.network/2026/11/26-666/",
+   "published": "2026-11-26T09:26:46.000Z",
+   "summary": "업무 예약부터 주문, 결제까지 에이전트가 맡아서 하는 일이 점점 늘어나고 있다. 만약 정비소 예약을 잡은 AI가 수리비도 내겠다고 하면, 정비소는 누구를 대신해 온 AI인지, 고객이 결제까지 맡겼는지 어떻게 확인해야 할까. 디지털신원기술표준포럼은 26일 서울 강남구 코엑스에서 열린 ‘2026 블록체인 진흥주간’ 세미나에서 에이전트의 신원과 위임받은 권한을 확인하는 데 필요한 기술과 표준을 논의했다. AI 에이전트에게 일을 맡길 때 가장 큰 문제는 AI가 지시와 다르게 행동했을 때다. 거래처에 잘못된 첨부파일을 보내거나 승인 없이 대금을 지급했다면, 기업은 누가 일을 "
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "금융권, 모바일 플랫폼 경쟁력 강화…농협은 맞춤형 마케팅·AI, KB는 슈퍼앱 확대",
+   "link": "https://byline.network/2026/11/1126-4/",
+   "published": "2026-11-26T07:39:46.000Z",
+   "summary": "금융권이 모바일 플랫폼 경쟁력 강화에 나섰다. NH농협은행은 고객 데이터 기반의 맞춤형 마케팅으로 모바일 애플리케이션(앱) 이용자를 늘리는 한편 인공지능(AI) 에이전트 도입을 추진한다. KB국민은행은 KB스타뱅킹의 이용 대상을 개인사업자와 외국인까지 확대하고 비대면 금융 업무와 생활 서비스 연계를 강화해 슈퍼앱 경쟁력을 높인다는 전략이다."
+  },
+  {
+   "source": "바이라인네트워크",
+   "kind": "media",
+   "lang": "ko",
+   "official": false,
+   "title": "AWS “중국 연계 해커, AI로 제로데이 찾아 서버 장악”",
+   "link": "https://byline.network/2026/11/26-665/",
+   "published": "2026-11-26T06:56:49.000Z",
+   "summary": "중국 연계로 추정되는 해킹 조직이 인공지능(AI) 에이전트를 이용해 ‘알려지지 않은 보안 취약점(제로데이)’을 스스로 찾아내고 실제 서버를 장악한 사례가 확인됐다. 아마존웹서비스(AWS)는 지난 20일 공식 보안 블로그를 통해 중국 연계 위협 행위자가 자율형 AI 침투테스트 도구 ‘케언(Cairn)’을 활용해 동아시아 대학들을 공격한 사례를 공개했다."
+  },
+  {
+   "source": "테크크런치 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+   "published": "2026-11-25T22:44:32.000Z",
+   "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating."
+  },
+  {
+   "source": "더버지 AI",
+   "kind": "media",
+   "lang": "en",
+   "official": false,
+   "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+   "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+   "published": "2026-11-25T21:51:26.000Z",
+   "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, an"
+  },
+  {
+   "source": "해커뉴스 (AI, 100점↑)",
+   "kind": "community",
+   "lang": "en",
+   "official": false,
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "published": "2026-11-25T21:18:02.000Z",
+   "summary": "https://archive.ph/pcUgy Comments URL: https://news.ycombinator.com/item?id=50647673 Points: 678 # Comments: 543"
+  }
+ ]
+}
