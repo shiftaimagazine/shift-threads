@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T03:14:09.312Z",
+ "updated": "2026-11-27T11:25:45.484Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 82,
  "followersHistory": [
@@ -201,7 +201,7 @@
     "format": "howto",
     "type": "carousel",
     "hook": "금요일 오후, 주간보고 뭐 썼는지 기억 안 나시나요? 이번 주 메모를 아무렇게나 붙여 넣고",
-    "status": "waiting",
+    "status": "expired",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-27-1139-howto/01.png",
@@ -415,8 +415,8 @@
    "total": 2,
    "ok": 1,
    "failed": 0,
-   "expired": 0,
-   "waiting": 1,
+   "expired": 1,
+   "waiting": 0,
    "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
@@ -430,7 +430,7 @@
     {
      "at": "2026-11-27T11:39:00+09:00",
      "format": "howto",
-     "status": "waiting",
+     "status": "expired",
      "cards": 2
     }
    ],
