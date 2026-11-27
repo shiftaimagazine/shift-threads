@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:25:19.806Z",
+ "updated": "2026-11-27T03:14:09.312Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 82,
  "followersHistory": [
@@ -130,6 +130,10 @@
   {
    "date": "2026-11-26",
    "followers": 82
+  },
+  {
+   "date": "2026-11-27",
+   "followers": 82
   }
  ],
  "today": {
@@ -147,9 +151,9 @@
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-27-0739-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-27-0739-howto/02.png"
     ],
-    "views": null,
-    "likes": null,
-    "replies": null,
+    "views": 79,
+    "likes": 0,
+    "replies": 1,
     "sources": [
      "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude"
     ],
@@ -197,7 +201,7 @@
     "format": "howto",
     "type": "carousel",
     "hook": "금요일 오후, 주간보고 뭐 썼는지 기억 안 나시나요? 이번 주 메모를 아무렇게나 붙여 넣고",
-    "status": "scheduled",
+    "status": "waiting",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-27-1139-howto/01.png",
@@ -412,8 +416,8 @@
    "ok": 1,
    "failed": 0,
    "expired": 0,
-   "waiting": 0,
-   "scheduled": 1,
+   "waiting": 1,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
@@ -426,7 +430,7 @@
     {
      "at": "2026-11-27T11:39:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "waiting",
      "cards": 2
     }
    ],
@@ -449,7 +453,7 @@
  "top": [
   {
    "hook": "자료 50개를 올려 두고, 그 안에서만 답하게 할 수 있어요.",
-   "views": 3997,
+   "views": 3998,
    "likes": 16,
    "replies": 2,
    "reposts": 3,
@@ -475,6 +479,15 @@
    "at": "2026-11-21T23:20:23+0000"
   },
   {
+   "hook": "회의 시간 잡는 메일, 답이 세 번 오가셨나요?",
+   "views": 175,
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DgL13qyFHt3",
+   "at": "2026-11-26T00:41:58+0000"
+  },
+  {
    "hook": "답장 20개 달린 메일, 처음부터 다 읽고 계신가요?",
    "views": 112,
    "likes": 0,
@@ -482,15 +495,6 @@
    "reposts": 0,
    "link": "https://www.threads.com/@shift_ai_magazine/post/DgHrJPem9sY",
    "at": "2026-11-24T09:51:06+0000"
-  },
-  {
-   "hook": "회의 시간 잡는 메일, 답이 세 번 오가셨나요?",
-   "views": 92,
-   "likes": 0,
-   "replies": 1,
-   "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/DgL13qyFHt3",
-   "at": "2026-11-26T00:41:58+0000"
   }
  ]
 }
