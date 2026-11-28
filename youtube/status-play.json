@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T18:30:02+09:00",
- "message": "11-28T18:30 PLAY 쇼츠 1편 예약",
+ "updated": "2026-11-29T01:26:03+09:00",
+ "message": "11-29T01:26 PLAY 쇼츠 1편 예약",
  "via": "youtube-api",
  "channel": "UCjZ398yiclS8zPeJ-kbEWYg",
  "items": [
@@ -28,6 +28,15 @@
    "at": "2026-11-29T12:00:00+09:00",
    "status": "scheduled",
    "videoId": "8ehk9te_snI",
+   "playlist": "게임 물리 검증",
+   "note": null
+  },
+  {
+   "key": "2026-11-29/1800",
+   "title": "망나뇽 타고 인천에서 뉴욕까지 날면, 4시간 반이면 도착해요 🐉",
+   "at": "2026-11-29T18:00:00+09:00",
+   "status": "scheduled",
+   "videoId": "h3c3VkxoUyA",
    "playlist": "게임 물리 검증",
    "note": null
   }
