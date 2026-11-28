@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-27T20:21:00.138Z",
+ "updated": "2026-11-28T02:56:30.523Z",
  "repo": "shiftaimagazine/shift-threads",
- "followers": 82,
+ "followers": 83,
  "followersHistory": [
   {
    "date": "2026-10-26",
@@ -134,6 +134,10 @@
   {
    "date": "2026-11-27",
    "followers": 82
+  },
+  {
+   "date": "2026-11-28",
+   "followers": 83
   }
  ],
  "today": {
@@ -145,7 +149,7 @@
     "format": "howto",
     "type": "carousel",
     "hook": "부탁을 거절하는 메일, 쓰다 지우다 15분 쓰셨나요? 거절 사유 한 줄만 적고",
-    "status": "scheduled",
+    "status": "waiting",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-28-0738-howto/01.png",
@@ -199,7 +203,7 @@
     "format": "howto",
     "type": "carousel",
     "hook": "AI가 쓴 글, 내 말투가 아니라서 매번 고치시나요? Claude에는 내가 쓴 글을 올리면",
-    "status": "scheduled",
+    "status": "waiting",
     "link": null,
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-28-1138-howto/01.png",
@@ -418,21 +422,21 @@
    "ok": 0,
    "failed": 0,
    "expired": 0,
-   "waiting": 0,
-   "scheduled": 2,
+   "waiting": 2,
+   "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
    "times": [
     {
      "at": "2026-11-28T07:38:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "waiting",
      "cards": 2
     },
     {
      "at": "2026-11-28T11:38:00+09:00",
      "format": "howto",
-     "status": "scheduled",
+     "status": "waiting",
      "cards": 2
     }
    ],
@@ -455,7 +459,7 @@
  "top": [
   {
    "hook": "자료 50개를 올려 두고, 그 안에서만 답하게 할 수 있어요.",
-   "views": 3998,
+   "views": 3999,
    "likes": 16,
    "replies": 2,
    "reposts": 3,
@@ -463,13 +467,13 @@
    "at": "2026-11-21T03:33:16+0000"
   },
   {
-   "hook": "엑셀 시트 두 개, 눈으로 대조하고 계신가요?",
-   "views": 564,
-   "likes": 0,
-   "replies": 3,
+   "hook": "엑셀·워드·PPT 파일, 무료로 AI가 만들어 줘요.",
+   "views": 1139,
+   "likes": 3,
+   "replies": 1,
    "reposts": 0,
-   "link": "https://www.threads.com/@shift_ai_magazine/post/Df-1jQqltAo",
-   "at": "2026-11-20T23:28:58+0000"
+   "link": "https://www.threads.com/@shift_ai_magazine/post/DgOme5NDKtc",
+   "at": "2026-11-27T02:25:03+0000"
   },
   {
    "hook": "퇴근 전, 내일 할 일 순서 고민하다 10분 쓰셨나요?",
