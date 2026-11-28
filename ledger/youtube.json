@@ -1,22 +1,32 @@
 {
- "updated": "2026-11-27T03:17:46.162Z",
- "date": "2026-11-27",
+ "updated": "2026-11-28T02:58:19.685Z",
+ "date": "2026-11-28",
  "channels": {
   "ai": {
    "key": "ai",
    "name": "시프트 AI",
    "id": "UCWzwTQoe0q2IdwZV6BuopVw",
    "subs": 11,
-   "totalViews": 30657,
-   "videoCount": 53,
+   "totalViews": 31082,
+   "videoCount": 55,
    "videos": [
+    {
+     "id": "Cgih9hCdvAQ",
+     "title": "ChatGPT 속 맞춤 GPT, 12월 11일에 사라져요 · 옮기는 법 2가지 ⏰",
+     "at": "2026-11-28T00:00:29Z",
+     "date": "2026-11-28",
+     "sec": 25,
+     "views": 55,
+     "likes": 0,
+     "comments": 0
+    },
     {
      "id": "KA_xLFNHBs8",
      "title": "AI 웹사이트, 이거 모르면 큰일 나요 · 무료 스킬 Hallmark 🎨",
      "at": "2026-11-27T00:00:23Z",
      "date": "2026-11-27",
      "sec": 27,
-     "views": 14,
+     "views": 16,
      "likes": 0,
      "comments": 0
     },
@@ -26,8 +36,8 @@
      "at": "2026-11-26T11:28:00Z",
      "date": "2026-11-26",
      "sec": 22,
-     "views": 282,
-     "likes": 3,
+     "views": 407,
+     "likes": 6,
      "comments": 0
     },
     {
@@ -36,7 +46,7 @@
      "at": "2026-11-25T00:00:28Z",
      "date": "2026-11-25",
      "sec": 32,
-     "views": 62,
+     "views": 69,
      "likes": 0,
      "comments": 0
     },
@@ -46,7 +56,7 @@
      "at": "2026-11-24T22:30:14Z",
      "date": "2026-11-25",
      "sec": 32,
-     "views": 189,
+     "views": 190,
      "likes": 2,
      "comments": 0
     },
@@ -56,7 +66,7 @@
      "at": "2026-11-24T09:04:01Z",
      "date": "2026-11-24",
      "sec": 35,
-     "views": 53,
+     "views": 61,
      "likes": 0,
      "comments": 0
     },
@@ -66,7 +76,7 @@
      "at": "2026-11-19T22:30:22Z",
      "date": "2026-11-20",
      "sec": 36,
-     "views": 125,
+     "views": 126,
      "likes": 4,
      "comments": 0
     },
@@ -146,7 +156,7 @@
      "at": "2026-11-07T09:00:10Z",
      "date": "2026-11-07",
      "sec": 38,
-     "views": 85,
+     "views": 86,
      "likes": 1,
      "comments": 0
     },
@@ -246,7 +256,7 @@
      "at": "2026-11-03T09:00:38Z",
      "date": "2026-11-03",
      "sec": 40,
-     "views": 94,
+     "views": 95,
      "likes": 0,
      "comments": 0
     },
@@ -266,7 +276,7 @@
      "at": "2026-11-03T00:00:07Z",
      "date": "2026-11-03",
      "sec": 26,
-     "views": 1077,
+     "views": 1080,
      "likes": 0,
      "comments": 0
     },
@@ -276,7 +286,7 @@
      "at": "2026-11-02T09:00:28Z",
      "date": "2026-11-02",
      "sec": 43,
-     "views": 584,
+     "views": 587,
      "likes": 2,
      "comments": 1
     },
@@ -306,7 +316,7 @@
      "at": "2026-11-02T00:00:38Z",
      "date": "2026-11-02",
      "sec": 38,
-     "views": 1274,
+     "views": 1277,
      "likes": 7,
      "comments": 2
     },
@@ -326,7 +336,7 @@
      "at": "2026-11-01T03:30:12Z",
      "date": "2026-11-01",
      "sec": 18,
-     "views": 299,
+     "views": 300,
      "likes": 1,
      "comments": 0
     },
@@ -436,7 +446,7 @@
      "at": "2026-10-29T00:00:08Z",
      "date": "2026-10-29",
      "sec": 25,
-     "views": 594,
+     "views": 606,
      "likes": 4,
      "comments": 0
     },
@@ -446,7 +456,7 @@
      "at": "2026-10-28T09:00:17Z",
      "date": "2026-10-28",
      "sec": 38,
-     "views": 323,
+     "views": 324,
      "likes": 0,
      "comments": 0
     },
@@ -456,7 +466,17 @@
      "at": "2026-10-28T03:30:02Z",
      "date": "2026-10-28",
      "sec": 54,
-     "views": 672,
+     "views": 675,
+     "likes": 3,
+     "comments": 0
+    },
+    {
+     "id": "xYJ2lxGW8b0",
+     "title": "Claude Fable 5.5·GPT 신모델, 같은 주에 유출 👀",
+     "at": "2026-10-28T03:30:02Z",
+     "date": "2026-10-28",
+     "sec": 54,
+     "views": 675,
      "likes": 3,
      "comments": 0
     },
@@ -466,7 +486,7 @@
      "at": "2026-10-28T00:00:16Z",
      "date": "2026-10-28",
      "sec": 40,
-     "views": 1671,
+     "views": 1678,
      "likes": 9,
      "comments": 0
     },
@@ -486,7 +506,7 @@
      "at": "2026-10-27T03:30:05Z",
      "date": "2026-10-27",
      "sec": 35,
-     "views": 1046,
+     "views": 1048,
      "likes": 1,
      "comments": 0
     },
@@ -496,7 +516,7 @@
      "at": "2026-10-27T03:30:05Z",
      "date": "2026-10-27",
      "sec": 35,
-     "views": 1046,
+     "views": 1048,
      "likes": 1,
      "comments": 0
     },
@@ -526,7 +546,7 @@
      "at": "2026-10-26T03:30:06Z",
      "date": "2026-10-26",
      "sec": 37,
-     "views": 1309,
+     "views": 1310,
      "likes": 1,
      "comments": 0
     },
@@ -536,7 +556,7 @@
      "at": "2026-10-25T09:00:37Z",
      "date": "2026-10-25",
      "sec": 39,
-     "views": 1718,
+     "views": 1721,
      "likes": 2,
      "comments": 0
     },
@@ -552,12 +572,12 @@
     }
    ],
    "summary": {
-    "settledN": 4,
-    "settledMedian": 94,
+    "settledN": 5,
+    "settledMedian": 126,
     "beforeN": 4,
     "beforeMedian": 138,
-    "uploads7": 5,
-    "lastDate": "2026-11-27",
+    "uploads7": 6,
+    "lastDate": "2026-11-28",
     "quietDays": 0
    }
   },
@@ -566,16 +586,26 @@
    "name": "시프트 플레이",
    "id": "UCjZ398yiclS8zPeJ-kbEWYg",
    "subs": 3,
-   "totalViews": 23636,
-   "videoCount": 20,
+   "totalViews": 23910,
+   "videoCount": 21,
    "videos": [
+    {
+     "id": "jdgGwO7Q2cE",
+     "title": "마리오 코인 100개가 진짜 순금이면, 1UP 한 번에 24조 원이에요 🪙",
+     "at": "2026-11-27T09:00:05Z",
+     "date": "2026-11-27",
+     "sec": 28,
+     "views": 917,
+     "likes": 3,
+     "comments": 0
+    },
     {
      "id": "QQCFANzvY2s",
      "title": "마크 다이아 블록 하나를 진짜 다이아로 채우면, 서울 아파트 약 1,610채예요 💎",
      "at": "2026-11-26T09:00:06Z",
      "date": "2026-11-26",
      "sec": 28,
-     "views": 73,
+     "views": 125,
      "likes": 1,
      "comments": 0
     },
@@ -585,7 +615,7 @@
      "at": "2026-11-26T03:00:17Z",
      "date": "2026-11-26",
      "sec": 31,
-     "views": 183,
+     "views": 184,
      "likes": 2,
      "comments": 0
     },
@@ -605,8 +635,8 @@
      "at": "2026-11-25T03:00:38Z",
      "date": "2026-11-25",
      "sec": 26,
-     "views": 1459,
-     "likes": 5,
+     "views": 1692,
+     "likes": 7,
      "comments": 1
     },
     {
@@ -615,7 +645,7 @@
      "at": "2026-11-18T06:00:12Z",
      "date": "2026-11-18",
      "sec": 26,
-     "views": 1444,
+     "views": 1446,
      "likes": 4,
      "comments": 0
     },
@@ -625,7 +655,7 @@
      "at": "2026-11-18T00:00:14Z",
      "date": "2026-11-18",
      "sec": 28,
-     "views": 716,
+     "views": 718,
      "likes": 1,
      "comments": 0
     },
@@ -645,7 +675,7 @@
      "at": "2026-11-17T06:00:00Z",
      "date": "2026-11-17",
      "sec": 23,
-     "views": 1423,
+     "views": 1424,
      "likes": 7,
      "comments": 0
     },
@@ -655,7 +685,7 @@
      "at": "2026-11-17T03:00:07Z",
      "date": "2026-11-17",
      "sec": 26,
-     "views": 1435,
+     "views": 1437,
      "likes": 11,
      "comments": 0
     },
@@ -665,7 +695,7 @@
      "at": "2026-11-17T00:00:29Z",
      "date": "2026-11-17",
      "sec": 26,
-     "views": 1406,
+     "views": 1407,
      "likes": 2,
      "comments": 1
     },
@@ -675,7 +705,7 @@
      "at": "2026-11-16T09:00:39Z",
      "date": "2026-11-16",
      "sec": 23,
-     "views": 1291,
+     "views": 1292,
      "likes": 4,
      "comments": 1
     },
@@ -685,7 +715,7 @@
      "at": "2026-11-16T06:00:20Z",
      "date": "2026-11-16",
      "sec": 27,
-     "views": 1386,
+     "views": 1388,
      "likes": 3,
      "comments": 1
     },
@@ -705,7 +735,7 @@
      "at": "2026-11-16T00:00:10Z",
      "date": "2026-11-16",
      "sec": 29,
-     "views": 1967,
+     "views": 1968,
      "likes": 12,
      "comments": 2
     },
@@ -715,7 +745,7 @@
      "at": "2026-11-10T09:00:18Z",
      "date": "2026-11-10",
      "sec": 27,
-     "views": 1201,
+     "views": 1204,
      "likes": 5,
      "comments": 0
     },
@@ -725,7 +755,7 @@
      "at": "2026-11-10T04:34:51Z",
      "date": "2026-11-10",
      "sec": 28,
-     "views": 1524,
+     "views": 1529,
      "likes": 5,
      "comments": 0
     },
@@ -771,26 +801,26 @@
     }
    ],
    "summary": {
-    "settledN": 2,
-    "settledMedian": 1250,
+    "settledN": 4,
+    "settledMedian": 613,
     "beforeN": 10,
-    "beforeMedian": 1399,
-    "uploads7": 4,
-    "lastDate": "2026-11-26",
+    "beforeMedian": 1400,
+    "uploads7": 5,
+    "lastDate": "2026-11-27",
     "quietDays": 1
    }
   }
  },
  "errors": [],
  "threads": {
-  "followers": 82,
-  "updated": "2026-11-27T03:14:09.267Z",
-  "views7": 5694,
-  "posts7": 11,
+  "followers": 83,
+  "updated": "2026-11-28T02:56:30.472Z",
+  "views7": 6173,
+  "posts7": 9,
   "medianByFormat14": {
    "howto": {
-    "n": 24,
-    "median": 164
+    "n": 22,
+    "median": 178
    }
   },
   "tips": [
@@ -798,9 +828,17 @@
     "id": "2026-11-21-1141-howto",
     "date": "2026-11-21",
     "hook": "자료 50개를 올려 두고, 그 안에서만 답하게 할 수 있어요.",
-    "views": 3998,
+    "views": 3999,
     "likes": 16,
     "link": "https://www.threads.com/@shift_ai_magazine/post/Df_RgeTG0hx"
+   },
+   {
+    "id": "2026-11-27-0739-howto",
+    "date": "2026-11-27",
+    "hook": "엑셀·워드·PPT 파일, 무료로 AI가 만들어 줘요.",
+    "views": 1139,
+    "likes": 3,
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DgOme5NDKtc"
    },
    {
     "id": "2026-11-21-0739-howto",
@@ -825,14 +863,6 @@
     "views": 521,
     "likes": 1,
     "link": "https://www.threads.com/@shift_ai_magazine/post/DgBZXLdGBzZ"
-   },
-   {
-    "id": "2026-11-18-0740-howto",
-    "date": "2026-11-18",
-    "hook": "메일 초안, 타자 치다가 20분 쓰셨나요?",
-    "views": 475,
-    "likes": 0,
-    "link": "https://www.threads.com/@shift_ai_magazine/post/Df3Hqj8moFn"
    }
   ]
  }
