@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T22:32:00+09:00",
- "message": "올릴 쇼츠 없음",
+ "updated": "2026-11-29T01:20:28+09:00",
+ "message": "11-29T01:20 쇼츠 1편 예약",
  "limit": {
   "hit": false,
   "at": null,
@@ -10,13 +10,13 @@
  "via": "youtube-api",
  "items": [
   {
-   "date": "2026-11-28",
-   "at": "2026-11-28T09:00:00+09:00",
+   "date": "2026-11-29",
+   "at": "2026-11-29T09:00:00+09:00",
    "slot": "09:00",
    "kind": "new",
-   "title": "ChatGPT 속 맞춤 GPT, 12월 11일에 사라져요 · 옮기는 법 2가지 ⏰",
+   "title": "유료였던 제미나이 태스크, 한국에선 이제 무료 · 쓰는 법 🆓",
    "status": "scheduled",
-   "videoId": "Cgih9hCdvAQ",
+   "videoId": "02I-YtLB8HU",
    "note": null
   }
  ]
