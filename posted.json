@@ -791,5 +791,27 @@
  "2026-11-27-1139-howto": {
   "status": "expired",
   "at": "2026-11-27T11:25:45.445Z"
+ },
+ "2026-11-28-0738-howto": {
+  "status": "ok",
+  "at": "2026-11-28T02:58:17.430Z",
+  "ids": [
+   "17918463105514960",
+   "18135948931831307"
+  ],
+  "link": "https://www.threads.com/@shift_ai_magazine/post/DgRPC2sjPlL",
+  "type": "carousel",
+  "topic": "AI Threads"
+ },
+ "2026-11-28-1138-howto": {
+  "status": "ok",
+  "at": "2026-11-28T02:59:09.294Z",
+  "ids": [
+   "18094449392693519",
+   "18136431067840683"
+  ],
+  "link": "https://www.threads.com/@shift_ai_magazine/post/DgRPG2OjJHC",
+  "type": "carousel",
+  "topic": "AI Threads"
  }
 }

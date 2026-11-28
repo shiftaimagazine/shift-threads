@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:56:30.523Z",
+ "updated": "2026-11-28T02:59:09.334Z",
  "repo": "shiftaimagazine/shift-threads",
  "followers": 83,
  "followersHistory": [
@@ -149,8 +149,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "부탁을 거절하는 메일, 쓰다 지우다 15분 쓰셨나요? 거절 사유 한 줄만 적고",
-    "status": "waiting",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DgRPC2sjPlL",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-28-0738-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-28-0738-howto/02.png"
@@ -203,8 +203,8 @@
     "format": "howto",
     "type": "carousel",
     "hook": "AI가 쓴 글, 내 말투가 아니라서 매번 고치시나요? Claude에는 내가 쓴 글을 올리면",
-    "status": "waiting",
-    "link": null,
+    "status": "ok",
+    "link": "https://www.threads.com/@shift_ai_magazine/post/DgRPG2OjJHC",
     "cards": [
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-28-1138-howto/01.png",
      "https://raw.githubusercontent.com/shiftaimagazine/shift-threads/main/media/2026-11-28-1138-howto/02.png"
@@ -419,10 +419,10 @@
   {
    "date": "2026-11-28",
    "total": 2,
-   "ok": 0,
+   "ok": 2,
    "failed": 0,
    "expired": 0,
-   "waiting": 2,
+   "waiting": 0,
    "scheduled": 0,
    "needCards": 2,
    "cardsReady": 2,
@@ -430,13 +430,13 @@
     {
      "at": "2026-11-28T07:38:00+09:00",
      "format": "howto",
-     "status": "waiting",
+     "status": "ok",
      "cards": 2
     },
     {
      "at": "2026-11-28T11:38:00+09:00",
      "format": "howto",
-     "status": "waiting",
+     "status": "ok",
      "cards": 2
     }
    ],
