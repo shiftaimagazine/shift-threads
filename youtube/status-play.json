@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T11:15:50+09:00",
- "message": "올릴 PLAY 쇼츠 없음",
+ "updated": "2026-11-28T18:30:02+09:00",
+ "message": "11-28T18:30 PLAY 쇼츠 1편 예약",
  "via": "youtube-api",
  "channel": "UCjZ398yiclS8zPeJ-kbEWYg",
  "items": [
@@ -14,21 +14,21 @@
    "note": null
   },
   {
-   "key": "2026-11-26/1800",
-   "title": "마크 다이아 블록 하나를 진짜 다이아로 채우면, 서울 아파트 약 1,610채예요 💎",
-   "at": "2026-11-26T18:00:00+09:00",
-   "status": "scheduled",
-   "videoId": "QQCFANzvY2s",
-   "playlist": "게임 가계부",
-   "note": null
-  },
-  {
    "key": "2026-11-27/1800",
    "title": "마리오 코인 100개가 진짜 순금이면, 1UP 한 번에 24조 원이에요 🪙",
    "at": "2026-11-27T18:00:00+09:00",
    "status": "scheduled",
    "videoId": "jdgGwO7Q2cE",
    "playlist": null,
+   "note": null
+  },
+  {
+   "key": "2026-11-28/1800",
+   "title": "마크 네더로 서울역에서 부산역까지 뛰면, KTX보다 16분 빨라요 🔥",
+   "at": "2026-11-29T12:00:00+09:00",
+   "status": "scheduled",
+   "videoId": "8ehk9te_snI",
+   "playlist": "게임 물리 검증",
    "note": null
   }
  ]
